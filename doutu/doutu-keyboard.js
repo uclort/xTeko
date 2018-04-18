@@ -1,4 +1,4 @@
-scriptVersion = 1.1
+scriptVersion = 1.3
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -283,8 +283,6 @@ function checkupVersion() {
             $console.info(resp.data)
             var versionnnn = resp.data.version;
             var messageeee = resp.data.message;
-            $console.info(versionnnn)
-            $console.info(messageeee)
             if (versionnnn > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",
