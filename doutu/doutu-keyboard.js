@@ -1,4 +1,4 @@
-scriptVersion = 1.3
+scriptVersion = 1.4
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -30,7 +30,7 @@ checkupVersion()
 
 $ui.render({
     props: {
-        title: "斗图啦"
+        title: "斗图"
     },
     views: [{
             type: "button",
