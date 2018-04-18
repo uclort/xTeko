@@ -97,7 +97,9 @@ $ui.render({
             },
             events: {
                 ready: function(sender) {
-                    sender.text = $clipboard.text
+                    if ($clipboard.text) {
+                        sender.text = $clipboard.text
+                    }
                 },
                 returned: function(sender) {
                     mime = 0
