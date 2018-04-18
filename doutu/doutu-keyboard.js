@@ -1,12 +1,3 @@
-/**
- * @Version 1.1
- * @author mmmmmmm
- * @date 2018.4.17
- * @brief 
- * 修改 BUG
- * @/brief
- */
-
 let scriptUrl = "https://gist.githubusercontent.com/mTerminal/391c347c8ef73222780060246088c935/raw/"
 let scriptVersion = 1.1
 
