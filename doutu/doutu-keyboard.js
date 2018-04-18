@@ -1,5 +1,4 @@
-let scriptUrl = "https://gist.githubusercontent.com/mTerminal/391c347c8ef73222780060246088c935/raw/"
-let scriptVersion = 1.1
+scriptVersion = 1.1
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -276,99 +275,36 @@ function setPicData(data) {
     })
 }
 
-
-//升级插件
-function updateAddin() {
-    let url2i = encodeURI("jsbox://install?url=" + scriptUrl + "&name=" + currentName() + "&icon=" + currentIcon())
-    $app.openURL(url2i)
-    $app.close()
-}
-
-//当前插件名
-function currentName() {
-    let name = $addin.current.name
-    let end = name.length - 3
-    return name.substring(0, end)
-}
-
-//当前插件图标
-function currentIcon() {
-    return $addin.current.icon
-}
-
 //检查版本
 function checkupVersion() {
-    $http.download({
-        url: scriptUrl,
-        showsProgress: false,
-        timeout: 5,
+    $http.get({
+        url: "https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/UpdateInfo",
         handler: function(resp) {
-            $console.info(resp)
-            let str = resp.data.string
-            $console.info(str)
-            let lv = getVFS(str)
-            $ui.loading(false)
-            if (needUpdate(scriptVersion, lv)) {
-                sureToUpdate(str)
+            $console.info(resp.data)
+            var versionnnn = resp.data.version;
+            var messageeee = resp.data.message;
+            $console.info(versionnnn)
+            $console.info(messageeee)
+            if (versionnnn > scriptVersion) {
+                $ui.alert({
+                    title: "发现新版本",
+                    message: messageeee,
+                    actions: [{
+                            title: "忽略",
+                            handler: function() {
+
+                            }
+                        },
+                        {
+                            title: "更新",
+                            handler: function() {
+                                var url = "jsbox://install?url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&name=doutu-keyboard" + "&icon=055"
+                                $app.openURL(encodeURI(url))
+                            }
+                        }
+                    ]
+                })
             }
         }
     })
-}
-
-//获取版本号
-function getVFS(str) {
-    $console.log(text)
-    let vIndex = str.indexOf("@Version ")
-    let start = vIndex + 9
-    let end = start + 3
-    let lv = str.substring(start, end)
-    return lv
-}
-
-//需要更新？
-function needUpdate(nv, lv) {
-    let m = parseFloat(nv) - parseFloat(lv)
-    if (m < 0) {
-        return true
-    } else {
-        return false
-    }
-}
-
-//确定升级？
-function sureToUpdate(str) {
-    let des = getUpDes(str)
-    $ui.alert({
-        title: "发现新版本",
-        message: des,
-        actions: [{
-                title: "更新",
-                handler: function() {
-                    updateAddin()
-                }
-            },
-            {
-                title: "忽略",
-                handler: function() {}
-            }
-        ]
-    })
-}
-
-//获取更新说明
-function getUpDes(str) {
-    let bIndex = str.indexOf("@brief")
-    let eIndex = str.indexOf("@/brief")
-    let des = str.substring(bIndex + 6, eIndex)
-    let fixDes = des.replace(/\*/g, "")
-    return fixDes
-}
-
-//获取版本号
-function getVFS(str) {
-    let vIndex = str.indexOf("@Version ")
-    let start = vIndex + 9
-    let end = start + 3
-    let lv = str.substring(start, end)
-    return lv
 }
