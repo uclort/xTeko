@@ -1,4 +1,4 @@
-scriptVersion = 1.3
+scriptVersion = 1.4
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -337,7 +337,7 @@ function checkupVersion() {
                         {
                             title: "更新",
                             handler: function() {
-                                var url = "jsbox://install?name=doutu-keyboard&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&icon=055"
+                                var url = "jsbox://install?name=doutu-keyboard&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&icon=icon_055.png"
                                 $app.openURL(encodeURI(url))
                                 $app.close()
                             }
