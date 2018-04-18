@@ -1,4 +1,4 @@
-scriptVersion = 1.4
+scriptVersion = 1.6
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -24,9 +24,6 @@ var mime = 0
 
 // 是否还有下一页
 var pageNext = true
-
-// 检查更新
-checkupVersion()
 
 $ui.render({
     props: {
@@ -324,17 +321,14 @@ function checkupVersion() {
         url: "https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/UpdateInfo",
         handler: function(resp) {
             $console.info(resp.data)
-            var versionnnn = resp.data.version;
-            var messageeee = resp.data.message;
-            if (versionnnn > scriptVersion) {
+            var version = resp.data.version;
+            var message = resp.data.message;
+            if (version > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",
-                    message: messageeee,
+                    message: message,
                     actions: [{
-                            title: "忽略",
-                            handler: function() {
-
-                            }
+                            title: "忽略"
                         },
                         {
                             title: "更新",
@@ -349,4 +343,13 @@ function checkupVersion() {
             }
         }
     })
+}
+
+if ($app.env == $env.keyboard) {
+    $delay(1, function() {
+        // 检查更新
+        checkupVersion()
+    })
+} else {
+    checkupVersion()
 }
