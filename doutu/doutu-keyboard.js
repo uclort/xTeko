@@ -1,4 +1,4 @@
-scriptVersion = 1.4
+scriptVersion = 1.3
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -109,14 +109,55 @@ $ui.render({
         {
             type: "button",
             props: {
-                id: "button-before",
-                title: "上一页"
+                id: "button-delete",
+                title: "删除"
             },
             layout: function(make, view) {
                 make.top.equalTo($("input").bottom).offset(10)
                 make.left.inset(10)
                 make.height.equalTo(32)
-                make.width.equalTo(view.super.width).multipliedBy(0.5).offset(-15)
+                make.width.equalTo(view.super.width).multipliedBy(0.25).offset(-(35 / 4))
+            },
+            events: {
+                tapped: function(sender) {
+                    $photo.delete({
+                        count: 1,
+                        handler: function(success) {
+
+                        }
+                    })
+                }
+            }
+        },
+        {
+            type: "button",
+            props: {
+                id: "button-paste",
+                title: "粘贴"
+            },
+            layout: function(make, view) {
+                make.top.equalTo($("input").bottom).offset(10)
+                make.left.equalTo($("button-delete").right).offset(5)
+                make.height.equalTo(32)
+                make.width.equalTo($("button-delete").width)
+            },
+            events: {
+                tapped: function(sender) {
+                    $("input").text = $clipboard.text
+                }
+            }
+        },
+        {
+            type: "button",
+            props: {
+                id: "button-before",
+                title: "上一页"
+            },
+            layout: function(make, view) {
+                make.top.equalTo($("input").bottom).offset(10)
+                make.left.equalTo($("button-paste").right).offset(5)
+                make.height.equalTo(32)
+                make.width.equalTo($("button-paste").width)
             },
             events: {
                 tapped: function(sender) {
@@ -137,7 +178,7 @@ $ui.render({
             },
             layout: function(make, view) {
                 make.top.equalTo($("input").bottom).offset(10)
-                make.right.inset(10)
+                make.left.equalTo($("button-before").right).offset(5)
                 make.height.equalTo(32)
                 make.width.equalTo($("button-before").width)
             },
@@ -296,7 +337,7 @@ function checkupVersion() {
                         {
                             title: "更新",
                             handler: function() {
-                                var url = "jsbox://install?url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&name=doutu-keyboard" + "&icon=055"
+                                var url = "jsbox://install?name=doutu-keyboard&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&icon=055"
                                 $app.openURL(encodeURI(url))
                                 $app.close()
                             }
