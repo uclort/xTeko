@@ -330,7 +330,8 @@ function checkupVersion() {
                     title: "发现新版本",
                     message: message,
                     actions: [{
-                            title: "忽略"
+                            title: "忽略",
+                            handler: function() {}
                         },
                         {
                             title: "更新",
