@@ -1,4 +1,4 @@
 {
-    "version":1.7
+    "version":1.7,
     "message":"完善粘贴按钮，在粘贴版没有内容或者没有开启完全访问的情况下不会出现 undefined"
 }
