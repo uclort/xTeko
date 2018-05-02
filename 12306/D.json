@@ -50,7 +50,7 @@
   "D7107" : {
     "train_no" : "6b000D710803",
     "trainCode" : "D7107",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D1637" : {
@@ -158,7 +158,7 @@
   "D7108" : {
     "train_no" : "6b000D710803",
     "trainCode" : "D7108",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D1638" : {
@@ -272,7 +272,7 @@
   "D7109" : {
     "train_no" : "6b000D711004",
     "trainCode" : "D7109",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D1639" : {
@@ -3014,7 +3014,7 @@
   "D7160" : {
     "train_no" : "6b000D716005",
     "trainCode" : "D7160",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D3047" : {
@@ -3128,7 +3128,7 @@
   "D7161" : {
     "train_no" : "6d000D716105",
     "trainCode" : "D7161",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8831" : {
@@ -3236,7 +3236,7 @@
   "D7162" : {
     "train_no" : "6d000D716105",
     "trainCode" : "D7162",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8832" : {
@@ -3326,7 +3326,7 @@
   "D7163" : {
     "train_no" : "6d000D716306",
     "trainCode" : "D7163",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8833" : {
@@ -3440,7 +3440,7 @@
   "D7164" : {
     "train_no" : "6d000D716306",
     "trainCode" : "D7164",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8834" : {
@@ -3542,7 +3542,7 @@
   "D7165" : {
     "train_no" : "6d000D71650B",
     "trainCode" : "D7165",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8835" : {
@@ -3644,7 +3644,7 @@
   "D7166" : {
     "train_no" : "6d000D71650B",
     "trainCode" : "D7166",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8836" : {
@@ -3758,7 +3758,7 @@
   "D7167" : {
     "train_no" : "6d000D716703",
     "trainCode" : "D7167",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8837" : {
@@ -3896,7 +3896,7 @@
   "D7168" : {
     "train_no" : "6d000D716703",
     "trainCode" : "D7168",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D8838" : {
@@ -4850,7 +4850,7 @@
   "D7151" : {
     "train_no" : "6b000D715204",
     "trainCode" : "D7151",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D46" : {
@@ -4940,7 +4940,7 @@
   "D7152" : {
     "train_no" : "6b000D715204",
     "trainCode" : "D7152",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D311" : {
@@ -5036,7 +5036,7 @@
   "D7153" : {
     "train_no" : "6b000D715403",
     "trainCode" : "D7153",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D313" : {
@@ -5150,7 +5150,7 @@
   "D7154" : {
     "train_no" : "6b000D715403",
     "trainCode" : "D7154",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D5543" : {
@@ -5228,7 +5228,7 @@
   "D7155" : {
     "train_no" : "6b000D715601",
     "trainCode" : "D7155",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D5544" : {
@@ -5324,7 +5324,7 @@
   "D7156" : {
     "train_no" : "6b000D715601",
     "trainCode" : "D7156",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D5545" : {
@@ -5426,7 +5426,7 @@
   "D7157" : {
     "train_no" : "6b000D715801",
     "trainCode" : "D7157",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D5546" : {
@@ -5516,7 +5516,7 @@
   "D7158" : {
     "train_no" : "6b000D715801",
     "trainCode" : "D7158",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D5547" : {
@@ -5612,7 +5612,7 @@
   "D7159" : {
     "train_no" : "6b000D716005",
     "trainCode" : "D7159",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D5548" : {
@@ -11066,7 +11066,7 @@
   "D7110" : {
     "train_no" : "6b000D711004",
     "trainCode" : "D7110",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D7023" : {
@@ -11210,7 +11210,7 @@
   "D7111" : {
     "train_no" : "6d000D711206",
     "trainCode" : "D7111",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D3165" : {
@@ -11348,7 +11348,7 @@
   "D7112" : {
     "train_no" : "6d000D711206",
     "trainCode" : "D7112",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D3166" : {
@@ -11456,7 +11456,7 @@
   "D7113" : {
     "train_no" : "6d000D711404",
     "trainCode" : "D7113",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D3167" : {
@@ -11564,7 +11564,7 @@
   "D7114" : {
     "train_no" : "6d000D711404",
     "trainCode" : "D7114",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D3168" : {
@@ -11648,7 +11648,7 @@
   "D7115" : {
     "train_no" : "6d000D711605",
     "trainCode" : "D7115",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D3169" : {
@@ -11768,7 +11768,7 @@
   "D7116" : {
     "train_no" : "6d000D711605",
     "trainCode" : "D7116",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D1646" : {
@@ -11876,7 +11876,7 @@
   "D7117" : {
     "train_no" : "6d000D711804",
     "trainCode" : "D7117",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D5506" : {
@@ -11978,7 +11978,7 @@
   "D7118" : {
     "train_no" : "6d000D711804",
     "trainCode" : "D7118",
-    "terminalStation" : "海  口东",
+    "terminalStation" : "海口东",
     "departureStation" : "海口东"
   },
   "D5507" : {
@@ -12866,7 +12866,7 @@
   "D7101" : {
     "train_no" : "6b000D710204",
     "trainCode" : "D7101",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D1631" : {
@@ -12962,7 +12962,7 @@
   "D7102" : {
     "train_no" : "6b000D710204",
     "trainCode" : "D7102",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D1632" : {
@@ -13094,7 +13094,7 @@
   "D7103" : {
     "train_no" : "6b000D710404",
     "trainCode" : "D7103",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D7270" : {
@@ -13202,7 +13202,7 @@
   "D7104" : {
     "train_no" : "6b000D710404",
     "trainCode" : "D7104",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D3158" : {
@@ -13304,7 +13304,7 @@
   "D7105" : {
     "train_no" : "6b000D710603",
     "trainCode" : "D7105",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D1635" : {
@@ -13394,7 +13394,7 @@
   "D7106" : {
     "train_no" : "6b000D710603",
     "trainCode" : "D7106",
-    "terminalStation" : "三  亚",
+    "terminalStation" : "三亚",
     "departureStation" : "三亚"
   },
   "D1636" : {

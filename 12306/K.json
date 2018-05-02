@@ -4316,7 +4316,7 @@
   "K7931" : {
     "train_no" : "33000K793101",
     "trainCode" : "K7931",
-    "terminalStation" : "包头 东",
+    "terminalStation" : "包头东",
     "departureStation" : "包头东"
   },
   "K324" : {
@@ -4970,7 +4970,7 @@
   "K7937" : {
     "train_no" : "33000K793701",
     "trainCode" : "K7937",
-    "terminalStation" : "包头 东",
+    "terminalStation" : "包头东",
     "departureStation" : "包头东"
   },
   "K717" : {
