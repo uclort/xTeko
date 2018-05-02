@@ -1,3559 +1,1940 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>Z1</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>长沙</string>
-		<key>trainCode</key>
-		<string>Z1</string>
-		<key>train_no</key>
-		<string>24000000Z10C</string>
-	</dict>
-	<key>Z10</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z10</string>
-		<key>train_no</key>
-		<string>5600000Z1020</string>
-	</dict>
-	<key>Z100</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州东</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z100</string>
-		<key>train_no</key>
-		<string>650000Z10002</string>
-	</dict>
-	<key>Z101</key>
-	<dict>
-		<key>departureStation</key>
-		<string>厦门</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z101</string>
-		<key>train_no</key>
-		<string>580000Z1040D</string>
-	</dict>
-	<key>Z102</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>厦门</string>
-		<key>trainCode</key>
-		<string>Z102</string>
-		<key>train_no</key>
-		<string>110000Z10206</string>
-	</dict>
-	<key>Z103</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>厦门</string>
-		<key>trainCode</key>
-		<string>Z103</string>
-		<key>train_no</key>
-		<string>110000Z10206</string>
-	</dict>
-	<key>Z104</key>
-	<dict>
-		<key>departureStation</key>
-		<string>厦门</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z104</string>
-		<key>train_no</key>
-		<string>580000Z1040D</string>
-	</dict>
-	<key>Z105</key>
-	<dict>
-		<key>departureStation</key>
-		<string>济南</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z105</string>
-		<key>train_no</key>
-		<string>470000Z10505</string>
-	</dict>
-	<key>Z106</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>济南</string>
-		<key>trainCode</key>
-		<string>Z106</string>
-		<key>train_no</key>
-		<string>930000Z10603</string>
-	</dict>
-	<key>Z107</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>深圳</string>
-		<key>trainCode</key>
-		<string>Z107</string>
-		<key>train_no</key>
-		<string>240000Z1070C</string>
-	</dict>
-	<key>Z108</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z108</string>
-		<key>train_no</key>
-		<string>650000Z10804</string>
-	</dict>
-	<key>Z11</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州东</string>
-		<key>terminalStation</key>
-		<string>沈阳北</string>
-		<key>trainCode</key>
-		<string>Z11</string>
-		<key>train_no</key>
-		<string>6500000Z1401</string>
-	</dict>
-	<key>Z111</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>海口</string>
-		<key>trainCode</key>
-		<string>Z111</string>
-		<key>train_no</key>
-		<string>0h0000Z11401</string>
-	</dict>
-	<key>Z112</key>
-	<dict>
-		<key>departureStation</key>
-		<string>海口</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z112</string>
-		<key>train_no</key>
-		<string>6b0000Z11205</string>
-	</dict>
-	<key>Z113</key>
-	<dict>
-		<key>departureStation</key>
-		<string>海口</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z113</string>
-		<key>train_no</key>
-		<string>6b0000Z11205</string>
-	</dict>
-	<key>Z114</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>海口</string>
-		<key>trainCode</key>
-		<string>Z114</string>
-		<key>train_no</key>
-		<string>0h0000Z11401</string>
-	</dict>
-	<key>Z117</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>吉林</string>
-		<key>trainCode</key>
-		<string>Z117</string>
-		<key>train_no</key>
-		<string>240000Z1170B</string>
-	</dict>
-	<key>Z118</key>
-	<dict>
-		<key>departureStation</key>
-		<string>吉林</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z118</string>
-		<key>train_no</key>
-		<string>180000Z11804</string>
-	</dict>
-	<key>Z12</key>
-	<dict>
-		<key>departureStation</key>
-		<string>沈阳北</string>
-		<key>terminalStation</key>
-		<string>广州东</string>
-		<key>trainCode</key>
-		<string>Z12</string>
-		<key>train_no</key>
-		<string>1200000Z1206</string>
-	</dict>
-	<key>Z125</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>厦门</string>
-		<key>trainCode</key>
-		<string>Z125</string>
-		<key>train_no</key>
-		<string>850000Z12811</string>
-	</dict>
-	<key>Z126</key>
-	<dict>
-		<key>departureStation</key>
-		<string>厦门</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z126</string>
-		<key>train_no</key>
-		<string>580000Z12607</string>
-	</dict>
-	<key>Z127</key>
-	<dict>
-		<key>departureStation</key>
-		<string>厦门</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z127</string>
-		<key>train_no</key>
-		<string>580000Z12607</string>
-	</dict>
-	<key>Z128</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>厦门</string>
-		<key>trainCode</key>
-		<string>Z128</string>
-		<key>train_no</key>
-		<string>850000Z12811</string>
-	</dict>
-	<key>Z13</key>
-	<dict>
-		<key>departureStation</key>
-		<string>沈阳北</string>
-		<key>terminalStation</key>
-		<string>广州东</string>
-		<key>trainCode</key>
-		<string>Z13</string>
-		<key>train_no</key>
-		<string>1200000Z1206</string>
-	</dict>
-	<key>Z133</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>井冈山</string>
-		<key>trainCode</key>
-		<string>Z133</string>
-		<key>train_no</key>
-		<string>240000Z1330L</string>
-	</dict>
-	<key>Z134</key>
-	<dict>
-		<key>departureStation</key>
-		<string>井冈山</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z134</string>
-		<key>train_no</key>
-		<string>570000Z1340H</string>
-	</dict>
-	<key>Z135</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z135</string>
-		<key>train_no</key>
-		<string>630000Z13806</string>
-	</dict>
-	<key>Z136</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>广州</string>
-		<key>trainCode</key>
-		<string>Z136</string>
-		<key>train_no</key>
-		<string>930000Z13602</string>
-	</dict>
-	<key>Z137</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>广州</string>
-		<key>trainCode</key>
-		<string>Z137</string>
-		<key>train_no</key>
-		<string>930000Z13602</string>
-	</dict>
-	<key>Z138</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z138</string>
-		<key>train_no</key>
-		<string>630000Z13806</string>
-	</dict>
-	<key>Z139</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>南通</string>
-		<key>trainCode</key>
-		<string>Z139</string>
-		<key>train_no</key>
-		<string>240000Z1390C</string>
-	</dict>
-	<key>Z14</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州东</string>
-		<key>terminalStation</key>
-		<string>沈阳北</string>
-		<key>trainCode</key>
-		<string>Z14</string>
-		<key>train_no</key>
-		<string>6500000Z1401</string>
-	</dict>
-	<key>Z140</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南通</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z140</string>
-		<key>train_no</key>
-		<string>5f0000Z14030</string>
-	</dict>
-	<key>Z145</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳东</string>
-		<key>terminalStation</key>
-		<string>郑州</string>
-		<key>trainCode</key>
-		<string>Z145</string>
-		<key>train_no</key>
-		<string>650000Z14803</string>
-	</dict>
-	<key>Z146</key>
-	<dict>
-		<key>departureStation</key>
-		<string>郑州</string>
-		<key>terminalStation</key>
-		<string>深圳东</string>
-		<key>trainCode</key>
-		<string>Z146</string>
-		<key>train_no</key>
-		<string>380000Z14607</string>
-	</dict>
-	<key>Z147</key>
-	<dict>
-		<key>departureStation</key>
-		<string>郑州</string>
-		<key>terminalStation</key>
-		<string>深圳东</string>
-		<key>trainCode</key>
-		<string>Z147</string>
-		<key>train_no</key>
-		<string>380000Z14607</string>
-	</dict>
-	<key>Z148</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳东</string>
-		<key>terminalStation</key>
-		<string>郑州</string>
-		<key>trainCode</key>
-		<string>Z148</string>
-		<key>train_no</key>
-		<string>650000Z14803</string>
-	</dict>
-	<key>Z149</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>贵阳</string>
-		<key>trainCode</key>
-		<string>Z149</string>
-		<key>train_no</key>
-		<string>240000Z14907</string>
-	</dict>
-	<key>Z15</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z15</string>
-		<key>train_no</key>
-		<string>2400000Z1500</string>
-	</dict>
-	<key>Z150</key>
-	<dict>
-		<key>departureStation</key>
-		<string>贵阳</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z150</string>
-		<key>train_no</key>
-		<string>780000Z15003</string>
-	</dict>
-	<key>Z151</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>西宁</string>
-		<key>trainCode</key>
-		<string>Z151</string>
-		<key>train_no</key>
-		<string>240000Z1510A</string>
-	</dict>
-	<key>Z152</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西宁</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z152</string>
-		<key>train_no</key>
-		<string>880000Z15203</string>
-	</dict>
-	<key>Z155</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>泰州</string>
-		<key>trainCode</key>
-		<string>Z155</string>
-		<key>train_no</key>
-		<string>0h0000Z15800</string>
-	</dict>
-	<key>Z156</key>
-	<dict>
-		<key>departureStation</key>
-		<string>泰州</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z156</string>
-		<key>train_no</key>
-		<string>5f0000Z15730</string>
-	</dict>
-	<key>Z157</key>
-	<dict>
-		<key>departureStation</key>
-		<string>泰州</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z157</string>
-		<key>train_no</key>
-		<string>5f0000Z15730</string>
-	</dict>
-	<key>Z158</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>泰州</string>
-		<key>trainCode</key>
-		<string>Z158</string>
-		<key>train_no</key>
-		<string>0h0000Z15800</string>
-	</dict>
-	<key>Z16</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z16</string>
-		<key>train_no</key>
-		<string>0h00000Z1600</string>
-	</dict>
-	<key>Z161</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z161</string>
-		<key>train_no</key>
-		<string>240000Z16116</string>
-	</dict>
-	<key>Z162</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z162</string>
-		<key>train_no</key>
-		<string>800000Z16204</string>
-	</dict>
-	<key>Z163</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z163</string>
-		<key>train_no</key>
-		<string>880000Z16604</string>
-	</dict>
-	<key>Z164</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z164</string>
-		<key>train_no</key>
-		<string>550000Z16401</string>
-	</dict>
-	<key>Z165</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z165</string>
-		<key>train_no</key>
-		<string>550000Z16401</string>
-	</dict>
-	<key>Z166</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z166</string>
-		<key>train_no</key>
-		<string>880000Z16604</string>
-	</dict>
-	<key>Z167</key>
-	<dict>
-		<key>departureStation</key>
-		<string>青岛</string>
-		<key>terminalStation</key>
-		<string>广州东</string>
-		<key>trainCode</key>
-		<string>Z167</string>
-		<key>train_no</key>
-		<string>490000Z17003</string>
-	</dict>
-	<key>Z168</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州东</string>
-		<key>terminalStation</key>
-		<string>青岛</string>
-		<key>trainCode</key>
-		<string>Z168</string>
-		<key>train_no</key>
-		<string>650000Z16804</string>
-	</dict>
-	<key>Z169</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州东</string>
-		<key>terminalStation</key>
-		<string>青岛</string>
-		<key>trainCode</key>
-		<string>Z169</string>
-		<key>train_no</key>
-		<string>650000Z16804</string>
-	</dict>
-	<key>Z17</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z17</string>
-		<key>train_no</key>
-		<string>2400000Z1730</string>
-	</dict>
-	<key>Z170</key>
-	<dict>
-		<key>departureStation</key>
-		<string>青岛</string>
-		<key>terminalStation</key>
-		<string>广州东</string>
-		<key>trainCode</key>
-		<string>Z170</string>
-		<key>train_no</key>
-		<string>490000Z17003</string>
-	</dict>
-	<key>Z171</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z171</string>
-		<key>train_no</key>
-		<string>0h0000Z17400</string>
-	</dict>
-	<key>Z172</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z172</string>
-		<key>train_no</key>
-		<string>550000Z17240</string>
-	</dict>
-	<key>Z173</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z173</string>
-		<key>train_no</key>
-		<string>550000Z17240</string>
-	</dict>
-	<key>Z174</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z174</string>
-		<key>train_no</key>
-		<string>0h0000Z17400</string>
-	</dict>
-	<key>Z175</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z175</string>
-		<key>train_no</key>
-		<string>0h0000Z17804</string>
-	</dict>
-	<key>Z176</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z176</string>
-		<key>train_no</key>
-		<string>560000Z17605</string>
-	</dict>
-	<key>Z177</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z177</string>
-		<key>train_no</key>
-		<string>560000Z17605</string>
-	</dict>
-	<key>Z178</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z178</string>
-		<key>train_no</key>
-		<string>0h0000Z17804</string>
-	</dict>
-	<key>Z179</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z179</string>
-		<key>train_no</key>
-		<string>240000Z17908</string>
-	</dict>
-	<key>Z18</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z18</string>
-		<key>train_no</key>
-		<string>0h00000Z1801</string>
-	</dict>
-	<key>Z180</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z180</string>
-		<key>train_no</key>
-		<string>930000Z18006</string>
-	</dict>
-	<key>Z181</key>
-	<dict>
-		<key>departureStation</key>
-		<string>临河</string>
-		<key>terminalStation</key>
-		<string>深圳东</string>
-		<key>trainCode</key>
-		<string>Z181</string>
-		<key>train_no</key>
-		<string>330000Z1840A</string>
-	</dict>
-	<key>Z182</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳东</string>
-		<key>terminalStation</key>
-		<string>临河</string>
-		<key>trainCode</key>
-		<string>Z182</string>
-		<key>train_no</key>
-		<string>650000Z18208</string>
-	</dict>
-	<key>Z183</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳东</string>
-		<key>terminalStation</key>
-		<string>临河</string>
-		<key>trainCode</key>
-		<string>Z183</string>
-		<key>train_no</key>
-		<string>650000Z18208</string>
-	</dict>
-	<key>Z184</key>
-	<dict>
-		<key>departureStation</key>
-		<string>临河</string>
-		<key>terminalStation</key>
-		<string>深圳东</string>
-		<key>trainCode</key>
-		<string>Z184</string>
-		<key>train_no</key>
-		<string>330000Z1840A</string>
-	</dict>
-	<key>Z185</key>
-	<dict>
-		<key>departureStation</key>
-		<string>沈阳北</string>
-		<key>terminalStation</key>
-		<string>深圳</string>
-		<key>trainCode</key>
-		<string>Z185</string>
-		<key>train_no</key>
-		<string>120000Z18807</string>
-	</dict>
-	<key>Z186</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳</string>
-		<key>terminalStation</key>
-		<string>沈阳北</string>
-		<key>trainCode</key>
-		<string>Z186</string>
-		<key>train_no</key>
-		<string>650000Z18605</string>
-	</dict>
-	<key>Z187</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳</string>
-		<key>terminalStation</key>
-		<string>沈阳北</string>
-		<key>trainCode</key>
-		<string>Z187</string>
-		<key>train_no</key>
-		<string>650000Z18605</string>
-	</dict>
-	<key>Z188</key>
-	<dict>
-		<key>departureStation</key>
-		<string>沈阳北</string>
-		<key>terminalStation</key>
-		<string>深圳</string>
-		<key>trainCode</key>
-		<string>Z188</string>
-		<key>train_no</key>
-		<string>120000Z18807</string>
-	</dict>
-	<key>Z189</key>
-	<dict>
-		<key>departureStation</key>
-		<string>郑州</string>
-		<key>terminalStation</key>
-		<string>广州</string>
-		<key>trainCode</key>
-		<string>Z189</string>
-		<key>train_no</key>
-		<string>380000Z18903</string>
-	</dict>
-	<key>Z19</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z19</string>
-		<key>train_no</key>
-		<string>2400000Z190H</string>
-	</dict>
-	<key>Z190</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州</string>
-		<key>terminalStation</key>
-		<string>郑州</string>
-		<key>trainCode</key>
-		<string>Z190</string>
-		<key>train_no</key>
-		<string>630000Z19002</string>
-	</dict>
-	<key>Z191</key>
-	<dict>
-		<key>departureStation</key>
-		<string>沈阳北</string>
-		<key>terminalStation</key>
-		<string>太原</string>
-		<key>trainCode</key>
-		<string>Z191</string>
-		<key>train_no</key>
-		<string>120000Z19405</string>
-	</dict>
-	<key>Z192</key>
-	<dict>
-		<key>departureStation</key>
-		<string>太原</string>
-		<key>terminalStation</key>
-		<string>沈阳北</string>
-		<key>trainCode</key>
-		<string>Z192</string>
-		<key>train_no</key>
-		<string>270000Z19204</string>
-	</dict>
-	<key>Z193</key>
-	<dict>
-		<key>departureStation</key>
-		<string>太原</string>
-		<key>terminalStation</key>
-		<string>沈阳北</string>
-		<key>trainCode</key>
-		<string>Z193</string>
-		<key>train_no</key>
-		<string>270000Z19204</string>
-	</dict>
-	<key>Z194</key>
-	<dict>
-		<key>departureStation</key>
-		<string>沈阳北</string>
-		<key>terminalStation</key>
-		<string>太原</string>
-		<key>trainCode</key>
-		<string>Z194</string>
-		<key>train_no</key>
-		<string>120000Z19405</string>
-	</dict>
-	<key>Z195</key>
-	<dict>
-		<key>departureStation</key>
-		<string>太原</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z195</string>
-		<key>train_no</key>
-		<string>270000Z19804</string>
-	</dict>
-	<key>Z196</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>太原</string>
-		<key>trainCode</key>
-		<string>Z196</string>
-		<key>train_no</key>
-		<string>550000Z19603</string>
-	</dict>
-	<key>Z197</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>太原</string>
-		<key>trainCode</key>
-		<string>Z197</string>
-		<key>train_no</key>
-		<string>550000Z19603</string>
-	</dict>
-	<key>Z198</key>
-	<dict>
-		<key>departureStation</key>
-		<string>太原</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z198</string>
-		<key>train_no</key>
-		<string>270000Z19804</string>
-	</dict>
-	<key>Z2</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长沙</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z2</string>
-		<key>train_no</key>
-		<string>62000000Z201</string>
-	</dict>
-	<key>Z20</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西安</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z20</string>
-		<key>train_no</key>
-		<string>4100000Z200H</string>
-	</dict>
-	<key>Z201</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>三亚</string>
-		<key>trainCode</key>
-		<string>Z201</string>
-		<key>train_no</key>
-		<string>240000Z2010L</string>
-	</dict>
-	<key>Z202</key>
-	<dict>
-		<key>departureStation</key>
-		<string>三亚</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z202</string>
-		<key>train_no</key>
-		<string>6b0000Z20203</string>
-	</dict>
-	<key>Z203</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>哈尔滨东</string>
-		<key>trainCode</key>
-		<string>Z203</string>
-		<key>train_no</key>
-		<string>240000Z2030G</string>
-	</dict>
-	<key>Z204</key>
-	<dict>
-		<key>departureStation</key>
-		<string>大庆东</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z204</string>
-		<key>train_no</key>
-		<string>040000Z20401</string>
-	</dict>
-	<key>Z205</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长沙</string>
-		<key>terminalStation</key>
-		<string>天津</string>
-		<key>trainCode</key>
-		<string>Z205</string>
-		<key>train_no</key>
-		<string>620000Z20803</string>
-	</dict>
-	<key>Z206</key>
-	<dict>
-		<key>departureStation</key>
-		<string>天津</string>
-		<key>terminalStation</key>
-		<string>长沙</string>
-		<key>trainCode</key>
-		<string>Z206</string>
-		<key>train_no</key>
-		<string>250000Z20603</string>
-	</dict>
-	<key>Z207</key>
-	<dict>
-		<key>departureStation</key>
-		<string>天津</string>
-		<key>terminalStation</key>
-		<string>长沙</string>
-		<key>trainCode</key>
-		<string>Z207</string>
-		<key>train_no</key>
-		<string>250000Z20603</string>
-	</dict>
-	<key>Z208</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长沙</string>
-		<key>terminalStation</key>
-		<string>天津</string>
-		<key>trainCode</key>
-		<string>Z208</string>
-		<key>train_no</key>
-		<string>620000Z20803</string>
-	</dict>
-	<key>Z21</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z21</string>
-		<key>train_no</key>
-		<string>2400000Z210A</string>
-	</dict>
-	<key>Z215</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z215</string>
-		<key>train_no</key>
-		<string>850000Z21841</string>
-	</dict>
-	<key>Z216</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z216</string>
-		<key>train_no</key>
-		<string>550000Z21605</string>
-	</dict>
-	<key>Z217</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z217</string>
-		<key>train_no</key>
-		<string>550000Z21605</string>
-	</dict>
-	<key>Z218</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z218</string>
-		<key>train_no</key>
-		<string>850000Z21841</string>
-	</dict>
-	<key>Z22</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z22</string>
-		<key>train_no</key>
-		<string>8800000Z2203</string>
-	</dict>
-	<key>Z225</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>合肥</string>
-		<key>trainCode</key>
-		<string>Z225</string>
-		<key>train_no</key>
-		<string>240000Z22501</string>
-	</dict>
-	<key>Z226</key>
-	<dict>
-		<key>departureStation</key>
-		<string>合肥</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z226</string>
-		<key>train_no</key>
-		<string>530000Z22701</string>
-	</dict>
-	<key>Z227</key>
-	<dict>
-		<key>departureStation</key>
-		<string>合肥</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z227</string>
-		<key>train_no</key>
-		<string>530000Z22701</string>
-	</dict>
-	<key>Z228</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>合肥</string>
-		<key>trainCode</key>
-		<string>Z228</string>
-		<key>train_no</key>
-		<string>240000Z22501</string>
-	</dict>
-	<key>Z229</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>深圳</string>
-		<key>trainCode</key>
-		<string>Z229</string>
-		<key>train_no</key>
-		<string>930000Z23201</string>
-	</dict>
-	<key>Z23</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>深圳</string>
-		<key>trainCode</key>
-		<string>Z23</string>
-		<key>train_no</key>
-		<string>3900000Z2302</string>
-	</dict>
-	<key>Z230</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z230</string>
-		<key>train_no</key>
-		<string>650000Z23002</string>
-	</dict>
-	<key>Z231</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z231</string>
-		<key>train_no</key>
-		<string>650000Z23002</string>
-	</dict>
-	<key>Z232</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>深圳</string>
-		<key>trainCode</key>
-		<string>Z232</string>
-		<key>train_no</key>
-		<string>930000Z23201</string>
-	</dict>
-	<key>Z235</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>广州东</string>
-		<key>trainCode</key>
-		<string>Z235</string>
-		<key>train_no</key>
-		<string>0h0000Z23803</string>
-	</dict>
-	<key>Z236</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州东</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z236</string>
-		<key>train_no</key>
-		<string>650000Z23620</string>
-	</dict>
-	<key>Z237</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州东</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z237</string>
-		<key>train_no</key>
-		<string>650000Z23620</string>
-	</dict>
-	<key>Z238</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>广州东</string>
-		<key>trainCode</key>
-		<string>Z238</string>
-		<key>train_no</key>
-		<string>0h0000Z23803</string>
-	</dict>
-	<key>Z24</key>
-	<dict>
-		<key>departureStation</key>
-		<string>深圳</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z24</string>
-		<key>train_no</key>
-		<string>6500000Z2409</string>
-	</dict>
-	<key>Z245</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长沙</string>
-		<key>terminalStation</key>
-		<string>上海南</string>
-		<key>trainCode</key>
-		<string>Z245</string>
-		<key>train_no</key>
-		<string>620000Z24501</string>
-	</dict>
-	<key>Z246</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海南</string>
-		<key>terminalStation</key>
-		<string>长沙</string>
-		<key>trainCode</key>
-		<string>Z246</string>
-		<key>train_no</key>
-		<string>550000Z24710</string>
-	</dict>
-	<key>Z247</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海南</string>
-		<key>terminalStation</key>
-		<string>长沙</string>
-		<key>trainCode</key>
-		<string>Z247</string>
-		<key>train_no</key>
-		<string>550000Z24710</string>
-	</dict>
-	<key>Z248</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长沙</string>
-		<key>terminalStation</key>
-		<string>上海南</string>
-		<key>trainCode</key>
-		<string>Z248</string>
-		<key>train_no</key>
-		<string>620000Z24501</string>
-	</dict>
-	<key>Z25</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>上海南</string>
-		<key>trainCode</key>
-		<string>Z25</string>
-		<key>train_no</key>
-		<string>3900000Z2501</string>
-	</dict>
-	<key>Z252</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z252</string>
-		<key>train_no</key>
-		<string>550000Z25201</string>
-	</dict>
-	<key>Z253</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z253</string>
-		<key>train_no</key>
-		<string>550000Z25201</string>
-	</dict>
-	<key>Z255</key>
-	<dict>
-		<key>departureStation</key>
-		<string>重庆北</string>
-		<key>terminalStation</key>
-		<string>上海南</string>
-		<key>trainCode</key>
-		<string>Z255</string>
-		<key>train_no</key>
-		<string>770000Z25802</string>
-	</dict>
-	<key>Z256</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海南</string>
-		<key>terminalStation</key>
-		<string>重庆北</string>
-		<key>trainCode</key>
-		<string>Z256</string>
-		<key>train_no</key>
-		<string>550000Z25710</string>
-	</dict>
-	<key>Z257</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海南</string>
-		<key>terminalStation</key>
-		<string>重庆北</string>
-		<key>trainCode</key>
-		<string>Z257</string>
-		<key>train_no</key>
-		<string>550000Z25710</string>
-	</dict>
-	<key>Z258</key>
-	<dict>
-		<key>departureStation</key>
-		<string>重庆北</string>
-		<key>terminalStation</key>
-		<string>上海南</string>
-		<key>trainCode</key>
-		<string>Z258</string>
-		<key>train_no</key>
-		<string>770000Z25802</string>
-	</dict>
-	<key>Z26</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海南</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z26</string>
-		<key>train_no</key>
-		<string>5500000Z2703</string>
-	</dict>
-	<key>Z263</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>广州</string>
-		<key>trainCode</key>
-		<string>Z263</string>
-		<key>train_no</key>
-		<string>880000Z26606</string>
-	</dict>
-	<key>Z264</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z264</string>
-		<key>train_no</key>
-		<string>630000Z26404</string>
-	</dict>
-	<key>Z265</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z265</string>
-		<key>train_no</key>
-		<string>630000Z26404</string>
-	</dict>
-	<key>Z266</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>广州</string>
-		<key>trainCode</key>
-		<string>Z266</string>
-		<key>train_no</key>
-		<string>880000Z26606</string>
-	</dict>
-	<key>Z267</key>
-	<dict>
-		<key>departureStation</key>
-		<string>呼和浩特</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z267</string>
-		<key>train_no</key>
-		<string>330000Z26710</string>
-	</dict>
-	<key>Z268</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>呼和浩特</string>
-		<key>trainCode</key>
-		<string>Z268</string>
-		<key>train_no</key>
-		<string>550000Z26810</string>
-	</dict>
-	<key>Z269</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>呼和浩特</string>
-		<key>trainCode</key>
-		<string>Z269</string>
-		<key>train_no</key>
-		<string>550000Z26810</string>
-	</dict>
-	<key>Z27</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海南</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z27</string>
-		<key>train_no</key>
-		<string>5500000Z2703</string>
-	</dict>
-	<key>Z270</key>
-	<dict>
-		<key>departureStation</key>
-		<string>呼和浩特</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z270</string>
-		<key>train_no</key>
-		<string>330000Z26710</string>
-	</dict>
-	<key>Z271</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西宁</string>
-		<key>terminalStation</key>
-		<string>青岛</string>
-		<key>trainCode</key>
-		<string>Z271</string>
-		<key>train_no</key>
-		<string>880000Z27403</string>
-	</dict>
-	<key>Z272</key>
-	<dict>
-		<key>departureStation</key>
-		<string>青岛</string>
-		<key>terminalStation</key>
-		<string>西宁</string>
-		<key>trainCode</key>
-		<string>Z272</string>
-		<key>train_no</key>
-		<string>490000Z27203</string>
-	</dict>
-	<key>Z273</key>
-	<dict>
-		<key>departureStation</key>
-		<string>青岛</string>
-		<key>terminalStation</key>
-		<string>西宁</string>
-		<key>trainCode</key>
-		<string>Z273</string>
-		<key>train_no</key>
-		<string>490000Z27203</string>
-	</dict>
-	<key>Z274</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西宁</string>
-		<key>terminalStation</key>
-		<string>青岛</string>
-		<key>trainCode</key>
-		<string>Z274</string>
-		<key>train_no</key>
-		<string>880000Z27403</string>
-	</dict>
-	<key>Z275</key>
-	<dict>
-		<key>departureStation</key>
-		<string>银川</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z275</string>
-		<key>train_no</key>
-		<string>870000Z27513</string>
-	</dict>
-	<key>Z276</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>银川</string>
-		<key>trainCode</key>
-		<string>Z276</string>
-		<key>train_no</key>
-		<string>240000Z27708</string>
-	</dict>
-	<key>Z277</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>银川</string>
-		<key>trainCode</key>
-		<string>Z277</string>
-		<key>train_no</key>
-		<string>240000Z27708</string>
-	</dict>
-	<key>Z278</key>
-	<dict>
-		<key>departureStation</key>
-		<string>银川</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z278</string>
-		<key>train_no</key>
-		<string>870000Z27513</string>
-	</dict>
-	<key>Z28</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>上海南</string>
-		<key>trainCode</key>
-		<string>Z28</string>
-		<key>train_no</key>
-		<string>3900000Z2501</string>
-	</dict>
-	<key>Z281</key>
-	<dict>
-		<key>departureStation</key>
-		<string>包头</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z281</string>
-		<key>train_no</key>
-		<string>330000Z2840B</string>
-	</dict>
-	<key>Z282</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>包头</string>
-		<key>trainCode</key>
-		<string>Z282</string>
-		<key>train_no</key>
-		<string>560000Z28214</string>
-	</dict>
-	<key>Z283</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>包头</string>
-		<key>trainCode</key>
-		<string>Z283</string>
-		<key>train_no</key>
-		<string>560000Z28214</string>
-	</dict>
-	<key>Z284</key>
-	<dict>
-		<key>departureStation</key>
-		<string>包头</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z284</string>
-		<key>train_no</key>
-		<string>330000Z2840B</string>
-	</dict>
-	<key>Z285</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>南宁</string>
-		<key>trainCode</key>
-		<string>Z285</string>
-		<key>train_no</key>
-		<string>240000Z2850A</string>
-	</dict>
-	<key>Z286</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南宁</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z286</string>
-		<key>train_no</key>
-		<string>710000Z28603</string>
-	</dict>
-	<key>Z287</key>
-	<dict>
-		<key>departureStation</key>
-		<string>宁波</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z287</string>
-		<key>train_no</key>
-		<string>5e0000Z29011</string>
-	</dict>
-	<key>Z288</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>宁波</string>
-		<key>trainCode</key>
-		<string>Z288</string>
-		<key>train_no</key>
-		<string>800000Z28802</string>
-	</dict>
-	<key>Z289</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>宁波</string>
-		<key>trainCode</key>
-		<string>Z289</string>
-		<key>train_no</key>
-		<string>800000Z28802</string>
-	</dict>
-	<key>Z29</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>扬州</string>
-		<key>trainCode</key>
-		<string>Z29</string>
-		<key>train_no</key>
-		<string>2400000Z290C</string>
-	</dict>
-	<key>Z290</key>
-	<dict>
-		<key>departureStation</key>
-		<string>宁波</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z290</string>
-		<key>train_no</key>
-		<string>5e0000Z29011</string>
-	</dict>
-	<key>Z291</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>汉口</string>
-		<key>trainCode</key>
-		<string>Z291</string>
-		<key>train_no</key>
-		<string>930000Z29402</string>
-	</dict>
-	<key>Z292</key>
-	<dict>
-		<key>departureStation</key>
-		<string>汉口</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z292</string>
-		<key>train_no</key>
-		<string>390000Z29204</string>
-	</dict>
-	<key>Z293</key>
-	<dict>
-		<key>departureStation</key>
-		<string>汉口</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z293</string>
-		<key>train_no</key>
-		<string>390000Z29204</string>
-	</dict>
-	<key>Z294</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>汉口</string>
-		<key>trainCode</key>
-		<string>Z294</string>
-		<key>train_no</key>
-		<string>930000Z29402</string>
-	</dict>
-	<key>Z3</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>重庆北</string>
-		<key>trainCode</key>
-		<string>Z3</string>
-		<key>train_no</key>
-		<string>24000000Z30I</string>
-	</dict>
-	<key>Z30</key>
-	<dict>
-		<key>departureStation</key>
-		<string>扬州</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z30</string>
-		<key>train_no</key>
-		<string>5f00000Z3061</string>
-	</dict>
-	<key>Z307</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>厦门</string>
-		<key>trainCode</key>
-		<string>Z307</string>
-		<key>train_no</key>
-		<string>240000Z30709</string>
-	</dict>
-	<key>Z308</key>
-	<dict>
-		<key>departureStation</key>
-		<string>厦门</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z308</string>
-		<key>train_no</key>
-		<string>580000Z30805</string>
-	</dict>
-	<key>Z31</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>宁波</string>
-		<key>trainCode</key>
-		<string>Z31</string>
-		<key>train_no</key>
-		<string>3900000Z3103</string>
-	</dict>
-	<key>Z317</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>包头</string>
-		<key>trainCode</key>
-		<string>Z317</string>
-		<key>train_no</key>
-		<string>240000Z3170A</string>
-	</dict>
-	<key>Z318</key>
-	<dict>
-		<key>departureStation</key>
-		<string>包头</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z318</string>
-		<key>train_no</key>
-		<string>330000Z3180B</string>
-	</dict>
-	<key>Z319</key>
-	<dict>
-		<key>departureStation</key>
-		<string>大同</string>
-		<key>terminalStation</key>
-		<string>包头</string>
-		<key>trainCode</key>
-		<string>Z319</string>
-		<key>train_no</key>
-		<string>280000Z31903</string>
-	</dict>
-	<key>Z32</key>
-	<dict>
-		<key>departureStation</key>
-		<string>宁波</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z32</string>
-		<key>train_no</key>
-		<string>5e00000Z3203</string>
-	</dict>
-	<key>Z320</key>
-	<dict>
-		<key>departureStation</key>
-		<string>包头</string>
-		<key>terminalStation</key>
-		<string>大同</string>
-		<key>trainCode</key>
-		<string>Z320</string>
-		<key>train_no</key>
-		<string>330000Z32003</string>
-	</dict>
-	<key>Z321</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>成都</string>
-		<key>trainCode</key>
-		<string>Z321</string>
-		<key>train_no</key>
-		<string>880000Z32401</string>
-	</dict>
-	<key>Z322</key>
-	<dict>
-		<key>departureStation</key>
-		<string>成都</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z322</string>
-		<key>train_no</key>
-		<string>760000Z32202</string>
-	</dict>
-	<key>Z323</key>
-	<dict>
-		<key>departureStation</key>
-		<string>成都</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z323</string>
-		<key>train_no</key>
-		<string>760000Z32202</string>
-	</dict>
-	<key>Z324</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>成都</string>
-		<key>trainCode</key>
-		<string>Z324</string>
-		<key>train_no</key>
-		<string>880000Z32401</string>
-	</dict>
-	<key>Z33</key>
-	<dict>
-		<key>departureStation</key>
-		<string>宁波</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z33</string>
-		<key>train_no</key>
-		<string>5e00000Z3203</string>
-	</dict>
-	<key>Z335</key>
-	<dict>
-		<key>departureStation</key>
-		<string>包头</string>
-		<key>terminalStation</key>
-		<string>南宁</string>
-		<key>trainCode</key>
-		<string>Z335</string>
-		<key>train_no</key>
-		<string>330000Z3380A</string>
-	</dict>
-	<key>Z336</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南宁</string>
-		<key>terminalStation</key>
-		<string>包头</string>
-		<key>trainCode</key>
-		<string>Z336</string>
-		<key>train_no</key>
-		<string>710000Z33606</string>
-	</dict>
-	<key>Z337</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南宁</string>
-		<key>terminalStation</key>
-		<string>包头</string>
-		<key>trainCode</key>
-		<string>Z337</string>
-		<key>train_no</key>
-		<string>710000Z33606</string>
-	</dict>
-	<key>Z338</key>
-	<dict>
-		<key>departureStation</key>
-		<string>包头</string>
-		<key>terminalStation</key>
-		<string>南宁</string>
-		<key>trainCode</key>
-		<string>Z338</string>
-		<key>train_no</key>
-		<string>330000Z3380A</string>
-	</dict>
-	<key>Z34</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>宁波</string>
-		<key>trainCode</key>
-		<string>Z34</string>
-		<key>train_no</key>
-		<string>3900000Z3103</string>
-	</dict>
-	<key>Z35</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>广州</string>
-		<key>trainCode</key>
-		<string>Z35</string>
-		<key>train_no</key>
-		<string>2400000Z3501</string>
-	</dict>
-	<key>Z36</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z36</string>
-		<key>train_no</key>
-		<string>6300000Z3600</string>
-	</dict>
-	<key>Z365</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>南京</string>
-		<key>trainCode</key>
-		<string>Z365</string>
-		<key>train_no</key>
-		<string>0h0000Z36800</string>
-	</dict>
-	<key>Z366</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南京</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z366</string>
-		<key>train_no</key>
-		<string>540000Z36610</string>
-	</dict>
-	<key>Z367</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南京</string>
-		<key>terminalStation</key>
-		<string>哈尔滨西</string>
-		<key>trainCode</key>
-		<string>Z367</string>
-		<key>train_no</key>
-		<string>540000Z36610</string>
-	</dict>
-	<key>Z368</key>
-	<dict>
-		<key>departureStation</key>
-		<string>哈尔滨西</string>
-		<key>terminalStation</key>
-		<string>南京</string>
-		<key>trainCode</key>
-		<string>Z368</string>
-		<key>train_no</key>
-		<string>0h0000Z36800</string>
-	</dict>
-	<key>Z37</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z37</string>
-		<key>train_no</key>
-		<string>2400000Z3708</string>
-	</dict>
-	<key>Z38</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z38</string>
-		<key>train_no</key>
-		<string>3900000Z3802</string>
-	</dict>
-	<key>Z383</key>
-	<dict>
-		<key>departureStation</key>
-		<string>海口</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z383</string>
-		<key>train_no</key>
-		<string>6b0000Z38610</string>
-	</dict>
-	<key>Z384</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>三亚</string>
-		<key>trainCode</key>
-		<string>Z384</string>
-		<key>train_no</key>
-		<string>110000Z38405</string>
-	</dict>
-	<key>Z385</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>三亚</string>
-		<key>trainCode</key>
-		<string>Z385</string>
-		<key>train_no</key>
-		<string>110000Z38405</string>
-	</dict>
-	<key>Z386</key>
-	<dict>
-		<key>departureStation</key>
-		<string>海口</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z386</string>
-		<key>train_no</key>
-		<string>6b0000Z38610</string>
-	</dict>
-	<key>Z39</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z39</string>
-		<key>train_no</key>
-		<string>9300000Z4204</string>
-	</dict>
-	<key>Z4</key>
-	<dict>
-		<key>departureStation</key>
-		<string>重庆北</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z4</string>
-		<key>train_no</key>
-		<string>77000000Z400</string>
-	</dict>
-	<key>Z40</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z40</string>
-		<key>train_no</key>
-		<string>5500000Z4061</string>
-	</dict>
-	<key>Z41</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z41</string>
-		<key>train_no</key>
-		<string>5500000Z4061</string>
-	</dict>
-	<key>Z42</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z42</string>
-		<key>train_no</key>
-		<string>9300000Z4204</string>
-	</dict>
-	<key>Z43</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z43</string>
-		<key>train_no</key>
-		<string>2400000Z4304</string>
-	</dict>
-	<key>Z44</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西安</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z44</string>
-		<key>train_no</key>
-		<string>4100000Z4406</string>
-	</dict>
-	<key>Z45</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z45</string>
-		<key>train_no</key>
-		<string>3900000Z4501</string>
-	</dict>
-	<key>Z46</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z46</string>
-		<key>train_no</key>
-		<string>5600000Z4700</string>
-	</dict>
-	<key>Z47</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z47</string>
-		<key>train_no</key>
-		<string>5600000Z4700</string>
-	</dict>
-	<key>Z48</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z48</string>
-		<key>train_no</key>
-		<string>3900000Z4501</string>
-	</dict>
-	<key>Z49</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>成都</string>
-		<key>trainCode</key>
-		<string>Z49</string>
-		<key>train_no</key>
-		<string>2400000Z490E</string>
-	</dict>
-	<key>Z5</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>南宁</string>
-		<key>trainCode</key>
-		<string>Z5</string>
-		<key>train_no</key>
-		<string>24000000Z509</string>
-	</dict>
-	<key>Z50</key>
-	<dict>
-		<key>departureStation</key>
-		<string>成都</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z50</string>
-		<key>train_no</key>
-		<string>7600000Z5003</string>
-	</dict>
-	<key>Z5001</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>白城</string>
-		<key>trainCode</key>
-		<string>Z5001</string>
-		<key>train_no</key>
-		<string>11000Z500101</string>
-	</dict>
-	<key>Z5002</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌兰浩特</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z5002</string>
-		<key>train_no</key>
-		<string>11000Z500200</string>
-	</dict>
-	<key>Z5003</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>白城</string>
-		<key>trainCode</key>
-		<string>Z5003</string>
-		<key>train_no</key>
-		<string>11000Z500301</string>
-	</dict>
-	<key>Z5004</key>
-	<dict>
-		<key>departureStation</key>
-		<string>白城</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z5004</string>
-		<key>train_no</key>
-		<string>11000Z500401</string>
-	</dict>
-	<key>Z5005</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>白城</string>
-		<key>trainCode</key>
-		<string>Z5005</string>
-		<key>train_no</key>
-		<string>11000Z500500</string>
-	</dict>
-	<key>Z5006</key>
-	<dict>
-		<key>departureStation</key>
-		<string>白城</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z5006</string>
-		<key>train_no</key>
-		<string>11000Z500600</string>
-	</dict>
-	<key>Z51</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>南通</string>
-		<key>trainCode</key>
-		<string>Z51</string>
-		<key>train_no</key>
-		<string>2400000Z510E</string>
-	</dict>
-	<key>Z52</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南通</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z52</string>
-		<key>train_no</key>
-		<string>5f00000Z5211</string>
-	</dict>
-	<key>Z53</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z53</string>
-		<key>train_no</key>
-		<string>2400000Z530R</string>
-	</dict>
-	<key>Z54</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z54</string>
-		<key>train_no</key>
-		<string>8000000Z5403</string>
-	</dict>
-	<key>Z55</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z55</string>
-		<key>train_no</key>
-		<string>2400000Z550L</string>
-	</dict>
-	<key>Z56</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z56</string>
-		<key>train_no</key>
-		<string>8500000Z5663</string>
-	</dict>
-	<key>Z57</key>
-	<dict>
-		<key>departureStation</key>
-		<string>福州</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z57</string>
-		<key>train_no</key>
-		<string>5800000Z600D</string>
-	</dict>
-	<key>Z58</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>福州</string>
-		<key>trainCode</key>
-		<string>Z58</string>
-		<key>train_no</key>
-		<string>2400000Z590K</string>
-	</dict>
-	<key>Z59</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>福州</string>
-		<key>trainCode</key>
-		<string>Z59</string>
-		<key>train_no</key>
-		<string>2400000Z590K</string>
-	</dict>
-	<key>Z6</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南宁</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z6</string>
-		<key>train_no</key>
-		<string>71000000Z602</string>
-	</dict>
-	<key>Z60</key>
-	<dict>
-		<key>departureStation</key>
-		<string>福州</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z60</string>
-		<key>train_no</key>
-		<string>5800000Z600D</string>
-	</dict>
-	<key>Z601</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>菏泽</string>
-		<key>trainCode</key>
-		<string>Z601</string>
-		<key>train_no</key>
-		<string>240000Z60107</string>
-	</dict>
-	<key>Z602</key>
-	<dict>
-		<key>departureStation</key>
-		<string>菏泽</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z602</string>
-		<key>train_no</key>
-		<string>470000Z60203</string>
-	</dict>
-	<key>Z61</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z61</string>
-		<key>train_no</key>
-		<string>2400000Z610F</string>
-	</dict>
-	<key>Z62</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z62</string>
-		<key>train_no</key>
-		<string>1100000Z6208</string>
-	</dict>
-	<key>Z6205</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>嘉峪关</string>
-		<key>trainCode</key>
-		<string>Z6205</string>
-		<key>train_no</key>
-		<string>85000Z620501</string>
-	</dict>
-	<key>Z6206</key>
-	<dict>
-		<key>departureStation</key>
-		<string>嘉峪关</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z6206</string>
-		<key>train_no</key>
-		<string>86000Z620601</string>
-	</dict>
-	<key>Z6207</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>张掖</string>
-		<key>trainCode</key>
-		<string>Z6207</string>
-		<key>train_no</key>
-		<string>85000Z620712</string>
-	</dict>
-	<key>Z6208</key>
-	<dict>
-		<key>departureStation</key>
-		<string>张掖</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z6208</string>
-		<key>train_no</key>
-		<string>86000Z620811</string>
-	</dict>
-	<key>Z63</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>长春</string>
-		<key>trainCode</key>
-		<string>Z63</string>
-		<key>train_no</key>
-		<string>2400000Z630C</string>
-	</dict>
-	<key>Z64</key>
-	<dict>
-		<key>departureStation</key>
-		<string>长春</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z64</string>
-		<key>train_no</key>
-		<string>1100000Z6403</string>
-	</dict>
-	<key>Z65</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>南昌</string>
-		<key>trainCode</key>
-		<string>Z65</string>
-		<key>train_no</key>
-		<string>2400000Z650K</string>
-	</dict>
-	<key>Z6501</key>
-	<dict>
-		<key>departureStation</key>
-		<string>库尔勒</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z6501</string>
-		<key>train_no</key>
-		<string>94000Z650410</string>
-	</dict>
-	<key>Z6502</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>库尔勒</string>
-		<key>trainCode</key>
-		<string>Z6502</string>
-		<key>train_no</key>
-		<string>93000Z650210</string>
-	</dict>
-	<key>Z6503</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>库尔勒</string>
-		<key>trainCode</key>
-		<string>Z6503</string>
-		<key>train_no</key>
-		<string>93000Z650210</string>
-	</dict>
-	<key>Z6504</key>
-	<dict>
-		<key>departureStation</key>
-		<string>库尔勒</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z6504</string>
-		<key>train_no</key>
-		<string>94000Z650410</string>
-	</dict>
-	<key>Z6505</key>
-	<dict>
-		<key>departureStation</key>
-		<string>库尔勒</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z6505</string>
-		<key>train_no</key>
-		<string>94000Z650810</string>
-	</dict>
-	<key>Z6506</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>库尔勒</string>
-		<key>trainCode</key>
-		<string>Z6506</string>
-		<key>train_no</key>
-		<string>93000Z650610</string>
-	</dict>
-	<key>Z6507</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>库尔勒</string>
-		<key>trainCode</key>
-		<string>Z6507</string>
-		<key>train_no</key>
-		<string>93000Z650610</string>
-	</dict>
-	<key>Z6508</key>
-	<dict>
-		<key>departureStation</key>
-		<string>库尔勒</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z6508</string>
-		<key>train_no</key>
-		<string>94000Z650810</string>
-	</dict>
-	<key>Z6509</key>
-	<dict>
-		<key>departureStation</key>
-		<string>库尔勒</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z6509</string>
-		<key>train_no</key>
-		<string>94000Z651210</string>
-	</dict>
-	<key>Z6510</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>库尔勒</string>
-		<key>trainCode</key>
-		<string>Z6510</string>
-		<key>train_no</key>
-		<string>93000Z651010</string>
-	</dict>
-	<key>Z6511</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>库尔勒</string>
-		<key>trainCode</key>
-		<string>Z6511</string>
-		<key>train_no</key>
-		<string>93000Z651010</string>
-	</dict>
-	<key>Z6512</key>
-	<dict>
-		<key>departureStation</key>
-		<string>库尔勒</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z6512</string>
-		<key>train_no</key>
-		<string>94000Z651210</string>
-	</dict>
-	<key>Z6519</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>伊宁</string>
-		<key>trainCode</key>
-		<string>Z6519</string>
-		<key>train_no</key>
-		<string>93000Z651910</string>
-	</dict>
-	<key>Z6520</key>
-	<dict>
-		<key>departureStation</key>
-		<string>伊宁</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z6520</string>
-		<key>train_no</key>
-		<string>95000Z652010</string>
-	</dict>
-	<key>Z6541</key>
-	<dict>
-		<key>departureStation</key>
-		<string>包头</string>
-		<key>terminalStation</key>
-		<string>临河</string>
-		<key>trainCode</key>
-		<string>Z6541</string>
-		<key>train_no</key>
-		<string>33000Z654101</string>
-	</dict>
-	<key>Z66</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南昌</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z66</string>
-		<key>train_no</key>
-		<string>5700000Z660E</string>
-	</dict>
-	<key>Z67</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>南昌</string>
-		<key>trainCode</key>
-		<string>Z67</string>
-		<key>train_no</key>
-		<string>2400000Z670M</string>
-	</dict>
-	<key>Z6705</key>
-	<dict>
-		<key>departureStation</key>
-		<string>襄阳</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z6705</string>
-		<key>train_no</key>
-		<string>42000Z670807</string>
-	</dict>
-	<key>Z6706</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>襄阳</string>
-		<key>trainCode</key>
-		<string>Z6706</string>
-		<key>train_no</key>
-		<string>39000Z670608</string>
-	</dict>
-	<key>Z6707</key>
-	<dict>
-		<key>departureStation</key>
-		<string>武昌</string>
-		<key>terminalStation</key>
-		<string>襄阳</string>
-		<key>trainCode</key>
-		<string>Z6707</string>
-		<key>train_no</key>
-		<string>39000Z670608</string>
-	</dict>
-	<key>Z6708</key>
-	<dict>
-		<key>departureStation</key>
-		<string>襄阳</string>
-		<key>terminalStation</key>
-		<string>武昌</string>
-		<key>trainCode</key>
-		<string>Z6708</string>
-		<key>train_no</key>
-		<string>42000Z670807</string>
-	</dict>
-	<key>Z68</key>
-	<dict>
-		<key>departureStation</key>
-		<string>南昌</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z68</string>
-		<key>train_no</key>
-		<string>5700000Z680G</string>
-	</dict>
-	<key>Z6801</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西宁</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z6801</string>
-		<key>train_no</key>
-		<string>88000Z680102</string>
-	</dict>
-	<key>Z6811</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西宁</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z6811</string>
-		<key>train_no</key>
-		<string>88000Z681106</string>
-	</dict>
-	<key>Z6812</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>西宁</string>
-		<key>trainCode</key>
-		<string>Z6812</string>
-		<key>train_no</key>
-		<string>88000Z681205</string>
-	</dict>
-	<key>Z69</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>乌鲁木齐</string>
-		<key>trainCode</key>
-		<string>Z69</string>
-		<key>train_no</key>
-		<string>2400000Z690D</string>
-	</dict>
-	<key>Z7</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>青岛北</string>
-		<key>trainCode</key>
-		<string>Z7</string>
-		<key>train_no</key>
-		<string>24000000Z707</string>
-	</dict>
-	<key>Z70</key>
-	<dict>
-		<key>departureStation</key>
-		<string>乌鲁木齐</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z70</string>
-		<key>train_no</key>
-		<string>9300000Z7002</string>
-	</dict>
-	<key>Z71</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>三明北</string>
-		<key>trainCode</key>
-		<string>Z71</string>
-		<key>train_no</key>
-		<string>2400000Z710A</string>
-	</dict>
-	<key>Z72</key>
-	<dict>
-		<key>departureStation</key>
-		<string>三明北</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z72</string>
-		<key>train_no</key>
-		<string>5u00000Z7206</string>
-	</dict>
-	<key>Z75</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z75</string>
-		<key>train_no</key>
-		<string>2400000Z7508</string>
-	</dict>
-	<key>Z76</key>
-	<dict>
-		<key>departureStation</key>
-		<string>兰州</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z76</string>
-		<key>train_no</key>
-		<string>8500000Z7600</string>
-	</dict>
-	<key>Z77</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>贵阳</string>
-		<key>trainCode</key>
-		<string>Z77</string>
-		<key>train_no</key>
-		<string>2400000Z770G</string>
-	</dict>
-	<key>Z78</key>
-	<dict>
-		<key>departureStation</key>
-		<string>贵阳</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z78</string>
-		<key>train_no</key>
-		<string>7800000Z7802</string>
-	</dict>
-	<key>Z7805</key>
-	<dict>
-		<key>departureStation</key>
-		<string>大同</string>
-		<key>terminalStation</key>
-		<string>太原</string>
-		<key>trainCode</key>
-		<string>Z7805</string>
-		<key>train_no</key>
-		<string>28000Z780502</string>
-	</dict>
-	<key>Z7806</key>
-	<dict>
-		<key>departureStation</key>
-		<string>太原</string>
-		<key>terminalStation</key>
-		<string>大同</string>
-		<key>trainCode</key>
-		<string>Z7806</string>
-		<key>train_no</key>
-		<string>27000Z780602</string>
-	</dict>
-	<key>Z7835</key>
-	<dict>
-		<key>departureStation</key>
-		<string>太原</string>
-		<key>terminalStation</key>
-		<string>吕梁</string>
-		<key>trainCode</key>
-		<string>Z7835</string>
-		<key>train_no</key>
-		<string>27000Z783502</string>
-	</dict>
-	<key>Z7836</key>
-	<dict>
-		<key>departureStation</key>
-		<string>吕梁</string>
-		<key>terminalStation</key>
-		<string>太原</string>
-		<key>trainCode</key>
-		<string>Z7836</string>
-		<key>train_no</key>
-		<string>27000Z783600</string>
-	</dict>
-	<key>Z7837</key>
-	<dict>
-		<key>departureStation</key>
-		<string>太原</string>
-		<key>terminalStation</key>
-		<string>柳林南</string>
-		<key>trainCode</key>
-		<string>Z7837</string>
-		<key>train_no</key>
-		<string>27000Z783700</string>
-	</dict>
-	<key>Z7838</key>
-	<dict>
-		<key>departureStation</key>
-		<string>柳林南</string>
-		<key>terminalStation</key>
-		<string>太原</string>
-		<key>trainCode</key>
-		<string>Z7838</string>
-		<key>train_no</key>
-		<string>27000Z783801</string>
-	</dict>
-	<key>Z79</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>大连</string>
-		<key>trainCode</key>
-		<string>Z79</string>
-		<key>train_no</key>
-		<string>2400000Z7909</string>
-	</dict>
-	<key>Z8</key>
-	<dict>
-		<key>departureStation</key>
-		<string>青岛北</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z8</string>
-		<key>train_no</key>
-		<string>49000000Z803</string>
-	</dict>
-	<key>Z80</key>
-	<dict>
-		<key>departureStation</key>
-		<string>大连</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z80</string>
-		<key>train_no</key>
-		<string>1300000Z8101</string>
-	</dict>
-	<key>Z81</key>
-	<dict>
-		<key>departureStation</key>
-		<string>大连</string>
-		<key>terminalStation</key>
-		<string>北京</string>
-		<key>trainCode</key>
-		<string>Z81</string>
-		<key>train_no</key>
-		<string>1300000Z8101</string>
-	</dict>
-	<key>Z82</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>大连</string>
-		<key>trainCode</key>
-		<string>Z82</string>
-		<key>train_no</key>
-		<string>2400000Z7909</string>
-	</dict>
-	<key>Z8303</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8303</string>
-		<key>train_no</key>
-		<string>80000Z830303</string>
-	</dict>
-	<key>Z8304</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8304</string>
-		<key>train_no</key>
-		<string>80000Z830403</string>
-	</dict>
-	<key>Z8306</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8306</string>
-		<key>train_no</key>
-		<string>80000Z830603</string>
-	</dict>
-	<key>Z8307</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8307</string>
-		<key>train_no</key>
-		<string>80000Z830702</string>
-	</dict>
-	<key>Z8308</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8308</string>
-		<key>train_no</key>
-		<string>80000Z830804</string>
-	</dict>
-	<key>Z8309</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8309</string>
-		<key>train_no</key>
-		<string>80000Z830903</string>
-	</dict>
-	<key>Z8310</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8310</string>
-		<key>train_no</key>
-		<string>80000Z831002</string>
-	</dict>
-	<key>Z8311</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8311</string>
-		<key>train_no</key>
-		<string>80000Z831102</string>
-	</dict>
-	<key>Z8312</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8312</string>
-		<key>train_no</key>
-		<string>80000Z831203</string>
-	</dict>
-	<key>Z8313</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8313</string>
-		<key>train_no</key>
-		<string>80000Z831303</string>
-	</dict>
-	<key>Z8315</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8315</string>
-		<key>train_no</key>
-		<string>80000Z831501</string>
-	</dict>
-	<key>Z8316</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8316</string>
-		<key>train_no</key>
-		<string>80000Z831602</string>
-	</dict>
-	<key>Z8317</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8317</string>
-		<key>train_no</key>
-		<string>80000Z831700</string>
-	</dict>
-	<key>Z8318</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8318</string>
-		<key>train_no</key>
-		<string>80000Z831802</string>
-	</dict>
-	<key>Z8319</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8319</string>
-		<key>train_no</key>
-		<string>80000Z831902</string>
-	</dict>
-	<key>Z8320</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8320</string>
-		<key>train_no</key>
-		<string>80000Z832001</string>
-	</dict>
-	<key>Z8321</key>
-	<dict>
-		<key>departureStation</key>
-		<string>曲靖</string>
-		<key>terminalStation</key>
-		<string>昆明</string>
-		<key>trainCode</key>
-		<string>Z8321</string>
-		<key>train_no</key>
-		<string>80000Z832100</string>
-	</dict>
-	<key>Z8322</key>
-	<dict>
-		<key>departureStation</key>
-		<string>昆明</string>
-		<key>terminalStation</key>
-		<string>曲靖</string>
-		<key>trainCode</key>
-		<string>Z8322</string>
-		<key>train_no</key>
-		<string>80000Z832200</string>
-	</dict>
-	<key>Z85</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西安</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z85</string>
-		<key>train_no</key>
-		<string>4100000Z8808</string>
-	</dict>
-	<key>Z86</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z86</string>
-		<key>train_no</key>
-		<string>5600000Z8612</string>
-	</dict>
-	<key>Z87</key>
-	<dict>
-		<key>departureStation</key>
-		<string>杭州</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z87</string>
-		<key>train_no</key>
-		<string>5600000Z8612</string>
-	</dict>
-	<key>Z88</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西安</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z88</string>
-		<key>train_no</key>
-		<string>4100000Z8808</string>
-	</dict>
-	<key>Z8801</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>日喀则</string>
-		<key>trainCode</key>
-		<string>Z8801</string>
-		<key>train_no</key>
-		<string>88000Z88010A</string>
-	</dict>
-	<key>Z8802</key>
-	<dict>
-		<key>departureStation</key>
-		<string>日喀则</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z8802</string>
-		<key>train_no</key>
-		<string>88000Z88020A</string>
-	</dict>
-	<key>Z8803</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>日喀则</string>
-		<key>trainCode</key>
-		<string>Z8803</string>
-		<key>train_no</key>
-		<string>88000Z880306</string>
-	</dict>
-	<key>Z8804</key>
-	<dict>
-		<key>departureStation</key>
-		<string>日喀则</string>
-		<key>terminalStation</key>
-		<string>拉萨</string>
-		<key>trainCode</key>
-		<string>Z8804</string>
-		<key>train_no</key>
-		<string>88000Z880406</string>
-	</dict>
-	<key>Z89</key>
-	<dict>
-		<key>departureStation</key>
-		<string>石家庄</string>
-		<key>terminalStation</key>
-		<string>广州</string>
-		<key>trainCode</key>
-		<string>Z89</string>
-		<key>train_no</key>
-		<string>2600000Z8904</string>
-	</dict>
-	<key>Z9</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京</string>
-		<key>terminalStation</key>
-		<string>杭州</string>
-		<key>trainCode</key>
-		<string>Z9</string>
-		<key>train_no</key>
-		<string>24000000Z90I</string>
-	</dict>
-	<key>Z90</key>
-	<dict>
-		<key>departureStation</key>
-		<string>广州</string>
-		<key>terminalStation</key>
-		<string>石家庄</string>
-		<key>trainCode</key>
-		<string>Z90</string>
-		<key>train_no</key>
-		<string>6300000Z9001</string>
-	</dict>
-	<key>Z91</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西安</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z91</string>
-		<key>train_no</key>
-		<string>4100000Z940D</string>
-	</dict>
-	<key>Z918</key>
-	<dict>
-		<key>departureStation</key>
-		<string>拉萨</string>
-		<key>terminalStation</key>
-		<string>兰州</string>
-		<key>trainCode</key>
-		<string>Z918</string>
-		<key>train_no</key>
-		<string>880000Z91804</string>
-	</dict>
-	<key>Z92</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z92</string>
-		<key>train_no</key>
-		<string>5500000Z9230</string>
-	</dict>
-	<key>Z93</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>西安</string>
-		<key>trainCode</key>
-		<string>Z93</string>
-		<key>train_no</key>
-		<string>5500000Z9230</string>
-	</dict>
-	<key>Z94</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西安</string>
-		<key>terminalStation</key>
-		<string>上海</string>
-		<key>trainCode</key>
-		<string>Z94</string>
-		<key>train_no</key>
-		<string>4100000Z940D</string>
-	</dict>
-	<key>Z95</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>重庆北</string>
-		<key>trainCode</key>
-		<string>Z95</string>
-		<key>train_no</key>
-		<string>2400000Z9504</string>
-	</dict>
-	<key>Z96</key>
-	<dict>
-		<key>departureStation</key>
-		<string>重庆北</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z96</string>
-		<key>train_no</key>
-		<string>7700000Z9602</string>
-	</dict>
-	<key>Z97</key>
-	<dict>
-		<key>departureStation</key>
-		<string>北京西</string>
-		<key>terminalStation</key>
-		<string>广州东</string>
-		<key>trainCode</key>
-		<string>Z97</string>
-		<key>train_no</key>
-		<string>2400000Z9703</string>
-	</dict>
-	<key>Z98</key>
-	<dict>
-		<key>departureStation</key>
-		<string>九龙</string>
-		<key>terminalStation</key>
-		<string>北京西</string>
-		<key>trainCode</key>
-		<string>Z98</string>
-		<key>train_no</key>
-		<string>6500000Z9805</string>
-	</dict>
-	<key>Z9877</key>
-	<dict>
-		<key>departureStation</key>
-		<string>西宁</string>
-		<key>terminalStation</key>
-		<string>德令哈</string>
-		<key>trainCode</key>
-		<string>Z9877</string>
-		<key>train_no</key>
-		<string>88000Z987703</string>
-	</dict>
-	<key>Z9878</key>
-	<dict>
-		<key>departureStation</key>
-		<string>德令哈</string>
-		<key>terminalStation</key>
-		<string>西宁</string>
-		<key>trainCode</key>
-		<string>Z9878</string>
-		<key>train_no</key>
-		<string>88000Z987803</string>
-	</dict>
-	<key>Z99</key>
-	<dict>
-		<key>departureStation</key>
-		<string>上海</string>
-		<key>terminalStation</key>
-		<string>九龙</string>
-		<key>trainCode</key>
-		<string>Z99</string>
-		<key>train_no</key>
-		<string>5500000Z9930</string>
-	</dict>
-</dict>
-</plist>
+{
+  "Z383" : {
+    "train_no" : "6b0000Z38610",
+    "trainCode" : "Z383",
+    "terminalStation" : "长春",
+    "departureStation" : "海口"
+  },
+  "Z6511" : {
+    "train_no" : "93000Z651010",
+    "trainCode" : "Z6511",
+    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z236" : {
+    "train_no" : "650000Z23620",
+    "trainCode" : "Z236",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "广州东"
+  },
+  "Z8309" : {
+    "train_no" : "80000Z830903",
+    "trainCode" : "Z8309",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z7835" : {
+    "train_no" : "27000Z783502",
+    "trainCode" : "Z7835",
+    "terminalStation" : "吕梁",
+    "departureStation" : "太原"
+  },
+  "Z180" : {
+    "train_no" : "930000Z18006",
+    "trainCode" : "Z180",
+    "terminalStation" : "北京",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z193" : {
+    "train_no" : "270000Z19204",
+    "trainCode" : "Z193",
+    "terminalStation" : "沈阳北",
+    "departureStation" : "太原"
+  },
+  "Z384" : {
+    "train_no" : "110000Z38405",
+    "trainCode" : "Z384",
+    "terminalStation" : "三亚",
+    "departureStation" : "长春"
+  },
+  "Z8311" : {
+    "train_no" : "80000Z831102",
+    "trainCode" : "Z8311",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z237" : {
+    "train_no" : "650000Z23620",
+    "trainCode" : "Z237",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "广州东"
+  },
+  "Z181" : {
+    "train_no" : "330000Z1840A",
+    "trainCode" : "Z181",
+    "terminalStation" : "深圳东",
+    "departureStation" : "临河"
+  },
+  "Z194" : {
+    "train_no" : "120000Z19405",
+    "trainCode" : "Z194",
+    "terminalStation" : "太原",
+    "departureStation" : "沈阳北"
+  },
+  "Z385" : {
+    "train_no" : "110000Z38405",
+    "trainCode" : "Z385",
+    "terminalStation" : "三亚",
+    "departureStation" : "长春"
+  },
+  "Z6512" : {
+    "train_no" : "94000Z651210",
+    "trainCode" : "Z6512",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒"
+  },
+  "Z225" : {
+    "train_no" : "240000Z22501",
+    "trainCode" : "Z225",
+    "terminalStation" : "合肥",
+    "departureStation" : "北京"
+  },
+  "Z238" : {
+    "train_no" : "0h0000Z23803",
+    "trainCode" : "Z238",
+    "terminalStation" : "广州东",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z7836" : {
+    "train_no" : "27000Z783600",
+    "trainCode" : "Z7836",
+    "terminalStation" : "太原",
+    "departureStation" : "吕梁"
+  },
+  "Z182" : {
+    "train_no" : "650000Z18208",
+    "trainCode" : "Z182",
+    "terminalStation" : "临河",
+    "departureStation" : "深圳东"
+  },
+  "Z195" : {
+    "train_no" : "270000Z19804",
+    "trainCode" : "Z195",
+    "terminalStation" : "上海",
+    "departureStation" : "太原"
+  },
+  "Z386" : {
+    "train_no" : "6b0000Z38610",
+    "trainCode" : "Z386",
+    "terminalStation" : "长春",
+    "departureStation" : "海口"
+  },
+  "Z8312" : {
+    "train_no" : "80000Z831203",
+    "trainCode" : "Z8312",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z226" : {
+    "train_no" : "530000Z22701",
+    "trainCode" : "Z226",
+    "terminalStation" : "北京",
+    "departureStation" : "合肥"
+  },
+  "Z6205" : {
+    "train_no" : "85000Z620501",
+    "trainCode" : "Z6205",
+    "terminalStation" : "嘉峪关",
+    "departureStation" : "兰州"
+  },
+  "Z170" : {
+    "train_no" : "490000Z17003",
+    "trainCode" : "Z170",
+    "terminalStation" : "广州东",
+    "departureStation" : "青岛"
+  },
+  "Z183" : {
+    "train_no" : "650000Z18208",
+    "trainCode" : "Z183",
+    "terminalStation" : "临河",
+    "departureStation" : "深圳东"
+  },
+  "Z196" : {
+    "train_no" : "550000Z19603",
+    "trainCode" : "Z196",
+    "terminalStation" : "太原",
+    "departureStation" : "上海"
+  },
+  "Z201" : {
+    "train_no" : "240000Z2010L",
+    "trainCode" : "Z201",
+    "terminalStation" : "三亚",
+    "departureStation" : "北京西"
+  },
+  "Z227" : {
+    "train_no" : "530000Z22701",
+    "trainCode" : "Z227",
+    "terminalStation" : "北京",
+    "departureStation" : "合肥"
+  },
+  "Z7837" : {
+    "train_no" : "27000Z783700",
+    "trainCode" : "Z7837",
+    "terminalStation" : "柳林南",
+    "departureStation" : "太原"
+  },
+  "Z171" : {
+    "train_no" : "0h0000Z17400",
+    "trainCode" : "Z171",
+    "terminalStation" : "上海",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z184" : {
+    "train_no" : "330000Z1840A",
+    "trainCode" : "Z184",
+    "terminalStation" : "深圳东",
+    "departureStation" : "临河"
+  },
+  "Z202" : {
+    "train_no" : "6b0000Z20203",
+    "trainCode" : "Z202",
+    "terminalStation" : "北京西",
+    "departureStation" : "三亚"
+  },
+  "Z197" : {
+    "train_no" : "550000Z19603",
+    "trainCode" : "Z197",
+    "terminalStation" : "太原",
+    "departureStation" : "上海"
+  },
+  "Z215" : {
+    "train_no" : "850000Z21841",
+    "trainCode" : "Z215",
+    "terminalStation" : "上海",
+    "departureStation" : "兰州"
+  },
+  "Z8313" : {
+    "train_no" : "80000Z831303",
+    "trainCode" : "Z8313",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z228" : {
+    "train_no" : "240000Z22501",
+    "trainCode" : "Z228",
+    "terminalStation" : "合肥",
+    "departureStation" : "北京"
+  },
+  "Z6206" : {
+    "train_no" : "86000Z620601",
+    "trainCode" : "Z6206",
+    "terminalStation" : "兰州",
+    "departureStation" : "嘉峪关"
+  },
+  "Z172" : {
+    "train_no" : "550000Z17240",
+    "trainCode" : "Z172",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "上海"
+  },
+  "Z185" : {
+    "train_no" : "120000Z18807",
+    "trainCode" : "Z185",
+    "terminalStation" : "深圳",
+    "departureStation" : "沈阳北"
+  },
+  "Z203" : {
+    "train_no" : "240000Z2030G",
+    "trainCode" : "Z203",
+    "terminalStation" : "哈尔滨东",
+    "departureStation" : "北京"
+  },
+  "Z198" : {
+    "train_no" : "270000Z19804",
+    "trainCode" : "Z198",
+    "terminalStation" : "上海",
+    "departureStation" : "太原"
+  },
+  "Z216" : {
+    "train_no" : "550000Z21605",
+    "trainCode" : "Z216",
+    "terminalStation" : "兰州",
+    "departureStation" : "上海"
+  },
+  "Z229" : {
+    "train_no" : "930000Z23201",
+    "trainCode" : "Z229",
+    "terminalStation" : "深圳",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z7838" : {
+    "train_no" : "27000Z783801",
+    "trainCode" : "Z7838",
+    "terminalStation" : "太原",
+    "departureStation" : "柳林南"
+  },
+  "Z80" : {
+    "train_no" : "1300000Z8101",
+    "trainCode" : "Z80",
+    "terminalStation" : "北京",
+    "departureStation" : "大连"
+  },
+  "Z173" : {
+    "train_no" : "550000Z17240",
+    "trainCode" : "Z173",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "上海"
+  },
+  "Z50" : {
+    "train_no" : "7600000Z5003",
+    "trainCode" : "Z50",
+    "terminalStation" : "北京西",
+    "departureStation" : "成都"
+  },
+  "Z20" : {
+    "train_no" : "4100000Z200H",
+    "trainCode" : "Z20",
+    "terminalStation" : "北京西",
+    "departureStation" : "西安"
+  },
+  "Z186" : {
+    "train_no" : "650000Z18605",
+    "trainCode" : "Z186",
+    "terminalStation" : "沈阳北",
+    "departureStation" : "深圳"
+  },
+  "Z204" : {
+    "train_no" : "040000Z20401",
+    "trainCode" : "Z204",
+    "terminalStation" : "北京",
+    "departureStation" : "大庆东"
+  },
+  "Z5001" : {
+    "train_no" : "11000Z500101",
+    "trainCode" : "Z5001",
+    "terminalStation" : "白城",
+    "departureStation" : "长春"
+  },
+  "Z81" : {
+    "train_no" : "1300000Z8101",
+    "trainCode" : "Z81",
+    "terminalStation" : "北京",
+    "departureStation" : "大连"
+  },
+  "Z217" : {
+    "train_no" : "550000Z21605",
+    "trainCode" : "Z217",
+    "terminalStation" : "兰州",
+    "departureStation" : "上海"
+  },
+  "Z51" : {
+    "train_no" : "2400000Z510E",
+    "trainCode" : "Z51",
+    "terminalStation" : "南通",
+    "departureStation" : "北京"
+  },
+  "Z21" : {
+    "train_no" : "2400000Z210A",
+    "trainCode" : "Z21",
+    "terminalStation" : "拉萨",
+    "departureStation" : "北京西"
+  },
+  "Z6207" : {
+    "train_no" : "85000Z620712",
+    "trainCode" : "Z6207",
+    "terminalStation" : "张掖",
+    "departureStation" : "兰州"
+  },
+  "Z161" : {
+    "train_no" : "240000Z16116",
+    "trainCode" : "Z161",
+    "terminalStation" : "昆明",
+    "departureStation" : "北京西"
+  },
+  "Z174" : {
+    "train_no" : "0h0000Z17400",
+    "trainCode" : "Z174",
+    "terminalStation" : "上海",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z82" : {
+    "train_no" : "2400000Z7909",
+    "trainCode" : "Z82",
+    "terminalStation" : "大连",
+    "departureStation" : "北京"
+  },
+  "Z52" : {
+    "train_no" : "5f00000Z5211",
+    "trainCode" : "Z52",
+    "terminalStation" : "北京",
+    "departureStation" : "南通"
+  },
+  "Z187" : {
+    "train_no" : "650000Z18605",
+    "trainCode" : "Z187",
+    "terminalStation" : "沈阳北",
+    "departureStation" : "深圳"
+  },
+  "Z22" : {
+    "train_no" : "8800000Z2203",
+    "trainCode" : "Z22",
+    "terminalStation" : "北京西",
+    "departureStation" : "拉萨"
+  },
+  "Z365" : {
+    "train_no" : "0h0000Z36800",
+    "trainCode" : "Z365",
+    "terminalStation" : "南京",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z205" : {
+    "train_no" : "620000Z20803",
+    "trainCode" : "Z205",
+    "terminalStation" : "天津",
+    "departureStation" : "长沙"
+  },
+  "Z218" : {
+    "train_no" : "850000Z21841",
+    "trainCode" : "Z218",
+    "terminalStation" : "上海",
+    "departureStation" : "兰州"
+  },
+  "Z53" : {
+    "train_no" : "2400000Z530R",
+    "trainCode" : "Z53",
+    "terminalStation" : "昆明",
+    "departureStation" : "北京西"
+  },
+  "Z23" : {
+    "train_no" : "3900000Z2302",
+    "trainCode" : "Z23",
+    "terminalStation" : "深圳",
+    "departureStation" : "武昌"
+  },
+  "Z162" : {
+    "train_no" : "800000Z16204",
+    "trainCode" : "Z162",
+    "terminalStation" : "北京西",
+    "departureStation" : "昆明"
+  },
+  "Z6705" : {
+    "train_no" : "42000Z670807",
+    "trainCode" : "Z6705",
+    "terminalStation" : "武昌",
+    "departureStation" : "襄阳"
+  },
+  "Z175" : {
+    "train_no" : "0h0000Z17804",
+    "trainCode" : "Z175",
+    "terminalStation" : "杭州",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z366" : {
+    "train_no" : "540000Z36610",
+    "trainCode" : "Z366",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "南京"
+  },
+  "Z54" : {
+    "train_no" : "8000000Z5403",
+    "trainCode" : "Z54",
+    "terminalStation" : "北京西",
+    "departureStation" : "昆明"
+  },
+  "Z188" : {
+    "train_no" : "120000Z18807",
+    "trainCode" : "Z188",
+    "terminalStation" : "深圳",
+    "departureStation" : "沈阳北"
+  },
+  "Z24" : {
+    "train_no" : "6500000Z2409",
+    "trainCode" : "Z24",
+    "terminalStation" : "武昌",
+    "departureStation" : "深圳"
+  },
+  "Z206" : {
+    "train_no" : "250000Z20603",
+    "trainCode" : "Z206",
+    "terminalStation" : "长沙",
+    "departureStation" : "天津"
+  },
+  "Z5002" : {
+    "train_no" : "11000Z500200",
+    "trainCode" : "Z5002",
+    "terminalStation" : "长春",
+    "departureStation" : "乌兰浩特"
+  },
+  "Z6801" : {
+    "train_no" : "88000Z680102",
+    "trainCode" : "Z6801",
+    "terminalStation" : "拉萨",
+    "departureStation" : "西宁"
+  },
+  "Z8315" : {
+    "train_no" : "80000Z831501",
+    "trainCode" : "Z8315",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z85" : {
+    "train_no" : "4100000Z8808",
+    "trainCode" : "Z85",
+    "terminalStation" : "杭州",
+    "departureStation" : "西安"
+  },
+  "Z150" : {
+    "train_no" : "780000Z15003",
+    "trainCode" : "Z150",
+    "terminalStation" : "北京西",
+    "departureStation" : "贵阳"
+  },
+  "Z55" : {
+    "train_no" : "2400000Z550L",
+    "trainCode" : "Z55",
+    "terminalStation" : "兰州",
+    "departureStation" : "北京西"
+  },
+  "Z6208" : {
+    "train_no" : "86000Z620811",
+    "trainCode" : "Z6208",
+    "terminalStation" : "兰州",
+    "departureStation" : "张掖"
+  },
+  "Z25" : {
+    "train_no" : "3900000Z2501",
+    "trainCode" : "Z25",
+    "terminalStation" : "上海南",
+    "departureStation" : "武昌"
+  },
+  "Z163" : {
+    "train_no" : "880000Z16604",
+    "trainCode" : "Z163",
+    "terminalStation" : "上海",
+    "departureStation" : "拉萨"
+  },
+  "Z176" : {
+    "train_no" : "560000Z17605",
+    "trainCode" : "Z176",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "杭州"
+  },
+  "Z86" : {
+    "train_no" : "5600000Z8612",
+    "trainCode" : "Z86",
+    "terminalStation" : "西安",
+    "departureStation" : "杭州"
+  },
+  "Z189" : {
+    "train_no" : "380000Z18903",
+    "trainCode" : "Z189",
+    "terminalStation" : "广州",
+    "departureStation" : "郑州"
+  },
+  "Z56" : {
+    "train_no" : "8500000Z5663",
+    "trainCode" : "Z56",
+    "terminalStation" : "北京西",
+    "departureStation" : "兰州"
+  },
+  "Z367" : {
+    "train_no" : "540000Z36610",
+    "trainCode" : "Z367",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "南京"
+  },
+  "Z207" : {
+    "train_no" : "250000Z20603",
+    "trainCode" : "Z207",
+    "terminalStation" : "长沙",
+    "departureStation" : "天津"
+  },
+  "Z26" : {
+    "train_no" : "5500000Z2703",
+    "trainCode" : "Z26",
+    "terminalStation" : "武昌",
+    "departureStation" : "上海南"
+  },
+  "Z151" : {
+    "train_no" : "240000Z1510A",
+    "trainCode" : "Z151",
+    "terminalStation" : "西宁",
+    "departureStation" : "北京西"
+  },
+  "Z87" : {
+    "train_no" : "5600000Z8612",
+    "trainCode" : "Z87",
+    "terminalStation" : "西安",
+    "departureStation" : "杭州"
+  },
+  "Z57" : {
+    "train_no" : "5800000Z600D",
+    "trainCode" : "Z57",
+    "terminalStation" : "北京西",
+    "departureStation" : "福州"
+  },
+  "Z164" : {
+    "train_no" : "550000Z16401",
+    "trainCode" : "Z164",
+    "terminalStation" : "拉萨",
+    "departureStation" : "上海"
+  },
+  "Z27" : {
+    "train_no" : "5500000Z2703",
+    "trainCode" : "Z27",
+    "terminalStation" : "武昌",
+    "departureStation" : "上海南"
+  },
+  "Z6706" : {
+    "train_no" : "39000Z670608",
+    "trainCode" : "Z6706",
+    "terminalStation" : "襄阳",
+    "departureStation" : "武昌"
+  },
+  "Z177" : {
+    "train_no" : "560000Z17605",
+    "trainCode" : "Z177",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "杭州"
+  },
+  "Z368" : {
+    "train_no" : "0h0000Z36800",
+    "trainCode" : "Z368",
+    "terminalStation" : "南京",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z88" : {
+    "train_no" : "4100000Z8808",
+    "trainCode" : "Z88",
+    "terminalStation" : "杭州",
+    "departureStation" : "西安"
+  },
+  "Z5003" : {
+    "train_no" : "11000Z500301",
+    "trainCode" : "Z5003",
+    "terminalStation" : "白城",
+    "departureStation" : "长春"
+  },
+  "Z58" : {
+    "train_no" : "2400000Z590K",
+    "trainCode" : "Z58",
+    "terminalStation" : "福州",
+    "departureStation" : "北京西"
+  },
+  "Z208" : {
+    "train_no" : "620000Z20803",
+    "trainCode" : "Z208",
+    "terminalStation" : "天津",
+    "departureStation" : "长沙"
+  },
+  "Z28" : {
+    "train_no" : "3900000Z2501",
+    "trainCode" : "Z28",
+    "terminalStation" : "上海南",
+    "departureStation" : "武昌"
+  },
+  "Z8316" : {
+    "train_no" : "80000Z831602",
+    "trainCode" : "Z8316",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z152" : {
+    "train_no" : "880000Z15203",
+    "trainCode" : "Z152",
+    "terminalStation" : "北京西",
+    "departureStation" : "西宁"
+  },
+  "Z89" : {
+    "train_no" : "2600000Z8904",
+    "trainCode" : "Z89",
+    "terminalStation" : "广州",
+    "departureStation" : "石家庄"
+  },
+  "Z59" : {
+    "train_no" : "2400000Z590K",
+    "trainCode" : "Z59",
+    "terminalStation" : "福州",
+    "departureStation" : "北京西"
+  },
+  "Z165" : {
+    "train_no" : "550000Z16401",
+    "trainCode" : "Z165",
+    "terminalStation" : "拉萨",
+    "departureStation" : "上海"
+  },
+  "Z29" : {
+    "train_no" : "2400000Z290C",
+    "trainCode" : "Z29",
+    "terminalStation" : "扬州",
+    "departureStation" : "北京"
+  },
+  "Z178" : {
+    "train_no" : "0h0000Z17804",
+    "trainCode" : "Z178",
+    "terminalStation" : "杭州",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z140" : {
+    "train_no" : "5f0000Z14030",
+    "trainCode" : "Z140",
+    "terminalStation" : "北京",
+    "departureStation" : "南通"
+  },
+  "Z6541" : {
+    "train_no" : "33000Z654101",
+    "trainCode" : "Z6541",
+    "terminalStation" : "临河",
+    "departureStation" : "包头"
+  },
+  "Z6707" : {
+    "train_no" : "39000Z670608",
+    "trainCode" : "Z6707",
+    "terminalStation" : "襄阳",
+    "departureStation" : "武昌"
+  },
+  "Z166" : {
+    "train_no" : "880000Z16604",
+    "trainCode" : "Z166",
+    "terminalStation" : "上海",
+    "departureStation" : "拉萨"
+  },
+  "Z179" : {
+    "train_no" : "240000Z17908",
+    "trainCode" : "Z179",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "北京"
+  },
+  "Z5004" : {
+    "train_no" : "11000Z500401",
+    "trainCode" : "Z5004",
+    "terminalStation" : "长春",
+    "departureStation" : "白城"
+  },
+  "Z8317" : {
+    "train_no" : "80000Z831700",
+    "trainCode" : "Z8317",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z167" : {
+    "train_no" : "490000Z17003",
+    "trainCode" : "Z167",
+    "terminalStation" : "广州东",
+    "departureStation" : "青岛"
+  },
+  "Z9877" : {
+    "train_no" : "88000Z987703",
+    "trainCode" : "Z9877",
+    "terminalStation" : "德令哈",
+    "departureStation" : "西宁"
+  },
+  "Z918" : {
+    "train_no" : "880000Z91804",
+    "trainCode" : "Z918",
+    "terminalStation" : "兰州",
+    "departureStation" : "拉萨"
+  },
+  "Z320" : {
+    "train_no" : "330000Z32003",
+    "trainCode" : "Z320",
+    "terminalStation" : "大同",
+    "departureStation" : "包头"
+  },
+  "Z6708" : {
+    "train_no" : "42000Z670807",
+    "trainCode" : "Z6708",
+    "terminalStation" : "武昌",
+    "departureStation" : "襄阳"
+  },
+  "Z155" : {
+    "train_no" : "0h0000Z15800",
+    "trainCode" : "Z155",
+    "terminalStation" : "泰州",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z168" : {
+    "train_no" : "650000Z16804",
+    "trainCode" : "Z168",
+    "terminalStation" : "青岛",
+    "departureStation" : "广州东"
+  },
+  "Z6520" : {
+    "train_no" : "95000Z652010",
+    "trainCode" : "Z6520",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "伊宁"
+  },
+  "Z290" : {
+    "train_no" : "5e0000Z29011",
+    "trainCode" : "Z290",
+    "terminalStation" : "昆明",
+    "departureStation" : "宁波"
+  },
+  "Z5005" : {
+    "train_no" : "11000Z500500",
+    "trainCode" : "Z5005",
+    "terminalStation" : "白城",
+    "departureStation" : "长春"
+  },
+  "Z8318" : {
+    "train_no" : "80000Z831802",
+    "trainCode" : "Z8318",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z321" : {
+    "train_no" : "880000Z32401",
+    "trainCode" : "Z321",
+    "terminalStation" : "成都",
+    "departureStation" : "拉萨"
+  },
+  "Z1" : {
+    "train_no" : "24000000Z10C",
+    "trainCode" : "Z1",
+    "terminalStation" : "长沙",
+    "departureStation" : "北京西"
+  },
+  "Z156" : {
+    "train_no" : "5f0000Z15730",
+    "trainCode" : "Z156",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "泰州"
+  },
+  "Z2" : {
+    "train_no" : "62000000Z201",
+    "trainCode" : "Z2",
+    "terminalStation" : "北京西",
+    "departureStation" : "长沙"
+  },
+  "Z169" : {
+    "train_no" : "650000Z16804",
+    "trainCode" : "Z169",
+    "terminalStation" : "青岛",
+    "departureStation" : "广州东"
+  },
+  "Z9878" : {
+    "train_no" : "88000Z987803",
+    "trainCode" : "Z9878",
+    "terminalStation" : "西宁",
+    "departureStation" : "德令哈"
+  },
+  "Z3" : {
+    "train_no" : "24000000Z30I",
+    "trainCode" : "Z3",
+    "terminalStation" : "重庆北",
+    "departureStation" : "北京西"
+  },
+  "Z291" : {
+    "train_no" : "930000Z29402",
+    "trainCode" : "Z291",
+    "terminalStation" : "汉口",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z6519" : {
+    "train_no" : "93000Z651910",
+    "trainCode" : "Z6519",
+    "terminalStation" : "伊宁",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z8320" : {
+    "train_no" : "80000Z832001",
+    "trainCode" : "Z8320",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z4" : {
+    "train_no" : "77000000Z400",
+    "trainCode" : "Z4",
+    "terminalStation" : "北京西",
+    "departureStation" : "重庆北"
+  },
+  "Z322" : {
+    "train_no" : "760000Z32202",
+    "trainCode" : "Z322",
+    "terminalStation" : "拉萨",
+    "departureStation" : "成都"
+  },
+  "Z335" : {
+    "train_no" : "330000Z3380A",
+    "trainCode" : "Z335",
+    "terminalStation" : "南宁",
+    "departureStation" : "包头"
+  },
+  "Z5" : {
+    "train_no" : "24000000Z509",
+    "trainCode" : "Z5",
+    "terminalStation" : "南宁",
+    "departureStation" : "北京西"
+  },
+  "Z157" : {
+    "train_no" : "5f0000Z15730",
+    "trainCode" : "Z157",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "泰州"
+  },
+  "Z6" : {
+    "train_no" : "71000000Z602",
+    "trainCode" : "Z6",
+    "terminalStation" : "北京西",
+    "departureStation" : "南宁"
+  },
+  "Z292" : {
+    "train_no" : "390000Z29204",
+    "trainCode" : "Z292",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "汉口"
+  },
+  "Z5006" : {
+    "train_no" : "11000Z500600",
+    "trainCode" : "Z5006",
+    "terminalStation" : "长春",
+    "departureStation" : "白城"
+  },
+  "Z7" : {
+    "train_no" : "24000000Z707",
+    "trainCode" : "Z7",
+    "terminalStation" : "青岛北",
+    "departureStation" : "北京"
+  },
+  "Z8319" : {
+    "train_no" : "80000Z831902",
+    "trainCode" : "Z8319",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z323" : {
+    "train_no" : "760000Z32202",
+    "trainCode" : "Z323",
+    "terminalStation" : "拉萨",
+    "departureStation" : "成都"
+  },
+  "Z145" : {
+    "train_no" : "650000Z14803",
+    "trainCode" : "Z145",
+    "terminalStation" : "郑州",
+    "departureStation" : "深圳东"
+  },
+  "Z8" : {
+    "train_no" : "49000000Z803",
+    "trainCode" : "Z8",
+    "terminalStation" : "北京",
+    "departureStation" : "青岛北"
+  },
+  "Z336" : {
+    "train_no" : "710000Z33606",
+    "trainCode" : "Z336",
+    "terminalStation" : "包头",
+    "departureStation" : "南宁"
+  },
+  "Z158" : {
+    "train_no" : "0h0000Z15800",
+    "trainCode" : "Z158",
+    "terminalStation" : "泰州",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z9" : {
+    "train_no" : "24000000Z90I",
+    "trainCode" : "Z9",
+    "terminalStation" : "杭州",
+    "departureStation" : "北京"
+  },
+  "Z293" : {
+    "train_no" : "390000Z29204",
+    "trainCode" : "Z293",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "汉口"
+  },
+  "Z8321" : {
+    "train_no" : "80000Z832100",
+    "trainCode" : "Z8321",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z133" : {
+    "train_no" : "240000Z1330L",
+    "trainCode" : "Z133",
+    "terminalStation" : "井冈山",
+    "departureStation" : "北京西"
+  },
+  "Z324" : {
+    "train_no" : "880000Z32401",
+    "trainCode" : "Z324",
+    "terminalStation" : "成都",
+    "departureStation" : "拉萨"
+  },
+  "Z146" : {
+    "train_no" : "380000Z14607",
+    "trainCode" : "Z146",
+    "terminalStation" : "深圳东",
+    "departureStation" : "郑州"
+  },
+  "Z337" : {
+    "train_no" : "710000Z33606",
+    "trainCode" : "Z337",
+    "terminalStation" : "包头",
+    "departureStation" : "南宁"
+  },
+  "Z281" : {
+    "train_no" : "330000Z2840B",
+    "trainCode" : "Z281",
+    "terminalStation" : "杭州",
+    "departureStation" : "包头"
+  },
+  "Z294" : {
+    "train_no" : "930000Z29402",
+    "trainCode" : "Z294",
+    "terminalStation" : "汉口",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z134" : {
+    "train_no" : "570000Z1340H",
+    "trainCode" : "Z134",
+    "terminalStation" : "北京西",
+    "departureStation" : "井冈山"
+  },
+  "Z70" : {
+    "train_no" : "9300000Z7002",
+    "trainCode" : "Z70",
+    "terminalStation" : "北京西",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z147" : {
+    "train_no" : "380000Z14607",
+    "trainCode" : "Z147",
+    "terminalStation" : "深圳东",
+    "departureStation" : "郑州"
+  },
+  "Z40" : {
+    "train_no" : "5500000Z4061",
+    "trainCode" : "Z40",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "上海"
+  },
+  "Z10" : {
+    "train_no" : "5600000Z1020",
+    "trainCode" : "Z10",
+    "terminalStation" : "北京",
+    "departureStation" : "杭州"
+  },
+  "Z338" : {
+    "train_no" : "330000Z3380A",
+    "trainCode" : "Z338",
+    "terminalStation" : "南宁",
+    "departureStation" : "包头"
+  },
+  "Z282" : {
+    "train_no" : "560000Z28214",
+    "trainCode" : "Z282",
+    "terminalStation" : "包头",
+    "departureStation" : "杭州"
+  },
+  "Z71" : {
+    "train_no" : "2400000Z710A",
+    "trainCode" : "Z71",
+    "terminalStation" : "三明北",
+    "departureStation" : "北京"
+  },
+  "Z41" : {
+    "train_no" : "5500000Z4061",
+    "trainCode" : "Z41",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "上海"
+  },
+  "Z8322" : {
+    "train_no" : "80000Z832200",
+    "trainCode" : "Z8322",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z11" : {
+    "train_no" : "6500000Z1401",
+    "trainCode" : "Z11",
+    "terminalStation" : "沈阳北",
+    "departureStation" : "广州东"
+  },
+  "Z135" : {
+    "train_no" : "630000Z13806",
+    "trainCode" : "Z135",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "广州"
+  },
+  "Z72" : {
+    "train_no" : "5u00000Z7206",
+    "trainCode" : "Z72",
+    "terminalStation" : "北京",
+    "departureStation" : "三明北"
+  },
+  "Z148" : {
+    "train_no" : "650000Z14803",
+    "trainCode" : "Z148",
+    "terminalStation" : "郑州",
+    "departureStation" : "深圳东"
+  },
+  "Z42" : {
+    "train_no" : "9300000Z4204",
+    "trainCode" : "Z42",
+    "terminalStation" : "上海",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z12" : {
+    "train_no" : "1200000Z1206",
+    "trainCode" : "Z12",
+    "terminalStation" : "广州东",
+    "departureStation" : "沈阳北"
+  },
+  "Z270" : {
+    "train_no" : "330000Z26710",
+    "trainCode" : "Z270",
+    "terminalStation" : "上海",
+    "departureStation" : "呼和浩特"
+  },
+  "Z283" : {
+    "train_no" : "560000Z28214",
+    "trainCode" : "Z283",
+    "terminalStation" : "包头",
+    "departureStation" : "杭州"
+  },
+  "Z43" : {
+    "train_no" : "2400000Z4304",
+    "trainCode" : "Z43",
+    "terminalStation" : "西安",
+    "departureStation" : "北京西"
+  },
+  "Z13" : {
+    "train_no" : "1200000Z1206",
+    "trainCode" : "Z13",
+    "terminalStation" : "广州东",
+    "departureStation" : "沈阳北"
+  },
+  "Z136" : {
+    "train_no" : "930000Z13602",
+    "trainCode" : "Z136",
+    "terminalStation" : "广州",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z6501" : {
+    "train_no" : "94000Z650410",
+    "trainCode" : "Z6501",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒"
+  },
+  "Z149" : {
+    "train_no" : "240000Z14907",
+    "trainCode" : "Z149",
+    "terminalStation" : "贵阳",
+    "departureStation" : "北京西"
+  },
+  "Z44" : {
+    "train_no" : "4100000Z4406",
+    "trainCode" : "Z44",
+    "terminalStation" : "北京西",
+    "departureStation" : "西安"
+  },
+  "Z14" : {
+    "train_no" : "6500000Z1401",
+    "trainCode" : "Z14",
+    "terminalStation" : "沈阳北",
+    "departureStation" : "广州东"
+  },
+  "Z271" : {
+    "train_no" : "880000Z27403",
+    "trainCode" : "Z271",
+    "terminalStation" : "青岛",
+    "departureStation" : "西宁"
+  },
+  "Z284" : {
+    "train_no" : "330000Z2840B",
+    "trainCode" : "Z284",
+    "terminalStation" : "杭州",
+    "departureStation" : "包头"
+  },
+  "Z111" : {
+    "train_no" : "0h0000Z11401",
+    "trainCode" : "Z111",
+    "terminalStation" : "海口",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z75" : {
+    "train_no" : "2400000Z7508",
+    "trainCode" : "Z75",
+    "terminalStation" : "兰州",
+    "departureStation" : "北京西"
+  },
+  "Z45" : {
+    "train_no" : "3900000Z4501",
+    "trainCode" : "Z45",
+    "terminalStation" : "杭州",
+    "departureStation" : "武昌"
+  },
+  "Z15" : {
+    "train_no" : "2400000Z1500",
+    "trainCode" : "Z15",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "北京"
+  },
+  "Z137" : {
+    "train_no" : "930000Z13602",
+    "trainCode" : "Z137",
+    "terminalStation" : "广州",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z76" : {
+    "train_no" : "8500000Z7600",
+    "trainCode" : "Z76",
+    "terminalStation" : "北京西",
+    "departureStation" : "兰州"
+  },
+  "Z46" : {
+    "train_no" : "5600000Z4700",
+    "trainCode" : "Z46",
+    "terminalStation" : "武昌",
+    "departureStation" : "杭州"
+  },
+  "Z272" : {
+    "train_no" : "490000Z27203",
+    "trainCode" : "Z272",
+    "terminalStation" : "西宁",
+    "departureStation" : "青岛"
+  },
+  "Z16" : {
+    "train_no" : "0h00000Z1600",
+    "trainCode" : "Z16",
+    "terminalStation" : "北京",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z285" : {
+    "train_no" : "240000Z2850A",
+    "trainCode" : "Z285",
+    "terminalStation" : "南宁",
+    "departureStation" : "北京西"
+  },
+  "Z112" : {
+    "train_no" : "6b0000Z11205",
+    "trainCode" : "Z112",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "海口"
+  },
+  "Z77" : {
+    "train_no" : "2400000Z770G",
+    "trainCode" : "Z77",
+    "terminalStation" : "贵阳",
+    "departureStation" : "北京西"
+  },
+  "Z125" : {
+    "train_no" : "850000Z12811",
+    "trainCode" : "Z125",
+    "terminalStation" : "厦门",
+    "departureStation" : "兰州"
+  },
+  "Z47" : {
+    "train_no" : "5600000Z4700",
+    "trainCode" : "Z47",
+    "terminalStation" : "武昌",
+    "departureStation" : "杭州"
+  },
+  "Z6502" : {
+    "train_no" : "93000Z650210",
+    "trainCode" : "Z6502",
+    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z17" : {
+    "train_no" : "2400000Z1730",
+    "trainCode" : "Z17",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "北京"
+  },
+  "Z138" : {
+    "train_no" : "630000Z13806",
+    "trainCode" : "Z138",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "广州"
+  },
+  "Z78" : {
+    "train_no" : "7800000Z7802",
+    "trainCode" : "Z78",
+    "terminalStation" : "北京西",
+    "departureStation" : "贵阳"
+  },
+  "Z48" : {
+    "train_no" : "3900000Z4501",
+    "trainCode" : "Z48",
+    "terminalStation" : "杭州",
+    "departureStation" : "武昌"
+  },
+  "Z100" : {
+    "train_no" : "650000Z10002",
+    "trainCode" : "Z100",
+    "terminalStation" : "上海",
+    "departureStation" : "广州东"
+  },
+  "Z18" : {
+    "train_no" : "0h00000Z1801",
+    "trainCode" : "Z18",
+    "terminalStation" : "北京",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z286" : {
+    "train_no" : "710000Z28603",
+    "trainCode" : "Z286",
+    "terminalStation" : "北京西",
+    "departureStation" : "南宁"
+  },
+  "Z113" : {
+    "train_no" : "6b0000Z11205",
+    "trainCode" : "Z113",
+    "terminalStation" : "哈尔滨西",
+    "departureStation" : "海口"
+  },
+  "Z273" : {
+    "train_no" : "490000Z27203",
+    "trainCode" : "Z273",
+    "terminalStation" : "西宁",
+    "departureStation" : "青岛"
+  },
+  "Z126" : {
+    "train_no" : "580000Z12607",
+    "trainCode" : "Z126",
+    "terminalStation" : "兰州",
+    "departureStation" : "厦门"
+  },
+  "Z79" : {
+    "train_no" : "2400000Z7909",
+    "trainCode" : "Z79",
+    "terminalStation" : "大连",
+    "departureStation" : "北京"
+  },
+  "Z49" : {
+    "train_no" : "2400000Z490E",
+    "trainCode" : "Z49",
+    "terminalStation" : "成都",
+    "departureStation" : "北京西"
+  },
+  "Z139" : {
+    "train_no" : "240000Z1390C",
+    "trainCode" : "Z139",
+    "terminalStation" : "南通",
+    "departureStation" : "北京"
+  },
+  "Z19" : {
+    "train_no" : "2400000Z190H",
+    "trainCode" : "Z19",
+    "terminalStation" : "西安",
+    "departureStation" : "北京西"
+  },
+  "Z317" : {
+    "train_no" : "240000Z3170A",
+    "trainCode" : "Z317",
+    "terminalStation" : "包头",
+    "departureStation" : "北京"
+  },
+  "Z274" : {
+    "train_no" : "880000Z27403",
+    "trainCode" : "Z274",
+    "terminalStation" : "青岛",
+    "departureStation" : "西宁"
+  },
+  "Z101" : {
+    "train_no" : "580000Z1040D",
+    "trainCode" : "Z101",
+    "terminalStation" : "长春",
+    "departureStation" : "厦门"
+  },
+  "Z287" : {
+    "train_no" : "5e0000Z29011",
+    "trainCode" : "Z287",
+    "terminalStation" : "昆明",
+    "departureStation" : "宁波"
+  },
+  "Z114" : {
+    "train_no" : "0h0000Z11401",
+    "trainCode" : "Z114",
+    "terminalStation" : "海口",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z127" : {
+    "train_no" : "580000Z12607",
+    "trainCode" : "Z127",
+    "terminalStation" : "兰州",
+    "departureStation" : "厦门"
+  },
+  "Z6503" : {
+    "train_no" : "93000Z650210",
+    "trainCode" : "Z6503",
+    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z318" : {
+    "train_no" : "330000Z3180B",
+    "trainCode" : "Z318",
+    "terminalStation" : "北京",
+    "departureStation" : "包头"
+  },
+  "Z275" : {
+    "train_no" : "870000Z27513",
+    "trainCode" : "Z275",
+    "terminalStation" : "北京西",
+    "departureStation" : "银川"
+  },
+  "Z102" : {
+    "train_no" : "110000Z10206",
+    "trainCode" : "Z102",
+    "terminalStation" : "厦门",
+    "departureStation" : "长春"
+  },
+  "Z6811" : {
+    "train_no" : "88000Z681106",
+    "trainCode" : "Z6811",
+    "terminalStation" : "拉萨",
+    "departureStation" : "西宁"
+  },
+  "Z288" : {
+    "train_no" : "800000Z28802",
+    "trainCode" : "Z288",
+    "terminalStation" : "宁波",
+    "departureStation" : "昆明"
+  },
+  "Z128" : {
+    "train_no" : "850000Z12811",
+    "trainCode" : "Z128",
+    "terminalStation" : "厦门",
+    "departureStation" : "兰州"
+  },
+  "Z7805" : {
+    "train_no" : "28000Z780502",
+    "trainCode" : "Z7805",
+    "terminalStation" : "太原",
+    "departureStation" : "大同"
+  },
+  "Z319" : {
+    "train_no" : "280000Z31903",
+    "trainCode" : "Z319",
+    "terminalStation" : "包头",
+    "departureStation" : "大同"
+  },
+  "Z8303" : {
+    "train_no" : "80000Z830303",
+    "trainCode" : "Z8303",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z263" : {
+    "train_no" : "880000Z26606",
+    "trainCode" : "Z263",
+    "terminalStation" : "广州",
+    "departureStation" : "拉萨"
+  },
+  "Z276" : {
+    "train_no" : "240000Z27708",
+    "trainCode" : "Z276",
+    "terminalStation" : "银川",
+    "departureStation" : "北京西"
+  },
+  "Z103" : {
+    "train_no" : "110000Z10206",
+    "trainCode" : "Z103",
+    "terminalStation" : "厦门",
+    "departureStation" : "长春"
+  },
+  "Z289" : {
+    "train_no" : "800000Z28802",
+    "trainCode" : "Z289",
+    "terminalStation" : "宁波",
+    "departureStation" : "昆明"
+  },
+  "Z307" : {
+    "train_no" : "240000Z30709",
+    "trainCode" : "Z307",
+    "terminalStation" : "厦门",
+    "departureStation" : "北京西"
+  },
+  "Z6504" : {
+    "train_no" : "94000Z650410",
+    "trainCode" : "Z6504",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒"
+  },
+  "Z8801" : {
+    "train_no" : "88000Z88010A",
+    "trainCode" : "Z8801",
+    "terminalStation" : "日喀则",
+    "departureStation" : "拉萨"
+  },
+  "Z264" : {
+    "train_no" : "630000Z26404",
+    "trainCode" : "Z264",
+    "terminalStation" : "拉萨",
+    "departureStation" : "广州"
+  },
+  "Z277" : {
+    "train_no" : "240000Z27708",
+    "trainCode" : "Z277",
+    "terminalStation" : "银川",
+    "departureStation" : "北京西"
+  },
+  "Z104" : {
+    "train_no" : "580000Z1040D",
+    "trainCode" : "Z104",
+    "terminalStation" : "长春",
+    "departureStation" : "厦门"
+  },
+  "Z6812" : {
+    "train_no" : "88000Z681205",
+    "trainCode" : "Z6812",
+    "terminalStation" : "西宁",
+    "departureStation" : "拉萨"
+  },
+  "Z117" : {
+    "train_no" : "240000Z1170B",
+    "trainCode" : "Z117",
+    "terminalStation" : "吉林",
+    "departureStation" : "北京"
+  },
+  "Z308" : {
+    "train_no" : "580000Z30805",
+    "trainCode" : "Z308",
+    "terminalStation" : "北京西",
+    "departureStation" : "厦门"
+  },
+  "Z7806" : {
+    "train_no" : "27000Z780602",
+    "trainCode" : "Z7806",
+    "terminalStation" : "大同",
+    "departureStation" : "太原"
+  },
+  "Z8304" : {
+    "train_no" : "80000Z830403",
+    "trainCode" : "Z8304",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z252" : {
+    "train_no" : "550000Z25201",
+    "trainCode" : "Z252",
+    "terminalStation" : "西安",
+    "departureStation" : "上海"
+  },
+  "Z265" : {
+    "train_no" : "630000Z26404",
+    "trainCode" : "Z265",
+    "terminalStation" : "拉萨",
+    "departureStation" : "广州"
+  },
+  "Z278" : {
+    "train_no" : "870000Z27513",
+    "trainCode" : "Z278",
+    "terminalStation" : "北京西",
+    "departureStation" : "银川"
+  },
+  "Z105" : {
+    "train_no" : "470000Z10505",
+    "trainCode" : "Z105",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "济南"
+  },
+  "Z118" : {
+    "train_no" : "180000Z11804",
+    "trainCode" : "Z118",
+    "terminalStation" : "北京",
+    "departureStation" : "吉林"
+  },
+  "Z6505" : {
+    "train_no" : "94000Z650810",
+    "trainCode" : "Z6505",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒"
+  },
+  "Z253" : {
+    "train_no" : "550000Z25201",
+    "trainCode" : "Z253",
+    "terminalStation" : "西安",
+    "departureStation" : "上海"
+  },
+  "Z8802" : {
+    "train_no" : "88000Z88020A",
+    "trainCode" : "Z8802",
+    "terminalStation" : "拉萨",
+    "departureStation" : "日喀则"
+  },
+  "Z266" : {
+    "train_no" : "880000Z26606",
+    "trainCode" : "Z266",
+    "terminalStation" : "广州",
+    "departureStation" : "拉萨"
+  },
+  "Z106" : {
+    "train_no" : "930000Z10603",
+    "trainCode" : "Z106",
+    "terminalStation" : "济南",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z267" : {
+    "train_no" : "330000Z26710",
+    "trainCode" : "Z267",
+    "terminalStation" : "上海",
+    "departureStation" : "呼和浩特"
+  },
+  "Z107" : {
+    "train_no" : "240000Z1070C",
+    "trainCode" : "Z107",
+    "terminalStation" : "深圳",
+    "departureStation" : "北京西"
+  },
+  "Z6506" : {
+    "train_no" : "93000Z650610",
+    "trainCode" : "Z6506",
+    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z8803" : {
+    "train_no" : "88000Z880306",
+    "trainCode" : "Z8803",
+    "terminalStation" : "日喀则",
+    "departureStation" : "拉萨"
+  },
+  "Z255" : {
+    "train_no" : "770000Z25802",
+    "trainCode" : "Z255",
+    "terminalStation" : "上海南",
+    "departureStation" : "重庆北"
+  },
+  "Z268" : {
+    "train_no" : "550000Z26810",
+    "trainCode" : "Z268",
+    "terminalStation" : "呼和浩特",
+    "departureStation" : "上海"
+  },
+  "Z90" : {
+    "train_no" : "6300000Z9001",
+    "trainCode" : "Z90",
+    "terminalStation" : "石家庄",
+    "departureStation" : "广州"
+  },
+  "Z60" : {
+    "train_no" : "5800000Z600D",
+    "trainCode" : "Z60",
+    "terminalStation" : "北京西",
+    "departureStation" : "福州"
+  },
+  "Z108" : {
+    "train_no" : "650000Z10804",
+    "trainCode" : "Z108",
+    "terminalStation" : "北京西",
+    "departureStation" : "深圳"
+  },
+  "Z30" : {
+    "train_no" : "5f00000Z3061",
+    "trainCode" : "Z30",
+    "terminalStation" : "北京",
+    "departureStation" : "扬州"
+  },
+  "Z230" : {
+    "train_no" : "650000Z23002",
+    "trainCode" : "Z230",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "深圳"
+  },
+  "Z91" : {
+    "train_no" : "4100000Z940D",
+    "trainCode" : "Z91",
+    "terminalStation" : "上海",
+    "departureStation" : "西安"
+  },
+  "Z8306" : {
+    "train_no" : "80000Z830603",
+    "trainCode" : "Z8306",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z61" : {
+    "train_no" : "2400000Z610F",
+    "trainCode" : "Z61",
+    "terminalStation" : "长春",
+    "departureStation" : "北京"
+  },
+  "Z256" : {
+    "train_no" : "550000Z25710",
+    "trainCode" : "Z256",
+    "terminalStation" : "重庆北",
+    "departureStation" : "上海南"
+  },
+  "Z31" : {
+    "train_no" : "3900000Z3103",
+    "trainCode" : "Z31",
+    "terminalStation" : "宁波",
+    "departureStation" : "武昌"
+  },
+  "Z269" : {
+    "train_no" : "550000Z26810",
+    "trainCode" : "Z269",
+    "terminalStation" : "呼和浩特",
+    "departureStation" : "上海"
+  },
+  "Z92" : {
+    "train_no" : "5500000Z9230",
+    "trainCode" : "Z92",
+    "terminalStation" : "西安",
+    "departureStation" : "上海"
+  },
+  "Z62" : {
+    "train_no" : "1100000Z6208",
+    "trainCode" : "Z62",
+    "terminalStation" : "北京",
+    "departureStation" : "长春"
+  },
+  "Z32" : {
+    "train_no" : "5e00000Z3203",
+    "trainCode" : "Z32",
+    "terminalStation" : "武昌",
+    "departureStation" : "宁波"
+  },
+  "Z231" : {
+    "train_no" : "650000Z23002",
+    "trainCode" : "Z231",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "深圳"
+  },
+  "Z6507" : {
+    "train_no" : "93000Z650610",
+    "trainCode" : "Z6507",
+    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z93" : {
+    "train_no" : "5500000Z9230",
+    "trainCode" : "Z93",
+    "terminalStation" : "西安",
+    "departureStation" : "上海"
+  },
+  "Z8804" : {
+    "train_no" : "88000Z880406",
+    "trainCode" : "Z8804",
+    "terminalStation" : "拉萨",
+    "departureStation" : "日喀则"
+  },
+  "Z257" : {
+    "train_no" : "550000Z25710",
+    "trainCode" : "Z257",
+    "terminalStation" : "重庆北",
+    "departureStation" : "上海南"
+  },
+  "Z63" : {
+    "train_no" : "2400000Z630C",
+    "trainCode" : "Z63",
+    "terminalStation" : "长春",
+    "departureStation" : "北京"
+  },
+  "Z33" : {
+    "train_no" : "5e00000Z3203",
+    "trainCode" : "Z33",
+    "terminalStation" : "武昌",
+    "departureStation" : "宁波"
+  },
+  "Z94" : {
+    "train_no" : "4100000Z940D",
+    "trainCode" : "Z94",
+    "terminalStation" : "上海",
+    "departureStation" : "西安"
+  },
+  "Z64" : {
+    "train_no" : "1100000Z6403",
+    "trainCode" : "Z64",
+    "terminalStation" : "北京",
+    "departureStation" : "长春"
+  },
+  "Z232" : {
+    "train_no" : "930000Z23201",
+    "trainCode" : "Z232",
+    "terminalStation" : "深圳",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z34" : {
+    "train_no" : "3900000Z3103",
+    "trainCode" : "Z34",
+    "terminalStation" : "宁波",
+    "departureStation" : "武昌"
+  },
+  "Z601" : {
+    "train_no" : "240000Z60107",
+    "trainCode" : "Z601",
+    "terminalStation" : "菏泽",
+    "departureStation" : "北京"
+  },
+  "Z245" : {
+    "train_no" : "620000Z24501",
+    "trainCode" : "Z245",
+    "terminalStation" : "上海南",
+    "departureStation" : "长沙"
+  },
+  "Z8307" : {
+    "train_no" : "80000Z830702",
+    "trainCode" : "Z8307",
+    "terminalStation" : "昆明",
+    "departureStation" : "曲靖"
+  },
+  "Z95" : {
+    "train_no" : "2400000Z9504",
+    "trainCode" : "Z95",
+    "terminalStation" : "重庆北",
+    "departureStation" : "北京西"
+  },
+  "Z258" : {
+    "train_no" : "770000Z25802",
+    "trainCode" : "Z258",
+    "terminalStation" : "上海南",
+    "departureStation" : "重庆北"
+  },
+  "Z65" : {
+    "train_no" : "2400000Z650K",
+    "trainCode" : "Z65",
+    "terminalStation" : "南昌",
+    "departureStation" : "北京西"
+  },
+  "Z35" : {
+    "train_no" : "2400000Z3501",
+    "trainCode" : "Z35",
+    "terminalStation" : "广州",
+    "departureStation" : "北京西"
+  },
+  "Z96" : {
+    "train_no" : "7700000Z9602",
+    "trainCode" : "Z96",
+    "terminalStation" : "北京西",
+    "departureStation" : "重庆北"
+  },
+  "Z6508" : {
+    "train_no" : "94000Z650810",
+    "trainCode" : "Z6508",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒"
+  },
+  "Z66" : {
+    "train_no" : "5700000Z660E",
+    "trainCode" : "Z66",
+    "terminalStation" : "北京西",
+    "departureStation" : "南昌"
+  },
+  "Z36" : {
+    "train_no" : "6300000Z3600",
+    "trainCode" : "Z36",
+    "terminalStation" : "北京西",
+    "departureStation" : "广州"
+  },
+  "Z602" : {
+    "train_no" : "470000Z60203",
+    "trainCode" : "Z602",
+    "terminalStation" : "北京",
+    "departureStation" : "菏泽"
+  },
+  "Z246" : {
+    "train_no" : "550000Z24710",
+    "trainCode" : "Z246",
+    "terminalStation" : "长沙",
+    "departureStation" : "上海南"
+  },
+  "Z97" : {
+    "train_no" : "2400000Z9703",
+    "trainCode" : "Z97",
+    "terminalStation" : "广州东",
+    "departureStation" : "北京西"
+  },
+  "Z67" : {
+    "train_no" : "2400000Z670M",
+    "trainCode" : "Z67",
+    "terminalStation" : "南昌",
+    "departureStation" : "北京西"
+  },
+  "Z190" : {
+    "train_no" : "630000Z19002",
+    "trainCode" : "Z190",
+    "terminalStation" : "郑州",
+    "departureStation" : "广州"
+  },
+  "Z37" : {
+    "train_no" : "2400000Z3708",
+    "trainCode" : "Z37",
+    "terminalStation" : "武昌",
+    "departureStation" : "北京西"
+  },
+  "Z6510" : {
+    "train_no" : "93000Z651010",
+    "trainCode" : "Z6510",
+    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z98" : {
+    "train_no" : "6500000Z9805",
+    "trainCode" : "Z98",
+    "terminalStation" : "北京西",
+    "departureStation" : "九龙"
+  },
+  "Z68" : {
+    "train_no" : "5700000Z680G",
+    "trainCode" : "Z68",
+    "terminalStation" : "北京西",
+    "departureStation" : "南昌"
+  },
+  "Z8308" : {
+    "train_no" : "80000Z830804",
+    "trainCode" : "Z8308",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z38" : {
+    "train_no" : "3900000Z3802",
+    "trainCode" : "Z38",
+    "terminalStation" : "北京西",
+    "departureStation" : "武昌"
+  },
+  "Z247" : {
+    "train_no" : "550000Z24710",
+    "trainCode" : "Z247",
+    "terminalStation" : "长沙",
+    "departureStation" : "上海南"
+  },
+  "Z99" : {
+    "train_no" : "5500000Z9930",
+    "trainCode" : "Z99",
+    "terminalStation" : "九龙",
+    "departureStation" : "上海"
+  },
+  "Z191" : {
+    "train_no" : "120000Z19405",
+    "trainCode" : "Z191",
+    "terminalStation" : "太原",
+    "departureStation" : "沈阳北"
+  },
+  "Z69" : {
+    "train_no" : "2400000Z690D",
+    "trainCode" : "Z69",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "北京西"
+  },
+  "Z39" : {
+    "train_no" : "9300000Z4204",
+    "trainCode" : "Z39",
+    "terminalStation" : "上海",
+    "departureStation" : "乌鲁木齐"
+  },
+  "Z6509" : {
+    "train_no" : "94000Z651210",
+    "trainCode" : "Z6509",
+    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒"
+  },
+  "Z8310" : {
+    "train_no" : "80000Z831002",
+    "trainCode" : "Z8310",
+    "terminalStation" : "曲靖",
+    "departureStation" : "昆明"
+  },
+  "Z235" : {
+    "train_no" : "0h0000Z23803",
+    "trainCode" : "Z235",
+    "terminalStation" : "广州东",
+    "departureStation" : "哈尔滨西"
+  },
+  "Z248" : {
+    "train_no" : "620000Z24501",
+    "trainCode" : "Z248",
+    "terminalStation" : "上海南",
+    "departureStation" : "长沙"
+  },
+  "Z192" : {
+    "train_no" : "270000Z19204",
+    "trainCode" : "Z192",
+    "terminalStation" : "沈阳北",
+    "departureStation" : "太原"
+  }
+}
