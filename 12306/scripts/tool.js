@@ -1,5 +1,8 @@
 module.exports = {
     currentDate: currentDate(),
+    currentYear: currentYear(),
+    currentMonth: currentMonth(),
+    currentDay: currentDay(),
     excessTicket: excessTicket
 }
 
@@ -21,7 +24,7 @@ function currentDate() {
         nowMonth = "0" + nowMonth;
     }
 
-    // 对月份进行处理，1-9号在前面添加一个“0”
+    // 对日期进行处理，1-9号在前面添加一个“0”
     if (strDate >= 0 && strDate <= 9) {
         strDate = "0" + strDate;
     }
@@ -29,6 +32,40 @@ function currentDate() {
     // 最后拼接字符串，得到一个格式为(yyyy-MM-dd)的日期
     var nowDate = date.getFullYear() + seperator + nowMonth + seperator + strDate;
     return nowDate
+}
+
+function currentYear() {
+    // 获取当前日期
+    var date = new Date();
+    $console.info(date.getFullYear())
+    return date.getFullYear()
+}
+
+function currentMonth() {
+    // 获取当前日期
+    var date = new Date();
+    // 获取当前月份
+    var nowMonth = date.getMonth() + 1;
+
+    // 对月份进行处理，1-9月在前面添加一个“0”
+    if (nowMonth >= 1 && nowMonth <= 9) {
+        nowMonth = "0" + nowMonth;
+    }
+    $console.info(nowMonth)
+    return nowMonth
+}
+
+function currentDay() {
+    // 获取当前日期
+    var date = new Date();
+    // 获取当前是几号
+    var strDate = date.getDate();
+    // 对日期进行处理，1-9号在前面添加一个“0”
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    $console.info(strDate)
+    return strDate
 }
 
 function excessTicket(resultTuple) {

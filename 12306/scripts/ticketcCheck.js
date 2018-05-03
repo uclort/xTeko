@@ -56,7 +56,7 @@ function showTicketcCheck() {
                     layout: function(make, view) {
                         make.top.equalTo($("station_code").bottom).offset(10)
                         make.left.equalTo($("station_code").left)
-                        make.right.equalTo($("stopover_time").left).offset(-50)
+                        make.right.equalTo($("stopover_time").left).offset(-80)
                     }
                 }]
             },
