@@ -1,3 +1,5 @@
+scriptVersion = 1.1
+
 var timetable = require('scripts/timetable')
 var ticketcCheck = require('scripts/ticketcCheck')
 var tool = require('scripts/tool')
@@ -13,7 +15,6 @@ module.exports.render = function render() {
                 type: "input",
                 props: {
                     id: "departureStation",
-                    text: "北京",
                     placeholder: "出发地"
                 },
                 layout: function(make) {
@@ -25,7 +26,6 @@ module.exports.render = function render() {
                 type: "input",
                 props: {
                     id: "terminalStation",
-                    text: "沧州",
                     placeholder: "目的地"
                 },
                 layout: function(make) {
@@ -97,6 +97,40 @@ function search() {
             $console.info(resultGroup)
             ticketcCheck.showTicketcCheck()
             ticketcCheck.giveData(resultGroup)
+        }
+    })
+}
+
+
+checkupVersion()
+
+//检查版本
+function checkupVersion() {
+    $http.get({
+        url: "https://raw.githubusercontent.com/mTerminal/xTeko/master/12306/UpdateInfo",
+        handler: function(resp) {
+            $console.info(resp.data)
+            var version = resp.data.version;
+            var message = resp.data.message;
+            if (version > scriptVersion) {
+                $ui.alert({
+                    title: "发现新版本",
+                    message: message,
+                    actions: [{
+                            title: "忽略",
+                            handler: function() {}
+                        },
+                        {
+                            title: "更新",
+                            handler: function() {
+                                var url = "jsbox://install?name=12306&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/12306/12306.box"
+                                $app.openURL(encodeURI(url))
+                                $app.close()
+                            }
+                        }
+                    ]
+                })
+            }
         }
     })
 }
