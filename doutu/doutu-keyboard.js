@@ -322,10 +322,12 @@ function setPicData(data) {
             }
         }
     }
-
-    $("matrix").data = dataTuple.map(function(item) {
+    var sdfs = dataTuple.map(function(item) {
         return { image: { src: item }, label: { text: item } }
     })
+    $console.info(sdfs)
+
+    $("matrix").data = sdfs
 
     $("matrix").scrollTo({
         indexPath: $indexPath(0, 0),
