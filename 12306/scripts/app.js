@@ -1,4 +1,4 @@
-scriptVersion = 1.1
+scriptVersion = 1.2
 
 var timetable = require('scripts/timetable')
 var ticketcCheck = require('scripts/ticketcCheck')
@@ -66,7 +66,8 @@ module.exports.render = function render() {
                 },
                 events: {
                     tapped: function(sender) {
-                        $("input").blur()
+                        $("departureStation").blur()
+                        $("terminalStation").blur()
                         timetable.showTimeTable()
                     }
 

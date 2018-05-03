@@ -1,4 +1,4 @@
 {
-    "version":1.1,
-    "message":"测试升级"
+    "version":1.2,
+    "message":"解决点击时刻表无效的问题"
 }
