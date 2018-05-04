@@ -25,6 +25,17 @@ function showTimeTable() {
                 layout: function(make) {
                     make.left.top.inset(10)
                     make.height.equalTo(32)
+                },
+                events: {
+                    ready: function(sender) {
+                        if ($cache.get("oldCode")) {
+                            sender.text = $cache.get("oldCode")
+                        }
+                    },
+                    returned: function(sender) {
+                        var firstWord = sender.text.slice(0, 1).toUpperCase()
+                        search(objectSetting(firstWord))
+                    }
                 }
             },
             {
@@ -43,6 +54,7 @@ function showTimeTable() {
                         $("input").blur()
                         var firstWord = $("input").text.slice(0, 1).toUpperCase()
                         search(objectSetting(firstWord))
+                        $cache.set("oldCode", $("input").text)
                     }
                 }
             }, {
