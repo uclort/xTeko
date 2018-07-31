@@ -197,7 +197,7 @@ function search(object) {
         url: url,
         handler: function(resp) {
             $ui.loading(false)
-            setNavigationTitle(object[train_Code].departureStation + "-" + object[train_Code].terminalStation)
+            // setNavigationTitle(object[train_Code].departureStation + "-" + object[train_Code].terminalStation)
             format(resp.data.data.data, object[train_Code].departureStation + "-" + object[train_Code].terminalStation)
         }
     })

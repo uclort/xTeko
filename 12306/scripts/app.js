@@ -1,4 +1,4 @@
-scriptVersion = 1.4
+scriptVersion = 1.5
 
 var timetable = require('scripts/timetable')
 var ticketcCheck = require('scripts/ticketcCheck')
