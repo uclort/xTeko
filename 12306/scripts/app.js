@@ -1,4 +1,4 @@
-scriptVersion = 1.5
+scriptVersion = 1.6
 
 var timetable = require('scripts/timetable')
 var ticketcCheck = require('scripts/ticketcCheck')
@@ -175,11 +175,12 @@ checkupVersion()
 //检查版本
 function checkupVersion() {
     $http.get({
-        url: "https://raw.githubusercontent.com/mTerminal/xTeko/master/12306/UpdateInfo",
+        url: "https://raw.githubusercontent.com/0x00000cc/xTeko/master/12306/UpdateInfo",
         handler: function(resp) {
             $console.info(resp.data)
-            var version = resp.data.version;
-            var message = resp.data.message;
+            var version = resp.data.version
+            var message = resp.data.message
+            var updateUrl = resp.data.updateUrl
             if (version > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",
@@ -191,8 +192,7 @@ function checkupVersion() {
                         {
                             title: "更新",
                             handler: function() {
-                                var url = "jsbox://install?name=12306&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/12306/.output/12306.box"
-                                $app.openURL(encodeURI(url))
+                                $app.openURL(encodeURI(updateUrl))
                                 $app.close()
                             }
                         }
