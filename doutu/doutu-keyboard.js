@@ -94,12 +94,12 @@ $ui.render({
             },
             events: {
                 ready: function(sender) {
-                    if ($clipboard.text) {
-                        sender.text = $clipboard.text
-                        $delay(0.5, function() {
-                            search()
-                        })
-                    }
+                    // if ($clipboard.text) {
+                    //     sender.text = $clipboard.text
+                    //     $delay(0.5, function() {
+                    //         search()
+                    //     })
+                    // }
                 },
                 returned: function(sender) {
                     mime = 0
