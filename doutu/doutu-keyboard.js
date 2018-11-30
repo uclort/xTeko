@@ -251,7 +251,7 @@ $ui.render({
             props: {
                 id: "label-loading",
                 lines: 0,
-                text: "请粘贴or输入剪贴板关键字\n点击搜索",
+                text: "请粘贴剪贴板内容 or 输入关键字\n点击搜索",
                 bgcolor: $color("#FFFFFF"),
                 align: $align.center
             },
