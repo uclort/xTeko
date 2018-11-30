@@ -251,7 +251,7 @@ $ui.render({
             props: {
                 id: "label-loading",
                 lines: 0,
-                text: "请粘贴剪贴板关键字\n点击搜索",
+                text: "请粘贴or输入剪贴板关键字\n点击搜索",
                 bgcolor: $color("#FFFFFF"),
                 align: $align.center
             },
@@ -338,11 +338,12 @@ function setPicData(data) {
 //检查版本
 function checkupVersion() {
     $http.get({
-        url: "https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/UpdateInfo",
+        url: "https://raw.githubusercontent.com/0x00000cc/xTeko/master/doutu/UpdateInfo",
         handler: function(resp) {
             $console.info(resp.data)
             var version = resp.data.version;
             var message = resp.data.message;
+            var updateUrl = resp.data.updateUrl;
             if (version > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",
@@ -354,8 +355,7 @@ function checkupVersion() {
                         {
                             title: "更新",
                             handler: function() {
-                                var url = "jsbox://import?name=doutu-keyboard&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/doutu/doutu-keyboard.js" + "&icon=icon_055.png"
-                                $app.openURL(encodeURI(url))
+                                $app.openURL(encodeURI(updateUrl))
                                 $app.close()
                             }
                         }
