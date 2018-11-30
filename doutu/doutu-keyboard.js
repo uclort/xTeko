@@ -354,7 +354,7 @@ function checkupVersion() {
                         {
                             title: "更新",
                             handler: function() {
-                                var url = "jsbox://install?name=doutu-keyboard&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&icon=icon_055.png"
+                                var url = "jsbox://import?name=doutu-keyboard&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/doutu/doutu-keyboard.js" + "&icon=icon_055.png"
                                 $app.openURL(encodeURI(url))
                                 $app.close()
                             }
