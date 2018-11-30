@@ -1,4 +1,4 @@
-scriptVersion = 2.1
+scriptVersion = 2.2
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -258,7 +258,7 @@ $ui.render({
             layout: function(make, view) {
                 make.top.equalTo(92)
                 make.left.right.equalTo(0)
-                make.bottom.equalTo(view.super.bottom).offset(-50)
+                make.bottom.equalTo(view.super.bottom)
             }
         }
     ]
