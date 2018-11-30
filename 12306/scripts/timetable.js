@@ -33,6 +33,7 @@ function showTimeTable() {
                         }
                     },
                     returned: function(sender) {
+                        $("input").blur()
                         var firstWord = sender.text.slice(0, 1).toUpperCase()
                         search(objectSetting(firstWord))
                         $cache.set("oldCode", $("input").text)
