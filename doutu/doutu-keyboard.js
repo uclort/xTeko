@@ -258,7 +258,7 @@ $ui.render({
             layout: function(make, view) {
                 make.top.equalTo(92)
                 make.left.right.equalTo(0)
-                make.bottom.equalTo(view.sender.bottom).offset(-50)
+                make.bottom.equalTo(view.super.bottom).offset(-50)
             }
         }
     ]
