@@ -1,4 +1,4 @@
-scriptVersion = 1.7
+scriptVersion = 1.8
 
 var app = require('scripts/app')
 var timetable = require('scripts/timetable')
@@ -15,36 +15,35 @@ module.exports.render = function render() {
             title: "12306"
         },
         views: [{
+            type: "button",
+            props: {
+                title: "时刻表查询"
+            },
+            layout: function(make) {
+                make.left.right.inset(10)
+                make.top.inset(10)
+                make.height.equalTo(50)
+            },
+            events: {
+                tapped: function(sender) {
+                    timetable.showTimeTable()
+                }
+
+            }
+        },{
                 type: "button",
                 props: {
                     id: "ticketcCheck",
-                    title: "查询余票"
+                    title: "余票查询"
                 },
                 layout: function(make) {
                     make.left.right.inset(10)
-                    make.top.inset(10)
+                    make.top.equalTo($("button").bottom).offset(10)
                     make.height.equalTo(50)
                 },
                 events: {
                     tapped: function(sender) {
                         app.excessTicketInquiry()
-                    }
-
-                }
-            },
-            {
-                type: "button",
-                props: {
-                    title: "时刻表查询"
-                },
-                layout: function(make) {
-                    make.left.right.inset(10)
-                    make.top.equalTo($("ticketcCheck").bottom).offset(10)
-                    make.height.equalTo(50)
-                },
-                events: {
-                    tapped: function(sender) {
-                        timetable.showTimeTable()
                     }
 
                 }

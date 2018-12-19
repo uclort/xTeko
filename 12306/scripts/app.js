@@ -102,7 +102,7 @@ function excessTicketInquiry() {
                 type: "button",
                 props: {
                     id: "ticketcCheck",
-                    title: "查询余票"
+                    title: "查询"
                 },
                 layout: function(make) {
                     make.left.right.inset(10)

@@ -17,13 +17,70 @@ function showTimeTable() {
             title: "时刻表"
         },
         views: [{
+            type: "input",
+            props: {
+                id: "year",
+                align: $align.center,
+                placeholder: "年"
+            },
+            layout: function(make) {
+                make.top.inset(10)
+                make.left.inset(10)
+                make.height.equalTo(40)
+            },
+            events: {
+                ready: function(sender) {
+                    sender.text = tool.currentYear
+                }
+            }
+        },
+        {
+            type: "input",
+            props: {
+                id: "month",
+                align: $align.center,
+                placeholder: "月"
+            },
+            layout: function(make) {
+                make.top.inset(10)
+                make.left.equalTo($("year").right).offset(10)
+                make.height.equalTo(40)
+                make.width.equalTo($("year").width)
+            },
+            events: {
+                ready: function(sender) {
+                    sender.text = tool.currentMonth
+                }
+            }
+        },
+        {
+            type: "input",
+            props: {
+                id: "day",
+                align: $align.center,
+                placeholder: "日"
+            },
+            layout: function(make) {
+                make.top.inset(10)
+                make.left.equalTo($("month").right).offset(10)
+                make.right.inset(10)
+                make.height.equalTo(40)
+                make.width.equalTo($("month").width)
+            },
+            events: {
+                ready: function(sender) {
+                    sender.text = tool.currentDay
+                }
+            }
+        },{
                 type: "input",
                 props: {
                     placeholder: "列车编号",
                     type: $kbType.ascii
                 },
                 layout: function(make) {
-                    make.left.top.inset(10)
+                    make.top.equalTo($("year").bottom).offset(10)
+                    make.left.inset(10)
                     make.height.equalTo(32)
                 },
                 events: {
@@ -33,7 +90,7 @@ function showTimeTable() {
                         }
                     },
                     returned: function(sender) {
-                        $("input").blur()
+                        collapseKeyboard()
                         var firstWord = sender.text.slice(0, 1).toUpperCase()
                         search(objectSetting(firstWord))
                         $cache.set("oldCode", $("input").text)
@@ -46,14 +103,15 @@ function showTimeTable() {
                     title: "查询"
                 },
                 layout: function(make) {
-                    make.top.right.inset(10)
+                    make.top.equalTo($("input"))
+                    make.right.inset(10)
                     make.height.equalTo($("input").height);
                     make.width.equalTo($("input").width).multipliedBy(0.6)
                     make.left.equalTo($("input").right).offset(5)
                 },
                 events: {
                     tapped: function(sender) {
-                        $("input").blur()
+                        collapseKeyboard()
                         var firstWord = $("input").text.slice(0, 1).toUpperCase()
                         search(objectSetting(firstWord))
                         $cache.set("oldCode", $("input").text)
@@ -178,10 +236,15 @@ module.exports = {
     showTimeTable: showTimeTable
 }
 
+function collapseKeyboard() {
+    $("input").blur()
+    $("year").blur()
+    $("month").blur()
+    $("day").blur()
+}
+
 
 function search(object) {
-
-    $ui.loading(true)
     var train_Code = $("input").text.toUpperCase()
     $console.info(train_Code)
     var departureStation = stationObject[object[train_Code].departureStation]
@@ -190,16 +253,21 @@ function search(object) {
     $console.info(terminalStation)
     var train_no = object[train_Code].train_no
     $console.info(train_no)
-    var url = "https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=" + train_no + "&from_station_telecode=" + departureStation + "&to_station_telecode=" + terminalStation + "&depart_date=" + tool.currentDate
+
+
+    var year = ($("year").text.length > 1) ? $("year").text : ("0" + $("year").text)
+    var month = ($("month").text.length > 1) ? $("month").text : ("0" + $("month").text)
+    var day = ($("day").text.length > 1) ? $("day").text : ("0" + $("day").text)
+
+    var url = "https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=" + train_no + "&from_station_telecode=" + departureStation + "&to_station_telecode=" + terminalStation + "&depart_date=" + year + "-" + month + "-" + day
     $console.info(url)
 
-
+    $ui.loading(true)
     $http.request({
         method: "GET",
         url: url,
         handler: function(resp) {
             $ui.loading(false)
-            // setNavigationTitle(object[train_Code].departureStation + "-" + object[train_Code].terminalStation)
             format(resp.data.data.data, object[train_Code].departureStation + "-" + object[train_Code].terminalStation)
         }
     })

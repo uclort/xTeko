@@ -1508,7 +1508,7 @@
   "Z117" : {
     "terminalStation" : "吉林",
     "trainCode" : "Z117",
-    "train_no" : "240000Z1170B",
+    "train_no" : "240000Z1170C",
     "departureStation" : "北京"
   },
   "Z308" : {
@@ -1556,7 +1556,7 @@
   "Z118" : {
     "terminalStation" : "北京",
     "trainCode" : "Z118",
-    "train_no" : "180000Z11804",
+    "train_no" : "180000Z11805",
     "departureStation" : "吉林"
   },
   "Z6505" : {

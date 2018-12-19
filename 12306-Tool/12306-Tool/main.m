@@ -14,6 +14,9 @@ int main(int argc, const char * argv[]) {
         // 列车编号 js 文件
         // https://kyfw.12306.cn/otn/resources/js/query/train_list.js
         
+        // 火车站名称
+        // https://kyfw.12306.cn/otn/resources/js/framework/station_name.js
+        
         // 获取文件
         NSString *path = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/train_list.js";
         // 将文件数据化
@@ -21,7 +24,7 @@ int main(int argc, const char * argv[]) {
         // 对数据进行JSON格式化并返回字典形式
         id dataTuple = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
         
-        NSDictionary *trainData = dataTuple[@"2018-12-19"];
+        NSDictionary *trainData = dataTuple[@"2018-12-21"];
         
         [trainData enumerateKeysAndObjectsUsingBlock:^(NSString *key, NSArray *obj, BOOL * _Nonnull stop) {
             __block NSMutableDictionary *trainTupleM = [NSMutableDictionary dictionary];

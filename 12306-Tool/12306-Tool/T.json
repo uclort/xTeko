@@ -785,11 +785,11 @@
     "train_no" : "54000T777230",
     "departureStation" : "南京"
   },
-  "T282" : {
-    "terminalStation" : "乌鲁木齐",
-    "trainCode" : "T282",
-    "train_no" : "710000T28208",
-    "departureStation" : "南宁"
+  "T9503" : {
+    "terminalStation" : "伊宁",
+    "trainCode" : "T9503",
+    "train_no" : "93000T950301",
+    "departureStation" : "乌鲁木齐"
   },
   "T4201" : {
     "terminalStation" : "包头",
@@ -827,12 +827,6 @@
     "train_no" : "470000T13504",
     "departureStation" : "济南"
   },
-  "T9503" : {
-    "terminalStation" : "伊宁",
-    "trainCode" : "T9503",
-    "train_no" : "93000T950301",
-    "departureStation" : "乌鲁木齐"
-  },
   "T63" : {
     "terminalStation" : "合肥",
     "trainCode" : "T63",
@@ -868,12 +862,6 @@
     "trainCode" : "T9878",
     "train_no" : "86000T987800",
     "departureStation" : "金昌"
-  },
-  "T283" : {
-    "terminalStation" : "乌鲁木齐",
-    "trainCode" : "T283",
-    "train_no" : "710000T28208",
-    "departureStation" : "南宁"
   },
   "T64" : {
     "terminalStation" : "北京",
@@ -1415,6 +1403,12 @@
     "train_no" : "4200000T5010",
     "departureStation" : "宜昌东"
   },
+  "T7566" : {
+    "terminalStation" : "平度",
+    "trainCode" : "T7566",
+    "train_no" : "49000T756600",
+    "departureStation" : "青岛"
+  },
   "T81" : {
     "terminalStation" : "南宁",
     "trainCode" : "T81",
@@ -1456,6 +1450,12 @@
     "trainCode" : "T8870",
     "train_no" : "76000T88700Q",
     "departureStation" : "攀枝花"
+  },
+  "T7567" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "T7567",
+    "train_no" : "49000T756700",
+    "departureStation" : "平度"
   },
   "T6551" : {
     "terminalStation" : "邓州",
