@@ -1,5 +1,3 @@
-scriptVersion = 1.6
-
 var timetable = require('scripts/timetable')
 var ticketcCheck = require('scripts/ticketcCheck')
 var tool = require('scripts/tool')
@@ -8,8 +6,12 @@ var stationObject = JSON.parse(station.string)
 var station_anti = $file.read('assets/station_names_anti.json')
 var stationObject_anti = JSON.parse(station_anti.string)
 
-module.exports.render = function render() {
-    $ui.render({
+module.exports = {
+    excessTicketInquiry: excessTicketInquiry
+}
+
+function excessTicketInquiry() {
+    $ui.push({
         props: {
             title: "12306"
         },
@@ -115,25 +117,6 @@ module.exports.render = function render() {
                     }
 
                 }
-            },
-            {
-                type: "button",
-                props: {
-                    title: "时刻表查询"
-                },
-                layout: function(make) {
-                    make.left.right.inset(10)
-                    make.top.equalTo($("ticketcCheck").bottom).offset(10)
-                    make.height.equalTo(50)
-                },
-                events: {
-                    tapped: function(sender) {
-                        $("departureStation").blur()
-                        $("terminalStation").blur()
-                        timetable.showTimeTable()
-                    }
-
-                }
             }
         ]
     })
@@ -169,37 +152,3 @@ function search() {
     })
 }
 
-
-checkupVersion()
-
-//检查版本
-function checkupVersion() {
-    $http.get({
-        url: "https://raw.githubusercontent.com/0x00000cc/xTeko/master/12306/UpdateInfo",
-        handler: function(resp) {
-            $console.info(resp.data)
-            var version = resp.data.version
-            var message = resp.data.message
-            var updateUrl = resp.data.updateUrl
-            $console.info(updateUrl);
-            if (version > scriptVersion) {
-                $ui.alert({
-                    title: "发现新版本",
-                    message: message,
-                    actions: [{
-                            title: "忽略",
-                            handler: function() {}
-                        },
-                        {
-                            title: "更新",
-                            handler: function() {
-                                $app.openURL(encodeURI(updateUrl))
-                                $app.close()
-                            }
-                        }
-                    ]
-                })
-            }
-        }
-    })
-}

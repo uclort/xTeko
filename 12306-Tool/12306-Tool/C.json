@@ -1,0 +1,7916 @@
+{
+  "C6401" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6401",
+    "train_no" : "77000C640101",
+    "departureStation" : "万州北"
+  },
+  "C6273" : {
+    "terminalStation" : "乐山",
+    "trainCode" : "C6273",
+    "train_no" : "76000C627303",
+    "departureStation" : "成都东"
+  },
+  "C7190" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7190",
+    "train_no" : "65000C71900F",
+    "departureStation" : "深圳"
+  },
+  "C2129" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2129",
+    "train_no" : "24000C21290C",
+    "departureStation" : "北京南"
+  },
+  "C7666" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7666",
+    "train_no" : "6e000C766605",
+    "departureStation" : "珠海"
+  },
+  "C6281" : {
+    "terminalStation" : "乐山",
+    "trainCode" : "C6281",
+    "train_no" : "76000C628120",
+    "departureStation" : "成都东"
+  },
+  "C7802" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7802",
+    "train_no" : "6n000C780210",
+    "departureStation" : "株洲南"
+  },
+  "C7674" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7674",
+    "train_no" : "6e000C767404",
+    "departureStation" : "珠海"
+  },
+  "C2145" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2145",
+    "train_no" : "24000C214500",
+    "departureStation" : "北京南"
+  },
+  "C1228" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1228",
+    "train_no" : "18000C122801",
+    "departureStation" : "吉林"
+  },
+  "C7682" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7682",
+    "train_no" : "6e000C768204",
+    "departureStation" : "珠海"
+  },
+  "C7810" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7810",
+    "train_no" : "6n000C781001",
+    "departureStation" : "株洲南"
+  },
+  "C2153" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2153",
+    "train_no" : "24000C21530K",
+    "departureStation" : "北京南"
+  },
+  "C6901" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6901",
+    "train_no" : "62000C690100",
+    "departureStation" : "长沙"
+  },
+  "C1236" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1236",
+    "train_no" : "18000C123609",
+    "departureStation" : "吉林"
+  },
+  "C6258" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6258",
+    "train_no" : "76000C625803",
+    "departureStation" : "峨眉山"
+  },
+  "C2629" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2629",
+    "train_no" : "24000C262900",
+    "departureStation" : "北京南"
+  },
+  "C5001" : {
+    "terminalStation" : "咸宁南",
+    "trainCode" : "C5001",
+    "train_no" : "39000C500108",
+    "departureStation" : "汉口"
+  },
+  "C7690" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7690",
+    "train_no" : "6e000C769001",
+    "departureStation" : "珠海"
+  },
+  "C1244" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1244",
+    "train_no" : "18000C124404",
+    "departureStation" : "吉林"
+  },
+  "C6266" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6266",
+    "train_no" : "76000C626607",
+    "departureStation" : "乐山"
+  },
+  "C7183" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7183",
+    "train_no" : "65000C71830I",
+    "departureStation" : "广州东"
+  },
+  "C7659" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7659",
+    "train_no" : "6c000C765904",
+    "departureStation" : "广州南"
+  },
+  "C6402" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6402",
+    "train_no" : "77000C640205",
+    "departureStation" : "重庆北"
+  },
+  "C6274" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6274",
+    "train_no" : "76000C62740C",
+    "departureStation" : "眉山东"
+  },
+  "C7191" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7191",
+    "train_no" : "65000C71910I",
+    "departureStation" : "广州东"
+  },
+  "C7667" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7667",
+    "train_no" : "6c000C766705",
+    "departureStation" : "广州南"
+  },
+  "C6410" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6410",
+    "train_no" : "77000C641004",
+    "departureStation" : "重庆北"
+  },
+  "C6282" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6282",
+    "train_no" : "76000C628230",
+    "departureStation" : "乐山"
+  },
+  "C2138" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2138",
+    "train_no" : "25000C21380U",
+    "departureStation" : "天津"
+  },
+  "C7675" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7675",
+    "train_no" : "6c000C767505",
+    "departureStation" : "广州南"
+  },
+  "C7803" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7803",
+    "train_no" : "62000C780300",
+    "departureStation" : "长沙"
+  },
+  "C5501" : {
+    "terminalStation" : "阳新",
+    "trainCode" : "C5501",
+    "train_no" : "4e000C550108",
+    "departureStation" : "武汉"
+  },
+  "C2146" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2146",
+    "train_no" : "25000C214603",
+    "departureStation" : "天津"
+  },
+  "C1229" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1229",
+    "train_no" : "11000C122904",
+    "departureStation" : "长春"
+  },
+  "C7683" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7683",
+    "train_no" : "6c000C768304",
+    "departureStation" : "广州南"
+  },
+  "C7811" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7811",
+    "train_no" : "62000C781100",
+    "departureStation" : "长沙"
+  },
+  "C2154" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2154",
+    "train_no" : "25000C21540K",
+    "departureStation" : "天津"
+  },
+  "C7691" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7691",
+    "train_no" : "6c000C769103",
+    "departureStation" : "广州南"
+  },
+  "C6259" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6259",
+    "train_no" : "76000C625907",
+    "departureStation" : "成都东"
+  },
+  "C5002" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5002",
+    "train_no" : "39000C500209",
+    "departureStation" : "咸宁南"
+  },
+  "C1245" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1245",
+    "train_no" : "11000C124501",
+    "departureStation" : "长春"
+  },
+  "C6267" : {
+    "terminalStation" : "乐山",
+    "trainCode" : "C6267",
+    "train_no" : "76000C62670C",
+    "departureStation" : "成都东"
+  },
+  "C7184" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7184",
+    "train_no" : "65000C71840M",
+    "departureStation" : "深圳"
+  },
+  "C5010" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5010",
+    "train_no" : "39000C501010",
+    "departureStation" : "纸坊东"
+  },
+  "C6403" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6403",
+    "train_no" : "77000C640303",
+    "departureStation" : "万州北"
+  },
+  "C6275" : {
+    "terminalStation" : "眉山东",
+    "trainCode" : "C6275",
+    "train_no" : "76000C627501",
+    "departureStation" : "成都东"
+  },
+  "C7192" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7192",
+    "train_no" : "65000C71920M",
+    "departureStation" : "深圳"
+  },
+  "C7668" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7668",
+    "train_no" : "6e000C76680E",
+    "departureStation" : "珠海"
+  },
+  "C6411" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6411",
+    "train_no" : "77000C641101",
+    "departureStation" : "万州北"
+  },
+  "C2139" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2139",
+    "train_no" : "24000C21390L",
+    "departureStation" : "北京南"
+  },
+  "C7676" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7676",
+    "train_no" : "6e000C767605",
+    "departureStation" : "珠海"
+  },
+  "C7804" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7804",
+    "train_no" : "6n000C780402",
+    "departureStation" : "株洲南"
+  },
+  "C5502" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5502",
+    "train_no" : "39000C550209",
+    "departureStation" : "阳新"
+  },
+  "C2147" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2147",
+    "train_no" : "24000C214700",
+    "departureStation" : "北京南"
+  },
+  "C7684" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7684",
+    "train_no" : "6e000C76840F",
+    "departureStation" : "珠海"
+  },
+  "C7812" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7812",
+    "train_no" : "6n000C781201",
+    "departureStation" : "株洲南"
+  },
+  "C2155" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2155",
+    "train_no" : "24000C21550G",
+    "departureStation" : "北京南"
+  },
+  "C7692" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7692",
+    "train_no" : "6e000C769203",
+    "departureStation" : "珠海"
+  },
+  "C7820" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7820",
+    "train_no" : "6n000C782001",
+    "departureStation" : "株洲南"
+  },
+  "C5003" : {
+    "terminalStation" : "咸宁南",
+    "trainCode" : "C5003",
+    "train_no" : "39000C500305",
+    "departureStation" : "武昌"
+  },
+  "C1246" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1246",
+    "train_no" : "18000C124601",
+    "departureStation" : "吉林"
+  },
+  "C6268" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6268",
+    "train_no" : "76000C62680H",
+    "departureStation" : "峨眉山"
+  },
+  "C7185" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7185",
+    "train_no" : "65000C71850H",
+    "departureStation" : "广州东"
+  },
+  "C5011" : {
+    "terminalStation" : "纸坊东",
+    "trainCode" : "C5011",
+    "train_no" : "39000C501110",
+    "departureStation" : "武昌"
+  },
+  "C6404" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6404",
+    "train_no" : "77000C640402",
+    "departureStation" : "重庆北"
+  },
+  "C6276" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6276",
+    "train_no" : "76000C627600",
+    "departureStation" : "眉山东"
+  },
+  "C7193" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7193",
+    "train_no" : "65000C71930E",
+    "departureStation" : "广州东"
+  },
+  "C7669" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7669",
+    "train_no" : "6c000C766905",
+    "departureStation" : "广州南"
+  },
+  "C6412" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6412",
+    "train_no" : "77000C641202",
+    "departureStation" : "重庆北"
+  },
+  "C7805" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7805",
+    "train_no" : "62000C780500",
+    "departureStation" : "长沙"
+  },
+  "C7677" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7677",
+    "train_no" : "6c000C76770F",
+    "departureStation" : "广州南"
+  },
+  "C6420" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6420",
+    "train_no" : "77000C642002",
+    "departureStation" : "重庆北"
+  },
+  "C5503" : {
+    "terminalStation" : "大冶北",
+    "trainCode" : "C5503",
+    "train_no" : "4e000C550350",
+    "departureStation" : "武汉"
+  },
+  "C7813" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7813",
+    "train_no" : "62000C781300",
+    "departureStation" : "长沙"
+  },
+  "C7685" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7685",
+    "train_no" : "6c000C768504",
+    "departureStation" : "广州南"
+  },
+  "C3201" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3201",
+    "train_no" : "55000C320110",
+    "departureStation" : "上海南"
+  },
+  "C2156" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2156",
+    "train_no" : "25000C21560M",
+    "departureStation" : "天津"
+  },
+  "C6904" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6904",
+    "train_no" : "62000C690400",
+    "departureStation" : "湘潭"
+  },
+  "C7693" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7693",
+    "train_no" : "6c000C769304",
+    "departureStation" : "广州南"
+  },
+  "C7821" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7821",
+    "train_no" : "62000C782100",
+    "departureStation" : "长沙"
+  },
+  "C5004" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5004",
+    "train_no" : "39000C500408",
+    "departureStation" : "咸宁南"
+  },
+  "C6912" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6912",
+    "train_no" : "62000C691200",
+    "departureStation" : "湘潭"
+  },
+  "C1247" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1247",
+    "train_no" : "11000C124701",
+    "departureStation" : "长春"
+  },
+  "C6269" : {
+    "terminalStation" : "乐山",
+    "trainCode" : "C6269",
+    "train_no" : "76000C62690E",
+    "departureStation" : "成都南"
+  },
+  "C7186" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7186",
+    "train_no" : "65000C71860K",
+    "departureStation" : "深圳"
+  },
+  "C5012" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5012",
+    "train_no" : "39000C501210",
+    "departureStation" : "纸坊东"
+  },
+  "C6405" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6405",
+    "train_no" : "77000C640502",
+    "departureStation" : "万州北"
+  },
+  "C6277" : {
+    "terminalStation" : "眉山东",
+    "trainCode" : "C6277",
+    "train_no" : "76000C627700",
+    "departureStation" : "成都南"
+  },
+  "C7194" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7194",
+    "train_no" : "65000C71940K",
+    "departureStation" : "深圳"
+  },
+  "C6920" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6920",
+    "train_no" : "62000C692000",
+    "departureStation" : "湘潭"
+  },
+  "C6413" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6413",
+    "train_no" : "77000C641304",
+    "departureStation" : "万州北"
+  },
+  "C7806" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7806",
+    "train_no" : "6n000C780601",
+    "departureStation" : "株洲南"
+  },
+  "C7678" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7678",
+    "train_no" : "6e000C767807",
+    "departureStation" : "珠海"
+  },
+  "C6421" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6421",
+    "train_no" : "77000C642101",
+    "departureStation" : "万州北"
+  },
+  "C5504" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5504",
+    "train_no" : "39000C550440",
+    "departureStation" : "大冶北"
+  },
+  "C2149" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2149",
+    "train_no" : "24000C214900",
+    "departureStation" : "北京南"
+  },
+  "C7686" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7686",
+    "train_no" : "6e000C768606",
+    "departureStation" : "珠海"
+  },
+  "C7814" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7814",
+    "train_no" : "6n000C781401",
+    "departureStation" : "株洲南"
+  },
+  "C7822" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7822",
+    "train_no" : "6n000C782201",
+    "departureStation" : "株洲南"
+  },
+  "C6905" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6905",
+    "train_no" : "62000C690503",
+    "departureStation" : "长沙"
+  },
+  "C7694" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7694",
+    "train_no" : "6e000C769404",
+    "departureStation" : "珠海"
+  },
+  "C5005" : {
+    "terminalStation" : "纸坊东",
+    "trainCode" : "C5005",
+    "train_no" : "39000C500509",
+    "departureStation" : "武昌"
+  },
+  "C7830" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7830",
+    "train_no" : "6n000C783001",
+    "departureStation" : "株洲南"
+  },
+  "C6913" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6913",
+    "train_no" : "62000C691303",
+    "departureStation" : "长沙"
+  },
+  "C1248" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1248",
+    "train_no" : "18000C124802",
+    "departureStation" : "吉林"
+  },
+  "C7187" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7187",
+    "train_no" : "65000C71870J",
+    "departureStation" : "广州东"
+  },
+  "C2301" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2301",
+    "train_no" : "25000C230106",
+    "departureStation" : "天津"
+  },
+  "C6406" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6406",
+    "train_no" : "77000C640605",
+    "departureStation" : "重庆北"
+  },
+  "C6278" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6278",
+    "train_no" : "76000C627801",
+    "departureStation" : "峨眉山"
+  },
+  "C7195" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7195",
+    "train_no" : "65000C71950G",
+    "departureStation" : "广州东"
+  },
+  "C6921" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6921",
+    "train_no" : "62000C692104",
+    "departureStation" : "长沙"
+  },
+  "C5021" : {
+    "terminalStation" : "咸宁南",
+    "trainCode" : "C5021",
+    "train_no" : "39000C502102",
+    "departureStation" : "武昌"
+  },
+  "C6414" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6414",
+    "train_no" : "77000C641402",
+    "departureStation" : "重庆北"
+  },
+  "C7807" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7807",
+    "train_no" : "62000C780700",
+    "departureStation" : "长沙"
+  },
+  "C7679" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7679",
+    "train_no" : "6c000C767904",
+    "departureStation" : "广州南"
+  },
+  "C6422" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6422",
+    "train_no" : "77000C642202",
+    "departureStation" : "重庆北"
+  },
+  "C7815" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7815",
+    "train_no" : "62000C781500",
+    "departureStation" : "长沙"
+  },
+  "C7687" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7687",
+    "train_no" : "6c000C768704",
+    "departureStation" : "广州南"
+  },
+  "C3203" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3203",
+    "train_no" : "55000C320300",
+    "departureStation" : "上海南"
+  },
+  "C6430" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6430",
+    "train_no" : "77000C643002",
+    "departureStation" : "重庆北"
+  },
+  "C2158" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2158",
+    "train_no" : "25000C21580L",
+    "departureStation" : "天津"
+  },
+  "C2801" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2801",
+    "train_no" : "38000C280120",
+    "departureStation" : "宋城路"
+  },
+  "C7695" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7695",
+    "train_no" : "6c000C769501",
+    "departureStation" : "广州南"
+  },
+  "C7823" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7823",
+    "train_no" : "62000C782300",
+    "departureStation" : "长沙"
+  },
+  "C5521" : {
+    "terminalStation" : "大冶北",
+    "trainCode" : "C5521",
+    "train_no" : "4e000C552107",
+    "departureStation" : "武汉"
+  },
+  "C5006" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5006",
+    "train_no" : "39000C500609",
+    "departureStation" : "纸坊东"
+  },
+  "C1249" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1249",
+    "train_no" : "11000C124903",
+    "departureStation" : "长春"
+  },
+  "C7188" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7188",
+    "train_no" : "65000C71880K",
+    "departureStation" : "深圳"
+  },
+  "C2302" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2302",
+    "train_no" : "25000C230206",
+    "departureStation" : "于家堡"
+  },
+  "C6407" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6407",
+    "train_no" : "77000C640702",
+    "departureStation" : "万州北"
+  },
+  "C7196" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7196",
+    "train_no" : "65000C71960I",
+    "departureStation" : "深圳"
+  },
+  "C5022" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5022",
+    "train_no" : "39000C502202",
+    "departureStation" : "咸宁南"
+  },
+  "C2310" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2310",
+    "train_no" : "25000C231002",
+    "departureStation" : "于家堡"
+  },
+  "C6415" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6415",
+    "train_no" : "77000C641502",
+    "departureStation" : "万州北"
+  },
+  "C7808" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7808",
+    "train_no" : "6n000C780801",
+    "departureStation" : "株洲南"
+  },
+  "C6423" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6423",
+    "train_no" : "77000C642302",
+    "departureStation" : "万州北"
+  },
+  "C7816" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7816",
+    "train_no" : "6n000C781601",
+    "departureStation" : "株洲南"
+  },
+  "C7688" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7688",
+    "train_no" : "6e000C768808",
+    "departureStation" : "珠海"
+  },
+  "C6431" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6431",
+    "train_no" : "77000C643102",
+    "departureStation" : "万州北"
+  },
+  "C2802" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2802",
+    "train_no" : "38000C280230",
+    "departureStation" : "新郑机场"
+  },
+  "C7824" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7824",
+    "train_no" : "6n000C782401",
+    "departureStation" : "株洲南"
+  },
+  "C7696" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7696",
+    "train_no" : "6e000C769601",
+    "departureStation" : "珠海"
+  },
+  "C5007" : {
+    "terminalStation" : "咸宁南",
+    "trainCode" : "C5007",
+    "train_no" : "39000C500709",
+    "departureStation" : "武昌"
+  },
+  "C2810" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2810",
+    "train_no" : "38000C281030",
+    "departureStation" : "新郑机场"
+  },
+  "C7189" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7189",
+    "train_no" : "65000C71890D",
+    "departureStation" : "广州东"
+  },
+  "C7832" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7832",
+    "train_no" : "6n000C783201",
+    "departureStation" : "株洲南"
+  },
+  "C2303" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2303",
+    "train_no" : "25000C230306",
+    "departureStation" : "天津"
+  },
+  "C6408" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6408",
+    "train_no" : "77000C640802",
+    "departureStation" : "重庆北"
+  },
+  "C5023" : {
+    "terminalStation" : "咸宁南",
+    "trainCode" : "C5023",
+    "train_no" : "39000C502302",
+    "departureStation" : "武昌"
+  },
+  "C2311" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2311",
+    "train_no" : "25000C231104",
+    "departureStation" : "天津"
+  },
+  "C6416" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6416",
+    "train_no" : "77000C641602",
+    "departureStation" : "重庆北"
+  },
+  "C7809" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7809",
+    "train_no" : "62000C780900",
+    "departureStation" : "长沙"
+  },
+  "C6424" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6424",
+    "train_no" : "77000C642400",
+    "departureStation" : "重庆北"
+  },
+  "C7817" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7817",
+    "train_no" : "62000C781700",
+    "departureStation" : "长沙"
+  },
+  "C7689" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7689",
+    "train_no" : "6c000C768901",
+    "departureStation" : "广州南"
+  },
+  "C2803" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2803",
+    "train_no" : "38000C280330",
+    "departureStation" : "宋城路"
+  },
+  "C7825" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7825",
+    "train_no" : "62000C782500",
+    "departureStation" : "长沙"
+  },
+  "C6908" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6908",
+    "train_no" : "62000C690800",
+    "departureStation" : "湘潭"
+  },
+  "C7697" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7697",
+    "train_no" : "6c000C769701",
+    "departureStation" : "广州南"
+  },
+  "C5008" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5008",
+    "train_no" : "39000C500807",
+    "departureStation" : "咸宁南"
+  },
+  "C2811" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2811",
+    "train_no" : "38000C281140",
+    "departureStation" : "宋城路"
+  },
+  "C6916" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6916",
+    "train_no" : "62000C691600",
+    "departureStation" : "湘潭"
+  },
+  "C5531" : {
+    "terminalStation" : "阳新",
+    "trainCode" : "C5531",
+    "train_no" : "4e000C553102",
+    "departureStation" : "武汉"
+  },
+  "C2304" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2304",
+    "train_no" : "25000C230406",
+    "departureStation" : "于家堡"
+  },
+  "C6409" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6409",
+    "train_no" : "77000C640902",
+    "departureStation" : "万州北"
+  },
+  "C6924" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6924",
+    "train_no" : "62000C692400",
+    "departureStation" : "湘潭"
+  },
+  "C5024" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5024",
+    "train_no" : "39000C502402",
+    "departureStation" : "咸宁南"
+  },
+  "C2312" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2312",
+    "train_no" : "25000C231203",
+    "departureStation" : "于家堡"
+  },
+  "C6417" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6417",
+    "train_no" : "77000C641702",
+    "departureStation" : "万州北"
+  },
+  "C2320" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2320",
+    "train_no" : "25000C232003",
+    "departureStation" : "于家堡"
+  },
+  "C6425" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6425",
+    "train_no" : "77000C642500",
+    "departureStation" : "万州北"
+  },
+  "C7818" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7818",
+    "train_no" : "6n000C781801",
+    "departureStation" : "株洲南"
+  },
+  "C2804" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2804",
+    "train_no" : "38000C280430",
+    "departureStation" : "新郑机场"
+  },
+  "C7826" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7826",
+    "train_no" : "6n000C782601",
+    "departureStation" : "株洲南"
+  },
+  "C6909" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6909",
+    "train_no" : "62000C690903",
+    "departureStation" : "长沙"
+  },
+  "C7698" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7698",
+    "train_no" : "6e000C769801",
+    "departureStation" : "珠海"
+  },
+  "C5524" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5524",
+    "train_no" : "39000C55240B",
+    "departureStation" : "大冶北"
+  },
+  "C5009" : {
+    "terminalStation" : "纸坊东",
+    "trainCode" : "C5009",
+    "train_no" : "39000C500920",
+    "departureStation" : "武昌"
+  },
+  "C6917" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6917",
+    "train_no" : "62000C691703",
+    "departureStation" : "长沙"
+  },
+  "C2812" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2812",
+    "train_no" : "38000C281220",
+    "departureStation" : "新郑机场"
+  },
+  "C7834" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7834",
+    "train_no" : "6n000C783402",
+    "departureStation" : "株洲南"
+  },
+  "C2305" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2305",
+    "train_no" : "25000C230506",
+    "departureStation" : "天津"
+  },
+  "C6925" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6925",
+    "train_no" : "62000C692510",
+    "departureStation" : "长沙"
+  },
+  "C5025" : {
+    "terminalStation" : "咸宁南",
+    "trainCode" : "C5025",
+    "train_no" : "39000C502502",
+    "departureStation" : "武昌"
+  },
+  "C2313" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2313",
+    "train_no" : "25000C231304",
+    "departureStation" : "天津"
+  },
+  "C6418" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6418",
+    "train_no" : "77000C641801",
+    "departureStation" : "重庆北"
+  },
+  "C2321" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2321",
+    "train_no" : "25000C232103",
+    "departureStation" : "天津"
+  },
+  "C6426" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6426",
+    "train_no" : "77000C642602",
+    "departureStation" : "重庆北"
+  },
+  "C7819" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7819",
+    "train_no" : "62000C781900",
+    "departureStation" : "长沙"
+  },
+  "C2805" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2805",
+    "train_no" : "38000C280540",
+    "departureStation" : "宋城路"
+  },
+  "C7827" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7827",
+    "train_no" : "62000C782700",
+    "departureStation" : "长沙"
+  },
+  "C7699" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7699",
+    "train_no" : "6c000C769901",
+    "departureStation" : "广州南"
+  },
+  "C7835" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7835",
+    "train_no" : "62000C783500",
+    "departureStation" : "长沙"
+  },
+  "C5533" : {
+    "terminalStation" : "阳新",
+    "trainCode" : "C5533",
+    "train_no" : "4e000C553302",
+    "departureStation" : "武汉"
+  },
+  "C2306" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2306",
+    "train_no" : "25000C230606",
+    "departureStation" : "于家堡"
+  },
+  "C6926" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6926",
+    "train_no" : "62000C692601",
+    "departureStation" : "湘潭"
+  },
+  "C5026" : {
+    "terminalStation" : "武昌",
+    "trainCode" : "C5026",
+    "train_no" : "39000C502602",
+    "departureStation" : "咸宁南"
+  },
+  "C2314" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2314",
+    "train_no" : "25000C231403",
+    "departureStation" : "于家堡"
+  },
+  "C6419" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6419",
+    "train_no" : "77000C641902",
+    "departureStation" : "万州北"
+  },
+  "C7851" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7851",
+    "train_no" : "6n000C785410",
+    "departureStation" : "长沙西"
+  },
+  "C2322" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2322",
+    "train_no" : "25000C232203",
+    "departureStation" : "于家堡"
+  },
+  "C6427" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6427",
+    "train_no" : "77000C642702",
+    "departureStation" : "万州北"
+  },
+  "C2330" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2330",
+    "train_no" : "25000C233003",
+    "departureStation" : "于家堡"
+  },
+  "C2806" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2806",
+    "train_no" : "38000C280640",
+    "departureStation" : "新郑机场"
+  },
+  "C7828" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7828",
+    "train_no" : "6n000C782802",
+    "departureStation" : "株洲南"
+  },
+  "C7836" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C7836",
+    "train_no" : "6n000C783610",
+    "departureStation" : "长沙西"
+  },
+  "C2822" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2822",
+    "train_no" : "38000C282240",
+    "departureStation" : "郑州东"
+  },
+  "C2307" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2307",
+    "train_no" : "25000C230707",
+    "departureStation" : "天津"
+  },
+  "C6927" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6927",
+    "train_no" : "62000C692707",
+    "departureStation" : "长沙"
+  },
+  "C5027" : {
+    "terminalStation" : "咸宁南",
+    "trainCode" : "C5027",
+    "train_no" : "39000C502702",
+    "departureStation" : "武昌"
+  },
+  "C2830" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2830",
+    "train_no" : "38000C283030",
+    "departureStation" : "新郑机场"
+  },
+  "C2315" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2315",
+    "train_no" : "25000C231503",
+    "departureStation" : "天津"
+  },
+  "C7852" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7852",
+    "train_no" : "6n000C785201",
+    "departureStation" : "株洲南"
+  },
+  "C2323" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2323",
+    "train_no" : "25000C232303",
+    "departureStation" : "天津"
+  },
+  "C7860" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7860",
+    "train_no" : "6n000C786002",
+    "departureStation" : "株洲南"
+  },
+  "C6428" : {
+    "terminalStation" : "万州北",
+    "trainCode" : "C6428",
+    "train_no" : "77000C642802",
+    "departureStation" : "重庆北"
+  },
+  "C2331" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2331",
+    "train_no" : "25000C233103",
+    "departureStation" : "天津"
+  },
+  "C6951" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6951",
+    "train_no" : "6n000C695400",
+    "departureStation" : "长沙西"
+  },
+  "C2807" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2807",
+    "train_no" : "38000C280740",
+    "departureStation" : "宋城路"
+  },
+  "C7829" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7829",
+    "train_no" : "62000C782900",
+    "departureStation" : "长沙"
+  },
+  "C2308" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2308",
+    "train_no" : "25000C230806",
+    "departureStation" : "于家堡"
+  },
+  "C2823" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2823",
+    "train_no" : "38000C282330",
+    "departureStation" : "宋城路"
+  },
+  "C6928" : {
+    "terminalStation" : "长沙",
+    "trainCode" : "C6928",
+    "train_no" : "62000C692800",
+    "departureStation" : "湘潭"
+  },
+  "C5028" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5028",
+    "train_no" : "39000C502802",
+    "departureStation" : "咸宁南"
+  },
+  "C2831" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2831",
+    "train_no" : "38000C283150",
+    "departureStation" : "宋城路"
+  },
+  "C2316" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2316",
+    "train_no" : "25000C231603",
+    "departureStation" : "于家堡"
+  },
+  "C7853" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7853",
+    "train_no" : "6n000C785201",
+    "departureStation" : "株洲南"
+  },
+  "C2324" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2324",
+    "train_no" : "25000C232404",
+    "departureStation" : "于家堡"
+  },
+  "C7861" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7861",
+    "train_no" : "6n000C786002",
+    "departureStation" : "株洲南"
+  },
+  "C6429" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6429",
+    "train_no" : "77000C642904",
+    "departureStation" : "万州北"
+  },
+  "C2332" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2332",
+    "train_no" : "25000C233203",
+    "departureStation" : "于家堡"
+  },
+  "C6952" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6952",
+    "train_no" : "62000C695203",
+    "departureStation" : "湘潭"
+  },
+  "C2808" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2808",
+    "train_no" : "38000C280840",
+    "departureStation" : "新郑机场"
+  },
+  "C6960" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6960",
+    "train_no" : "62000C696003",
+    "departureStation" : "湘潭"
+  },
+  "C2309" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2309",
+    "train_no" : "25000C230906",
+    "departureStation" : "天津"
+  },
+  "C2824" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2824",
+    "train_no" : "38000C282430",
+    "departureStation" : "新郑机场"
+  },
+  "C2832" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2832",
+    "train_no" : "38000C283250",
+    "departureStation" : "新郑机场"
+  },
+  "C2317" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2317",
+    "train_no" : "25000C231703",
+    "departureStation" : "天津"
+  },
+  "C7854" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7854",
+    "train_no" : "6n000C785410",
+    "departureStation" : "长沙西"
+  },
+  "C2325" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2325",
+    "train_no" : "25000C232503",
+    "departureStation" : "天津"
+  },
+  "C7862" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7862",
+    "train_no" : "6n000C786201",
+    "departureStation" : "长沙西"
+  },
+  "C7870" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7870",
+    "train_no" : "6n000C787001",
+    "departureStation" : "长沙西"
+  },
+  "C6953" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6953",
+    "train_no" : "62000C695203",
+    "departureStation" : "湘潭"
+  },
+  "C2809" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2809",
+    "train_no" : "38000C280940",
+    "departureStation" : "宋城路"
+  },
+  "C6961" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6961",
+    "train_no" : "62000C696003",
+    "departureStation" : "湘潭"
+  },
+  "C2825" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2825",
+    "train_no" : "38000C282530",
+    "departureStation" : "宋城路"
+  },
+  "C2833" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2833",
+    "train_no" : "38000C283306",
+    "departureStation" : "宋城路"
+  },
+  "C2318" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2318",
+    "train_no" : "25000C231803",
+    "departureStation" : "于家堡"
+  },
+  "C7855" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7855",
+    "train_no" : "6n000C785801",
+    "departureStation" : "长沙西"
+  },
+  "C2841" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2841",
+    "train_no" : "38000C284110",
+    "departureStation" : "郑州"
+  },
+  "C2326" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2326",
+    "train_no" : "25000C232603",
+    "departureStation" : "于家堡"
+  },
+  "C7863" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7863",
+    "train_no" : "6n000C786602",
+    "departureStation" : "长沙西"
+  },
+  "C7871" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7871",
+    "train_no" : "6n000C787401",
+    "departureStation" : "长沙西"
+  },
+  "C6954" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6954",
+    "train_no" : "6n000C695400",
+    "departureStation" : "长沙西"
+  },
+  "C6962" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6962",
+    "train_no" : "6n000C696200",
+    "departureStation" : "长沙西"
+  },
+  "C6970" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6970",
+    "train_no" : "6n000C697000",
+    "departureStation" : "长沙西"
+  },
+  "C2826" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2826",
+    "train_no" : "38000C282630",
+    "departureStation" : "新郑机场"
+  },
+  "C2319" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2319",
+    "train_no" : "25000C231903",
+    "departureStation" : "天津"
+  },
+  "C7856" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7856",
+    "train_no" : "6n000C785603",
+    "departureStation" : "株洲南"
+  },
+  "C2842" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2842",
+    "train_no" : "38000C284210",
+    "departureStation" : "新郑机场"
+  },
+  "C2327" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2327",
+    "train_no" : "25000C232703",
+    "departureStation" : "天津"
+  },
+  "C7864" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7864",
+    "train_no" : "6n000C786401",
+    "departureStation" : "株洲南"
+  },
+  "C2850" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2850",
+    "train_no" : "38000C285000",
+    "departureStation" : "新郑机场"
+  },
+  "C7872" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7872",
+    "train_no" : "6n000C787201",
+    "departureStation" : "株洲南"
+  },
+  "C6955" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6955",
+    "train_no" : "6n000C695800",
+    "departureStation" : "长沙西"
+  },
+  "C7880" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7880",
+    "train_no" : "6n000C788000",
+    "departureStation" : "株洲南"
+  },
+  "C6963" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6963",
+    "train_no" : "6n000C696600",
+    "departureStation" : "长沙西"
+  },
+  "C7501" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7501",
+    "train_no" : "22000C750100",
+    "departureStation" : "道滘"
+  },
+  "C6971" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6971",
+    "train_no" : "6n000C697400",
+    "departureStation" : "长沙西"
+  },
+  "C2827" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2827",
+    "train_no" : "38000C282730",
+    "departureStation" : "宋城路"
+  },
+  "C7857" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7857",
+    "train_no" : "6n000C785603",
+    "departureStation" : "株洲南"
+  },
+  "C2843" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2843",
+    "train_no" : "38000C284300",
+    "departureStation" : "郑州东"
+  },
+  "C2328" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2328",
+    "train_no" : "25000C232803",
+    "departureStation" : "于家堡"
+  },
+  "C7865" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7865",
+    "train_no" : "6n000C786401",
+    "departureStation" : "株洲南"
+  },
+  "C7010" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7010",
+    "train_no" : "65000C70100C",
+    "departureStation" : "深圳"
+  },
+  "C2851" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2851",
+    "train_no" : "38000C285120",
+    "departureStation" : "郑州东"
+  },
+  "C7873" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7873",
+    "train_no" : "6n000C787201",
+    "departureStation" : "株洲南"
+  },
+  "C6956" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6956",
+    "train_no" : "62000C695603",
+    "departureStation" : "湘潭"
+  },
+  "C6101" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6101",
+    "train_no" : "76000C610108",
+    "departureStation" : "成都"
+  },
+  "C7881" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7881",
+    "train_no" : "6n000C788000",
+    "departureStation" : "株洲南"
+  },
+  "C6964" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6964",
+    "train_no" : "62000C696402",
+    "departureStation" : "湘潭"
+  },
+  "C7502" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7502",
+    "train_no" : "22000C750200",
+    "departureStation" : "小金口"
+  },
+  "C6972" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6972",
+    "train_no" : "62000C697203",
+    "departureStation" : "湘潭"
+  },
+  "C2828" : {
+    "terminalStation" : "宋城路",
+    "trainCode" : "C2828",
+    "train_no" : "38000C282830",
+    "departureStation" : "新郑机场"
+  },
+  "C7510" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7510",
+    "train_no" : "22000C751000",
+    "departureStation" : "小金口"
+  },
+  "C6980" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6980",
+    "train_no" : "62000C698005",
+    "departureStation" : "湘潭"
+  },
+  "C7858" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7858",
+    "train_no" : "6n000C785801",
+    "departureStation" : "长沙西"
+  },
+  "C7003" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7003",
+    "train_no" : "65000C700308",
+    "departureStation" : "广州东"
+  },
+  "C2844" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2844",
+    "train_no" : "38000C284400",
+    "departureStation" : "新郑机场"
+  },
+  "C2329" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2329",
+    "train_no" : "25000C232903",
+    "departureStation" : "天津"
+  },
+  "C7866" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7866",
+    "train_no" : "6n000C786602",
+    "departureStation" : "长沙西"
+  },
+  "C7011" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7011",
+    "train_no" : "65000C701109",
+    "departureStation" : "广州东"
+  },
+  "C2852" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2852",
+    "train_no" : "38000C285230",
+    "departureStation" : "新郑机场"
+  },
+  "C2337" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2337",
+    "train_no" : "25000C233703",
+    "departureStation" : "天津"
+  },
+  "C6957" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6957",
+    "train_no" : "62000C695603",
+    "departureStation" : "湘潭"
+  },
+  "C7874" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7874",
+    "train_no" : "6n000C787401",
+    "departureStation" : "长沙西"
+  },
+  "C6102" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6102",
+    "train_no" : "76000C610220",
+    "departureStation" : "青城山"
+  },
+  "C2860" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2860",
+    "train_no" : "38000C286020",
+    "departureStation" : "新郑机场"
+  },
+  "C6965" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6965",
+    "train_no" : "62000C696402",
+    "departureStation" : "湘潭"
+  },
+  "C6110" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6110",
+    "train_no" : "76000C611003",
+    "departureStation" : "青城山"
+  },
+  "C7503" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7503",
+    "train_no" : "22000C750300",
+    "departureStation" : "道滘"
+  },
+  "C6973" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6973",
+    "train_no" : "62000C697203",
+    "departureStation" : "湘潭"
+  },
+  "C2829" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2829",
+    "train_no" : "38000C282930",
+    "departureStation" : "宋城路"
+  },
+  "C7511" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7511",
+    "train_no" : "22000C751100",
+    "departureStation" : "道滘"
+  },
+  "C6981" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6981",
+    "train_no" : "62000C698005",
+    "departureStation" : "湘潭"
+  },
+  "C7859" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7859",
+    "train_no" : "6n000C786201",
+    "departureStation" : "长沙西"
+  },
+  "C7004" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7004",
+    "train_no" : "65000C70040D",
+    "departureStation" : "深圳"
+  },
+  "C2845" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2845",
+    "train_no" : "38000C284500",
+    "departureStation" : "郑州东"
+  },
+  "C7867" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7867",
+    "train_no" : "6n000C787001",
+    "departureStation" : "长沙西"
+  },
+  "C7012" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7012",
+    "train_no" : "65000C70120G",
+    "departureStation" : "深圳"
+  },
+  "C2853" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2853",
+    "train_no" : "38000C285320",
+    "departureStation" : "郑州东"
+  },
+  "C2338" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2338",
+    "train_no" : "25000C233800",
+    "departureStation" : "于家堡"
+  },
+  "C6958" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6958",
+    "train_no" : "6n000C695800",
+    "departureStation" : "长沙西"
+  },
+  "C7020" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7020",
+    "train_no" : "65000C70200D",
+    "departureStation" : "深圳"
+  },
+  "C6103" : {
+    "terminalStation" : "都江堰",
+    "trainCode" : "C6103",
+    "train_no" : "76000C610306",
+    "departureStation" : "成都"
+  },
+  "C7875" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7875",
+    "train_no" : "6n000C787802",
+    "departureStation" : "长沙西"
+  },
+  "C2861" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2861",
+    "train_no" : "38000C286140",
+    "departureStation" : "郑州东"
+  },
+  "C6966" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6966",
+    "train_no" : "6n000C696600",
+    "departureStation" : "长沙西"
+  },
+  "C6111" : {
+    "terminalStation" : "都江堰",
+    "trainCode" : "C6111",
+    "train_no" : "76000C611102",
+    "departureStation" : "犀浦"
+  },
+  "C7504" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7504",
+    "train_no" : "22000C750400",
+    "departureStation" : "小金口"
+  },
+  "C6974" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6974",
+    "train_no" : "6n000C697400",
+    "departureStation" : "长沙西"
+  },
+  "C7512" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7512",
+    "train_no" : "22000C751200",
+    "departureStation" : "小金口"
+  },
+  "C7005" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7005",
+    "train_no" : "65000C700509",
+    "departureStation" : "广州东"
+  },
+  "C7520" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7520",
+    "train_no" : "22000C752000",
+    "departureStation" : "小金口"
+  },
+  "C2846" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2846",
+    "train_no" : "38000C284600",
+    "departureStation" : "新郑机场"
+  },
+  "C7868" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7868",
+    "train_no" : "6n000C786801",
+    "departureStation" : "株洲南"
+  },
+  "C7013" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7013",
+    "train_no" : "65000C70130A",
+    "departureStation" : "广州东"
+  },
+  "C2854" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2854",
+    "train_no" : "38000C285420",
+    "departureStation" : "新郑机场"
+  },
+  "C6959" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6959",
+    "train_no" : "6n000C696200",
+    "departureStation" : "长沙西"
+  },
+  "C7021" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7021",
+    "train_no" : "65000C702108",
+    "departureStation" : "广州东"
+  },
+  "C6104" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6104",
+    "train_no" : "76000C610406",
+    "departureStation" : "都江堰"
+  },
+  "C2862" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2862",
+    "train_no" : "38000C286240",
+    "departureStation" : "新郑机场"
+  },
+  "C6967" : {
+    "terminalStation" : "湘潭",
+    "trainCode" : "C6967",
+    "train_no" : "6n000C697000",
+    "departureStation" : "长沙西"
+  },
+  "C6112" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6112",
+    "train_no" : "76000C611202",
+    "departureStation" : "都江堰"
+  },
+  "C7505" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7505",
+    "train_no" : "22000C750500",
+    "departureStation" : "道滘"
+  },
+  "C6120" : {
+    "terminalStation" : "安靖",
+    "trainCode" : "C6120",
+    "train_no" : "76000C612004",
+    "departureStation" : "青城山"
+  },
+  "C7513" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7513",
+    "train_no" : "22000C751300",
+    "departureStation" : "道滘"
+  },
+  "C7006" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7006",
+    "train_no" : "65000C70060C",
+    "departureStation" : "深圳"
+  },
+  "C7521" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7521",
+    "train_no" : "22000C752100",
+    "departureStation" : "道滘"
+  },
+  "C2847" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2847",
+    "train_no" : "38000C284700",
+    "departureStation" : "郑州东"
+  },
+  "C7869" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C7869",
+    "train_no" : "6n000C786801",
+    "departureStation" : "株洲南"
+  },
+  "C7014" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7014",
+    "train_no" : "65000C70140E",
+    "departureStation" : "深圳"
+  },
+  "C2855" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2855",
+    "train_no" : "38000C285520",
+    "departureStation" : "郑州东"
+  },
+  "C7022" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7022",
+    "train_no" : "65000C70220B",
+    "departureStation" : "深圳"
+  },
+  "C6105" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6105",
+    "train_no" : "76000C610503",
+    "departureStation" : "犀浦"
+  },
+  "C6968" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6968",
+    "train_no" : "62000C696803",
+    "departureStation" : "湘潭"
+  },
+  "C7030" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7030",
+    "train_no" : "65000C70300A",
+    "departureStation" : "深圳"
+  },
+  "C6113" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6113",
+    "train_no" : "76000C611303",
+    "departureStation" : "犀浦"
+  },
+  "C2871" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2871",
+    "train_no" : "38000C287110",
+    "departureStation" : "郑州东"
+  },
+  "C7506" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7506",
+    "train_no" : "22000C750600",
+    "departureStation" : "小金口"
+  },
+  "C6121" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6121",
+    "train_no" : "76000C612102",
+    "departureStation" : "安靖"
+  },
+  "C7514" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7514",
+    "train_no" : "22000C751400",
+    "departureStation" : "小金口"
+  },
+  "C7007" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7007",
+    "train_no" : "65000C70070A",
+    "departureStation" : "广州东"
+  },
+  "C7522" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7522",
+    "train_no" : "22000C752200",
+    "departureStation" : "小金口"
+  },
+  "C2848" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2848",
+    "train_no" : "38000C284800",
+    "departureStation" : "新郑机场"
+  },
+  "C7015" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7015",
+    "train_no" : "65000C70150D",
+    "departureStation" : "广州东"
+  },
+  "C7530" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7530",
+    "train_no" : "22000C753000",
+    "departureStation" : "小金口"
+  },
+  "C2856" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2856",
+    "train_no" : "38000C285620",
+    "departureStation" : "新郑机场"
+  },
+  "C7878" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7878",
+    "train_no" : "6n000C787802",
+    "departureStation" : "长沙西"
+  },
+  "C2001" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2001",
+    "train_no" : "24000C20010P",
+    "departureStation" : "北京南"
+  },
+  "C7023" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7023",
+    "train_no" : "63000C702303",
+    "departureStation" : "广州"
+  },
+  "C6106" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6106",
+    "train_no" : "76000C610605",
+    "departureStation" : "青城山"
+  },
+  "C6969" : {
+    "terminalStation" : "长沙西",
+    "trainCode" : "C6969",
+    "train_no" : "62000C696803",
+    "departureStation" : "湘潭"
+  },
+  "C7031" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7031",
+    "train_no" : "65000C703106",
+    "departureStation" : "广州东"
+  },
+  "C6114" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6114",
+    "train_no" : "76000C611404",
+    "departureStation" : "青城山"
+  },
+  "C2872" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2872",
+    "train_no" : "38000C287210",
+    "departureStation" : "新郑机场"
+  },
+  "C6122" : {
+    "terminalStation" : "安靖",
+    "trainCode" : "C6122",
+    "train_no" : "76000C612202",
+    "departureStation" : "青城山"
+  },
+  "C2880" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2880",
+    "train_no" : "38000C288000",
+    "departureStation" : "新郑机场"
+  },
+  "C7515" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7515",
+    "train_no" : "22000C751500",
+    "departureStation" : "道滘"
+  },
+  "C6130" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6130",
+    "train_no" : "76000C613003",
+    "departureStation" : "都江堰"
+  },
+  "C7008" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7008",
+    "train_no" : "65000C70080B",
+    "departureStation" : "深圳"
+  },
+  "C2849" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2849",
+    "train_no" : "38000C284900",
+    "departureStation" : "郑州东"
+  },
+  "C7016" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7016",
+    "train_no" : "65000C70160H",
+    "departureStation" : "深圳"
+  },
+  "C7531" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7531",
+    "train_no" : "22000C753100",
+    "departureStation" : "道滘"
+  },
+  "C2857" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2857",
+    "train_no" : "38000C285720",
+    "departureStation" : "郑州东"
+  },
+  "C2002" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2002",
+    "train_no" : "25000C20020M",
+    "departureStation" : "天津"
+  },
+  "C7024" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7024",
+    "train_no" : "65000C70240B",
+    "departureStation" : "深圳"
+  },
+  "C6107" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6107",
+    "train_no" : "76000C610704",
+    "departureStation" : "安靖"
+  },
+  "C7032" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7032",
+    "train_no" : "65000C70320A",
+    "departureStation" : "深圳"
+  },
+  "C6115" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6115",
+    "train_no" : "76000C611502",
+    "departureStation" : "犀浦"
+  },
+  "C2873" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2873",
+    "train_no" : "38000C287300",
+    "departureStation" : "郑州东"
+  },
+  "C7508" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7508",
+    "train_no" : "22000C750800",
+    "departureStation" : "小金口"
+  },
+  "C7040" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7040",
+    "train_no" : "65000C704008",
+    "departureStation" : "深圳"
+  },
+  "C6123" : {
+    "terminalStation" : "都江堰",
+    "trainCode" : "C6123",
+    "train_no" : "76000C612320",
+    "departureStation" : "安靖"
+  },
+  "C2881" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2881",
+    "train_no" : "38000C288110",
+    "departureStation" : "郑州东"
+  },
+  "C6131" : {
+    "terminalStation" : "都江堰",
+    "trainCode" : "C6131",
+    "train_no" : "76000C613103",
+    "departureStation" : "犀浦"
+  },
+  "C7009" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7009",
+    "train_no" : "63000C700901",
+    "departureStation" : "广州"
+  },
+  "C7524" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7524",
+    "train_no" : "22000C752400",
+    "departureStation" : "小金口"
+  },
+  "C7017" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7017",
+    "train_no" : "63000C701705",
+    "departureStation" : "广州"
+  },
+  "C2858" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2858",
+    "train_no" : "38000C285820",
+    "departureStation" : "新郑机场"
+  },
+  "C2003" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2003",
+    "train_no" : "24000C20030I",
+    "departureStation" : "北京南"
+  },
+  "C7025" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7025",
+    "train_no" : "63000C702503",
+    "departureStation" : "广州"
+  },
+  "C6108" : {
+    "terminalStation" : "安靖",
+    "trainCode" : "C6108",
+    "train_no" : "76000C610803",
+    "departureStation" : "青城山"
+  },
+  "C7540" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7540",
+    "train_no" : "22000C754000",
+    "departureStation" : "小金口"
+  },
+  "C2011" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2011",
+    "train_no" : "24000C20110J",
+    "departureStation" : "北京南"
+  },
+  "C7033" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7033",
+    "train_no" : "63000C703303",
+    "departureStation" : "广州"
+  },
+  "C6116" : {
+    "terminalStation" : "安靖",
+    "trainCode" : "C6116",
+    "train_no" : "76000C611603",
+    "departureStation" : "青城山"
+  },
+  "C2874" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2874",
+    "train_no" : "38000C287400",
+    "departureStation" : "新郑机场"
+  },
+  "C7509" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7509",
+    "train_no" : "22000C750900",
+    "departureStation" : "道滘"
+  },
+  "C7041" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7041",
+    "train_no" : "65000C704106",
+    "departureStation" : "广州东"
+  },
+  "C6124" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6124",
+    "train_no" : "76000C612420",
+    "departureStation" : "都江堰"
+  },
+  "C2882" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2882",
+    "train_no" : "38000C288210",
+    "departureStation" : "新郑机场"
+  },
+  "C7517" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7517",
+    "train_no" : "22000C751700",
+    "departureStation" : "道滘"
+  },
+  "C6132" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6132",
+    "train_no" : "76000C613202",
+    "departureStation" : "青城山"
+  },
+  "C2890" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2890",
+    "train_no" : "38000C289010",
+    "departureStation" : "新郑机场"
+  },
+  "C7525" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7525",
+    "train_no" : "22000C752500",
+    "departureStation" : "道滘"
+  },
+  "C6140" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6140",
+    "train_no" : "76000C614003",
+    "departureStation" : "青城山"
+  },
+  "C7018" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7018",
+    "train_no" : "65000C70180D",
+    "departureStation" : "深圳"
+  },
+  "C7533" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7533",
+    "train_no" : "22000C753300",
+    "departureStation" : "道滘"
+  },
+  "C2859" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2859",
+    "train_no" : "38000C285930",
+    "departureStation" : "郑州东"
+  },
+  "C2004" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2004",
+    "train_no" : "25000C20040E",
+    "departureStation" : "天津"
+  },
+  "C7026" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7026",
+    "train_no" : "65000C70260C",
+    "departureStation" : "深圳"
+  },
+  "C6109" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6109",
+    "train_no" : "76000C610904",
+    "departureStation" : "犀浦"
+  },
+  "C7541" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7541",
+    "train_no" : "22000C754100",
+    "departureStation" : "道滘"
+  },
+  "C2012" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2012",
+    "train_no" : "25000C20120Q",
+    "departureStation" : "天津"
+  },
+  "C6117" : {
+    "terminalStation" : "都江堰",
+    "trainCode" : "C6117",
+    "train_no" : "76000C611702",
+    "departureStation" : "犀浦"
+  },
+  "C2875" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2875",
+    "train_no" : "38000C287500",
+    "departureStation" : "郑州东"
+  },
+  "C2020" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2020",
+    "train_no" : "25000C20200M",
+    "departureStation" : "天津"
+  },
+  "C7042" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7042",
+    "train_no" : "65000C704208",
+    "departureStation" : "深圳"
+  },
+  "C6125" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6125",
+    "train_no" : "76000C612502",
+    "departureStation" : "成都"
+  },
+  "C2883" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2883",
+    "train_no" : "38000C288310",
+    "departureStation" : "郑州东"
+  },
+  "C7518" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7518",
+    "train_no" : "22000C751800",
+    "departureStation" : "小金口"
+  },
+  "C7050" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7050",
+    "train_no" : "65000C70500I",
+    "departureStation" : "深圳"
+  },
+  "C6133" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6133",
+    "train_no" : "76000C613303",
+    "departureStation" : "犀浦"
+  },
+  "C2891" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2891",
+    "train_no" : "38000C289110",
+    "departureStation" : "郑州东"
+  },
+  "C7526" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7526",
+    "train_no" : "22000C752600",
+    "departureStation" : "小金口"
+  },
+  "C6141" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6141",
+    "train_no" : "76000C614101",
+    "departureStation" : "犀浦"
+  },
+  "C7019" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7019",
+    "train_no" : "65000C701905",
+    "departureStation" : "广州东"
+  },
+  "C7534" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7534",
+    "train_no" : "22000C753400",
+    "departureStation" : "小金口"
+  },
+  "C7027" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7027",
+    "train_no" : "65000C702708",
+    "departureStation" : "广州东"
+  },
+  "C7542" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7542",
+    "train_no" : "22000C754200",
+    "departureStation" : "小金口"
+  },
+  "C7035" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7035",
+    "train_no" : "65000C703507",
+    "departureStation" : "广州东"
+  },
+  "C6118" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6118",
+    "train_no" : "76000C611803",
+    "departureStation" : "都江堰"
+  },
+  "C7550" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7550",
+    "train_no" : "22000C755000",
+    "departureStation" : "小金口"
+  },
+  "C2876" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2876",
+    "train_no" : "38000C287601",
+    "departureStation" : "新郑机场"
+  },
+  "C2021" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2021",
+    "train_no" : "24000C20210T",
+    "departureStation" : "北京南"
+  },
+  "C7043" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7043",
+    "train_no" : "65000C704305",
+    "departureStation" : "广州东"
+  },
+  "C6126" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6126",
+    "train_no" : "76000C612601",
+    "departureStation" : "青城山"
+  },
+  "C2884" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2884",
+    "train_no" : "38000C288402",
+    "departureStation" : "新郑机场"
+  },
+  "C7519" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7519",
+    "train_no" : "22000C751900",
+    "departureStation" : "道滘"
+  },
+  "C6134" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6134",
+    "train_no" : "76000C613402",
+    "departureStation" : "青城山"
+  },
+  "C2892" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2892",
+    "train_no" : "38000C289210",
+    "departureStation" : "新郑机场"
+  },
+  "C7527" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7527",
+    "train_no" : "22000C752700",
+    "departureStation" : "道滘"
+  },
+  "C6142" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6142",
+    "train_no" : "76000C614201",
+    "departureStation" : "青城山"
+  },
+  "C7535" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7535",
+    "train_no" : "22000C753500",
+    "departureStation" : "道滘"
+  },
+  "C2006" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2006",
+    "train_no" : "25000C20060E",
+    "departureStation" : "天津"
+  },
+  "C7028" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7028",
+    "train_no" : "65000C70280A",
+    "departureStation" : "深圳"
+  },
+  "C7543" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7543",
+    "train_no" : "22000C754300",
+    "departureStation" : "道滘"
+  },
+  "C2014" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2014",
+    "train_no" : "25000C20140C",
+    "departureStation" : "天津"
+  },
+  "C7036" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7036",
+    "train_no" : "65000C703608",
+    "departureStation" : "深圳"
+  },
+  "C6119" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6119",
+    "train_no" : "76000C611903",
+    "departureStation" : "安靖"
+  },
+  "C7551" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7551",
+    "train_no" : "22000C755100",
+    "departureStation" : "道滘"
+  },
+  "C2877" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2877",
+    "train_no" : "38000C287700",
+    "departureStation" : "焦作"
+  },
+  "C2022" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2022",
+    "train_no" : "25000C20220I",
+    "departureStation" : "天津"
+  },
+  "C7044" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7044",
+    "train_no" : "65000C70440A",
+    "departureStation" : "深圳"
+  },
+  "C6127" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6127",
+    "train_no" : "76000C612702",
+    "departureStation" : "犀浦"
+  },
+  "C2885" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2885",
+    "train_no" : "38000C288510",
+    "departureStation" : "焦作"
+  },
+  "C2030" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2030",
+    "train_no" : "25000C20300F",
+    "departureStation" : "天津"
+  },
+  "C6135" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6135",
+    "train_no" : "76000C613503",
+    "departureStation" : "犀浦"
+  },
+  "C7528" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7528",
+    "train_no" : "22000C752800",
+    "departureStation" : "小金口"
+  },
+  "C7060" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7060",
+    "train_no" : "65000C70600A",
+    "departureStation" : "深圳"
+  },
+  "C7536" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7536",
+    "train_no" : "22000C753600",
+    "departureStation" : "小金口"
+  },
+  "C6151" : {
+    "terminalStation" : "离堆公园",
+    "trainCode" : "C6151",
+    "train_no" : "76000C615105",
+    "departureStation" : "成都"
+  },
+  "C7029" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7029",
+    "train_no" : "65000C702906",
+    "departureStation" : "广州东"
+  },
+  "C7544" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7544",
+    "train_no" : "22000C754400",
+    "departureStation" : "小金口"
+  },
+  "C2015" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2015",
+    "train_no" : "24000C20150O",
+    "departureStation" : "北京南"
+  },
+  "C7037" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7037",
+    "train_no" : "63000C703701",
+    "departureStation" : "广州"
+  },
+  "C7552" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7552",
+    "train_no" : "22000C755200",
+    "departureStation" : "小金口"
+  },
+  "C2878" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2878",
+    "train_no" : "38000C287800",
+    "departureStation" : "新郑机场"
+  },
+  "C2023" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2023",
+    "train_no" : "24000C20230L",
+    "departureStation" : "北京南"
+  },
+  "C7045" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7045",
+    "train_no" : "63000C704504",
+    "departureStation" : "广州"
+  },
+  "C6128" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6128",
+    "train_no" : "76000C612802",
+    "departureStation" : "青城山"
+  },
+  "C2886" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2886",
+    "train_no" : "38000C288610",
+    "departureStation" : "新郑机场"
+  },
+  "C2031" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2031",
+    "train_no" : "24000C20310M",
+    "departureStation" : "北京南"
+  },
+  "C6136" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6136",
+    "train_no" : "76000C613602",
+    "departureStation" : "都江堰"
+  },
+  "C7529" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7529",
+    "train_no" : "22000C752900",
+    "departureStation" : "道滘"
+  },
+  "C7061" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7061",
+    "train_no" : "63000C706101",
+    "departureStation" : "广州"
+  },
+  "C7537" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7537",
+    "train_no" : "22000C753700",
+    "departureStation" : "道滘"
+  },
+  "C6152" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6152",
+    "train_no" : "76000C615203",
+    "departureStation" : "离堆公园"
+  },
+  "C7545" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7545",
+    "train_no" : "22000C754500",
+    "departureStation" : "道滘"
+  },
+  "C6160" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6160",
+    "train_no" : "76000C616002",
+    "departureStation" : "离堆公园"
+  },
+  "C7038" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7038",
+    "train_no" : "65000C703808",
+    "departureStation" : "深圳"
+  },
+  "C7553" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7553",
+    "train_no" : "22000C755300",
+    "departureStation" : "道滘"
+  },
+  "C2879" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2879",
+    "train_no" : "38000C287900",
+    "departureStation" : "郑州东"
+  },
+  "C2024" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2024",
+    "train_no" : "25000C202418",
+    "departureStation" : "天津"
+  },
+  "C7046" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7046",
+    "train_no" : "65000C704609",
+    "departureStation" : "深圳"
+  },
+  "C6129" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6129",
+    "train_no" : "76000C612902",
+    "departureStation" : "犀浦"
+  },
+  "C2887" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2887",
+    "train_no" : "38000C288710",
+    "departureStation" : "郑州东"
+  },
+  "C2032" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2032",
+    "train_no" : "25000C20320H",
+    "departureStation" : "天津"
+  },
+  "C6137" : {
+    "terminalStation" : "都江堰",
+    "trainCode" : "C6137",
+    "train_no" : "76000C613703",
+    "departureStation" : "犀浦"
+  },
+  "C2040" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2040",
+    "train_no" : "25000C20400J",
+    "departureStation" : "天津"
+  },
+  "C7062" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7062",
+    "train_no" : "65000C70620B",
+    "departureStation" : "深圳"
+  },
+  "C7538" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7538",
+    "train_no" : "22000C753800",
+    "departureStation" : "小金口"
+  },
+  "C7070" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7070",
+    "train_no" : "65000C70700D",
+    "departureStation" : "深圳"
+  },
+  "C6153" : {
+    "terminalStation" : "离堆公园",
+    "trainCode" : "C6153",
+    "train_no" : "76000C615305",
+    "departureStation" : "成都"
+  },
+  "C2009" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2009",
+    "train_no" : "24000C200912",
+    "departureStation" : "北京南"
+  },
+  "C7546" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7546",
+    "train_no" : "22000C754600",
+    "departureStation" : "小金口"
+  },
+  "C6161" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6161",
+    "train_no" : "76000C616102",
+    "departureStation" : "成都"
+  },
+  "C2017" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2017",
+    "train_no" : "24000C20170K",
+    "departureStation" : "北京南"
+  },
+  "C7039" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7039",
+    "train_no" : "65000C703906",
+    "departureStation" : "广州东"
+  },
+  "C7554" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7554",
+    "train_no" : "22000C755400",
+    "departureStation" : "小金口"
+  },
+  "C7047" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7047",
+    "train_no" : "65000C704706",
+    "departureStation" : "广州东"
+  },
+  "C2888" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2888",
+    "train_no" : "38000C288810",
+    "departureStation" : "新郑机场"
+  },
+  "C2033" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2033",
+    "train_no" : "24000C20330U",
+    "departureStation" : "北京南"
+  },
+  "C7055" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7055",
+    "train_no" : "65000C705508",
+    "departureStation" : "广州东"
+  },
+  "C6138" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6138",
+    "train_no" : "76000C613805",
+    "departureStation" : "青城山"
+  },
+  "C2041" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2041",
+    "train_no" : "24000C20410K",
+    "departureStation" : "北京南"
+  },
+  "C7063" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7063",
+    "train_no" : "63000C706302",
+    "departureStation" : "广州"
+  },
+  "C6154" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6154",
+    "train_no" : "76000C615404",
+    "departureStation" : "离堆公园"
+  },
+  "C7547" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7547",
+    "train_no" : "22000C754700",
+    "departureStation" : "道滘"
+  },
+  "C6162" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6162",
+    "train_no" : "76000C616202",
+    "departureStation" : "青城山"
+  },
+  "C2018" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2018",
+    "train_no" : "25000C20180K",
+    "departureStation" : "天津"
+  },
+  "C7048" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7048",
+    "train_no" : "65000C704809",
+    "departureStation" : "深圳"
+  },
+  "C2889" : {
+    "terminalStation" : "新郑机场",
+    "trainCode" : "C2889",
+    "train_no" : "38000C288910",
+    "departureStation" : "郑州东"
+  },
+  "C7056" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7056",
+    "train_no" : "65000C70560B",
+    "departureStation" : "深圳"
+  },
+  "C6139" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6139",
+    "train_no" : "76000C613903",
+    "departureStation" : "犀浦"
+  },
+  "C2042" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2042",
+    "train_no" : "25000C20420K",
+    "departureStation" : "天津"
+  },
+  "C7064" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7064",
+    "train_no" : "65000C70640A",
+    "departureStation" : "深圳"
+  },
+  "C2050" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2050",
+    "train_no" : "25000C20500L",
+    "departureStation" : "天津"
+  },
+  "C6155" : {
+    "terminalStation" : "离堆公园",
+    "trainCode" : "C6155",
+    "train_no" : "76000C615504",
+    "departureStation" : "安靖"
+  },
+  "C7080" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7080",
+    "train_no" : "65000C70800B",
+    "departureStation" : "深圳"
+  },
+  "C6163" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6163",
+    "train_no" : "76000C616302",
+    "departureStation" : "犀浦"
+  },
+  "C2019" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2019",
+    "train_no" : "24000C20190H",
+    "departureStation" : "北京南"
+  },
+  "C7556" : {
+    "terminalStation" : "道滘",
+    "trainCode" : "C7556",
+    "train_no" : "22000C755600",
+    "departureStation" : "小金口"
+  },
+  "C2027" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2027",
+    "train_no" : "24000C202716",
+    "departureStation" : "北京南"
+  },
+  "C7049" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7049",
+    "train_no" : "63000C704902",
+    "departureStation" : "广州"
+  },
+  "C2035" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2035",
+    "train_no" : "24000C20350H",
+    "departureStation" : "北京南"
+  },
+  "C7057" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7057",
+    "train_no" : "63000C705701",
+    "departureStation" : "广州"
+  },
+  "C7700" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7700",
+    "train_no" : "6e000C770001",
+    "departureStation" : "珠海"
+  },
+  "C7065" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7065",
+    "train_no" : "65000C706506",
+    "departureStation" : "广州东"
+  },
+  "C2051" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2051",
+    "train_no" : "24000C20510J",
+    "departureStation" : "北京南"
+  },
+  "C6156" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6156",
+    "train_no" : "76000C615603",
+    "departureStation" : "离堆公园"
+  },
+  "C7549" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7549",
+    "train_no" : "22000C754900",
+    "departureStation" : "道滘"
+  },
+  "C7081" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7081",
+    "train_no" : "65000C708107",
+    "departureStation" : "广州东"
+  },
+  "C6164" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6164",
+    "train_no" : "76000C616402",
+    "departureStation" : "青城山"
+  },
+  "C7557" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7557",
+    "train_no" : "22000C755700",
+    "departureStation" : "道滘"
+  },
+  "C2028" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2028",
+    "train_no" : "25000C20280I",
+    "departureStation" : "天津"
+  },
+  "C2036" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2036",
+    "train_no" : "25000C203610",
+    "departureStation" : "天津"
+  },
+  "C7058" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7058",
+    "train_no" : "65000C70580A",
+    "departureStation" : "深圳"
+  },
+  "C7701" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7701",
+    "train_no" : "6c000C770106",
+    "departureStation" : "广州南"
+  },
+  "C2044" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2044",
+    "train_no" : "25000C204413",
+    "departureStation" : "天津"
+  },
+  "C7066" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7066",
+    "train_no" : "65000C70660A",
+    "departureStation" : "深圳"
+  },
+  "C2052" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2052",
+    "train_no" : "25000C20520O",
+    "departureStation" : "天津"
+  },
+  "C6157" : {
+    "terminalStation" : "离堆公园",
+    "trainCode" : "C6157",
+    "train_no" : "76000C615702",
+    "departureStation" : "犀浦"
+  },
+  "C2060" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2060",
+    "train_no" : "25000C20600F",
+    "departureStation" : "天津"
+  },
+  "C6165" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6165",
+    "train_no" : "76000C616502",
+    "departureStation" : "犀浦"
+  },
+  "C6301" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6301",
+    "train_no" : "76000C63010A",
+    "departureStation" : "江油"
+  },
+  "C6181" : {
+    "terminalStation" : "彭州",
+    "trainCode" : "C6181",
+    "train_no" : "76000C618104",
+    "departureStation" : "成都"
+  },
+  "C2037" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2037",
+    "train_no" : "24000C20370J",
+    "departureStation" : "北京南"
+  },
+  "C7059" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7059",
+    "train_no" : "65000C705908",
+    "departureStation" : "广州东"
+  },
+  "C7702" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7702",
+    "train_no" : "6e000C770205",
+    "departureStation" : "珠海"
+  },
+  "C7710" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7710",
+    "train_no" : "6e000C771006",
+    "departureStation" : "珠海"
+  },
+  "C7067" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7067",
+    "train_no" : "65000C706705",
+    "departureStation" : "广州东"
+  },
+  "C2053" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2053",
+    "train_no" : "24000C20530M",
+    "departureStation" : "北京南"
+  },
+  "C6801" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6801",
+    "train_no" : "6j000C680130",
+    "departureStation" : "惠州南"
+  },
+  "C6158" : {
+    "terminalStation" : "安靖",
+    "trainCode" : "C6158",
+    "train_no" : "76000C615804",
+    "departureStation" : "离堆公园"
+  },
+  "C7075" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7075",
+    "train_no" : "65000C707504",
+    "departureStation" : "广州东"
+  },
+  "C2061" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2061",
+    "train_no" : "24000C20610L",
+    "departureStation" : "北京南"
+  },
+  "C6166" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6166",
+    "train_no" : "76000C616602",
+    "departureStation" : "青城山"
+  },
+  "C7559" : {
+    "terminalStation" : "小金口",
+    "trainCode" : "C7559",
+    "train_no" : "22000C755900",
+    "departureStation" : "道滘"
+  },
+  "C6302" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6302",
+    "train_no" : "76000C630209",
+    "departureStation" : "峨眉山"
+  },
+  "C7091" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7091",
+    "train_no" : "65000C709105",
+    "departureStation" : "广州东"
+  },
+  "C6310" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6310",
+    "train_no" : "76000C631004",
+    "departureStation" : "峨眉山"
+  },
+  "C6182" : {
+    "terminalStation" : "安靖",
+    "trainCode" : "C6182",
+    "train_no" : "76000C618203",
+    "departureStation" : "彭州"
+  },
+  "C2038" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2038",
+    "train_no" : "25000C20380J",
+    "departureStation" : "天津"
+  },
+  "C7703" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7703",
+    "train_no" : "6c000C770304",
+    "departureStation" : "广州南"
+  },
+  "C6190" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6190",
+    "train_no" : "76000C619001",
+    "departureStation" : "彭州"
+  },
+  "C2046" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2046",
+    "train_no" : "25000C20460M",
+    "departureStation" : "天津"
+  },
+  "C7068" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7068",
+    "train_no" : "65000C70680B",
+    "departureStation" : "深圳"
+  },
+  "C7711" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7711",
+    "train_no" : "6c000C771107",
+    "departureStation" : "广州南"
+  },
+  "C2054" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2054",
+    "train_no" : "25000C20540L",
+    "departureStation" : "天津"
+  },
+  "C6802" : {
+    "terminalStation" : "惠州南",
+    "trainCode" : "C6802",
+    "train_no" : "6i000C680204",
+    "departureStation" : "深圳北"
+  },
+  "C7076" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7076",
+    "train_no" : "65000C70760B",
+    "departureStation" : "深圳"
+  },
+  "C2062" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2062",
+    "train_no" : "25000C20620M",
+    "departureStation" : "天津"
+  },
+  "C7084" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7084",
+    "train_no" : "65000C70840B",
+    "departureStation" : "深圳"
+  },
+  "C6167" : {
+    "terminalStation" : "青城山",
+    "trainCode" : "C6167",
+    "train_no" : "76000C616702",
+    "departureStation" : "犀浦"
+  },
+  "C6810" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C6810",
+    "train_no" : "6i000C681004",
+    "departureStation" : "深圳北"
+  },
+  "C7220" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7220",
+    "train_no" : "6e000C722001",
+    "departureStation" : "新会"
+  },
+  "C6303" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6303",
+    "train_no" : "76000C630320",
+    "departureStation" : "苍溪"
+  },
+  "C2070" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2070",
+    "train_no" : "25000C20700K",
+    "departureStation" : "天津"
+  },
+  "C7092" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7092",
+    "train_no" : "65000C70920A",
+    "departureStation" : "深圳"
+  },
+  "C6311" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6311",
+    "train_no" : "76000C631106",
+    "departureStation" : "江油"
+  },
+  "C6183" : {
+    "terminalStation" : "彭州",
+    "trainCode" : "C6183",
+    "train_no" : "76000C618305",
+    "departureStation" : "犀浦"
+  },
+  "C2039" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2039",
+    "train_no" : "24000C20390H",
+    "departureStation" : "北京南"
+  },
+  "C7704" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7704",
+    "train_no" : "6e000C770406",
+    "departureStation" : "珠海"
+  },
+  "C6191" : {
+    "terminalStation" : "彭州",
+    "trainCode" : "C6191",
+    "train_no" : "76000C619101",
+    "departureStation" : "犀浦"
+  },
+  "C2047" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2047",
+    "train_no" : "24000C20470K",
+    "departureStation" : "北京南"
+  },
+  "C7069" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7069",
+    "train_no" : "63000C706903",
+    "departureStation" : "广州"
+  },
+  "C7712" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7712",
+    "train_no" : "6e000C771206",
+    "departureStation" : "珠海"
+  },
+  "C2055" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2055",
+    "train_no" : "24000C20550U",
+    "departureStation" : "北京南"
+  },
+  "C6803" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6803",
+    "train_no" : "6j000C680304",
+    "departureStation" : "深圳坪山"
+  },
+  "C7077" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7077",
+    "train_no" : "65000C707706",
+    "departureStation" : "广州东"
+  },
+  "C2063" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2063",
+    "train_no" : "24000C20630K",
+    "departureStation" : "北京南"
+  },
+  "C7085" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7085",
+    "train_no" : "65000C708508",
+    "departureStation" : "广州东"
+  },
+  "C6168" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6168",
+    "train_no" : "76000C616802",
+    "departureStation" : "青城山"
+  },
+  "C6811" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6811",
+    "train_no" : "6j000C681104",
+    "departureStation" : "深圳坪山"
+  },
+  "C7221" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7221",
+    "train_no" : "6c000C722101",
+    "departureStation" : "广州南"
+  },
+  "C6304" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6304",
+    "train_no" : "76000C630407",
+    "departureStation" : "峨眉山"
+  },
+  "C2071" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2071",
+    "train_no" : "24000C20710N",
+    "departureStation" : "北京南"
+  },
+  "C7093" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7093",
+    "train_no" : "65000C709308",
+    "departureStation" : "广州东"
+  },
+  "C6312" : {
+    "terminalStation" : "苍溪",
+    "trainCode" : "C6312",
+    "train_no" : "76000C631210",
+    "departureStation" : "成都东"
+  },
+  "C6184" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6184",
+    "train_no" : "76000C618405",
+    "departureStation" : "彭州"
+  },
+  "C7705" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7705",
+    "train_no" : "6c000C770507",
+    "departureStation" : "广州南"
+  },
+  "C6192" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6192",
+    "train_no" : "76000C619201",
+    "departureStation" : "彭州"
+  },
+  "C2048" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2048",
+    "train_no" : "25000C20480R",
+    "departureStation" : "天津"
+  },
+  "C2056" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2056",
+    "train_no" : "25000C20560F",
+    "departureStation" : "天津"
+  },
+  "C6804" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C6804",
+    "train_no" : "6i000C680405",
+    "departureStation" : "深圳北"
+  },
+  "C7078" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7078",
+    "train_no" : "65000C70780A",
+    "departureStation" : "深圳"
+  },
+  "C2064" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2064",
+    "train_no" : "25000C20640J",
+    "departureStation" : "天津"
+  },
+  "C6812" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C6812",
+    "train_no" : "6i000C681204",
+    "departureStation" : "深圳北"
+  },
+  "C7086" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7086",
+    "train_no" : "65000C70860A",
+    "departureStation" : "深圳"
+  },
+  "C7222" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7222",
+    "train_no" : "6e000C722201",
+    "departureStation" : "新会"
+  },
+  "C6305" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6305",
+    "train_no" : "76000C630520",
+    "departureStation" : "江油"
+  },
+  "C2072" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2072",
+    "train_no" : "25000C20721A",
+    "departureStation" : "天津"
+  },
+  "C7094" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7094",
+    "train_no" : "65000C709409",
+    "departureStation" : "深圳"
+  },
+  "C6820" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6820",
+    "train_no" : "66000C682002",
+    "departureStation" : "肇庆"
+  },
+  "C7230" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7230",
+    "train_no" : "6e000C723001",
+    "departureStation" : "新会"
+  },
+  "C3601" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3601",
+    "train_no" : "55000C360100",
+    "departureStation" : "上海南"
+  },
+  "C2080" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2080",
+    "train_no" : "25000C20800E",
+    "departureStation" : "天津"
+  },
+  "C6185" : {
+    "terminalStation" : "彭州",
+    "trainCode" : "C6185",
+    "train_no" : "76000C618504",
+    "departureStation" : "犀浦"
+  },
+  "C7706" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7706",
+    "train_no" : "6e000C770604",
+    "departureStation" : "珠海"
+  },
+  "C2049" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2049",
+    "train_no" : "24000C20490J",
+    "departureStation" : "北京南"
+  },
+  "C2057" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2057",
+    "train_no" : "24000C20570J",
+    "departureStation" : "北京南"
+  },
+  "C6805" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6805",
+    "train_no" : "6j000C680504",
+    "departureStation" : "深圳坪山"
+  },
+  "C7079" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7079",
+    "train_no" : "65000C707908",
+    "departureStation" : "广州东"
+  },
+  "C2065" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2065",
+    "train_no" : "24000C20650I",
+    "departureStation" : "北京南"
+  },
+  "C6813" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6813",
+    "train_no" : "6j000C681305",
+    "departureStation" : "深圳坪山"
+  },
+  "C7087" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7087",
+    "train_no" : "65000C708708",
+    "departureStation" : "广州东"
+  },
+  "C2201" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2201",
+    "train_no" : "24000C22010M",
+    "departureStation" : "北京南"
+  },
+  "C7223" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7223",
+    "train_no" : "6c000C722301",
+    "departureStation" : "广州南"
+  },
+  "C6306" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6306",
+    "train_no" : "76000C630608",
+    "departureStation" : "峨眉山"
+  },
+  "C2073" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2073",
+    "train_no" : "24000C20730F",
+    "departureStation" : "北京南"
+  },
+  "C7095" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7095",
+    "train_no" : "65000C709505",
+    "departureStation" : "广州东"
+  },
+  "C6821" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6821",
+    "train_no" : "70000C682101",
+    "departureStation" : "佛山西"
+  },
+  "C7231" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7231",
+    "train_no" : "6c000C723101",
+    "departureStation" : "广州南"
+  },
+  "C3602" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3602",
+    "train_no" : "55000C360200",
+    "departureStation" : "金山卫"
+  },
+  "C6186" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6186",
+    "train_no" : "76000C618602",
+    "departureStation" : "彭州"
+  },
+  "C7707" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7707",
+    "train_no" : "6c000C770705",
+    "departureStation" : "广州南"
+  },
+  "C3610" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3610",
+    "train_no" : "55000C361002",
+    "departureStation" : "金山卫"
+  },
+  "C2058" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2058",
+    "train_no" : "25000C205815",
+    "departureStation" : "天津"
+  },
+  "C6806" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C6806",
+    "train_no" : "6i000C680605",
+    "departureStation" : "深圳北"
+  },
+  "C2581" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2581",
+    "train_no" : "24000C258107",
+    "departureStation" : "北京南"
+  },
+  "C6814" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C6814",
+    "train_no" : "6i000C681404",
+    "departureStation" : "深圳北"
+  },
+  "C7088" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7088",
+    "train_no" : "65000C70880A",
+    "departureStation" : "深圳"
+  },
+  "C2202" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2202",
+    "train_no" : "25000C22020I",
+    "departureStation" : "天津"
+  },
+  "C7224" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7224",
+    "train_no" : "6e000C722402",
+    "departureStation" : "新会"
+  },
+  "C6307" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6307",
+    "train_no" : "76000C630707",
+    "departureStation" : "江油"
+  },
+  "C2074" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2074",
+    "train_no" : "25000C20740D",
+    "departureStation" : "天津"
+  },
+  "C7096" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7096",
+    "train_no" : "65000C70960C",
+    "departureStation" : "深圳"
+  },
+  "C6822" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6822",
+    "train_no" : "66000C682201",
+    "departureStation" : "肇庆"
+  },
+  "C2210" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2210",
+    "train_no" : "25000C22100H",
+    "departureStation" : "天津"
+  },
+  "C7232" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7232",
+    "train_no" : "6e000C723201",
+    "departureStation" : "新会"
+  },
+  "C3603" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3603",
+    "train_no" : "55000C360302",
+    "departureStation" : "上海南"
+  },
+  "C2082" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2082",
+    "train_no" : "25000C20820J",
+    "departureStation" : "天津"
+  },
+  "C6187" : {
+    "terminalStation" : "彭州",
+    "trainCode" : "C6187",
+    "train_no" : "76000C618701",
+    "departureStation" : "犀浦"
+  },
+  "C7708" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7708",
+    "train_no" : "6e000C770807",
+    "departureStation" : "珠海"
+  },
+  "C2090" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2090",
+    "train_no" : "25000C20900U",
+    "departureStation" : "天津"
+  },
+  "C3611" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3611",
+    "train_no" : "55000C361100",
+    "departureStation" : "上海南"
+  },
+  "C1301" : {
+    "terminalStation" : "白城",
+    "trainCode" : "C1301",
+    "train_no" : "11000C130120",
+    "departureStation" : "长春"
+  },
+  "C7240" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7240",
+    "train_no" : "6e000C724001",
+    "departureStation" : "新会"
+  },
+  "C2059" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2059",
+    "train_no" : "24000C205911",
+    "departureStation" : "北京南"
+  },
+  "C6807" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6807",
+    "train_no" : "6j000C680704",
+    "departureStation" : "深圳坪山"
+  },
+  "C2582" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2582",
+    "train_no" : "25000C258205",
+    "departureStation" : "于家堡"
+  },
+  "C6815" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6815",
+    "train_no" : "6j000C681504",
+    "departureStation" : "惠州南"
+  },
+  "C2067" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2067",
+    "train_no" : "24000C20670G",
+    "departureStation" : "北京南"
+  },
+  "C2203" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2203",
+    "train_no" : "24000C22030K",
+    "departureStation" : "北京南"
+  },
+  "C2590" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2590",
+    "train_no" : "25000C259005",
+    "departureStation" : "于家堡"
+  },
+  "C6308" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6308",
+    "train_no" : "76000C630807",
+    "departureStation" : "峨眉山"
+  },
+  "C7225" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7225",
+    "train_no" : "6c000C722501",
+    "departureStation" : "广州南"
+  },
+  "C2075" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2075",
+    "train_no" : "24000C207517",
+    "departureStation" : "北京南"
+  },
+  "C7097" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7097",
+    "train_no" : "63000C709703",
+    "departureStation" : "广州"
+  },
+  "C2211" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2211",
+    "train_no" : "24000C22110I",
+    "departureStation" : "北京南"
+  },
+  "C7233" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7233",
+    "train_no" : "6c000C723301",
+    "departureStation" : "广州南"
+  },
+  "C2083" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2083",
+    "train_no" : "24000C20830G",
+    "departureStation" : "北京南"
+  },
+  "C3604" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3604",
+    "train_no" : "55000C360402",
+    "departureStation" : "金山卫"
+  },
+  "C6188" : {
+    "terminalStation" : "犀浦",
+    "trainCode" : "C6188",
+    "train_no" : "76000C618801",
+    "departureStation" : "彭州"
+  },
+  "C6831" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6831",
+    "train_no" : "70000C683102",
+    "departureStation" : "佛山西"
+  },
+  "C6823" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6823",
+    "train_no" : "70000C682304",
+    "departureStation" : "佛山西"
+  },
+  "C2091" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2091",
+    "train_no" : "24000C20910O",
+    "departureStation" : "北京南"
+  },
+  "C3612" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3612",
+    "train_no" : "55000C361202",
+    "departureStation" : "金山卫"
+  },
+  "C1302" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1302",
+    "train_no" : "11000C130200",
+    "departureStation" : "乌兰浩特"
+  },
+  "C7241" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7241",
+    "train_no" : "6c000C724101",
+    "departureStation" : "广州南"
+  },
+  "C7709" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7709",
+    "train_no" : "6c000C770906",
+    "departureStation" : "广州南"
+  },
+  "C1310" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1310",
+    "train_no" : "11000C131000",
+    "departureStation" : "白城"
+  },
+  "C3620" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3620",
+    "train_no" : "55000C362002",
+    "departureStation" : "金山卫"
+  },
+  "C6808" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C6808",
+    "train_no" : "6i000C680806",
+    "departureStation" : "深圳北"
+  },
+  "C2583" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2583",
+    "train_no" : "24000C258306",
+    "departureStation" : "北京南"
+  },
+  "C6816" : {
+    "terminalStation" : "惠州南",
+    "trainCode" : "C6816",
+    "train_no" : "6i000C681604",
+    "departureStation" : "深圳北"
+  },
+  "C2068" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2068",
+    "train_no" : "25000C20680Q",
+    "departureStation" : "天津"
+  },
+  "C2204" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2204",
+    "train_no" : "25000C22040H",
+    "departureStation" : "天津"
+  },
+  "C2591" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2591",
+    "train_no" : "24000C259106",
+    "departureStation" : "北京南"
+  },
+  "C6309" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6309",
+    "train_no" : "76000C630906",
+    "departureStation" : "江油"
+  },
+  "C7226" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7226",
+    "train_no" : "6e000C722601",
+    "departureStation" : "新会"
+  },
+  "C2076" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2076",
+    "train_no" : "25000C20760K",
+    "departureStation" : "天津"
+  },
+  "C7098" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7098",
+    "train_no" : "65000C70980C",
+    "departureStation" : "深圳"
+  },
+  "C2212" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2212",
+    "train_no" : "25000C22120I",
+    "departureStation" : "天津"
+  },
+  "C7234" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7234",
+    "train_no" : "6e000C723401",
+    "departureStation" : "新会"
+  },
+  "C3605" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3605",
+    "train_no" : "55000C360502",
+    "departureStation" : "上海南"
+  },
+  "C6189" : {
+    "terminalStation" : "彭州",
+    "trainCode" : "C6189",
+    "train_no" : "76000C618901",
+    "departureStation" : "安靖"
+  },
+  "C6824" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6824",
+    "train_no" : "66000C682404",
+    "departureStation" : "肇庆"
+  },
+  "C2220" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2220",
+    "train_no" : "25000C22200J",
+    "departureStation" : "天津"
+  },
+  "C2092" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2092",
+    "train_no" : "25000C20920F",
+    "departureStation" : "天津"
+  },
+  "C3613" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3613",
+    "train_no" : "55000C361300",
+    "departureStation" : "上海南"
+  },
+  "C1303" : {
+    "terminalStation" : "乌兰浩特",
+    "trainCode" : "C1303",
+    "train_no" : "11000C130310",
+    "departureStation" : "长春"
+  },
+  "C6840" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6840",
+    "train_no" : "66000C684001",
+    "departureStation" : "肇庆"
+  },
+  "C7242" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7242",
+    "train_no" : "6e000C724201",
+    "departureStation" : "新会"
+  },
+  "C1311" : {
+    "terminalStation" : "白城",
+    "trainCode" : "C1311",
+    "train_no" : "11000C131100",
+    "departureStation" : "长春"
+  },
+  "C3621" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3621",
+    "train_no" : "55000C362101",
+    "departureStation" : "上海南"
+  },
+  "C6809" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6809",
+    "train_no" : "6j000C680904",
+    "departureStation" : "深圳坪山"
+  },
+  "C2584" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2584",
+    "train_no" : "25000C258405",
+    "departureStation" : "于家堡"
+  },
+  "C6817" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C6817",
+    "train_no" : "6j000C681704",
+    "departureStation" : "深圳坪山"
+  },
+  "C2069" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2069",
+    "train_no" : "24000C20690G",
+    "departureStation" : "北京南"
+  },
+  "C2205" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2205",
+    "train_no" : "24000C22050J",
+    "departureStation" : "北京南"
+  },
+  "C2592" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2592",
+    "train_no" : "25000C259206",
+    "departureStation" : "于家堡"
+  },
+  "C7227" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7227",
+    "train_no" : "6c000C722701",
+    "departureStation" : "广州南"
+  },
+  "C2077" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2077",
+    "train_no" : "24000C20770E",
+    "departureStation" : "北京南"
+  },
+  "C7099" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7099",
+    "train_no" : "65000C709909",
+    "departureStation" : "广州东"
+  },
+  "C6825" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6825",
+    "train_no" : "70000C682502",
+    "departureStation" : "佛山西"
+  },
+  "C2213" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2213",
+    "train_no" : "24000C22130P",
+    "departureStation" : "北京南"
+  },
+  "C7235" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7235",
+    "train_no" : "6c000C723501",
+    "departureStation" : "广州南"
+  },
+  "C2085" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2085",
+    "train_no" : "24000C20850J",
+    "departureStation" : "北京南"
+  },
+  "C3606" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3606",
+    "train_no" : "55000C360601",
+    "departureStation" : "金山卫"
+  },
+  "C2221" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2221",
+    "train_no" : "24000C22210I",
+    "departureStation" : "北京南"
+  },
+  "C2093" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2093",
+    "train_no" : "24000C20930L",
+    "departureStation" : "北京南"
+  },
+  "C3614" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3614",
+    "train_no" : "55000C361402",
+    "departureStation" : "金山卫"
+  },
+  "C1304" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1304",
+    "train_no" : "11000C130401",
+    "departureStation" : "白城"
+  },
+  "C7243" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7243",
+    "train_no" : "6c000C724301",
+    "departureStation" : "广州南"
+  },
+  "C1312" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1312",
+    "train_no" : "11000C131210",
+    "departureStation" : "乌兰浩特"
+  },
+  "C3622" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3622",
+    "train_no" : "55000C362201",
+    "departureStation" : "金山卫"
+  },
+  "C3630" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3630",
+    "train_no" : "55000C363001",
+    "departureStation" : "金山卫"
+  },
+  "C2585" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2585",
+    "train_no" : "24000C258506",
+    "departureStation" : "北京南"
+  },
+  "C6818" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C6818",
+    "train_no" : "6i000C681805",
+    "departureStation" : "深圳北"
+  },
+  "C2206" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2206",
+    "train_no" : "25000C22060G",
+    "departureStation" : "天津"
+  },
+  "C2593" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2593",
+    "train_no" : "24000C259305",
+    "departureStation" : "北京南"
+  },
+  "C6826" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6826",
+    "train_no" : "66000C682602",
+    "departureStation" : "肇庆"
+  },
+  "C7228" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7228",
+    "train_no" : "6e000C722802",
+    "departureStation" : "新会"
+  },
+  "C2078" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2078",
+    "train_no" : "25000C20780O",
+    "departureStation" : "天津"
+  },
+  "C2214" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2214",
+    "train_no" : "25000C22140C",
+    "departureStation" : "天津"
+  },
+  "C7236" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7236",
+    "train_no" : "6e000C723601",
+    "departureStation" : "新会"
+  },
+  "C3607" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3607",
+    "train_no" : "55000C360701",
+    "departureStation" : "上海南"
+  },
+  "C2086" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2086",
+    "train_no" : "25000C20860H",
+    "departureStation" : "天津"
+  },
+  "C6834" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6834",
+    "train_no" : "66000C683401",
+    "departureStation" : "肇庆"
+  },
+  "C2222" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2222",
+    "train_no" : "25000C22220G",
+    "departureStation" : "天津"
+  },
+  "C7244" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7244",
+    "train_no" : "6e000C724402",
+    "departureStation" : "新会"
+  },
+  "C3615" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3615",
+    "train_no" : "55000C361501",
+    "departureStation" : "上海南"
+  },
+  "C2094" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2094",
+    "train_no" : "25000C20940F",
+    "departureStation" : "天津"
+  },
+  "C1305" : {
+    "terminalStation" : "乌兰浩特",
+    "trainCode" : "C1305",
+    "train_no" : "11000C130502",
+    "departureStation" : "长春"
+  },
+  "C2230" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2230",
+    "train_no" : "25000C22300N",
+    "departureStation" : "天津"
+  },
+  "C3623" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3623",
+    "train_no" : "55000C362300",
+    "departureStation" : "上海南"
+  },
+  "C1321" : {
+    "terminalStation" : "松原",
+    "trainCode" : "C1321",
+    "train_no" : "11000C132102",
+    "departureStation" : "长春"
+  },
+  "C7260" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7260",
+    "train_no" : "6e000C726002",
+    "departureStation" : "新会"
+  },
+  "C3631" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3631",
+    "train_no" : "55000C363101",
+    "departureStation" : "上海南"
+  },
+  "C2586" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2586",
+    "train_no" : "25000C258605",
+    "departureStation" : "于家堡"
+  },
+  "C2207" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2207",
+    "train_no" : "24000C22070G",
+    "departureStation" : "北京南"
+  },
+  "C2594" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2594",
+    "train_no" : "25000C259405",
+    "departureStation" : "于家堡"
+  },
+  "C6827" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6827",
+    "train_no" : "70000C682701",
+    "departureStation" : "佛山西"
+  },
+  "C7229" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7229",
+    "train_no" : "6c000C722901",
+    "departureStation" : "广州南"
+  },
+  "C2079" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2079",
+    "train_no" : "24000C20790L",
+    "departureStation" : "北京南"
+  },
+  "C2215" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2215",
+    "train_no" : "24000C22150E",
+    "departureStation" : "北京南"
+  },
+  "C7237" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7237",
+    "train_no" : "6c000C723701",
+    "departureStation" : "广州南"
+  },
+  "C3608" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3608",
+    "train_no" : "55000C360801",
+    "departureStation" : "金山卫"
+  },
+  "C2087" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2087",
+    "train_no" : "24000C20870L",
+    "departureStation" : "北京南"
+  },
+  "C6835" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6835",
+    "train_no" : "70000C683504",
+    "departureStation" : "佛山西"
+  },
+  "C2223" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2223",
+    "train_no" : "24000C22230C",
+    "departureStation" : "北京南"
+  },
+  "C7245" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7245",
+    "train_no" : "6c000C724501",
+    "departureStation" : "广州南"
+  },
+  "C3616" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3616",
+    "train_no" : "55000C361602",
+    "departureStation" : "金山卫"
+  },
+  "C2095" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2095",
+    "train_no" : "24000C20950B",
+    "departureStation" : "北京南"
+  },
+  "C1306" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1306",
+    "train_no" : "11000C130600",
+    "departureStation" : "乌兰浩特"
+  },
+  "C3624" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3624",
+    "train_no" : "55000C362401",
+    "departureStation" : "金山卫"
+  },
+  "C1322" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1322",
+    "train_no" : "11000C132202",
+    "departureStation" : "松原"
+  },
+  "C3632" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3632",
+    "train_no" : "55000C363201",
+    "departureStation" : "金山卫"
+  },
+  "C2587" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2587",
+    "train_no" : "24000C258706",
+    "departureStation" : "北京南"
+  },
+  "C3640" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3640",
+    "train_no" : "55000C364031",
+    "departureStation" : "金山卫"
+  },
+  "C2208" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2208",
+    "train_no" : "25000C22080I",
+    "departureStation" : "天津"
+  },
+  "C2595" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2595",
+    "train_no" : "24000C259504",
+    "departureStation" : "北京南"
+  },
+  "C6828" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6828",
+    "train_no" : "66000C682801",
+    "departureStation" : "肇庆"
+  },
+  "C7238" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7238",
+    "train_no" : "6e000C723802",
+    "departureStation" : "新会"
+  },
+  "C3609" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3609",
+    "train_no" : "55000C360901",
+    "departureStation" : "上海南"
+  },
+  "C2088" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2088",
+    "train_no" : "25000C208814",
+    "departureStation" : "天津"
+  },
+  "C6836" : {
+    "terminalStation" : "佛山西",
+    "trainCode" : "C6836",
+    "train_no" : "66000C683604",
+    "departureStation" : "肇庆"
+  },
+  "C2224" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2224",
+    "train_no" : "25000C22240H",
+    "departureStation" : "天津"
+  },
+  "C7246" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7246",
+    "train_no" : "6e000C724602",
+    "departureStation" : "新会"
+  },
+  "C3617" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3617",
+    "train_no" : "55000C361700",
+    "departureStation" : "上海南"
+  },
+  "C2096" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2096",
+    "train_no" : "25000C20960I",
+    "departureStation" : "天津"
+  },
+  "C1307" : {
+    "terminalStation" : "白城",
+    "trainCode" : "C1307",
+    "train_no" : "11000C130700",
+    "departureStation" : "长春"
+  },
+  "C2232" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2232",
+    "train_no" : "25000C22320H",
+    "departureStation" : "天津"
+  },
+  "C3625" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3625",
+    "train_no" : "55000C362500",
+    "departureStation" : "上海南"
+  },
+  "C3633" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3633",
+    "train_no" : "55000C363301",
+    "departureStation" : "上海南"
+  },
+  "C2588" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2588",
+    "train_no" : "25000C258807",
+    "departureStation" : "于家堡"
+  },
+  "C1331" : {
+    "terminalStation" : "乌兰浩特",
+    "trainCode" : "C1331",
+    "train_no" : "11000C133100",
+    "departureStation" : "白城"
+  },
+  "C2209" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2209",
+    "train_no" : "24000C22090O",
+    "departureStation" : "北京南"
+  },
+  "C2596" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2596",
+    "train_no" : "25000C25960G",
+    "departureStation" : "于家堡"
+  },
+  "C6829" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6829",
+    "train_no" : "70000C682904",
+    "departureStation" : "佛山西"
+  },
+  "C6361" : {
+    "terminalStation" : "开阳",
+    "trainCode" : "C6361",
+    "train_no" : "78000C636105",
+    "departureStation" : "贵阳"
+  },
+  "C7239" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7239",
+    "train_no" : "6c000C723901",
+    "departureStation" : "广州南"
+  },
+  "C2089" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2089",
+    "train_no" : "24000C208923",
+    "departureStation" : "北京南"
+  },
+  "C6837" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6837",
+    "train_no" : "70000C683702",
+    "departureStation" : "佛山西"
+  },
+  "C2225" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2225",
+    "train_no" : "24000C22250C",
+    "departureStation" : "北京南"
+  },
+  "C2097" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2097",
+    "train_no" : "24000C20970R",
+    "departureStation" : "北京南"
+  },
+  "C3618" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3618",
+    "train_no" : "55000C361801",
+    "departureStation" : "金山卫"
+  },
+  "C1308" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1308",
+    "train_no" : "11000C130801",
+    "departureStation" : "乌兰浩特"
+  },
+  "C2233" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2233",
+    "train_no" : "24000C22330L",
+    "departureStation" : "北京南"
+  },
+  "C3626" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3626",
+    "train_no" : "55000C362602",
+    "departureStation" : "金山卫"
+  },
+  "C2241" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2241",
+    "train_no" : "24000C22410O",
+    "departureStation" : "北京南"
+  },
+  "C3634" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3634",
+    "train_no" : "55000C363401",
+    "departureStation" : "金山卫"
+  },
+  "C2589" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2589",
+    "train_no" : "24000C258905",
+    "departureStation" : "北京南"
+  },
+  "C1332" : {
+    "terminalStation" : "白城",
+    "trainCode" : "C1332",
+    "train_no" : "11000C133200",
+    "departureStation" : "乌兰浩特"
+  },
+  "C3642" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3642",
+    "train_no" : "55000C364240",
+    "departureStation" : "车墩"
+  },
+  "C2597" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2597",
+    "train_no" : "24000C259703",
+    "departureStation" : "北京南"
+  },
+  "C6362" : {
+    "terminalStation" : "贵阳北",
+    "trainCode" : "C6362",
+    "train_no" : "78000C636205",
+    "departureStation" : "开阳"
+  },
+  "C2218" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2218",
+    "train_no" : "25000C22180H",
+    "departureStation" : "天津"
+  },
+  "C2226" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2226",
+    "train_no" : "25000C22260E",
+    "departureStation" : "天津"
+  },
+  "C2098" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2098",
+    "train_no" : "25000C20980I",
+    "departureStation" : "天津"
+  },
+  "C3619" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3619",
+    "train_no" : "55000C361900",
+    "departureStation" : "上海南"
+  },
+  "C1309" : {
+    "terminalStation" : "乌兰浩特",
+    "trainCode" : "C1309",
+    "train_no" : "11000C130900",
+    "departureStation" : "长春"
+  },
+  "C2234" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2234",
+    "train_no" : "25000C22340E",
+    "departureStation" : "天津"
+  },
+  "C3627" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3627",
+    "train_no" : "55000C362700",
+    "departureStation" : "上海南"
+  },
+  "C3635" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3635",
+    "train_no" : "55000C363502",
+    "departureStation" : "上海南"
+  },
+  "C2598" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2598",
+    "train_no" : "25000C259804",
+    "departureStation" : "于家堡"
+  },
+  "C6363" : {
+    "terminalStation" : "开阳",
+    "trainCode" : "C6363",
+    "train_no" : "78000C636305",
+    "departureStation" : "贵阳北"
+  },
+  "C2219" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2219",
+    "train_no" : "24000C22190R",
+    "departureStation" : "北京南"
+  },
+  "C2227" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2227",
+    "train_no" : "24000C22270K",
+    "departureStation" : "北京南"
+  },
+  "C2099" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2099",
+    "train_no" : "24000C20990E",
+    "departureStation" : "北京南"
+  },
+  "C3628" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3628",
+    "train_no" : "55000C362801",
+    "departureStation" : "金山卫"
+  },
+  "C3636" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3636",
+    "train_no" : "55000C363602",
+    "departureStation" : "金山卫"
+  },
+  "C3644" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3644",
+    "train_no" : "55000C364400",
+    "departureStation" : "金山卫"
+  },
+  "C2599" : {
+    "terminalStation" : "于家堡",
+    "trainCode" : "C2599",
+    "train_no" : "24000C259901",
+    "departureStation" : "北京南"
+  },
+  "C7281" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C7281",
+    "train_no" : "6j000C728101",
+    "departureStation" : "汕尾"
+  },
+  "C6364" : {
+    "terminalStation" : "贵阳北",
+    "trainCode" : "C6364",
+    "train_no" : "78000C636405",
+    "departureStation" : "开阳"
+  },
+  "C2228" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2228",
+    "train_no" : "25000C22280J",
+    "departureStation" : "天津"
+  },
+  "C2236" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2236",
+    "train_no" : "25000C22360D",
+    "departureStation" : "天津"
+  },
+  "C3629" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3629",
+    "train_no" : "55000C362901",
+    "departureStation" : "上海南"
+  },
+  "C6001" : {
+    "terminalStation" : "重庆西",
+    "trainCode" : "C6001",
+    "train_no" : "76000C600101",
+    "departureStation" : "成都东"
+  },
+  "C3637" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3637",
+    "train_no" : "55000C363702",
+    "departureStation" : "上海南"
+  },
+  "C7282" : {
+    "terminalStation" : "汕尾",
+    "trainCode" : "C7282",
+    "train_no" : "6i000C728201",
+    "departureStation" : "深圳北"
+  },
+  "C6880" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C6880",
+    "train_no" : "66000C688000",
+    "departureStation" : "肇庆"
+  },
+  "C6365" : {
+    "terminalStation" : "开阳",
+    "trainCode" : "C6365",
+    "train_no" : "78000C636506",
+    "departureStation" : "贵阳北"
+  },
+  "C6501" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6501",
+    "train_no" : "49000C650404",
+    "departureStation" : "荣成"
+  },
+  "C7290" : {
+    "terminalStation" : "汕尾",
+    "trainCode" : "C7290",
+    "train_no" : "6i000C729002",
+    "departureStation" : "深圳北"
+  },
+  "C2229" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2229",
+    "train_no" : "24000C22290H",
+    "departureStation" : "北京南"
+  },
+  "C2237" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2237",
+    "train_no" : "24000C22370D",
+    "departureStation" : "北京南"
+  },
+  "C7259" : {
+    "terminalStation" : "新会",
+    "trainCode" : "C7259",
+    "train_no" : "6c000C725901",
+    "departureStation" : "广州南"
+  },
+  "C6002" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6002",
+    "train_no" : "77000C600202",
+    "departureStation" : "重庆西"
+  },
+  "C3638" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3638",
+    "train_no" : "55000C363801",
+    "departureStation" : "金山卫"
+  },
+  "C7283" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C7283",
+    "train_no" : "6j000C728301",
+    "departureStation" : "汕尾"
+  },
+  "C6881" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6881",
+    "train_no" : "63000C688101",
+    "departureStation" : "广州"
+  },
+  "C6366" : {
+    "terminalStation" : "贵阳北",
+    "trainCode" : "C6366",
+    "train_no" : "78000C636606",
+    "departureStation" : "开阳"
+  },
+  "C6502" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6502",
+    "train_no" : "49000C650202",
+    "departureStation" : "青岛"
+  },
+  "C7291" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C7291",
+    "train_no" : "6j000C729103",
+    "departureStation" : "深圳坪山"
+  },
+  "C6510" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6510",
+    "train_no" : "49000C651003",
+    "departureStation" : "青岛"
+  },
+  "C2238" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2238",
+    "train_no" : "25000C22380E",
+    "departureStation" : "天津"
+  },
+  "C6003" : {
+    "terminalStation" : "重庆北",
+    "trainCode" : "C6003",
+    "train_no" : "76000C600301",
+    "departureStation" : "成都东"
+  },
+  "C5601" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5601",
+    "train_no" : "4e000C560108",
+    "departureStation" : "武汉"
+  },
+  "C7284" : {
+    "terminalStation" : "汕尾",
+    "trainCode" : "C7284",
+    "train_no" : "6i000C728401",
+    "departureStation" : "深圳北"
+  },
+  "C6882" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C6882",
+    "train_no" : "66000C688201",
+    "departureStation" : "肇庆"
+  },
+  "C6367" : {
+    "terminalStation" : "开阳",
+    "trainCode" : "C6367",
+    "train_no" : "78000C636707",
+    "departureStation" : "贵阳北"
+  },
+  "C6503" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6503",
+    "train_no" : "49000C650202",
+    "departureStation" : "青岛"
+  },
+  "C6890" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C6890",
+    "train_no" : "66000C689000",
+    "departureStation" : "肇庆"
+  },
+  "C7292" : {
+    "terminalStation" : "深圳坪山",
+    "trainCode" : "C7292",
+    "train_no" : "6i000C729203",
+    "departureStation" : "深圳北"
+  },
+  "C6511" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6511",
+    "train_no" : "49000C651003",
+    "departureStation" : "青岛"
+  },
+  "C2239" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2239",
+    "train_no" : "24000C22390N",
+    "departureStation" : "北京南"
+  },
+  "C6004" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6004",
+    "train_no" : "77000C600402",
+    "departureStation" : "重庆北"
+  },
+  "C5602" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5602",
+    "train_no" : "39000C560206",
+    "departureStation" : "黄冈东"
+  },
+  "C5610" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5610",
+    "train_no" : "39000C56100A",
+    "departureStation" : "黄冈东"
+  },
+  "C7285" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C7285",
+    "train_no" : "6j000C728502",
+    "departureStation" : "汕尾"
+  },
+  "C6883" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6883",
+    "train_no" : "63000C688300",
+    "departureStation" : "广州"
+  },
+  "C6368" : {
+    "terminalStation" : "贵阳北",
+    "trainCode" : "C6368",
+    "train_no" : "78000C636807",
+    "departureStation" : "开阳"
+  },
+  "C6504" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6504",
+    "train_no" : "49000C650404",
+    "departureStation" : "荣成"
+  },
+  "C6891" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6891",
+    "train_no" : "63000C689100",
+    "departureStation" : "广州"
+  },
+  "C6512" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6512",
+    "train_no" : "49000C651205",
+    "departureStation" : "荣成"
+  },
+  "C5603" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5603",
+    "train_no" : "4e000C560308",
+    "departureStation" : "武汉"
+  },
+  "C5611" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5611",
+    "train_no" : "4e000C561109",
+    "departureStation" : "武汉"
+  },
+  "C7286" : {
+    "terminalStation" : "汕尾",
+    "trainCode" : "C7286",
+    "train_no" : "6i000C728601",
+    "departureStation" : "深圳北"
+  },
+  "C6884" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C6884",
+    "train_no" : "66000C688400",
+    "departureStation" : "肇庆"
+  },
+  "C6505" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6505",
+    "train_no" : "49000C650802",
+    "departureStation" : "荣成"
+  },
+  "C6892" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C6892",
+    "train_no" : "66000C689200",
+    "departureStation" : "肇庆"
+  },
+  "C6513" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6513",
+    "train_no" : "49000C651602",
+    "departureStation" : "荣成"
+  },
+  "C6521" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6521",
+    "train_no" : "49000C652404",
+    "departureStation" : "烟台"
+  },
+  "C5604" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5604",
+    "train_no" : "39000C560409",
+    "departureStation" : "黄冈东"
+  },
+  "C5612" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5612",
+    "train_no" : "39000C56120D",
+    "departureStation" : "黄冈东"
+  },
+  "C5620" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5620",
+    "train_no" : "39000C562008",
+    "departureStation" : "黄冈东"
+  },
+  "C7287" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C7287",
+    "train_no" : "6j000C728701",
+    "departureStation" : "汕尾"
+  },
+  "C6885" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6885",
+    "train_no" : "63000C688500",
+    "departureStation" : "广州"
+  },
+  "C6506" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6506",
+    "train_no" : "49000C650601",
+    "departureStation" : "青岛"
+  },
+  "C6522" : {
+    "terminalStation" : "烟台",
+    "trainCode" : "C6522",
+    "train_no" : "49000C652202",
+    "departureStation" : "青岛"
+  },
+  "C5605" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5605",
+    "train_no" : "4e000C56050A",
+    "departureStation" : "武汉"
+  },
+  "C5613" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5613",
+    "train_no" : "4e000C561309",
+    "departureStation" : "武汉"
+  },
+  "C2901" : {
+    "terminalStation" : "南阳寨",
+    "trainCode" : "C2901",
+    "train_no" : "38000C290140",
+    "departureStation" : "焦作"
+  },
+  "C6878" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C6878",
+    "train_no" : "66000C687800",
+    "departureStation" : "肇庆"
+  },
+  "C1001" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1001",
+    "train_no" : "11000C100103",
+    "departureStation" : "长春"
+  },
+  "C7288" : {
+    "terminalStation" : "汕尾",
+    "trainCode" : "C7288",
+    "train_no" : "6i000C728801",
+    "departureStation" : "深圳北"
+  },
+  "C6886" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C6886",
+    "train_no" : "66000C688600",
+    "departureStation" : "肇庆"
+  },
+  "C6507" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6507",
+    "train_no" : "49000C650601",
+    "departureStation" : "青岛"
+  },
+  "C6523" : {
+    "terminalStation" : "烟台",
+    "trainCode" : "C6523",
+    "train_no" : "49000C652202",
+    "departureStation" : "青岛"
+  },
+  "C5606" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5606",
+    "train_no" : "39000C56060A",
+    "departureStation" : "黄冈东"
+  },
+  "C5614" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5614",
+    "train_no" : "39000C561409",
+    "departureStation" : "黄冈东"
+  },
+  "C2902" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2902",
+    "train_no" : "38000C290202",
+    "departureStation" : "郑州"
+  },
+  "C6879" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6879",
+    "train_no" : "63000C687900",
+    "departureStation" : "广州"
+  },
+  "C1002" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1002",
+    "train_no" : "1c000C100206",
+    "departureStation" : "延吉西"
+  },
+  "C2910" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2910",
+    "train_no" : "38000C291002",
+    "departureStation" : "郑州"
+  },
+  "C7289" : {
+    "terminalStation" : "深圳北",
+    "trainCode" : "C7289",
+    "train_no" : "6j000C728902",
+    "departureStation" : "汕尾"
+  },
+  "C6887" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6887",
+    "train_no" : "63000C688700",
+    "departureStation" : "广州"
+  },
+  "C1010" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1010",
+    "train_no" : "1c000C101002",
+    "departureStation" : "延吉西"
+  },
+  "C5630" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5630",
+    "train_no" : "39000C563001",
+    "departureStation" : "黄冈东"
+  },
+  "C6508" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6508",
+    "train_no" : "49000C650802",
+    "departureStation" : "荣成"
+  },
+  "C6516" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6516",
+    "train_no" : "49000C651602",
+    "departureStation" : "荣成"
+  },
+  "C6524" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6524",
+    "train_no" : "49000C652404",
+    "departureStation" : "烟台"
+  },
+  "C2903" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2903",
+    "train_no" : "38000C290306",
+    "departureStation" : "焦作"
+  },
+  "C1003" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1003",
+    "train_no" : "11000C100302",
+    "departureStation" : "长春"
+  },
+  "C5623" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5623",
+    "train_no" : "4e000C562309",
+    "departureStation" : "武汉"
+  },
+  "C2911" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2911",
+    "train_no" : "38000C291120",
+    "departureStation" : "焦作"
+  },
+  "C1011" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1011",
+    "train_no" : "11000C101103",
+    "departureStation" : "长春"
+  },
+  "C5631" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5631",
+    "train_no" : "4e000C563101",
+    "departureStation" : "武汉"
+  },
+  "C6509" : {
+    "terminalStation" : "青岛",
+    "trainCode" : "C6509",
+    "train_no" : "49000C651205",
+    "departureStation" : "荣成"
+  },
+  "C2904" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2904",
+    "train_no" : "38000C290420",
+    "departureStation" : "南阳寨"
+  },
+  "C1004" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1004",
+    "train_no" : "1c000C100403",
+    "departureStation" : "延吉西"
+  },
+  "C5624" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5624",
+    "train_no" : "39000C562401",
+    "departureStation" : "黄冈东"
+  },
+  "C2912" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2912",
+    "train_no" : "38000C291201",
+    "departureStation" : "郑州"
+  },
+  "C6889" : {
+    "terminalStation" : "肇庆",
+    "trainCode" : "C6889",
+    "train_no" : "63000C688900",
+    "departureStation" : "广州"
+  },
+  "C1012" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1012",
+    "train_no" : "1c000C101202",
+    "departureStation" : "珲春"
+  },
+  "C5632" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5632",
+    "train_no" : "39000C563201",
+    "departureStation" : "黄冈东"
+  },
+  "C1020" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1020",
+    "train_no" : "1c000C102004",
+    "departureStation" : "延吉西"
+  },
+  "C5609" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5609",
+    "train_no" : "4e000C560906",
+    "departureStation" : "武汉"
+  },
+  "C2905" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2905",
+    "train_no" : "38000C290506",
+    "departureStation" : "焦作"
+  },
+  "C5617" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5617",
+    "train_no" : "4e000C561709",
+    "departureStation" : "武汉"
+  },
+  "C1005" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1005",
+    "train_no" : "11000C100502",
+    "departureStation" : "长春"
+  },
+  "C5625" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5625",
+    "train_no" : "4e000C562510",
+    "departureStation" : "武汉"
+  },
+  "C1013" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1013",
+    "train_no" : "11000C101304",
+    "departureStation" : "长春"
+  },
+  "C5633" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5633",
+    "train_no" : "4e000C563303",
+    "departureStation" : "武汉"
+  },
+  "C2921" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2921",
+    "train_no" : "38000C292160",
+    "departureStation" : "焦作"
+  },
+  "C1021" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1021",
+    "train_no" : "11000C102103",
+    "departureStation" : "长春"
+  },
+  "C2906" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2906",
+    "train_no" : "38000C290605",
+    "departureStation" : "郑州"
+  },
+  "C5618" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5618",
+    "train_no" : "39000C561807",
+    "departureStation" : "黄冈东"
+  },
+  "C1006" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1006",
+    "train_no" : "1c000C100604",
+    "departureStation" : "延吉西"
+  },
+  "C5626" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5626",
+    "train_no" : "39000C562610",
+    "departureStation" : "黄冈东"
+  },
+  "C1014" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1014",
+    "train_no" : "1c000C101402",
+    "departureStation" : "珲春"
+  },
+  "C5634" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5634",
+    "train_no" : "39000C563402",
+    "departureStation" : "黄冈东"
+  },
+  "C2922" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2922",
+    "train_no" : "38000C292205",
+    "departureStation" : "郑州"
+  },
+  "C1022" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1022",
+    "train_no" : "1c000C102202",
+    "departureStation" : "珲春"
+  },
+  "C2907" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2907",
+    "train_no" : "38000C290705",
+    "departureStation" : "焦作"
+  },
+  "C5619" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5619",
+    "train_no" : "4e000C561908",
+    "departureStation" : "武汉"
+  },
+  "C1007" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1007",
+    "train_no" : "11000C100704",
+    "departureStation" : "长春"
+  },
+  "C1015" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1015",
+    "train_no" : "11000C101504",
+    "departureStation" : "长春"
+  },
+  "C6552" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "C6552",
+    "train_no" : "49000C655202",
+    "departureStation" : "荣成"
+  },
+  "C5635" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5635",
+    "train_no" : "4e000C563503",
+    "departureStation" : "武汉"
+  },
+  "C2923" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2923",
+    "train_no" : "38000C292306",
+    "departureStation" : "焦作"
+  },
+  "C1023" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1023",
+    "train_no" : "11000C102302",
+    "departureStation" : "长春"
+  },
+  "C6560" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "C6560",
+    "train_no" : "49000C656005",
+    "departureStation" : "荣成"
+  },
+  "C1031" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1031",
+    "train_no" : "1c000C103101",
+    "departureStation" : "延吉西"
+  },
+  "C2908" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2908",
+    "train_no" : "38000C290805",
+    "departureStation" : "郑州"
+  },
+  "C1008" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1008",
+    "train_no" : "1c000C100801",
+    "departureStation" : "珲春"
+  },
+  "C1016" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1016",
+    "train_no" : "1c000C101603",
+    "departureStation" : "延吉西"
+  },
+  "C6553" : {
+    "terminalStation" : "威海",
+    "trainCode" : "C6553",
+    "train_no" : "49000C655310",
+    "departureStation" : "青岛北"
+  },
+  "C5636" : {
+    "terminalStation" : "武汉",
+    "trainCode" : "C5636",
+    "train_no" : "39000C563601",
+    "departureStation" : "黄冈东"
+  },
+  "C2924" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2924",
+    "train_no" : "38000C292460",
+    "departureStation" : "郑州"
+  },
+  "C1024" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1024",
+    "train_no" : "1c000C102402",
+    "departureStation" : "延吉西"
+  },
+  "C6561" : {
+    "terminalStation" : "威海",
+    "trainCode" : "C6561",
+    "train_no" : "49000C656110",
+    "departureStation" : "青岛北"
+  },
+  "C1032" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1032",
+    "train_no" : "1c000C103202",
+    "departureStation" : "珲春"
+  },
+  "C2909" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2909",
+    "train_no" : "38000C290906",
+    "departureStation" : "焦作"
+  },
+  "C1009" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1009",
+    "train_no" : "1g000C100910",
+    "departureStation" : "长春西"
+  },
+  "C5629" : {
+    "terminalStation" : "黄冈东",
+    "trainCode" : "C5629",
+    "train_no" : "4e000C562901",
+    "departureStation" : "武汉"
+  },
+  "C1017" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1017",
+    "train_no" : "11000C101703",
+    "departureStation" : "长春"
+  },
+  "C6554" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "C6554",
+    "train_no" : "49000C655404",
+    "departureStation" : "烟台"
+  },
+  "C2925" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2925",
+    "train_no" : "38000C292506",
+    "departureStation" : "焦作"
+  },
+  "C1025" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1025",
+    "train_no" : "11000C102503",
+    "departureStation" : "长春"
+  },
+  "C6562" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "C6562",
+    "train_no" : "49000C656203",
+    "departureStation" : "烟台"
+  },
+  "C7100" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7100",
+    "train_no" : "65000C71000C",
+    "departureStation" : "深圳"
+  },
+  "C1041" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1041",
+    "train_no" : "11000C104101",
+    "departureStation" : "长春"
+  },
+  "C8501" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8501",
+    "train_no" : "85000C850104",
+    "departureStation" : "兰州"
+  },
+  "C1018" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1018",
+    "train_no" : "1c000C101803",
+    "departureStation" : "延吉西"
+  },
+  "C6555" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6555",
+    "train_no" : "49000C655502",
+    "departureStation" : "青岛北"
+  },
+  "C2926" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2926",
+    "train_no" : "38000C292605",
+    "departureStation" : "郑州"
+  },
+  "C1026" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1026",
+    "train_no" : "1c000C102602",
+    "departureStation" : "珲春"
+  },
+  "C6563" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6563",
+    "train_no" : "49000C656302",
+    "departureStation" : "青岛北"
+  },
+  "C7101" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7101",
+    "train_no" : "65000C710106",
+    "departureStation" : "广州东"
+  },
+  "C1034" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1034",
+    "train_no" : "1c000C103401",
+    "departureStation" : "珲春"
+  },
+  "C6571" : {
+    "terminalStation" : "烟台",
+    "trainCode" : "C6571",
+    "train_no" : "49000C657103",
+    "departureStation" : "青岛北"
+  },
+  "C1042" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1042",
+    "train_no" : "1c000C104203",
+    "departureStation" : "珲春"
+  },
+  "C8502" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8502",
+    "train_no" : "8e000C850204",
+    "departureStation" : "中川机场"
+  },
+  "C1050" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1050",
+    "train_no" : "1c000C105001",
+    "departureStation" : "蛟河西"
+  },
+  "C8510" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8510",
+    "train_no" : "8e000C851003",
+    "departureStation" : "中川机场"
+  },
+  "C7601" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7601",
+    "train_no" : "6c000C760109",
+    "departureStation" : "广州南"
+  },
+  "C1019" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1019",
+    "train_no" : "11000C101903",
+    "departureStation" : "长春"
+  },
+  "C1027" : {
+    "terminalStation" : "延吉西",
+    "trainCode" : "C1027",
+    "train_no" : "11000C102704",
+    "departureStation" : "长春"
+  },
+  "C7102" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7102",
+    "train_no" : "65000C71020B",
+    "departureStation" : "深圳"
+  },
+  "C7110" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7110",
+    "train_no" : "65000C711009",
+    "departureStation" : "深圳"
+  },
+  "C1043" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1043",
+    "train_no" : "11000C104302",
+    "departureStation" : "长春"
+  },
+  "C8503" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8503",
+    "train_no" : "85000C850302",
+    "departureStation" : "兰州"
+  },
+  "C2951" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2951",
+    "train_no" : "38000C295104",
+    "departureStation" : "焦作"
+  },
+  "C6201" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6201",
+    "train_no" : "76000C620150",
+    "departureStation" : "广元"
+  },
+  "C8511" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8511",
+    "train_no" : "85000C851103",
+    "departureStation" : "兰州"
+  },
+  "C7602" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7602",
+    "train_no" : "6e000C760207",
+    "departureStation" : "珠海"
+  },
+  "C6557" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6557",
+    "train_no" : "49000C655702",
+    "departureStation" : "青岛北"
+  },
+  "C7610" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7610",
+    "train_no" : "6e000C761007",
+    "departureStation" : "珠海"
+  },
+  "C1028" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1028",
+    "train_no" : "1c000C102802",
+    "departureStation" : "延吉西"
+  },
+  "C6565" : {
+    "terminalStation" : "烟台",
+    "trainCode" : "C6565",
+    "train_no" : "49000C656503",
+    "departureStation" : "青岛北"
+  },
+  "C7103" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7103",
+    "train_no" : "65000C710307",
+    "departureStation" : "广州东"
+  },
+  "C6573" : {
+    "terminalStation" : "荣成",
+    "trainCode" : "C6573",
+    "train_no" : "49000C657304",
+    "departureStation" : "青岛北"
+  },
+  "C7111" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7111",
+    "train_no" : "63000C711105",
+    "departureStation" : "广州"
+  },
+  "C1044" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1044",
+    "train_no" : "1c000C104403",
+    "departureStation" : "珲春"
+  },
+  "C8504" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8504",
+    "train_no" : "8e000C850402",
+    "departureStation" : "中川机场"
+  },
+  "C2952" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2952",
+    "train_no" : "38000C295202",
+    "departureStation" : "郑州"
+  },
+  "C6202" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6202",
+    "train_no" : "76000C620205",
+    "departureStation" : "成都东"
+  },
+  "C8512" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8512",
+    "train_no" : "8e000C851202",
+    "departureStation" : "中川机场"
+  },
+  "C6210" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6210",
+    "train_no" : "76000C621008",
+    "departureStation" : "成都东"
+  },
+  "C8520" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8520",
+    "train_no" : "8e000C852003",
+    "departureStation" : "中川机场"
+  },
+  "C7603" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7603",
+    "train_no" : "6c000C760305",
+    "departureStation" : "广州南"
+  },
+  "C5301" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5301",
+    "train_no" : "39000C530106",
+    "departureStation" : "汉口"
+  },
+  "C7611" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7611",
+    "train_no" : "6c000C761105",
+    "departureStation" : "广州南"
+  },
+  "C7104" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7104",
+    "train_no" : "65000C71040C",
+    "departureStation" : "深圳"
+  },
+  "C1037" : {
+    "terminalStation" : "珲春",
+    "trainCode" : "C1037",
+    "train_no" : "18000C103701",
+    "departureStation" : "敦化"
+  },
+  "C7112" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7112",
+    "train_no" : "65000C71120C",
+    "departureStation" : "深圳"
+  },
+  "C8505" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8505",
+    "train_no" : "85000C850510",
+    "departureStation" : "兰州"
+  },
+  "C2953" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2953",
+    "train_no" : "38000C295302",
+    "departureStation" : "焦作"
+  },
+  "C7120" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7120",
+    "train_no" : "65000C71200G",
+    "departureStation" : "深圳"
+  },
+  "C6203" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6203",
+    "train_no" : "76000C620307",
+    "departureStation" : "德阳"
+  },
+  "C8513" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8513",
+    "train_no" : "85000C851303",
+    "departureStation" : "兰州"
+  },
+  "C2961" : {
+    "terminalStation" : "南阳寨",
+    "trainCode" : "C2961",
+    "train_no" : "38000C296120",
+    "departureStation" : "焦作"
+  },
+  "C6211" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6211",
+    "train_no" : "76000C62110F",
+    "departureStation" : "江油"
+  },
+  "C8521" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8521",
+    "train_no" : "85000C852103",
+    "departureStation" : "兰州"
+  },
+  "C7604" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7604",
+    "train_no" : "6e000C760405",
+    "departureStation" : "珠海"
+  },
+  "C6559" : {
+    "terminalStation" : "烟台",
+    "trainCode" : "C6559",
+    "train_no" : "49000C655903",
+    "departureStation" : "青岛北"
+  },
+  "C5302" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5302",
+    "train_no" : "39000C530203",
+    "departureStation" : "孝感东"
+  },
+  "C7612" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7612",
+    "train_no" : "6e000C761205",
+    "departureStation" : "珠海"
+  },
+  "C5310" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5310",
+    "train_no" : "39000C531006",
+    "departureStation" : "孝感东"
+  },
+  "C7620" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7620",
+    "train_no" : "6e000C76200E",
+    "departureStation" : "珠海"
+  },
+  "C1038" : {
+    "terminalStation" : "敦化",
+    "trainCode" : "C1038",
+    "train_no" : "1c000C103801",
+    "departureStation" : "延吉西"
+  },
+  "C7113" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7113",
+    "train_no" : "65000C711309",
+    "departureStation" : "广州东"
+  },
+  "C8506" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8506",
+    "train_no" : "8e000C850610",
+    "departureStation" : "中川机场"
+  },
+  "C2954" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2954",
+    "train_no" : "38000C295402",
+    "departureStation" : "郑州"
+  },
+  "C7121" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7121",
+    "train_no" : "65000C712108",
+    "departureStation" : "广州东"
+  },
+  "C6204" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6204",
+    "train_no" : "76000C620409",
+    "departureStation" : "成都东"
+  },
+  "C8514" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8514",
+    "train_no" : "8e000C851403",
+    "departureStation" : "中川机场"
+  },
+  "C2962" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2962",
+    "train_no" : "38000C296220",
+    "departureStation" : "郑州"
+  },
+  "C6212" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6212",
+    "train_no" : "76000C621250",
+    "departureStation" : "成都东"
+  },
+  "C8522" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8522",
+    "train_no" : "8e000C852202",
+    "departureStation" : "中川机场"
+  },
+  "C2970" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2970",
+    "train_no" : "38000C297040",
+    "departureStation" : "郑州"
+  },
+  "C7605" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7605",
+    "train_no" : "6c000C760506",
+    "departureStation" : "广州南"
+  },
+  "C6220" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6220",
+    "train_no" : "76000C622004",
+    "departureStation" : "成都东"
+  },
+  "C5303" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5303",
+    "train_no" : "39000C530302",
+    "departureStation" : "汉口"
+  },
+  "C7613" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7613",
+    "train_no" : "6c000C76130G",
+    "departureStation" : "广州南"
+  },
+  "C6568" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "C6568",
+    "train_no" : "49000C656809",
+    "departureStation" : "威海"
+  },
+  "C3001" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3001",
+    "train_no" : "55000C300131",
+    "departureStation" : "上海南"
+  },
+  "C5311" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5311",
+    "train_no" : "39000C531105",
+    "departureStation" : "汉口"
+  },
+  "C7106" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7106",
+    "train_no" : "65000C71060B",
+    "departureStation" : "深圳"
+  },
+  "C7621" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7621",
+    "train_no" : "6c000C762105",
+    "departureStation" : "广州南"
+  },
+  "C6576" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "C6576",
+    "train_no" : "49000C657601",
+    "departureStation" : "荣成"
+  },
+  "C7114" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7114",
+    "train_no" : "65000C711409",
+    "departureStation" : "深圳"
+  },
+  "C8507" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8507",
+    "train_no" : "85000C850703",
+    "departureStation" : "兰州"
+  },
+  "C2100" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2100",
+    "train_no" : "25000C21000M",
+    "departureStation" : "天津"
+  },
+  "C7122" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7122",
+    "train_no" : "65000C71220B",
+    "departureStation" : "深圳"
+  },
+  "C6205" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6205",
+    "train_no" : "76000C620508",
+    "departureStation" : "广元"
+  },
+  "C8515" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8515",
+    "train_no" : "85000C851510",
+    "departureStation" : "兰州"
+  },
+  "C2963" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2963",
+    "train_no" : "38000C296330",
+    "departureStation" : "焦作"
+  },
+  "C7130" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7130",
+    "train_no" : "65000C71300B",
+    "departureStation" : "深圳"
+  },
+  "C6213" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6213",
+    "train_no" : "76000C621320",
+    "departureStation" : "德阳"
+  },
+  "C7606" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7606",
+    "train_no" : "6e000C760606",
+    "departureStation" : "珠海"
+  },
+  "C6221" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6221",
+    "train_no" : "76000C622106",
+    "departureStation" : "德阳"
+  },
+  "C5304" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5304",
+    "train_no" : "39000C530405",
+    "departureStation" : "孝感东"
+  },
+  "C7614" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7614",
+    "train_no" : "6e000C76140L",
+    "departureStation" : "珠海"
+  },
+  "C3002" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3002",
+    "train_no" : "55000C300220",
+    "departureStation" : "金山卫"
+  },
+  "C5312" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5312",
+    "train_no" : "39000C531205",
+    "departureStation" : "孝感东"
+  },
+  "C7107" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7107",
+    "train_no" : "65000C710705",
+    "departureStation" : "广州东"
+  },
+  "C7622" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7622",
+    "train_no" : "6e000C762205",
+    "departureStation" : "珠海"
+  },
+  "C3010" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3010",
+    "train_no" : "55000C301013",
+    "departureStation" : "金山卫"
+  },
+  "C7115" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7115",
+    "train_no" : "65000C711508",
+    "departureStation" : "广州东"
+  },
+  "C7630" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7630",
+    "train_no" : "6e000C763006",
+    "departureStation" : "珠海"
+  },
+  "C8508" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8508",
+    "train_no" : "8e000C850803",
+    "departureStation" : "中川机场"
+  },
+  "C7123" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7123",
+    "train_no" : "63000C712302",
+    "departureStation" : "广州"
+  },
+  "C6206" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6206",
+    "train_no" : "76000C620650",
+    "departureStation" : "成都东"
+  },
+  "C8516" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8516",
+    "train_no" : "8e000C851604",
+    "departureStation" : "中川机场"
+  },
+  "C2964" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2964",
+    "train_no" : "38000C296410",
+    "departureStation" : "南阳寨"
+  },
+  "C6214" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6214",
+    "train_no" : "76000C62140E",
+    "departureStation" : "成都东"
+  },
+  "C7607" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7607",
+    "train_no" : "6c000C76070K",
+    "departureStation" : "广州南"
+  },
+  "C6222" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6222",
+    "train_no" : "76000C622206",
+    "departureStation" : "成都东"
+  },
+  "C5305" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5305",
+    "train_no" : "39000C530505",
+    "departureStation" : "汉口"
+  },
+  "C7615" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7615",
+    "train_no" : "6c000C761505",
+    "departureStation" : "广州南"
+  },
+  "C3003" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3003",
+    "train_no" : "55000C300331",
+    "departureStation" : "上海南"
+  },
+  "C5313" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5313",
+    "train_no" : "39000C531302",
+    "departureStation" : "汉口"
+  },
+  "C7108" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7108",
+    "train_no" : "65000C71080C",
+    "departureStation" : "深圳"
+  },
+  "C2601" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2601",
+    "train_no" : "24000C260101",
+    "departureStation" : "北京南"
+  },
+  "C6578" : {
+    "terminalStation" : "青岛北",
+    "trainCode" : "C6578",
+    "train_no" : "49000C657802",
+    "departureStation" : "烟台"
+  },
+  "C7623" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7623",
+    "train_no" : "6c000C76230L",
+    "departureStation" : "广州南"
+  },
+  "C3011" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3011",
+    "train_no" : "55000C301113",
+    "departureStation" : "上海南"
+  },
+  "C7116" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7116",
+    "train_no" : "65000C71160A",
+    "departureStation" : "深圳"
+  },
+  "C1049" : {
+    "terminalStation" : "蛟河西",
+    "trainCode" : "C1049",
+    "train_no" : "11000C104920",
+    "departureStation" : "长春"
+  },
+  "C7631" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7631",
+    "train_no" : "6c000C763104",
+    "departureStation" : "广州南"
+  },
+  "C8509" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8509",
+    "train_no" : "85000C850904",
+    "departureStation" : "兰州"
+  },
+  "C7124" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7124",
+    "train_no" : "65000C71240B",
+    "departureStation" : "深圳"
+  },
+  "C6207" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6207",
+    "train_no" : "76000C620708",
+    "departureStation" : "德阳"
+  },
+  "C8517" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8517",
+    "train_no" : "85000C851704",
+    "departureStation" : "兰州"
+  },
+  "C2965" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2965",
+    "train_no" : "38000C296530",
+    "departureStation" : "焦作"
+  },
+  "C2110" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2110",
+    "train_no" : "25000C21100N",
+    "departureStation" : "天津"
+  },
+  "C6215" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6215",
+    "train_no" : "76000C621503",
+    "departureStation" : "德阳"
+  },
+  "C7608" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7608",
+    "train_no" : "6e000C760808",
+    "departureStation" : "珠海"
+  },
+  "C1201" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1201",
+    "train_no" : "1g000C120102",
+    "departureStation" : "长春西"
+  },
+  "C6223" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6223",
+    "train_no" : "76000C622308",
+    "departureStation" : "江油"
+  },
+  "C5306" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5306",
+    "train_no" : "39000C530603",
+    "departureStation" : "孝感东"
+  },
+  "C7140" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7140",
+    "train_no" : "65000C71400C",
+    "departureStation" : "深圳"
+  },
+  "C7616" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7616",
+    "train_no" : "6e000C761608",
+    "departureStation" : "珠海"
+  },
+  "C3004" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3004",
+    "train_no" : "55000C300431",
+    "departureStation" : "金山卫"
+  },
+  "C5314" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5314",
+    "train_no" : "39000C531402",
+    "departureStation" : "孝感东"
+  },
+  "C7109" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7109",
+    "train_no" : "65000C710908",
+    "departureStation" : "广州东"
+  },
+  "C7624" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7624",
+    "train_no" : "6e000C76240A",
+    "departureStation" : "珠海"
+  },
+  "C3012" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3012",
+    "train_no" : "55000C301202",
+    "departureStation" : "金山卫"
+  },
+  "C2610" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2610",
+    "train_no" : "25000C261002",
+    "departureStation" : "天津西"
+  },
+  "C7117" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7117",
+    "train_no" : "65000C71170G",
+    "departureStation" : "广州东"
+  },
+  "C7632" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7632",
+    "train_no" : "6e000C76320N",
+    "departureStation" : "珠海"
+  },
+  "C2103" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2103",
+    "train_no" : "24000C210313",
+    "departureStation" : "北京南"
+  },
+  "C7125" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7125",
+    "train_no" : "65000C712504",
+    "departureStation" : "广州东"
+  },
+  "C6208" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6208",
+    "train_no" : "76000C620850",
+    "departureStation" : "成都东"
+  },
+  "C7640" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7640",
+    "train_no" : "6e000C764008",
+    "departureStation" : "珠海"
+  },
+  "C2966" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2966",
+    "train_no" : "38000C296640",
+    "departureStation" : "郑州"
+  },
+  "C8518" : {
+    "terminalStation" : "兰州",
+    "trainCode" : "C8518",
+    "train_no" : "8e000C851804",
+    "departureStation" : "中川机场"
+  },
+  "C2111" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2111",
+    "train_no" : "24000C21110Q",
+    "departureStation" : "北京南"
+  },
+  "C7133" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7133",
+    "train_no" : "65000C713306",
+    "departureStation" : "广州东"
+  },
+  "C6216" : {
+    "terminalStation" : "广元",
+    "trainCode" : "C6216",
+    "train_no" : "76000C621602",
+    "departureStation" : "成都东"
+  },
+  "C7609" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7609",
+    "train_no" : "6c000C760907",
+    "departureStation" : "广州南"
+  },
+  "C1202" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1202",
+    "train_no" : "18000C120203",
+    "departureStation" : "吉林"
+  },
+  "C6224" : {
+    "terminalStation" : "江油",
+    "trainCode" : "C6224",
+    "train_no" : "76000C622420",
+    "departureStation" : "成都东"
+  },
+  "C5307" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5307",
+    "train_no" : "39000C530704",
+    "departureStation" : "汉口"
+  },
+  "C7141" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7141",
+    "train_no" : "63000C714107",
+    "departureStation" : "广州"
+  },
+  "C7617" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7617",
+    "train_no" : "6c000C761708",
+    "departureStation" : "广州南"
+  },
+  "C1210" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1210",
+    "train_no" : "18000C121002",
+    "departureStation" : "吉林"
+  },
+  "C3005" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3005",
+    "train_no" : "55000C300512",
+    "departureStation" : "上海南"
+  },
+  "C5315" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5315",
+    "train_no" : "39000C531500",
+    "departureStation" : "汉口"
+  },
+  "C2603" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2603",
+    "train_no" : "24000C260301",
+    "departureStation" : "北京南"
+  },
+  "C7625" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7625",
+    "train_no" : "6c000C762505",
+    "departureStation" : "广州南"
+  },
+  "C3013" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3013",
+    "train_no" : "55000C301312",
+    "departureStation" : "上海南"
+  },
+  "C7118" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7118",
+    "train_no" : "65000C71180K",
+    "departureStation" : "深圳"
+  },
+  "C7633" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7633",
+    "train_no" : "6c000C763307",
+    "departureStation" : "广州南"
+  },
+  "C3021" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3021",
+    "train_no" : "55000C302112",
+    "departureStation" : "上海南"
+  },
+  "C2104" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2104",
+    "train_no" : "25000C210416",
+    "departureStation" : "天津"
+  },
+  "C7126" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7126",
+    "train_no" : "65000C71260C",
+    "departureStation" : "深圳"
+  },
+  "C6209" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6209",
+    "train_no" : "76000C620920",
+    "departureStation" : "德阳"
+  },
+  "C7641" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7641",
+    "train_no" : "6c000C76410O",
+    "departureStation" : "广州南"
+  },
+  "C2967" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2967",
+    "train_no" : "38000C296740",
+    "departureStation" : "焦作"
+  },
+  "C8519" : {
+    "terminalStation" : "中川机场",
+    "trainCode" : "C8519",
+    "train_no" : "85000C851903",
+    "departureStation" : "兰州"
+  },
+  "C7134" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7134",
+    "train_no" : "65000C71340B",
+    "departureStation" : "深圳"
+  },
+  "C6217" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6217",
+    "train_no" : "76000C621704",
+    "departureStation" : "德阳"
+  },
+  "C2120" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2120",
+    "train_no" : "25000C212001",
+    "departureStation" : "天津"
+  },
+  "C1203" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1203",
+    "train_no" : "11000C120300",
+    "departureStation" : "长春"
+  },
+  "C6225" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6225",
+    "train_no" : "76000C622502",
+    "departureStation" : "德阳"
+  },
+  "C5308" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5308",
+    "train_no" : "39000C530805",
+    "departureStation" : "孝感东"
+  },
+  "C7142" : {
+    "terminalStation" : "广州",
+    "trainCode" : "C7142",
+    "train_no" : "65000C71420E",
+    "departureStation" : "深圳"
+  },
+  "C7618" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7618",
+    "train_no" : "6e000C761805",
+    "departureStation" : "珠海"
+  },
+  "C1211" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1211",
+    "train_no" : "11000C121102",
+    "departureStation" : "长春"
+  },
+  "C3006" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3006",
+    "train_no" : "55000C300602",
+    "departureStation" : "金山卫"
+  },
+  "C5316" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5316",
+    "train_no" : "39000C531600",
+    "departureStation" : "孝感东"
+  },
+  "C2991" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2991",
+    "train_no" : "38000C299103",
+    "departureStation" : "焦作"
+  },
+  "C7626" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7626",
+    "train_no" : "6e000C762605",
+    "departureStation" : "珠海"
+  },
+  "C3014" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3014",
+    "train_no" : "55000C301412",
+    "departureStation" : "金山卫"
+  },
+  "C7119" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7119",
+    "train_no" : "65000C71190D",
+    "departureStation" : "广州东"
+  },
+  "C7634" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7634",
+    "train_no" : "6e000C763405",
+    "departureStation" : "珠海"
+  },
+  "C3022" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3022",
+    "train_no" : "55000C302214",
+    "departureStation" : "金山卫"
+  },
+  "C2105" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2105",
+    "train_no" : "24000C21050V",
+    "departureStation" : "北京南"
+  },
+  "C7127" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7127",
+    "train_no" : "65000C712703",
+    "departureStation" : "广州东"
+  },
+  "C7642" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7642",
+    "train_no" : "6e000C764205",
+    "departureStation" : "珠海"
+  },
+  "C2968" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2968",
+    "train_no" : "38000C296840",
+    "departureStation" : "郑州"
+  },
+  "C3030" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3030",
+    "train_no" : "55000C303002",
+    "departureStation" : "金山卫"
+  },
+  "C2113" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2113",
+    "train_no" : "24000C21130C",
+    "departureStation" : "北京南"
+  },
+  "C7135" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7135",
+    "train_no" : "65000C713507",
+    "departureStation" : "广州东"
+  },
+  "C6218" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6218",
+    "train_no" : "76000C621803",
+    "departureStation" : "成都东"
+  },
+  "C7650" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7650",
+    "train_no" : "6e000C765005",
+    "departureStation" : "珠海"
+  },
+  "C2121" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2121",
+    "train_no" : "24000C212105",
+    "departureStation" : "北京南"
+  },
+  "C1204" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1204",
+    "train_no" : "18000C120401",
+    "departureStation" : "吉林"
+  },
+  "C6226" : {
+    "terminalStation" : "德阳",
+    "trainCode" : "C6226",
+    "train_no" : "76000C622601",
+    "departureStation" : "成都东"
+  },
+  "C5309" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5309",
+    "train_no" : "39000C530905",
+    "departureStation" : "汉口"
+  },
+  "C7143" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7143",
+    "train_no" : "63000C714302",
+    "departureStation" : "广州"
+  },
+  "C7619" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7619",
+    "train_no" : "6c000C761904",
+    "departureStation" : "广州南"
+  },
+  "C1212" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1212",
+    "train_no" : "18000C121202",
+    "departureStation" : "吉林"
+  },
+  "C3007" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3007",
+    "train_no" : "55000C300712",
+    "departureStation" : "上海南"
+  },
+  "C5317" : {
+    "terminalStation" : "孝感东",
+    "trainCode" : "C5317",
+    "train_no" : "39000C531700",
+    "departureStation" : "汉口"
+  },
+  "C2992" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2992",
+    "train_no" : "38000C299303",
+    "departureStation" : "郑州东"
+  },
+  "C6234" : {
+    "terminalStation" : "广元",
+    "trainCode" : "C6234",
+    "train_no" : "76000C623420",
+    "departureStation" : "江油"
+  },
+  "C2605" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2605",
+    "train_no" : "24000C260501",
+    "departureStation" : "北京南"
+  },
+  "C1220" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1220",
+    "train_no" : "18000C122002",
+    "departureStation" : "吉林"
+  },
+  "C3015" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3015",
+    "train_no" : "55000C301511",
+    "departureStation" : "上海南"
+  },
+  "C7627" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7627",
+    "train_no" : "6c000C762704",
+    "departureStation" : "广州南"
+  },
+  "C7635" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7635",
+    "train_no" : "6c000C763504",
+    "departureStation" : "广州南"
+  },
+  "C3023" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3023",
+    "train_no" : "55000C302301",
+    "departureStation" : "上海南"
+  },
+  "C2106" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2106",
+    "train_no" : "25000C21060Y",
+    "departureStation" : "天津"
+  },
+  "C7128" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7128",
+    "train_no" : "65000C71280C",
+    "departureStation" : "深圳"
+  },
+  "C7643" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7643",
+    "train_no" : "6c000C764304",
+    "departureStation" : "广州南"
+  },
+  "C2969" : {
+    "terminalStation" : "郑州",
+    "trainCode" : "C2969",
+    "train_no" : "38000C296930",
+    "departureStation" : "焦作"
+  },
+  "C2114" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2114",
+    "train_no" : "25000C21140B",
+    "departureStation" : "天津"
+  },
+  "C7136" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7136",
+    "train_no" : "65000C71360A",
+    "departureStation" : "深圳"
+  },
+  "C6219" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6219",
+    "train_no" : "76000C621904",
+    "departureStation" : "德阳"
+  },
+  "C7651" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7651",
+    "train_no" : "6c000C765104",
+    "departureStation" : "广州南"
+  },
+  "C2122" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2122",
+    "train_no" : "25000C212204",
+    "departureStation" : "天津"
+  },
+  "C1205" : {
+    "terminalStation" : "蛟河西",
+    "trainCode" : "C1205",
+    "train_no" : "11000C120503",
+    "departureStation" : "长春"
+  },
+  "C7144" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7144",
+    "train_no" : "65000C71440F",
+    "departureStation" : "深圳"
+  },
+  "C1213" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1213",
+    "train_no" : "11000C121302",
+    "departureStation" : "长春"
+  },
+  "C3008" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3008",
+    "train_no" : "55000C300813",
+    "departureStation" : "金山卫"
+  },
+  "C5318" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5318",
+    "train_no" : "39000C531800",
+    "departureStation" : "孝感东"
+  },
+  "C2993" : {
+    "terminalStation" : "焦作",
+    "trainCode" : "C2993",
+    "train_no" : "38000C299303",
+    "departureStation" : "郑州东"
+  },
+  "C7628" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7628",
+    "train_no" : "6e000C762806",
+    "departureStation" : "珠海"
+  },
+  "C1221" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1221",
+    "train_no" : "11000C122103",
+    "departureStation" : "长春"
+  },
+  "C3016" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3016",
+    "train_no" : "55000C301602",
+    "departureStation" : "金山卫"
+  },
+  "C2614" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2614",
+    "train_no" : "25000C26140B",
+    "departureStation" : "天津西"
+  },
+  "C7636" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7636",
+    "train_no" : "6e000C76360E",
+    "departureStation" : "珠海"
+  },
+  "C3024" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3024",
+    "train_no" : "55000C302402",
+    "departureStation" : "金山卫"
+  },
+  "C2622" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2622",
+    "train_no" : "25000C262200",
+    "departureStation" : "天津西"
+  },
+  "C7129" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7129",
+    "train_no" : "65000C712907",
+    "departureStation" : "广州东"
+  },
+  "C2107" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2107",
+    "train_no" : "24000C21070Y",
+    "departureStation" : "北京南"
+  },
+  "C7644" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7644",
+    "train_no" : "6e000C764406",
+    "departureStation" : "珠海"
+  },
+  "C3032" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3032",
+    "train_no" : "55000C303212",
+    "departureStation" : "金山卫"
+  },
+  "C5342" : {
+    "terminalStation" : "汉口",
+    "trainCode" : "C5342",
+    "train_no" : "39000C534210",
+    "departureStation" : "孝感东"
+  },
+  "C2630" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2630",
+    "train_no" : "25000C263000",
+    "departureStation" : "天津西"
+  },
+  "C7652" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7652",
+    "train_no" : "6e000C76520C",
+    "departureStation" : "珠海"
+  },
+  "C2123" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2123",
+    "train_no" : "24000C212304",
+    "departureStation" : "北京南"
+  },
+  "C7145" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7145",
+    "train_no" : "65000C71450A",
+    "departureStation" : "广州东"
+  },
+  "C1206" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1206",
+    "train_no" : "18000C120603",
+    "departureStation" : "吉林"
+  },
+  "C6228" : {
+    "terminalStation" : "广元",
+    "trainCode" : "C6228",
+    "train_no" : "76000C622802",
+    "departureStation" : "成都东"
+  },
+  "C7660" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7660",
+    "train_no" : "6e000C766004",
+    "departureStation" : "珠海"
+  },
+  "C2131" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2131",
+    "train_no" : "24000C21311S",
+    "departureStation" : "北京南"
+  },
+  "C1214" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1214",
+    "train_no" : "18000C121402",
+    "departureStation" : "吉林"
+  },
+  "C3009" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3009",
+    "train_no" : "55000C300912",
+    "departureStation" : "上海南"
+  },
+  "C2994" : {
+    "terminalStation" : "郑州东",
+    "trainCode" : "C2994",
+    "train_no" : "38000C299103",
+    "departureStation" : "焦作"
+  },
+  "C7629" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7629",
+    "train_no" : "6c000C76290F",
+    "departureStation" : "广州南"
+  },
+  "C1222" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1222",
+    "train_no" : "18000C122202",
+    "departureStation" : "吉林"
+  },
+  "C3017" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3017",
+    "train_no" : "55000C301712",
+    "departureStation" : "上海南"
+  },
+  "C7637" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7637",
+    "train_no" : "6c000C763705",
+    "departureStation" : "广州南"
+  },
+  "C1230" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1230",
+    "train_no" : "18000C123002",
+    "departureStation" : "吉林"
+  },
+  "C3025" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3025",
+    "train_no" : "55000C302501",
+    "departureStation" : "上海南"
+  },
+  "C2623" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2623",
+    "train_no" : "24000C262300",
+    "departureStation" : "北京南"
+  },
+  "C2108" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2108",
+    "train_no" : "25000C21081C",
+    "departureStation" : "天津"
+  },
+  "C7645" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7645",
+    "train_no" : "6c000C76450D",
+    "departureStation" : "广州南"
+  },
+  "C6260" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6260",
+    "train_no" : "76000C626007",
+    "departureStation" : "乐山"
+  },
+  "C2116" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2116",
+    "train_no" : "25000C21160C",
+    "departureStation" : "天津"
+  },
+  "C3033" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3033",
+    "train_no" : "55000C303312",
+    "departureStation" : "上海南"
+  },
+  "C7653" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7653",
+    "train_no" : "6c000C765306",
+    "departureStation" : "广州南"
+  },
+  "C2124" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2124",
+    "train_no" : "25000C212405",
+    "departureStation" : "天津"
+  },
+  "C7146" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7146",
+    "train_no" : "65000C71460E",
+    "departureStation" : "深圳"
+  },
+  "C1207" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1207",
+    "train_no" : "11000C120701",
+    "departureStation" : "长春"
+  },
+  "C7661" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7661",
+    "train_no" : "6c000C76610G",
+    "departureStation" : "广州南"
+  },
+  "C1215" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1215",
+    "train_no" : "11000C121501",
+    "departureStation" : "长春"
+  },
+  "C2608" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2608",
+    "train_no" : "25000C260803",
+    "departureStation" : "天津西"
+  },
+  "C2140" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2140",
+    "train_no" : "25000C21400J",
+    "departureStation" : "天津"
+  },
+  "C1223" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1223",
+    "train_no" : "11000C122303",
+    "departureStation" : "长春"
+  },
+  "C3018" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3018",
+    "train_no" : "55000C301812",
+    "departureStation" : "金山卫"
+  },
+  "C2616" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2616",
+    "train_no" : "25000C26160P",
+    "departureStation" : "天津西"
+  },
+  "C7638" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7638",
+    "train_no" : "6e000C763805",
+    "departureStation" : "珠海"
+  },
+  "C3026" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3026",
+    "train_no" : "55000C302602",
+    "departureStation" : "金山卫"
+  },
+  "C6253" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6253",
+    "train_no" : "76000C625320",
+    "departureStation" : "成都东"
+  },
+  "C2109" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2109",
+    "train_no" : "24000C21090T",
+    "departureStation" : "北京南"
+  },
+  "C7646" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7646",
+    "train_no" : "6e000C764606",
+    "departureStation" : "珠海"
+  },
+  "C6261" : {
+    "terminalStation" : "眉山东",
+    "trainCode" : "C6261",
+    "train_no" : "76000C626104",
+    "departureStation" : "成都东"
+  },
+  "C2117" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2117",
+    "train_no" : "24000C211703",
+    "departureStation" : "北京南"
+  },
+  "C7139" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7139",
+    "train_no" : "65000C713907",
+    "departureStation" : "广州东"
+  },
+  "C3034" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3034",
+    "train_no" : "55000C303412",
+    "departureStation" : "金山卫"
+  },
+  "C7654" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7654",
+    "train_no" : "6e000C765404",
+    "departureStation" : "珠海"
+  },
+  "C7147" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7147",
+    "train_no" : "65000C71470D",
+    "departureStation" : "广州东"
+  },
+  "C1208" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1208",
+    "train_no" : "1c000C120802",
+    "departureStation" : "蛟河西"
+  },
+  "C7662" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7662",
+    "train_no" : "6e000C766208",
+    "departureStation" : "珠海"
+  },
+  "C1216" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1216",
+    "train_no" : "18000C121602",
+    "departureStation" : "吉林"
+  },
+  "C7670" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7670",
+    "train_no" : "6e000C767005",
+    "departureStation" : "珠海"
+  },
+  "C2141" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2141",
+    "train_no" : "24000C214104",
+    "departureStation" : "北京南"
+  },
+  "C1224" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1224",
+    "train_no" : "18000C122403",
+    "departureStation" : "吉林"
+  },
+  "C2617" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2617",
+    "train_no" : "24000C261701",
+    "departureStation" : "北京南"
+  },
+  "C7639" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7639",
+    "train_no" : "6c000C763905",
+    "departureStation" : "广州南"
+  },
+  "C1232" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1232",
+    "train_no" : "18000C123202",
+    "departureStation" : "吉林"
+  },
+  "C3027" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3027",
+    "train_no" : "55000C302701",
+    "departureStation" : "上海南"
+  },
+  "C6254" : {
+    "terminalStation" : "成都南",
+    "trainCode" : "C6254",
+    "train_no" : "76000C625409",
+    "departureStation" : "眉山东"
+  },
+  "C2625" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2625",
+    "train_no" : "24000C262500",
+    "departureStation" : "北京南"
+  },
+  "C7647" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7647",
+    "train_no" : "6c000C764704",
+    "departureStation" : "广州南"
+  },
+  "C6262" : {
+    "terminalStation" : "成都南",
+    "trainCode" : "C6262",
+    "train_no" : "76000C62620C",
+    "departureStation" : "峨眉山"
+  },
+  "C2118" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2118",
+    "train_no" : "25000C211808",
+    "departureStation" : "天津"
+  },
+  "C7655" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7655",
+    "train_no" : "6c000C765506",
+    "departureStation" : "广州南"
+  },
+  "C6270" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6270",
+    "train_no" : "76000C62700E",
+    "departureStation" : "峨眉山"
+  },
+  "C7148" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7148",
+    "train_no" : "65000C71480H",
+    "departureStation" : "深圳"
+  },
+  "C1209" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1209",
+    "train_no" : "11000C120902",
+    "departureStation" : "长春"
+  },
+  "C7663" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7663",
+    "train_no" : "6c000C766305",
+    "departureStation" : "广州南"
+  },
+  "C2134" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2134",
+    "train_no" : "25000C213410",
+    "departureStation" : "天津"
+  },
+  "C1217" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1217",
+    "train_no" : "11000C121702",
+    "departureStation" : "长春"
+  },
+  "C7671" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7671",
+    "train_no" : "6c000C767105",
+    "departureStation" : "广州南"
+  },
+  "C1225" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1225",
+    "train_no" : "11000C122502",
+    "departureStation" : "长春"
+  },
+  "C2618" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2618",
+    "train_no" : "25000C261801",
+    "departureStation" : "天津西"
+  },
+  "C2150" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2150",
+    "train_no" : "25000C215002",
+    "departureStation" : "天津"
+  },
+  "C1233" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1233",
+    "train_no" : "11000C123308",
+    "departureStation" : "长春"
+  },
+  "C3028" : {
+    "terminalStation" : "上海南",
+    "trainCode" : "C3028",
+    "train_no" : "55000C302803",
+    "departureStation" : "金山卫"
+  },
+  "C6255" : {
+    "terminalStation" : "眉山东",
+    "trainCode" : "C6255",
+    "train_no" : "76000C625506",
+    "departureStation" : "成都东"
+  },
+  "C2626" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2626",
+    "train_no" : "25000C262600",
+    "departureStation" : "天津西"
+  },
+  "C7648" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7648",
+    "train_no" : "6e000C76480O",
+    "departureStation" : "珠海"
+  },
+  "C1241" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1241",
+    "train_no" : "11000C124101",
+    "departureStation" : "长春"
+  },
+  "C6263" : {
+    "terminalStation" : "乐山",
+    "trainCode" : "C6263",
+    "train_no" : "76000C62630B",
+    "departureStation" : "成都南"
+  },
+  "C2119" : {
+    "terminalStation" : "天津",
+    "trainCode" : "C2119",
+    "train_no" : "24000C211904",
+    "departureStation" : "北京南"
+  },
+  "C7656" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7656",
+    "train_no" : "6e000C765607",
+    "departureStation" : "珠海"
+  },
+  "C6271" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6271",
+    "train_no" : "76000C627120",
+    "departureStation" : "成都南"
+  },
+  "C7664" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7664",
+    "train_no" : "6e000C76640Q",
+    "departureStation" : "珠海"
+  },
+  "C1218" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1218",
+    "train_no" : "18000C121802",
+    "departureStation" : "吉林"
+  },
+  "C7672" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7672",
+    "train_no" : "6e000C767208",
+    "departureStation" : "珠海"
+  },
+  "C1226" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1226",
+    "train_no" : "18000C122603",
+    "departureStation" : "吉林"
+  },
+  "C7680" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7680",
+    "train_no" : "6e000C76800P",
+    "departureStation" : "珠海"
+  },
+  "C2619" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2619",
+    "train_no" : "24000C261900",
+    "departureStation" : "北京南"
+  },
+  "C3029" : {
+    "terminalStation" : "金山卫",
+    "trainCode" : "C3029",
+    "train_no" : "55000C302902",
+    "departureStation" : "上海南"
+  },
+  "C6256" : {
+    "terminalStation" : "成都南",
+    "trainCode" : "C6256",
+    "train_no" : "76000C625603",
+    "departureStation" : "眉山东"
+  },
+  "C2627" : {
+    "terminalStation" : "天津西",
+    "trainCode" : "C2627",
+    "train_no" : "24000C262700",
+    "departureStation" : "北京南"
+  },
+  "C7649" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7649",
+    "train_no" : "6c000C764907",
+    "departureStation" : "广州南"
+  },
+  "C1242" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1242",
+    "train_no" : "18000C124202",
+    "departureStation" : "吉林"
+  },
+  "C6264" : {
+    "terminalStation" : "成都南",
+    "trainCode" : "C6264",
+    "train_no" : "76000C626403",
+    "departureStation" : "乐山"
+  },
+  "C7181" : {
+    "terminalStation" : "深圳",
+    "trainCode" : "C7181",
+    "train_no" : "63000C718105",
+    "departureStation" : "广州"
+  },
+  "C7657" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7657",
+    "train_no" : "6c000C76570R",
+    "departureStation" : "广州南"
+  },
+  "C1250" : {
+    "terminalStation" : "长春",
+    "trainCode" : "C1250",
+    "train_no" : "18000C125000",
+    "departureStation" : "吉林"
+  },
+  "C6272" : {
+    "terminalStation" : "成都南",
+    "trainCode" : "C6272",
+    "train_no" : "76000C62720A",
+    "departureStation" : "乐山"
+  },
+  "C2128" : {
+    "terminalStation" : "北京南",
+    "trainCode" : "C2128",
+    "train_no" : "25000C21280D",
+    "departureStation" : "天津"
+  },
+  "C7665" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7665",
+    "train_no" : "6c000C766508",
+    "departureStation" : "广州南"
+  },
+  "C6280" : {
+    "terminalStation" : "成都东",
+    "trainCode" : "C6280",
+    "train_no" : "76000C628001",
+    "departureStation" : "峨眉山"
+  },
+  "C7801" : {
+    "terminalStation" : "株洲南",
+    "trainCode" : "C7801",
+    "train_no" : "62000C780101",
+    "departureStation" : "长沙"
+  },
+  "C1219" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1219",
+    "train_no" : "11000C121901",
+    "departureStation" : "长春"
+  },
+  "C7673" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7673",
+    "train_no" : "6c000C76730S",
+    "departureStation" : "广州南"
+  },
+  "C1227" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1227",
+    "train_no" : "11000C122702",
+    "departureStation" : "长春"
+  },
+  "C7681" : {
+    "terminalStation" : "珠海",
+    "trainCode" : "C7681",
+    "train_no" : "6c000C768107",
+    "departureStation" : "广州南"
+  },
+  "C6257" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6257",
+    "train_no" : "76000C62570A",
+    "departureStation" : "成都东"
+  },
+  "C1243" : {
+    "terminalStation" : "吉林",
+    "trainCode" : "C1243",
+    "train_no" : "11000C124303",
+    "departureStation" : "长春"
+  },
+  "C6265" : {
+    "terminalStation" : "峨眉山",
+    "trainCode" : "C6265",
+    "train_no" : "76000C626506",
+    "departureStation" : "成都南"
+  },
+  "C7182" : {
+    "terminalStation" : "广州东",
+    "trainCode" : "C7182",
+    "train_no" : "65000C71820I",
+    "departureStation" : "深圳"
+  },
+  "C7658" : {
+    "terminalStation" : "广州南",
+    "trainCode" : "C7658",
+    "train_no" : "6e000C765806",
+    "departureStation" : "珠海"
+  }
+}

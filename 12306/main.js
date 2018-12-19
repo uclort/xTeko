@@ -1,2 +1,2 @@
-var app = require('scripts/app');
+var app = require('scripts/home');
 app.render();
