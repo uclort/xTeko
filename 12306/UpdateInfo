@@ -1,5 +1,5 @@
 {
     "version":1.6,
     "message":"解决时刻表记录上次列车错误的问题",
-    "updateUrl":"jsbox://import?name=12306&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/12306/.output/12306.box"
+    "updateUrl":"jsbox://import?name=12306&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/12306/.output/12306.box"
 }
