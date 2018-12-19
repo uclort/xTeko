@@ -181,6 +181,7 @@ function checkupVersion() {
             var version = resp.data.version
             var message = resp.data.message
             var updateUrl = resp.data.updateUrl
+            $console.info(updateUrl);
             if (version > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",
