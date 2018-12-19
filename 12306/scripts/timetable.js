@@ -305,24 +305,3 @@ function objectSetting(word) {
     if (word == "Z") train_Object = JSON.parse(train_Z.string)
     return train_Object
 }
-
-function setNavigationTitle(title) {
-    var nav = $("superView").super.super.super.runtimeValue().invoke("subviews").rawValue()[1]
-    var group = nav.runtimeValue().invoke("subviews").rawValue()
-    for (var i = 0, l = group.length; i < l; i++) {
-        var obje = group[i]
-        if (obje.runtimeValue()["__clsName"] == "_UINavigationBarContentView") {
-            var groupM = obje.runtimeValue().invoke("subviews").rawValue()
-            for (var i = 0, l = groupM.length; i < l; i++) {
-                var objee = groupM[i]
-                if (objee.runtimeValue()["__clsName"] == "UILabel") {
-                    var label = objee.runtimeValue()
-                    label.invoke("setText", title)
-                    label.invoke("setTextColor", $color("white"))
-                    label.invoke("setFont", $font("bold", 19))
-                    $console.info(label.rawValue())
-                }
-            }
-        }
-    }
-}
