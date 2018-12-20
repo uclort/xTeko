@@ -17,7 +17,8 @@ function showTicketGate() {
             props: {
                 id: "year",
                 align: $align.center,
-                placeholder: "年"
+                placeholder: "年",
+                type: $kbType.number
             },
             layout: function(make) {
                 make.top.inset(10)
@@ -35,7 +36,8 @@ function showTicketGate() {
             props: {
                 id: "month",
                 align: $align.center,
-                placeholder: "月"
+                placeholder: "月",
+                type: $kbType.number
             },
             layout: function(make) {
                 make.top.inset(10)
@@ -54,7 +56,8 @@ function showTicketGate() {
             props: {
                 id: "day",
                 align: $align.center,
-                placeholder: "日"
+                placeholder: "日",
+                type: $kbType.number
             },
             layout: function(make) {
                 make.top.inset(10)
