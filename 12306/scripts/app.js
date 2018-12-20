@@ -1,5 +1,4 @@
-var timetable = require('scripts/timetable')
-var ticketcCheck = require('scripts/ticketcCheck')
+var ticketCheck = require('scripts/ticketCheck')
 var tool = require('scripts/tool')
 var station = $file.read('assets/station_names.json')
 var stationObject = JSON.parse(station.string)
@@ -101,7 +100,7 @@ function excessTicketInquiry() {
             {
                 type: "button",
                 props: {
-                    id: "ticketcCheck",
+                    id: "ticketCheck",
                     title: "查询"
                 },
                 layout: function(make) {
@@ -146,8 +145,8 @@ function search() {
                 return { station_code: { text: resultTuple[3] }, site_name: { text: stationObject_anti[resultTuple[6]] + "-" + stationObject_anti[resultTuple[7]] }, total_time: { text: resultTuple[8] + "-" + resultTuple[9] }, stopover_time: { text: resultTuple[10] }, excess_ticket: { text: tool.excessTicket(resultTuple) } }
             })
             $console.info(resultGroup)
-            ticketcCheck.showTicketcCheck()
-            ticketcCheck.giveData(resultGroup)
+            ticketCheck.showTicketCheck()
+            ticketCheck.giveData(resultGroup)
         }
     })
 }

@@ -1,4 +1,11 @@
-function showTicketcCheck() {
+
+
+module.exports = {
+    showTicketCheck: showTicketCheck,
+    giveData: giveData
+}
+
+function showTicketCheck() {
     $ui.push({
         props: {
             title: "余票查询"
@@ -65,11 +72,6 @@ function showTicketcCheck() {
             }
         }]
     })
-}
-
-module.exports = {
-    showTicketcCheck: showTicketcCheck,
-    giveData: giveData
 }
 
 function giveData(item) {
