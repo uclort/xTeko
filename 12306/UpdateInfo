@@ -1,5 +1,5 @@
 {
     "version":2.3,
     "message":"增加了检票口查询和正晚点查询。\n温馨提示：时刻表和检票口查询的时期最好是填写需要查询列车的发车日期。\n\n余票查询和时刻表查询更换位置\n\n年月日输入快键盘限制数字类型",
-    "updateUrl":"jsbox://import?name=12306&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/12306/.output/12306.box"
+    "updateUrl":"jsbox://import?name=12306&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/12306/.output/12306.box&icon=icon_085.png"
 }
