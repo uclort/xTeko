@@ -1,5 +1,6 @@
 var station = $file.read('assets/station_names.json')
 var stationObject = JSON.parse(station.string)
+var tool = require('scripts/tool')
 
 module.exports = {
     showTicketGate: showTicketGate
@@ -82,8 +83,8 @@ function showTicketGate() {
             },
             events: {
                 ready: function(sender) {
-                    if ($cache.get("oldCode")) {
-                        sender.text = $cache.get("oldCode")
+                    if ($cache.get("oldTicketGateCode")) {
+                        sender.text = $cache.get("oldTicketGateCode")
                     }
                 }
             }
@@ -124,7 +125,7 @@ function showTicketGate() {
                     tapped: function(sender) {
                         collapseKeyboard()
                         search()
-                        $cache.set("oldCode", $("trainNO").text)
+                        $cache.set("oldTicketGateCode", $("trainNO").text)
                         $cache.set("oldStation", $("departureStation").text)
                     }
                 }

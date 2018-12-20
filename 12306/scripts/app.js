@@ -24,6 +24,13 @@ function excessTicketInquiry() {
                 layout: function(make) {
                     make.top.left.inset(10)
                     make.height.equalTo(50)
+                },
+                events: {
+                    ready: function(sender) {
+                        if ($cache.get("oldTicketInquiryDepartureStation")) {
+                            sender.text = $cache.get("oldTicketInquiryDepartureStation")
+                        }
+                    }
                 }
             },
             {
@@ -38,6 +45,13 @@ function excessTicketInquiry() {
                     make.left.equalTo($("departureStation").right).offset(10)
                     make.height.equalTo(50)
                     make.width.equalTo($("departureStation").width)
+                },
+                events: {
+                    ready: function(sender) {
+                        if ($cache.get("oldTicketInquiryTerminalStation")) {
+                            sender.text = $cache.get("oldTicketInquiryTerminalStation")
+                        }
+                    }
                 }
             },
             {
@@ -110,8 +124,6 @@ function excessTicketInquiry() {
                 },
                 events: {
                     tapped: function(sender) {
-                        $("departureStation").blur()
-                        $("terminalStation").blur()
                         search()
                     }
 
@@ -122,8 +134,12 @@ function excessTicketInquiry() {
 }
 
 function search() {
-    $ui.loading(true)
 
+    $("departureStation").blur()
+    $("terminalStation").blur()
+    $cache.set("oldTicketInquiryDepartureStation", $("departureStation").text)
+    $cache.set("oldTicketInquiryTerminalStation", $("terminalStation").text)
+    
     var year = ($("year").text.length > 1) ? $("year").text : ("0" + $("year").text)
     var month = ($("month").text.length > 1) ? $("month").text : ("0" + $("month").text)
     var day = ($("day").text.length > 1) ? $("day").text : ("0" + $("day").text)
@@ -134,6 +150,8 @@ function search() {
     $console.info(departureStation)
     $console.info(terminalStation)
     $console.info(url)
+
+    $ui.loading(true)
     $http.request({
         method: "GET",
         url: url,

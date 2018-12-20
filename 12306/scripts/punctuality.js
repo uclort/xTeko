@@ -48,7 +48,7 @@ function showPunctuality() {
         },{
             type: "input",
             props: {
-                placeholder: "车次",
+                placeholder: "列车编号",
                 type: $kbType.ascii,
                 id:"trainTimes",
                 align: $align.center
