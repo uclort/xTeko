@@ -1,4 +1,4 @@
-scriptVersion = 2.1
+scriptVersion = 2.2
 
 // 余票
 var app = require('scripts/app')
@@ -17,7 +17,7 @@ module.exports.render = function render() {
         views: [{
             type: "button",
             props: {
-                title: "时刻表查询"
+                title: "余票查询"
             },
             layout: function(make) {
                 make.left.right.inset(10)
@@ -26,7 +26,7 @@ module.exports.render = function render() {
             },
             events: {
                 tapped: function(sender) {
-                    timetable.showTimeTable()
+                    app.excessTicketInquiry()
                 }
 
             }
@@ -34,7 +34,7 @@ module.exports.render = function render() {
             type: "button",
             props: {
                 id: "ticketCheck",
-                title: "余票查询"
+                title: "时刻表查询"
             },
             layout: function(make) {
                 make.left.right.inset(10)
@@ -43,7 +43,7 @@ module.exports.render = function render() {
             },
             events: {
                 tapped: function(sender) {
-                    app.excessTicketInquiry()
+                    timetable.showTimeTable()
                 }
 
             }
