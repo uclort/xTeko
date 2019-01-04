@@ -1,5 +1,5 @@
 {
-    "version":2.4,
-    "message":"不知道有没有修好已知的问题",
+    "version":2.5,
+    "message":"图片同比例压缩，宽度限制在 200，如果比 200 小，也会被拉到 200，以后再改这个问题。",
     "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }

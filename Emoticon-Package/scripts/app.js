@@ -1,6 +1,6 @@
 var favorites = require('scripts/favorites')
 
-scriptVersion = 2.4
+scriptVersion = 2.5
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -249,7 +249,7 @@ $ui.render({
 
 function save(resp, tag, url) {
     if (tag == 0) {
-        $clipboard.image = resp
+        $clipboard.image = resizedImage(resp.image)
         $ui.toast("已经复制到剪贴板")
     } else {
 
@@ -259,7 +259,7 @@ function save(resp, tag, url) {
                 switch (idx) {
                     case 0: // 分享
                         {
-                            $share.sheet(resp.image)
+                            $share.sheet(resizedImage(resp.image))
                         }
                         break;
                     case 1: // 保存到相册
@@ -329,6 +329,12 @@ function search() {
             setPicData(data)
         }
     })
+}
+
+function resizedImage(image) {
+    var proportion = image.size.height / image.size.width
+    var newImage = image.resized($size(200, 200 * proportion))
+    return newImage
 }
 
 function setPicData(data) {

@@ -40,13 +40,38 @@ function showFavorites() {
                                     switch (idx) {
                                         case 0: // 分享
                                             {
-                                                $share.sheet(resp.image)
+
+                                                var db = $sqlite.open("favorites.db");
+
+                                                /// 查询
+                                                var rs = db.query({
+                                                    sql: "SELECT * FROM Favorites where url = ?",
+                                                    args: [sender.sender.text]
+                                                });
+                                                var result = rs.result;
+                                                var urlKey;
+                                                if (result.next()) {
+                                                    urlKey = result.get("image"); // Or result.get(0);
+                                                }
+                                                $share.sheet(resizedImage(urlKey.image))
                                             }
                                             break;
                                         case 1: // 保存到相册
                                             {
+                                                var db = $sqlite.open("favorites.db");
+
+                                                /// 查询
+                                                var rs = db.query({
+                                                    sql: "SELECT * FROM Favorites where url = ?",
+                                                    args: [sender.sender.text]
+                                                });
+                                                var result = rs.result;
+                                                var urlKey;
+                                                if (result.next()) {
+                                                    urlKey = result.get("image"); // Or result.get(0);
+                                                }
                                                 $photo.save({
-                                                    data: resp,
+                                                    data: urlKey,
                                                     handler: function (success) {
                                                         $ui.toast("已经保存到相册")
                                                     }
@@ -60,7 +85,7 @@ function showFavorites() {
                                                 db.update({
                                                     sql: "DELETE FROM Favorites where url = ?",
                                                     args: [sender.sender.text]
-                                                  });
+                                                });
                                                 $sqlite.close(db);
                                                 setPicData()
                                             }
@@ -77,12 +102,12 @@ function showFavorites() {
             },
             events: {
                 didSelect: function (sender, indexPath, object) {
-                    $clipboard.image = object.image.data.image
+                    $clipboard.image = resizedImage(object.image.data.image)
                     $ui.toast("已经复制到剪贴板")
 
                 }
             }
-        },{
+        }, {
             type: "label",
             props: {
                 id: "label-loading2",
@@ -131,4 +156,10 @@ function setPicData() {
 
     $("matrix-favorites").data = sdfs
 
+}
+
+function resizedImage(image) {
+    var proportion = image.size.height / image.size.width
+    var newImage = image.resized($size(200, 200 * proportion))
+    return newImage
 }
