@@ -84,7 +84,7 @@ function showFavorites() {
         },{
             type: "label",
             props: {
-                id: "label-loading",
+                id: "label-loading2",
                 lines: 0,
                 text: "没有收藏表情",
                 bgcolor: $color("#FFFFFF"),
@@ -122,10 +122,10 @@ function setPicData() {
     $console.info(sdfs);
 
     if (sdfs.length == 0) {
-        $("label-loading").hidden = false
+        $("label-loading2").hidden = false
         return
     } else {
-        $("label-loading").hidden = true
+        $("label-loading2").hidden = true
     }
 
     $("matrix").data = sdfs
