@@ -1,5 +1,5 @@
 {
-    "version":2.3,
-    "message":"丢弃 doutu-keyboard 脚本名，改名 Emoticon package，新增收藏夹功能，长按触发菜单收藏",
-    "updateUrl":"jsbox://import?name=doutu-keyboard&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/Emoticon%20package/.output/Emoticon%20package.box&icon=icon_055.png",
+    "version":2.5,
+    "message":"图片同比例压缩，宽度限制在 200，如果比 200 小，也会被拉到 200，以后再改这个问题。",
+    "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }
