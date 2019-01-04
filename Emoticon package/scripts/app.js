@@ -366,7 +366,7 @@ function setPicData(data) {
 //检查版本
 function checkupVersion() {
     $http.get({
-        url: "https://raw.githubusercontent.com/0x00000cc/xTeko/master/doutu/UpdateInfo",
+        url: "https://raw.githubusercontent.com/0x00000cc/xTeko/master/Emoticon%20package/UpdateInfo",
         handler: function (resp) {
             $console.info(resp.data)
             var version = resp.data.version;
