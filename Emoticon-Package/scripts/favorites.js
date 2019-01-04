@@ -13,6 +13,7 @@ function showFavorites() {
         views: [{
             type: "matrix",
             props: {
+                id: "matrix-favorites",
                 columns: 4,
                 itemHeight: 88,
                 spacing: 10,
@@ -128,9 +129,9 @@ function setPicData() {
         $("label-loading2").hidden = true
     }
 
-    $("matrix").data = sdfs
+    $("matrix-favorites").data = sdfs
 
-    $("matrix").scrollTo({
+    $("matrix-favorites").scrollTo({
         indexPath: $indexPath(0, 0),
         animated: false
     })
