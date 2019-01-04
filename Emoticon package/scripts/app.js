@@ -1,6 +1,6 @@
 var favorites = require('scripts/favorites')
 
-scriptVersion = 2.2
+scriptVersion = 2.3
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
