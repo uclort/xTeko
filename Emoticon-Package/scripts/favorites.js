@@ -131,8 +131,4 @@ function setPicData() {
 
     $("matrix-favorites").data = sdfs
 
-    $("matrix-favorites").scrollTo({
-        indexPath: $indexPath(0, 0),
-        animated: false
-    })
 }
