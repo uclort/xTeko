@@ -1,5 +1,5 @@
 {
-    "version":2.6,
-    "message":"解决设置为固定脚本使用右滑手势脚本奔溃的 bug",
+    "version":2.7,
+    "message":"解决打不开的 bug......\n解决设置为固定脚本使用右滑手势脚本奔溃的 bug",
     "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }

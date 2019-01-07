@@ -1,6 +1,6 @@
 var favorites = require('scripts/favorites')
 
-scriptVersion = 2.6
+scriptVersion = 2.7
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -27,7 +27,7 @@ var mime = 0
 // 是否还有下一页
 var pageNext = true
 
-module.exports.render = function render() {
+// module.exports.render = function render() {
     $ui.render({
         props: {
             title: "斗图"
@@ -247,7 +247,7 @@ module.exports.render = function render() {
         }
         ]
     })
-}
+// }
 
 
 function save(resp, tag, url) {
