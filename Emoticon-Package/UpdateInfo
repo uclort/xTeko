@@ -1,5 +1,5 @@
 {
-    "version":2.5,
-    "message":"图片同比例压缩，宽度限制在 200，如果比 200 小，也会被拉到 200，以后再改这个问题。",
+    "version":2.6,
+    "message":"解决设置为固定脚本使用右滑手势脚本奔溃的 bug",
     "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }

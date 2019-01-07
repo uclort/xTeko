@@ -1,6 +1,6 @@
 var favorites = require('scripts/favorites')
 
-scriptVersion = 2.5
+scriptVersion = 2.6
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -27,225 +27,228 @@ var mime = 0
 // 是否还有下一页
 var pageNext = true
 
-$ui.render({
-    props: {
-        title: "斗图"
-    },
-    views: [{
-        type: "button",
+module.exports.render = function render() {
+    $ui.render({
         props: {
-            id: "button-Favorites",
-            title: "收藏夹"
+            title: "斗图"
         },
-        layout: function (make) {
-            make.right.top.inset(10)
-            make.size.equalTo($size(64, 32))
-        },
-        events: {
-            tapped: function (sender) {
-                favorites.showFavorites()
-                favorites.setPicData()
-            }
-        }
-    },
-    {
-        type: "button",
-        props: {
-            id: "button-search",
-            title: "搜索"
-        },
-        layout: function (make) {
-            make.top.inset(10)
-            make.right.equalTo($("button-Favorites").left).inset(5)
-            make.size.equalTo($size(64, 32))
-        },
-        events: {
-            tapped: function (sender) {
-                mime = 0
-                search()
-            }
-        }
-    },
-    {
-        type: "input",
-        props: {
-            placeholder: "输入关键字"
-        },
-        layout: function (make) {
-            make.top.left.inset(10)
-            make.right.equalTo($("button-search").left).offset(-10)
-            make.height.equalTo($("button-search"))
-        },
-        events: {
-            ready: function (sender) {
-                // if ($clipboard.text) {
-                //     sender.text = $clipboard.text
-                //     $delay(0.5, function() {
-                //         search()
-                //     })
-                // }
+        views: [{
+            type: "button",
+            props: {
+                id: "button-Favorites",
+                title: "收藏夹"
             },
-            returned: function (sender) {
-                mime = 0
-                page = 1
-                search()
+            layout: function (make) {
+                make.right.top.inset(10)
+                make.size.equalTo($size(64, 32))
+            },
+            events: {
+                tapped: function (sender) {
+                    favorites.showFavorites()
+                    favorites.setPicData()
+                }
             }
-        }
-    },
-    {
-        type: "button",
-        props: {
-            id: "button-delete",
-            title: "删除"
         },
-        layout: function (make, view) {
-            make.top.equalTo($("input").bottom).offset(10)
-            make.left.inset(10)
-            make.height.equalTo(32)
-            make.width.equalTo(view.super.width).multipliedBy(0.25).offset(-(35 / 4))
+        {
+            type: "button",
+            props: {
+                id: "button-search",
+                title: "搜索"
+            },
+            layout: function (make) {
+                make.top.inset(10)
+                make.right.equalTo($("button-Favorites").left).inset(5)
+                make.size.equalTo($size(64, 32))
+            },
+            events: {
+                tapped: function (sender) {
+                    mime = 0
+                    search()
+                }
+            }
         },
-        events: {
-            tapped: function (sender) {
-                $photo.delete({
-                    count: 1,
-                    handler: function (success) {
+        {
+            type: "input",
+            props: {
+                placeholder: "输入关键字"
+            },
+            layout: function (make) {
+                make.top.left.inset(10)
+                make.right.equalTo($("button-search").left).offset(-10)
+                make.height.equalTo($("button-search"))
+            },
+            events: {
+                ready: function (sender) {
+                    // if ($clipboard.text) {
+                    //     sender.text = $clipboard.text
+                    //     $delay(0.5, function() {
+                    //         search()
+                    //     })
+                    // }
+                },
+                returned: function (sender) {
+                    mime = 0
+                    page = 1
+                    search()
+                }
+            }
+        },
+        {
+            type: "button",
+            props: {
+                id: "button-delete",
+                title: "删除"
+            },
+            layout: function (make, view) {
+                make.top.equalTo($("input").bottom).offset(10)
+                make.left.inset(10)
+                make.height.equalTo(32)
+                make.width.equalTo(view.super.width).multipliedBy(0.25).offset(-(35 / 4))
+            },
+            events: {
+                tapped: function (sender) {
+                    $photo.delete({
+                        count: 1,
+                        handler: function (success) {
 
-                    }
-                })
-            }
-        }
-    },
-    {
-        type: "button",
-        props: {
-            id: "button-paste",
-            title: "粘贴"
-        },
-        layout: function (make, view) {
-            make.top.equalTo($("input").bottom).offset(10)
-            make.left.equalTo($("button-delete").right).offset(5)
-            make.height.equalTo(32)
-            make.width.equalTo($("button-delete").width)
-        },
-        events: {
-            tapped: function (sender) {
-                if ($clipboard.text) {
-                    $("input").text = $clipboard.text
+                        }
+                    })
                 }
             }
-        }
-    },
-    {
-        type: "button",
-        props: {
-            id: "button-before",
-            title: "上一页"
         },
-        layout: function (make, view) {
-            make.top.equalTo($("input").bottom).offset(10)
-            make.left.equalTo($("button-paste").right).offset(5)
-            make.height.equalTo(32)
-            make.width.equalTo($("button-paste").width)
-        },
-        events: {
-            tapped: function (sender) {
-                if (page == 1) {
-                    $ui.toast("已经是第一页了")
-                    return
-                }
-                page--
-                search()
-            }
-        }
-    },
-    {
-        type: "button",
-        props: {
-            id: "button-after",
-            title: "下一页"
-        },
-        layout: function (make, view) {
-            make.top.equalTo($("input").bottom).offset(10)
-            make.left.equalTo($("button-before").right).offset(5)
-            make.height.equalTo(32)
-            make.width.equalTo($("button-before").width)
-        },
-        events: {
-            tapped: function (sender) {
-                if (pageNext == false) {
-                    $ui.toast("已经是最后一页")
-                    return
-                }
-                page++
-                search()
-            }
-        }
-    },
-    {
-        type: "matrix",
-        props: {
-            columns: 4,
-            itemHeight: 88,
-            spacing: 10,
-            template: [{
-                type: "image",
-                props: {
-                    id: "image",
-                    align: $align.center,
-                },
-                layout: $layout.fill
-            }, {
-                type: "label",
-                props: {
-                    id: "label",
-                    textColor: $color("clear"),
-                    align: $align.center,
-                },
-                layout: $layout.fill,
-                events: {
-                    longPressed: function (sender) {
-                        $http.download({
-                            url: sender.sender.text,
-                            handler: function (resp) {
-                                save(resp.data, longTag, sender.sender.text)
-                            }
-                        })
+        {
+            type: "button",
+            props: {
+                id: "button-paste",
+                title: "粘贴"
+            },
+            layout: function (make, view) {
+                make.top.equalTo($("input").bottom).offset(10)
+                make.left.equalTo($("button-delete").right).offset(5)
+                make.height.equalTo(32)
+                make.width.equalTo($("button-delete").width)
+            },
+            events: {
+                tapped: function (sender) {
+                    if ($clipboard.text) {
+                        $("input").text = $clipboard.text
                     }
                 }
-            }]
+            }
         },
-        layout: function (make) {
-            make.left.bottom.right.equalTo(0)
-            make.top.equalTo($("button-before").bottom).offset(10)
-        },
-        events: {
-            didSelect: function (sender, indexPath, object) {
-                $http.download({
-                    url: object.image.src,
-                    handler: function (resp) {
-                        save(resp.data, tapTag, object.image.src)
+        {
+            type: "button",
+            props: {
+                id: "button-before",
+                title: "上一页"
+            },
+            layout: function (make, view) {
+                make.top.equalTo($("input").bottom).offset(10)
+                make.left.equalTo($("button-paste").right).offset(5)
+                make.height.equalTo(32)
+                make.width.equalTo($("button-paste").width)
+            },
+            events: {
+                tapped: function (sender) {
+                    if (page == 1) {
+                        $ui.toast("已经是第一页了")
+                        return
                     }
-                })
+                    page--
+                    search()
+                }
+            }
+        },
+        {
+            type: "button",
+            props: {
+                id: "button-after",
+                title: "下一页"
+            },
+            layout: function (make, view) {
+                make.top.equalTo($("input").bottom).offset(10)
+                make.left.equalTo($("button-before").right).offset(5)
+                make.height.equalTo(32)
+                make.width.equalTo($("button-before").width)
+            },
+            events: {
+                tapped: function (sender) {
+                    if (pageNext == false) {
+                        $ui.toast("已经是最后一页")
+                        return
+                    }
+                    page++
+                    search()
+                }
+            }
+        },
+        {
+            type: "matrix",
+            props: {
+                columns: 4,
+                itemHeight: 88,
+                spacing: 10,
+                template: [{
+                    type: "image",
+                    props: {
+                        id: "image",
+                        align: $align.center,
+                    },
+                    layout: $layout.fill
+                }, {
+                    type: "label",
+                    props: {
+                        id: "label",
+                        textColor: $color("clear"),
+                        align: $align.center,
+                    },
+                    layout: $layout.fill,
+                    events: {
+                        longPressed: function (sender) {
+                            $http.download({
+                                url: sender.sender.text,
+                                handler: function (resp) {
+                                    save(resp.data, longTag, sender.sender.text)
+                                }
+                            })
+                        }
+                    }
+                }]
+            },
+            layout: function (make) {
+                make.left.bottom.right.equalTo(0)
+                make.top.equalTo($("button-before").bottom).offset(10)
+            },
+            events: {
+                didSelect: function (sender, indexPath, object) {
+                    $http.download({
+                        url: object.image.src,
+                        handler: function (resp) {
+                            save(resp.data, tapTag, object.image.src)
+                        }
+                    })
+                }
+            }
+        },
+        {
+            type: "label",
+            props: {
+                id: "label-loading",
+                lines: 0,
+                text: "请粘贴剪贴板内容 or 输入关键字\n点击搜索",
+                bgcolor: $color("#FFFFFF"),
+                align: $align.center
+            },
+            layout: function (make, view) {
+                make.top.equalTo(92)
+                make.left.right.equalTo(0)
+                make.bottom.equalTo(view.super.bottom)
             }
         }
-    },
-    {
-        type: "label",
-        props: {
-            id: "label-loading",
-            lines: 0,
-            text: "请粘贴剪贴板内容 or 输入关键字\n点击搜索",
-            bgcolor: $color("#FFFFFF"),
-            align: $align.center
-        },
-        layout: function (make, view) {
-            make.top.equalTo(92)
-            make.left.right.equalTo(0)
-            make.bottom.equalTo(view.super.bottom)
-        }
-    }
-    ]
-})
+        ]
+    })
+}
+
 
 function save(resp, tag, url) {
     if (tag == 0) {

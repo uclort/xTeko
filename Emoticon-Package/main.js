@@ -1,1 +1,2 @@
-$ui.render("main");
+var app = require('scripts/app');
+app.render();
