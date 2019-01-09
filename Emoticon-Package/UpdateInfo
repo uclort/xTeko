@@ -1,5 +1,5 @@
 {
     "version":2.8,
     "message":"修复了一个不存在的 bug。",
-    "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/0x00000cc/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
+    "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }

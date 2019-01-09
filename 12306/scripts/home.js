@@ -91,7 +91,7 @@ checkupVersion()
 //检查版本
 function checkupVersion() {
     $http.get({
-        url: "https://raw.githubusercontent.com/0x00000cc/xTeko/master/12306/UpdateInfo",
+        url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/UpdateInfo",
         handler: function(resp) {
             $console.info(resp.data)
             var version = resp.data.version
