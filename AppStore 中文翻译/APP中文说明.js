@@ -269,9 +269,9 @@ function checkupVersion() {
     handler: function (resp) {
       $ui.loading(false);
       let newData = resp.data
-      let versionRegex = /version-([\s\S]*)-version/
-      let updateContentRegex = /updateContent-([\s\S]*)-updateContent/
-      let installUrlRegex = /installUrl-([\s\S]*)-installUrl/
+      let versionRegex = /version-([\s\S]*?)-version/
+      let updateContentRegex = /updateContent-([\s\S]*?)-updateContent/
+      let installUrlRegex = /installUrl-([\s\S]*?)-installUrl/
       let newVersion = versionRegex.exec(newData)[1]
       let newUpdateContent = updateContentRegex.exec(newData)[1]
       let newInstallUrl = installUrlRegex.exec(newData)[1]
@@ -296,41 +296,23 @@ function checkupVersion() {
               title: "更新",
               disabled: false, // Optional
               handler: function () {
+                $app.openURL(encodeURI(newInstallUrl))
                 $app.close()
               }
             }
           ]
         })
-        $app.openURL(encodeURI(newInstallUrl))
-        $app.close()
       } else if (newVersion > oldVersion && $app.env != $env.app){  // 有新版本 但是在非主程序运行
         $ui.alert({
-          title: "有新版本",
+          title: "发现新版本",
           message: "请在主程序打开本脚本更新",
         });
+      } else if (newVersion < oldVersion && $app.env == $env.app){  // 没有新版本 但是在主程序运行
+        $ui.alert({
+          title: "没有发现新版本",
+          message: "请在 App Store 应用详情页分享打开此脚本",
+        });
       }
-
-      // var version = resp.data.version;
-      // var message = resp.data.message;
-      // if (version > scriptVersion) {
-      //     $ui.alert({
-      //         title: "发现新版本",
-      //         message: message,
-      //         actions: [{
-      //                 title: "忽略",
-      //                 handler: function() {}
-      //             },
-      //             {
-      //                 title: "更新",
-      //                 handler: function() {
-      //                     var url = "jsbox://install?name=doutu-keyboard&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&icon=icon_055.png"
-      //                     $app.openURL(encodeURI(url))
-      //                     $app.close()
-      //                 }
-      //             }
-      //         ]
-      //     })
-      // }
     }
   })
 }
