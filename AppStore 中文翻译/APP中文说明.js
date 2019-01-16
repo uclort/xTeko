@@ -1,5 +1,5 @@
 /*
-version-1.0-version
+version-1.1-version
 updateContent-完善环境判断-updateContent
 installUrl-jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_163.png-installUrl
 */
