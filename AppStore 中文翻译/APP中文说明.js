@@ -1,4 +1,4 @@
-var update = {"123":"123","123":"123","123":"123"}
+update = {"123":"123","123":"123","123":"123"}
 // var tkkNumber = ""
 // 更新内容 软件简介
 var updateContent = "", descriptionContent = ""
