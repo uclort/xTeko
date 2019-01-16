@@ -1,7 +1,7 @@
 /*
 version-1.2-version
 updateContent-初始版本-updateContent
-installUrl-jsbox://import?name=App%20Store%20Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
+installUrl-jsbox://import?name=App Store Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
 */
 
 
