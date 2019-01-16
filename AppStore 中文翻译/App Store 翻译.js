@@ -1,7 +1,7 @@
 /*
-version-1.1-version
+version-1.0-version
 updateContent-完善环境判断-updateContent
-installUrl-jsbox://import?name=App Store 翻译&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/APP%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E.js&icon=icon_163.png-installUrl
+installUrl-jsbox://import?name=App Store 翻译&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/App%20Store%20%E7%BF%BB%E8%AF%91.js&icon=icon_163.png-installUrl
 */
 
 
@@ -271,7 +271,7 @@ function show(updateSentences, descriptionSentences) {
 function checkupVersion() {
   $ui.loading("正在检查更新...");
   $http.get({
-    url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/APP%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E.js",
+    url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/App%20Store%20%E7%BF%BB%E8%AF%91.js",
     handler: function (resp) {
       $ui.loading(false);
       let newData = resp.data
@@ -302,7 +302,7 @@ function checkupVersion() {
               title: "更新",
               disabled: false, // Optional
               handler: function () {
-                $app.openURL(encodeURI(newInstallUrl))
+                // $app.openURL(encodeURI(newInstallUrl))
                 $app.close()
               }
             }
