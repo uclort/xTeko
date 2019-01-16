@@ -302,7 +302,7 @@ function checkupVersion() {
               title: "更新",
               disabled: false, // Optional
               handler: function () {
-                // $app.openURL(encodeURI(newInstallUrl))
+                $app.openURL(encodeURI(newInstallUrl))
                 $app.close()
               }
             }
