@@ -1,7 +1,7 @@
 /*
-version-1.0-version
-updateContent-初次发布-updateContent
-installUrl-jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_085.png-installUrl
+version-1.1-version
+updateContent-测试更新-updateContent
+installUrl-jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_163.png-installUrl
 */
 
 
@@ -36,6 +36,8 @@ if (($app.env == $env.action) && link) {
   if (appid) {
     lookup(appid, region)
   }
+} else if($app.env == $env.app){
+  checkupVersion()
 } else {
   $ui.alert({
     title: "环境错误",
@@ -161,7 +163,7 @@ function googleTran(text, descriptionC) {
 
 
 function show(updateSentences, descriptionSentences) {
-
+  checkupVersion()
   var updateText = "", descriptionText = ""
   var updateLength = updateSentences.length
   var descriptionLength = descriptionSentences.length
@@ -259,7 +261,79 @@ function show(updateSentences, descriptionSentences) {
   })
 }
 
+//检查版本
+function checkupVersion() {
+  $ui.loading("正在检查更新...");
+  $http.get({
+    url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/APP%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E.js",
+    handler: function (resp) {
+      $ui.loading(false);
+      let newData = resp.data
+      let versionRegex = /version-([\s\S]*)-version/
+      let updateContentRegex = /updateContent-([\s\S]*)-updateContent/
+      let installUrlRegex = /installUrl-([\s\S]*)-installUrl/
+      let newVersion = versionRegex.exec(newData)[1]
+      let newUpdateContent = updateContentRegex.exec(newData)[1]
+      let newInstallUrl = installUrlRegex.exec(newData)[1]
+      $console.info(newVersion)
+      $console.info(newUpdateContent)
+      $console.info(newInstallUrl)
+      let oldData = $addin.current.data.string
+      let oldVersion = versionRegex.exec(oldData)[1]
+      if (newVersion > oldVersion && $app.env == $env.app) { // 有新版本 并且是在主程序运行
+        $ui.alert({
+          title: "发现新版本",
+          message: newUpdateContent,
+          actions: [
+            {
+              title: "取消",
+              disabled: false, // Optional
+              handler: function () {
 
+              }
+            },
+            {
+              title: "更新",
+              disabled: false, // Optional
+              handler: function () {
+                $app.close()
+              }
+            }
+          ]
+        })
+        $app.openURL(encodeURI(newInstallUrl))
+        $app.close()
+      } else if (newVersion > oldVersion && $app.env != $env.app){  // 有新版本 但是在非主程序运行
+        $ui.alert({
+          title: "有新版本",
+          message: "请在主程序打开本脚本更新",
+        });
+      }
+
+      // var version = resp.data.version;
+      // var message = resp.data.message;
+      // if (version > scriptVersion) {
+      //     $ui.alert({
+      //         title: "发现新版本",
+      //         message: message,
+      //         actions: [{
+      //                 title: "忽略",
+      //                 handler: function() {}
+      //             },
+      //             {
+      //                 title: "更新",
+      //                 handler: function() {
+      //                     var url = "jsbox://install?name=doutu-keyboard&url=https://raw.githubusercontent.com/mTerminal/xTeko/master/doutu/doutu-keyboard.js" + "&icon=icon_055.png"
+      //                     $app.openURL(encodeURI(url))
+      //                     $app.close()
+      //                 }
+      //             }
+      //         ]
+      //     })
+      // }
+    }
+  })
+}
 
 // function tkk() {
 //   $ui.loading("正在获取翻译参数...");
