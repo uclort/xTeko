@@ -41,7 +41,7 @@ if (($app.env == $env.action) && link) {
 } else {
   $ui.alert({
     title: "环境错误",
-    message: "请在 App Store 应用详情页分享打开此脚本",
+    message: "请在 App Store 应用详情页分享运行此脚本",
     actions: [
       {
         title: "我知道了",
@@ -311,7 +311,7 @@ function checkupVersion() {
       } else if (newVersion > oldVersion && $app.env != $env.app) {  // 有新版本 但是在非主程序运行
         $ui.alert({
           title: "发现新版本",
-          message: "请在主程序打开本脚本更新",
+          message: "请在主程序运行本脚本更新",
           actions: [
             {
               title: "我知道了",
@@ -324,7 +324,7 @@ function checkupVersion() {
       } else if (newVersion <= oldVersion && $app.env == $env.app) {  // 没有新版本 但是在主程序运行
         $ui.alert({
           title: "没有发现新版本",
-          message: "请在 App Store 应用详情页分享打开此脚本",
+          message: "请在 App Store 应用详情页分享运行此脚本",
           actions: [
             {
               title: "我知道了",
