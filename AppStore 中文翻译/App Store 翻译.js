@@ -1,7 +1,7 @@
 /*
 version-1.1-version
 updateContent-完善环境判断-updateContent
-installUrl-jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_163.png-installUrl
+installUrl-jsbox://import?name=App Store 翻译&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/APP%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E.js&icon=icon_163.png-installUrl
 */
 
 
