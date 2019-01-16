@@ -1,7 +1,7 @@
 /*
-version-1.1-version
+version-1.2-version
 updateContent-完善环境判断-updateContent
-installUrl-jsbox://import?name=App Store 翻译&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/App%20Store%20%E7%BF%BB%E8%AF%91.js&icon=icon_162.png-installUrl
+installUrl-jsbox://import?name=App%20Store%20Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
 */
 
 
@@ -271,7 +271,7 @@ function show(updateSentences, descriptionSentences) {
 function checkupVersion() {
   $ui.loading("正在检查更新...");
   $http.get({
-    url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/AppStore%20%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/App%20Store%20%E7%BF%BB%E8%AF%91.js",
+    url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js",
     handler: function (resp) {
       $ui.loading(false);
       let newData = resp.data
