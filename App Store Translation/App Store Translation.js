@@ -1,5 +1,5 @@
 /*
-version-1.2-version
+version-1.1-version
 updateContent-初始版本-updateContent
 installUrl-jsbox://import?name=App Store Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
 */
@@ -270,11 +270,14 @@ function show(updateSentences, descriptionSentences) {
 //检查版本
 function checkupVersion() {
   $ui.loading("正在检查更新...");
-  $http.get({
+  $http.download({
     url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js",
-    handler: function (resp) {
+    showsProgress: false,
+    timeout: 5,
+    handler: function(resp) {
       $ui.loading(false);
-      let newData = resp.data
+      let newData = resp.data.string
+      $console.info(newData);
       let versionRegex = /version-([\s\S]*?)-version/
       let updateContentRegex = /updateContent-([\s\S]*?)-updateContent/
       let installUrlRegex = /installUrl-([\s\S]*?)-installUrl/
@@ -302,8 +305,9 @@ function checkupVersion() {
               title: "更新",
               disabled: false, // Optional
               handler: function () {
-                $app.openURL(encodeURI(newInstallUrl))
-                $app.close()
+                updateAddin(resp.data)
+                // $app.openURL(encodeURI(newInstallUrl))
+                // $app.close()
               }
             }
           ]
@@ -335,6 +339,39 @@ function checkupVersion() {
           ]
         })
       }
+    }
+  })
+}
+//当前插件名
+function currentName() {
+  let name = $addin.current.name
+  let end = name.length - 3
+  return name.substring(0, end)
+}
+
+//升级插件
+function updateAddin(app) {
+  $addin.save({
+    name: currentName(),
+    data: app,
+    icon: $addin.current.icon,
+    handler: function(success) {
+      if(success) {
+        $device.taptic(2)
+        $delay(0.15, function() {
+          $device.taptic(2)
+        })
+        $ui.alert({
+          title: "升级完成",
+          actions: [{
+              title: "OK",
+              handler: function() {
+                $app.openExtension($addin.current.name)
+              }
+            }
+          ]
+        })
+      }   
     }
   })
 }
