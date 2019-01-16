@@ -1,4 +1,10 @@
-update = {"123":"123","123":"123","123":"123"}
+/*
+version-1.0-version
+updateContent-初次发布-updateContent
+installUrl-jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_085.png-installUrl
+*/
+
+
 // var tkkNumber = ""
 // 更新内容 软件简介
 var updateContent = "", descriptionContent = ""
