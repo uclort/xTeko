@@ -1,5 +1,5 @@
 /*
-version-1.1-version
+version-1.0-version
 updateContent-完善环境判断-updateContent
 installUrl-jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_163.png-installUrl
 */
@@ -36,10 +36,10 @@ if (($app.env == $env.action) && link) {
   if (appid) {
     lookup(appid, region)
   }
-} else if($app.env == $env.app){
+} else if ($app.env == $env.app) {
   checkupVersion()
 } else {
-  ui.alert({
+  $ui.alert({
     title: "环境错误",
     message: "请在 App Store 应用详情页分享打开此脚本",
     actions: [
@@ -308,8 +308,8 @@ function checkupVersion() {
             }
           ]
         })
-      } else if (newVersion > oldVersion && $app.env != $env.app){  // 有新版本 但是在非主程序运行
-        ui.alert({
+      } else if (newVersion > oldVersion && $app.env != $env.app) {  // 有新版本 但是在非主程序运行
+        $ui.alert({
           title: "发现新版本",
           message: "请在主程序打开本脚本更新",
           actions: [
@@ -321,8 +321,8 @@ function checkupVersion() {
             }
           ]
         })
-      } else if (newVersion < oldVersion && $app.env == $env.app){  // 没有新版本 但是在主程序运行
-        ui.alert({
+      } else if (newVersion <= oldVersion && $app.env == $env.app) {  // 没有新版本 但是在主程序运行
+        $ui.alert({
           title: "没有发现新版本",
           message: "请在 App Store 应用详情页分享打开此脚本",
           actions: [
