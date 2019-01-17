@@ -1,6 +1,6 @@
 /*
-version-1.1-version
-updateContent-初始版本-updateContent
+version-1.2-version
+updateContent-更换了字体和颜色，更加美观-updateContent
 installUrl-jsbox://import?name=App Store Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
 */
 
@@ -21,6 +21,16 @@ var link = $context.link
 
 // 记录震动反馈，如果已经震动则不重复震动，除非从非满足条件到满足条件
 var VFBool = false
+
+updateTitleFont = $font("BodoniSvtyTwoOSITCTT-Bold", 20) 
+updateContentFont = $font("AppleSDGothicNeo-Bold", 16)
+introductionTitleFont = updateTitleFont
+introductionContentFont = updateContentFont
+
+updateTitleColor = $color("#ef475d")
+updateContentColor = $color("#4c1f24")
+introductionTitleColor = updateTitleColor
+introductionContentColor = updateContentColor
 
 if (($app.env == $env.action) && link) {
   $ui.loading("正在获取内容...")
@@ -210,8 +220,8 @@ function show(updateSentences, descriptionSentences) {
         props: {
           text: "更新内容：",
           lines: 0,
-          font: $font(20),
-          textColor: $color("red"),
+          font: updateTitleFont,
+          textColor: updateTitleColor,
           id: "update-title"
         },
         layout: function (make, view) {
@@ -224,7 +234,8 @@ function show(updateSentences, descriptionSentences) {
         props: {
           text: updateText,
           lines: 0,
-          font: $font(16),
+          font: updateContentFont,
+          textColor: updateContentColor,
           id: "update-content"
         },
         layout: function (make, view) {
@@ -238,8 +249,8 @@ function show(updateSentences, descriptionSentences) {
         props: {
           text: "应用介绍：",
           lines: 0,
-          font: $font(20),
-          textColor: $color("red"),
+          font: introductionTitleFont,
+          textColor: introductionTitleColor,
           id: "introduction-title"
         },
         layout: function (make, view) {
@@ -253,7 +264,8 @@ function show(updateSentences, descriptionSentences) {
         props: {
           text: descriptionText,
           lines: 0,
-          font: $font(16),
+          font: introductionContentFont,
+          textColor: introductionContentColor,
           id: "introduction-content"
         },
         layout: function (make, view) {
