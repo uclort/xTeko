@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
         // 对数据进行JSON格式化并返回字典形式
         id dataTuple = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
         
-        NSDictionary *trainData = dataTuple[@"2018-12-21"];
+        NSDictionary *trainData = dataTuple[@"2019-01-28"];
         
         [trainData enumerateKeysAndObjectsUsingBlock:^(NSString *key, NSArray *obj, BOOL * _Nonnull stop) {
             __block NSMutableDictionary *trainTupleM = [NSMutableDictionary dictionary];
