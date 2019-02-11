@@ -49,6 +49,26 @@ function excessTicketInquiry() {
                         // $console.info("string");
                     }
                 }
+            },{
+                type: "button",
+                props: {
+                    id:"conversion-button",
+                    icon: $icon("162", $color("red"), $size(20, 20)),
+                    bgcolor: $color("clear")
+                },
+                layout: function(make, view) {
+                    make.top.equalTo($("departureStation"))
+                    make.size.equalTo($size(50,50))
+                    make.centerX.equalTo(view)
+                    make.left.equalTo($("departureStation").right).offset(10)
+                },
+                events: {
+                    tapped: function(sender) {
+                        let conversionString = $("departureStation").text
+                        $("departureStation").text = $("terminalStation").text
+                        $("terminalStation").text = conversionString
+                    }
+                }
             },
             {
                 type: "input",
@@ -59,7 +79,7 @@ function excessTicketInquiry() {
                 },
                 layout: function(make) {
                     make.top.right.inset(10)
-                    make.left.equalTo($("departureStation").right).offset(10)
+                    make.left.equalTo($("conversion-button").right).offset(10)
                     make.height.equalTo(50)
                     make.width.equalTo($("departureStation").width)
                 },
