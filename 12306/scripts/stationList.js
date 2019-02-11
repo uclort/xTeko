@@ -86,7 +86,7 @@ function showStationList(id) {
           }]
     })
     $console.info(stationSectionObject_anti.index);
-    var lastViewBottom = 80
+    var lastViewBottom = 100
     for(var value of stationSectionObject_anti.index){
         var searchButton = 
             {
