@@ -277,6 +277,7 @@ function search(object) {
 }
 
 function format(data, title) {
+    $ui.title = title
     var dataTuple = data.map(function(item) {
         var start_station_name = item.station_name
         var arrive_time = item.arrive_time

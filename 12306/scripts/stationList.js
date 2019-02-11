@@ -12,7 +12,7 @@ function showStationList(id) {
     $ui.push({
         props: {
             id: "superView_Custom",
-            title: "余票查询"
+            title: "车站列表"
         },
         views: [{
             type: "input",
@@ -25,13 +25,6 @@ function showStationList(id) {
                 make.top.equalTo(10)
                 make.left.inset(10)
                 make.height.equalTo(32)
-            },
-            events: {
-                ready: function(sender) {
-                    // if ($cache.get("oldPunctualityStation")) {
-                    //     sender.text = $cache.get("oldPunctualityStation")
-                    // }
-                }
             }
           },{
             type: "button",
@@ -65,7 +58,6 @@ function showStationList(id) {
             },
             events: {
                 didSelect: function(sender, indexPath, data) {
-                    $console.info(data)
                     $(idString).text = data
                     $ui.pop()
                 },
@@ -79,14 +71,14 @@ function showStationList(id) {
               id: "search_view"
             },
             layout: function(make, view) {
-                make.top.right.bottom.equalTo(view.super)
+                make.right.bottom.equalTo(view.super)
+                make.top.equalTo($("list"))
                 make.right.equalTo(0)
                 make.width.equalTo(50)
               }
           }]
     })
-    $console.info(stationSectionObject_anti.index);
-    var lastViewBottom = 100
+    var lastViewBottom = 50
     for(var value of stationSectionObject_anti.index){
         var searchButton = 
             {
@@ -106,10 +98,6 @@ function showStationList(id) {
                     let section = contains(stationSectionObject_anti.index,sender.title)
                     var indexPath = $objc("NSIndexPath").invoke("indexPathForRow:inSection:", 0, section)
                     $("list").runtimeValue().invoke("scrollToRowAtIndexPath:atScrollPosition:animated:", indexPath, 1, 0)
-                    // $("list").scrollTo({
-                    //     indexPath: $indexPath(section, 0),
-                    //     animated: false // 默认为 true
-                    //   })
                 }
               }
             }
