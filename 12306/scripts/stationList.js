@@ -104,10 +104,12 @@ function showStationList(id) {
               events: {
                 tapped: function(sender) {
                     let section = contains(stationSectionObject_anti.index,sender.title)
-                    $("list").scrollTo({
-                        indexPath: $indexPath(section, 0),
-                        animated: false // 默认为 true
-                      })
+                    var indexPath = $objc("NSIndexPath").invoke("indexPathForRow:inSection:", 0, section)
+                    $("list").runtimeValue().invoke("scrollToRowAtIndexPath:atScrollPosition:animated:", indexPath, 1, 0)
+                    // $("list").scrollTo({
+                    //     indexPath: $indexPath(section, 0),
+                    //     animated: false // 默认为 true
+                    //   })
                 }
               }
             }
