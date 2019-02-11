@@ -1,2102 +1,2180 @@
 {
   "Z383" : {
-    "terminalStation" : "长春",
+    "departureStation" : "三亚",
     "trainCode" : "Z383",
     "train_no" : "6b0000Z38606",
-    "departureStation" : "三亚"
+    "terminalStation" : "长春"
   },
   "Z6511" : {
-    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6511",
     "train_no" : "93000Z651010",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "库尔勒"
   },
-  "Z236" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z236",
-    "train_no" : "650000Z23602",
-    "departureStation" : "广州东"
-  },
-  "Z8309" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z8309",
-    "train_no" : "80000Z830904",
-    "departureStation" : "曲靖"
-  },
-  "Z7835" : {
-    "terminalStation" : "吕梁",
-    "trainCode" : "Z7835",
-    "train_no" : "27000Z783502",
-    "departureStation" : "太原"
-  },
-  "Z180" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z180",
-    "train_no" : "930000Z18008",
-    "departureStation" : "乌鲁木齐"
-  },
-  "Z4047" : {
-    "terminalStation" : "武昌",
-    "trainCode" : "Z4047",
-    "train_no" : "56000Z404702",
-    "departureStation" : "杭州"
-  },
-  "Z193" : {
-    "terminalStation" : "沈阳北",
-    "trainCode" : "Z193",
-    "train_no" : "270000Z19206",
-    "departureStation" : "太原"
-  },
-  "Z384" : {
-    "terminalStation" : "三亚",
-    "trainCode" : "Z384",
-    "train_no" : "110000Z38406",
-    "departureStation" : "长春"
-  },
-  "Z8311" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z8311",
-    "train_no" : "80000Z831104",
-    "departureStation" : "曲靖"
-  },
-  "Z237" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z237",
-    "train_no" : "650000Z23602",
-    "departureStation" : "广州东"
-  },
-  "Z181" : {
-    "terminalStation" : "深圳东",
-    "trainCode" : "Z181",
-    "train_no" : "330000Z1840D",
-    "departureStation" : "临河"
-  },
-  "Z194" : {
-    "terminalStation" : "太原",
-    "trainCode" : "Z194",
-    "train_no" : "120000Z19406",
-    "departureStation" : "沈阳北"
-  },
-  "Z385" : {
-    "terminalStation" : "三亚",
-    "trainCode" : "Z385",
-    "train_no" : "110000Z38406",
-    "departureStation" : "长春"
-  },
-  "Z6512" : {
-    "terminalStation" : "乌鲁木齐",
-    "trainCode" : "Z6512",
-    "train_no" : "94000Z651210",
-    "departureStation" : "库尔勒"
-  },
-  "Z225" : {
-    "terminalStation" : "合肥",
-    "trainCode" : "Z225",
-    "train_no" : "240000Z22502",
-    "departureStation" : "北京"
-  },
-  "Z238" : {
-    "terminalStation" : "广州东",
-    "trainCode" : "Z238",
-    "train_no" : "0h0000Z23804",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z7836" : {
-    "terminalStation" : "太原",
-    "trainCode" : "Z7836",
-    "train_no" : "27000Z783600",
-    "departureStation" : "吕梁"
-  },
-  "Z4048" : {
-    "terminalStation" : "杭州",
-    "trainCode" : "Z4048",
-    "train_no" : "39000Z404506",
-    "departureStation" : "武昌"
-  },
-  "Z182" : {
-    "terminalStation" : "临河",
-    "trainCode" : "Z182",
-    "train_no" : "650000Z18209",
-    "departureStation" : "深圳东"
-  },
-  "Z195" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z195",
-    "train_no" : "270000Z19805",
-    "departureStation" : "太原"
-  },
-  "Z386" : {
-    "terminalStation" : "长春",
-    "trainCode" : "Z386",
-    "train_no" : "6b0000Z38606",
-    "departureStation" : "三亚"
-  },
-  "Z4190" : {
-    "terminalStation" : "郑州",
-    "trainCode" : "Z4190",
-    "train_no" : "63000Z419006",
-    "departureStation" : "广州"
-  },
-  "Z8312" : {
-    "terminalStation" : "曲靖",
-    "trainCode" : "Z8312",
-    "train_no" : "80000Z831206",
-    "departureStation" : "昆明"
-  },
-  "Z226" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z226",
-    "train_no" : "530000Z22702",
-    "departureStation" : "合肥"
-  },
-  "Z6205" : {
-    "terminalStation" : "嘉峪关",
-    "trainCode" : "Z6205",
-    "train_no" : "85000Z620501",
-    "departureStation" : "兰州"
-  },
-  "Z170" : {
-    "terminalStation" : "广州东",
-    "trainCode" : "Z170",
-    "train_no" : "490000Z17003",
-    "departureStation" : "青岛"
-  },
-  "Z183" : {
-    "terminalStation" : "临河",
-    "trainCode" : "Z183",
-    "train_no" : "650000Z18209",
-    "departureStation" : "深圳东"
-  },
-  "Z196" : {
-    "terminalStation" : "太原",
-    "trainCode" : "Z196",
-    "train_no" : "550000Z19604",
-    "departureStation" : "上海"
-  },
-  "Z201" : {
-    "terminalStation" : "三亚",
-    "trainCode" : "Z201",
-    "train_no" : "240000Z2010N",
-    "departureStation" : "北京西"
-  },
-  "Z4189" : {
-    "terminalStation" : "广州",
-    "trainCode" : "Z4189",
-    "train_no" : "38000Z418910",
-    "departureStation" : "郑州"
-  },
-  "Z227" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z227",
-    "train_no" : "530000Z22702",
-    "departureStation" : "合肥"
-  },
-  "Z7837" : {
-    "terminalStation" : "柳林南",
-    "trainCode" : "Z7837",
-    "train_no" : "27000Z783700",
-    "departureStation" : "太原"
-  },
-  "Z171" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z171",
-    "train_no" : "0h0000Z17405",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z184" : {
-    "terminalStation" : "深圳东",
-    "trainCode" : "Z184",
-    "train_no" : "330000Z1840D",
-    "departureStation" : "临河"
-  },
-  "Z202" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z202",
-    "train_no" : "6b0000Z20205",
-    "departureStation" : "三亚"
-  },
-  "Z197" : {
-    "terminalStation" : "太原",
-    "trainCode" : "Z197",
-    "train_no" : "550000Z19604",
-    "departureStation" : "上海"
-  },
-  "Z4073" : {
-    "terminalStation" : "合肥",
-    "trainCode" : "Z4073",
-    "train_no" : "24000Z40730D",
-    "departureStation" : "北京"
-  },
-  "Z215" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z215",
-    "train_no" : "850000Z21841",
-    "departureStation" : "兰州"
-  },
-  "Z8313" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z8313",
-    "train_no" : "80000Z831304",
-    "departureStation" : "曲靖"
-  },
-  "Z228" : {
-    "terminalStation" : "合肥",
-    "trainCode" : "Z228",
-    "train_no" : "240000Z22502",
-    "departureStation" : "北京"
-  },
-  "Z6206" : {
-    "terminalStation" : "兰州",
-    "trainCode" : "Z6206",
-    "train_no" : "86000Z620601",
-    "departureStation" : "嘉峪关"
-  },
-  "Z4381" : {
-    "terminalStation" : "南昌",
-    "trainCode" : "Z4381",
-    "train_no" : "55000Z438141",
-    "departureStation" : "上海南"
-  },
-  "Z172" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z172",
-    "train_no" : "550000Z17250",
-    "departureStation" : "上海"
-  },
-  "Z185" : {
-    "terminalStation" : "深圳",
-    "trainCode" : "Z185",
-    "train_no" : "120000Z18809",
-    "departureStation" : "沈阳北"
-  },
-  "Z203" : {
-    "terminalStation" : "哈尔滨",
-    "trainCode" : "Z203",
-    "train_no" : "240000Z2030H",
-    "departureStation" : "北京"
-  },
-  "Z198" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z198",
-    "train_no" : "270000Z19805",
-    "departureStation" : "太原"
-  },
-  "Z216" : {
-    "terminalStation" : "兰州",
-    "trainCode" : "Z216",
-    "train_no" : "550000Z21605",
-    "departureStation" : "上海"
-  },
-  "Z229" : {
-    "terminalStation" : "深圳",
-    "trainCode" : "Z229",
-    "train_no" : "930000Z23201",
-    "departureStation" : "乌鲁木齐"
-  },
-  "Z160" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z160",
-    "train_no" : "470000Z16000",
-    "departureStation" : "日照"
-  },
-  "Z7838" : {
-    "terminalStation" : "太原",
-    "trainCode" : "Z7838",
-    "train_no" : "27000Z783801",
-    "departureStation" : "柳林南"
-  },
-  "Z80" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z80",
-    "train_no" : "1300000Z8101",
-    "departureStation" : "大连"
-  },
-  "Z173" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z173",
-    "train_no" : "550000Z17250",
-    "departureStation" : "上海"
-  },
-  "Z50" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z50",
-    "train_no" : "7600000Z5003",
-    "departureStation" : "成都"
-  },
-  "Z20" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z20",
-    "train_no" : "4100000Z200I",
-    "departureStation" : "西安"
-  },
-  "Z186" : {
-    "terminalStation" : "沈阳北",
-    "trainCode" : "Z186",
-    "train_no" : "650000Z18606",
-    "departureStation" : "深圳"
-  },
-  "Z4074" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z4074",
-    "train_no" : "53000Z407542",
-    "departureStation" : "合肥"
-  },
-  "Z204" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z204",
-    "train_no" : "040000Z20403",
-    "departureStation" : "大庆东"
-  },
-  "Z5001" : {
-    "terminalStation" : "镇赉",
-    "trainCode" : "Z5001",
-    "train_no" : "11000Z500110",
-    "departureStation" : "长春"
-  },
-  "Z81" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z81",
-    "train_no" : "1300000Z8101",
-    "departureStation" : "大连"
-  },
-  "Z217" : {
-    "terminalStation" : "兰州",
-    "trainCode" : "Z217",
-    "train_no" : "550000Z21605",
-    "departureStation" : "上海"
-  },
-  "Z51" : {
-    "terminalStation" : "南通",
-    "trainCode" : "Z51",
-    "train_no" : "2400000Z510F",
-    "departureStation" : "北京"
-  },
-  "Z21" : {
+  "Z223" : {
+    "train_no" : "770000Z22303",
+    "trainCode" : "Z223",
     "terminalStation" : "拉萨",
-    "trainCode" : "Z21",
-    "train_no" : "2400000Z210C",
-    "departureStation" : "北京西"
-  },
-  "Z6207" : {
-    "terminalStation" : "张掖",
-    "trainCode" : "Z6207",
-    "train_no" : "85000Z620712",
-    "departureStation" : "兰州"
-  },
-  "Z161" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z161",
-    "train_no" : "240000Z16118",
-    "departureStation" : "北京西"
-  },
-  "Z4382" : {
-    "terminalStation" : "上海南",
-    "trainCode" : "Z4382",
-    "train_no" : "57000Z438207",
-    "departureStation" : "南昌"
-  },
-  "Z174" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z174",
-    "train_no" : "0h0000Z17405",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z82" : {
-    "terminalStation" : "大连",
-    "trainCode" : "Z82",
-    "train_no" : "2400000Z790B",
-    "departureStation" : "北京"
-  },
-  "Z52" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z52",
-    "train_no" : "5f00000Z5211",
-    "departureStation" : "南通"
-  },
-  "Z187" : {
-    "terminalStation" : "沈阳北",
-    "trainCode" : "Z187",
-    "train_no" : "650000Z18606",
-    "departureStation" : "深圳"
-  },
-  "Z22" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z22",
-    "train_no" : "8800000Z2204",
-    "departureStation" : "拉萨"
-  },
-  "Z365" : {
-    "terminalStation" : "南京",
-    "trainCode" : "Z365",
-    "train_no" : "0h0000Z36801",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z205" : {
-    "terminalStation" : "天津",
-    "trainCode" : "Z205",
-    "train_no" : "620000Z20804",
-    "departureStation" : "长沙"
-  },
-  "Z83" : {
-    "terminalStation" : "齐齐哈尔",
-    "trainCode" : "Z83",
-    "train_no" : "2400000Z8302",
-    "departureStation" : "北京"
-  },
-  "Z218" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z218",
-    "train_no" : "850000Z21841",
-    "departureStation" : "兰州"
-  },
-  "Z53" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z53",
-    "train_no" : "2400000Z530T",
-    "departureStation" : "北京西"
-  },
-  "Z23" : {
-    "terminalStation" : "深圳",
-    "trainCode" : "Z23",
-    "train_no" : "3900000Z2302",
-    "departureStation" : "武昌"
-  },
-  "Z162" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z162",
-    "train_no" : "800000Z16206",
-    "departureStation" : "昆明"
-  },
-  "Z175" : {
-    "terminalStation" : "杭州",
-    "trainCode" : "Z175",
-    "train_no" : "0h0000Z17807",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z84" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z84",
-    "train_no" : "0400000Z8401",
-    "departureStation" : "齐齐哈尔"
-  },
-  "Z366" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z366",
-    "train_no" : "540000Z36610",
-    "departureStation" : "南京"
-  },
-  "Z54" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z54",
-    "train_no" : "8000000Z5404",
-    "departureStation" : "昆明"
-  },
-  "Z188" : {
-    "terminalStation" : "深圳",
-    "trainCode" : "Z188",
-    "train_no" : "120000Z18809",
-    "departureStation" : "沈阳北"
-  },
-  "Z24" : {
-    "terminalStation" : "武昌",
-    "trainCode" : "Z24",
-    "train_no" : "6500000Z2409",
-    "departureStation" : "深圳"
-  },
-  "Z206" : {
-    "terminalStation" : "长沙",
-    "trainCode" : "Z206",
-    "train_no" : "250000Z20605",
-    "departureStation" : "天津"
-  },
-  "Z4075" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z4075",
-    "train_no" : "53000Z407542",
-    "departureStation" : "合肥"
-  },
-  "Z5002" : {
-    "terminalStation" : "长春",
-    "trainCode" : "Z5002",
-    "train_no" : "11000Z500210",
-    "departureStation" : "白城"
-  },
-  "Z6801" : {
-    "terminalStation" : "拉萨",
-    "trainCode" : "Z6801",
-    "train_no" : "88000Z680103",
-    "departureStation" : "西宁"
-  },
-  "Z85" : {
-    "terminalStation" : "杭州",
-    "trainCode" : "Z85",
-    "train_no" : "4100000Z8809",
-    "departureStation" : "西安"
-  },
-  "Z150" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z150",
-    "train_no" : "780000Z15005",
-    "departureStation" : "贵阳"
-  },
-  "Z55" : {
-    "terminalStation" : "兰州",
-    "trainCode" : "Z55",
-    "train_no" : "2400000Z550M",
-    "departureStation" : "北京西"
-  },
-  "Z6208" : {
-    "terminalStation" : "兰州",
-    "trainCode" : "Z6208",
-    "train_no" : "86000Z620811",
-    "departureStation" : "张掖"
-  },
-  "Z25" : {
-    "terminalStation" : "上海南",
-    "trainCode" : "Z25",
-    "train_no" : "3900000Z2501",
-    "departureStation" : "武昌"
-  },
-  "Z163" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z163",
-    "train_no" : "880000Z16605",
-    "departureStation" : "拉萨"
-  },
-  "Z8315" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z8315",
-    "train_no" : "80000Z831502",
-    "departureStation" : "曲靖"
-  },
-  "Z176" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z176",
-    "train_no" : "560000Z17606",
-    "departureStation" : "杭州"
-  },
-  "Z86" : {
-    "terminalStation" : "西安",
-    "trainCode" : "Z86",
-    "train_no" : "5600000Z8612",
-    "departureStation" : "杭州"
-  },
-  "Z189" : {
-    "terminalStation" : "广州",
-    "trainCode" : "Z189",
-    "train_no" : "380000Z18904",
-    "departureStation" : "郑州"
-  },
-  "Z56" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z56",
-    "train_no" : "8500000Z5663",
-    "departureStation" : "兰州"
-  },
-  "Z367" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z367",
-    "train_no" : "540000Z36610",
-    "departureStation" : "南京"
-  },
-  "Z207" : {
-    "terminalStation" : "长沙",
-    "trainCode" : "Z207",
-    "train_no" : "250000Z20605",
-    "departureStation" : "天津"
-  },
-  "Z26" : {
-    "terminalStation" : "武昌",
-    "trainCode" : "Z26",
-    "train_no" : "5500000Z2703",
-    "departureStation" : "上海南"
-  },
-  "Z151" : {
-    "terminalStation" : "西宁",
-    "trainCode" : "Z151",
-    "train_no" : "240000Z1510A",
-    "departureStation" : "北京西"
-  },
-  "Z87" : {
-    "terminalStation" : "西安",
-    "trainCode" : "Z87",
-    "train_no" : "5600000Z8612",
-    "departureStation" : "杭州"
-  },
-  "Z57" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z57",
-    "train_no" : "5800000Z600E",
-    "departureStation" : "福州"
-  },
-  "Z164" : {
-    "terminalStation" : "拉萨",
-    "trainCode" : "Z164",
-    "train_no" : "550000Z16420",
-    "departureStation" : "上海"
-  },
-  "Z27" : {
-    "terminalStation" : "武昌",
-    "trainCode" : "Z27",
-    "train_no" : "5500000Z2703",
-    "departureStation" : "上海南"
-  },
-  "Z177" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z177",
-    "train_no" : "560000Z17606",
-    "departureStation" : "杭州"
-  },
-  "Z368" : {
-    "terminalStation" : "南京",
-    "trainCode" : "Z368",
-    "train_no" : "0h0000Z36801",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z88" : {
-    "terminalStation" : "杭州",
-    "trainCode" : "Z88",
-    "train_no" : "4100000Z8809",
-    "departureStation" : "西安"
-  },
-  "Z4076" : {
-    "terminalStation" : "合肥",
-    "trainCode" : "Z4076",
-    "train_no" : "24000Z40730D",
-    "departureStation" : "北京"
-  },
-  "Z58" : {
-    "terminalStation" : "福州",
-    "trainCode" : "Z58",
-    "train_no" : "2400000Z590L",
-    "departureStation" : "北京西"
-  },
-  "Z208" : {
-    "terminalStation" : "天津",
-    "trainCode" : "Z208",
-    "train_no" : "620000Z20804",
-    "departureStation" : "长沙"
-  },
-  "Z28" : {
-    "terminalStation" : "上海南",
-    "trainCode" : "Z28",
-    "train_no" : "3900000Z2501",
-    "departureStation" : "武昌"
-  },
-  "Z5003" : {
-    "terminalStation" : "白城",
-    "trainCode" : "Z5003",
-    "train_no" : "11000Z500303",
-    "departureStation" : "长春"
-  },
-  "Z8316" : {
-    "terminalStation" : "曲靖",
-    "trainCode" : "Z8316",
-    "train_no" : "80000Z831603",
-    "departureStation" : "昆明"
-  },
-  "Z152" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z152",
-    "train_no" : "880000Z15203",
-    "departureStation" : "西宁"
-  },
-  "Z89" : {
-    "terminalStation" : "广州",
-    "trainCode" : "Z89",
-    "train_no" : "2600000Z8907",
-    "departureStation" : "石家庄"
-  },
-  "Z59" : {
-    "terminalStation" : "福州",
-    "trainCode" : "Z59",
-    "train_no" : "2400000Z590L",
-    "departureStation" : "北京西"
-  },
-  "Z165" : {
-    "terminalStation" : "拉萨",
-    "trainCode" : "Z165",
-    "train_no" : "550000Z16420",
-    "departureStation" : "上海"
-  },
-  "Z29" : {
-    "terminalStation" : "扬州",
-    "trainCode" : "Z29",
-    "train_no" : "2400000Z290D",
-    "departureStation" : "北京"
-  },
-  "Z178" : {
-    "terminalStation" : "杭州",
-    "trainCode" : "Z178",
-    "train_no" : "0h0000Z17807",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z140" : {
-    "terminalStation" : "北京",
-    "trainCode" : "Z140",
-    "train_no" : "5f0000Z14041",
-    "departureStation" : "南通"
-  },
-  "Z6541" : {
-    "terminalStation" : "临河",
-    "trainCode" : "Z6541",
-    "train_no" : "33000Z654102",
-    "departureStation" : "包头"
-  },
-  "Z166" : {
-    "terminalStation" : "上海",
-    "trainCode" : "Z166",
-    "train_no" : "880000Z16605",
-    "departureStation" : "拉萨"
-  },
-  "Z179" : {
-    "terminalStation" : "乌鲁木齐",
-    "trainCode" : "Z179",
-    "train_no" : "240000Z1790D",
-    "departureStation" : "北京"
-  },
-  "Z5004" : {
-    "terminalStation" : "长春",
-    "trainCode" : "Z5004",
-    "train_no" : "11000Z500410",
-    "departureStation" : "镇赉"
-  },
-  "Z8317" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z8317",
-    "train_no" : "80000Z831701",
-    "departureStation" : "曲靖"
-  },
-  "Z167" : {
-    "terminalStation" : "广州东",
-    "trainCode" : "Z167",
-    "train_no" : "490000Z17003",
-    "departureStation" : "青岛"
-  },
-  "Z9877" : {
-    "terminalStation" : "德令哈",
-    "trainCode" : "Z9877",
-    "train_no" : "88000Z987704",
-    "departureStation" : "西宁"
-  },
-  "Z918" : {
-    "terminalStation" : "兰州",
-    "trainCode" : "Z918",
-    "train_no" : "880000Z91805",
-    "departureStation" : "拉萨"
-  },
-  "Z320" : {
-    "terminalStation" : "大同",
-    "trainCode" : "Z320",
-    "train_no" : "330000Z32004",
-    "departureStation" : "包头"
-  },
-  "Z155" : {
-    "terminalStation" : "泰州",
-    "trainCode" : "Z155",
-    "train_no" : "0h0000Z15801",
-    "departureStation" : "哈尔滨西"
-  },
-  "Z168" : {
-    "terminalStation" : "青岛",
-    "trainCode" : "Z168",
-    "train_no" : "650000Z16805",
-    "departureStation" : "广州东"
-  },
-  "Z6520" : {
-    "terminalStation" : "乌鲁木齐",
-    "trainCode" : "Z6520",
-    "train_no" : "95000Z652010",
-    "departureStation" : "伊宁"
-  },
-  "Z290" : {
-    "terminalStation" : "昆明",
-    "trainCode" : "Z290",
-    "train_no" : "5e0000Z29012",
-    "departureStation" : "宁波"
-  },
-  "Z5005" : {
-    "terminalStation" : "白城",
-    "trainCode" : "Z5005",
-    "train_no" : "11000Z500501",
-    "departureStation" : "长春"
-  },
-  "Z8318" : {
-    "terminalStation" : "曲靖",
-    "trainCode" : "Z8318",
-    "train_no" : "80000Z831803",
-    "departureStation" : "昆明"
-  },
-  "Z321" : {
-    "terminalStation" : "成都",
-    "trainCode" : "Z321",
-    "train_no" : "880000Z32402",
-    "departureStation" : "拉萨"
-  },
-  "Z1" : {
-    "terminalStation" : "长沙",
-    "trainCode" : "Z1",
-    "train_no" : "24000000Z10D",
-    "departureStation" : "北京西"
-  },
-  "Z156" : {
-    "terminalStation" : "哈尔滨西",
-    "trainCode" : "Z156",
-    "train_no" : "5f0000Z15730",
-    "departureStation" : "泰州"
-  },
-  "Z2" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z2",
-    "train_no" : "62000000Z201",
-    "departureStation" : "长沙"
-  },
-  "Z169" : {
-    "terminalStation" : "青岛",
-    "trainCode" : "Z169",
-    "train_no" : "650000Z16805",
-    "departureStation" : "广州东"
-  },
-  "Z9878" : {
-    "terminalStation" : "西宁",
-    "trainCode" : "Z9878",
-    "train_no" : "88000Z987804",
-    "departureStation" : "德令哈"
-  },
-  "Z3" : {
-    "terminalStation" : "重庆北",
-    "trainCode" : "Z3",
-    "train_no" : "24000000Z30L",
-    "departureStation" : "北京西"
-  },
-  "Z291" : {
-    "terminalStation" : "汉口",
-    "trainCode" : "Z291",
-    "train_no" : "930000Z29402",
-    "departureStation" : "乌鲁木齐"
-  },
-  "Z6519" : {
-    "terminalStation" : "伊宁",
-    "trainCode" : "Z6519",
-    "train_no" : "93000Z651910",
-    "departureStation" : "乌鲁木齐"
-  },
-  "Z8320" : {
-    "terminalStation" : "曲靖",
-    "trainCode" : "Z8320",
-    "train_no" : "80000Z832003",
-    "departureStation" : "昆明"
-  },
-  "Z4" : {
-    "terminalStation" : "北京西",
-    "trainCode" : "Z4",
-    "train_no" : "77000000Z400",
     "departureStation" : "重庆北"
   },
-  "Z322" : {
+  "Z236" : {
+    "departureStation" : "广州东",
+    "trainCode" : "Z236",
+    "train_no" : "650000Z23602",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z8309" : {
+    "departureStation" : "曲靖",
+    "trainCode" : "Z8309",
+    "train_no" : "80000Z830904",
+    "terminalStation" : "昆明"
+  },
+  "Z7835" : {
+    "departureStation" : "太原",
+    "trainCode" : "Z7835",
+    "train_no" : "27000Z783502",
+    "terminalStation" : "吕梁"
+  },
+  "Z180" : {
+    "departureStation" : "乌鲁木齐",
+    "trainCode" : "Z180",
+    "train_no" : "930000Z18008",
+    "terminalStation" : "北京"
+  },
+  "Z4047" : {
+    "departureStation" : "杭州",
+    "trainCode" : "Z4047",
+    "train_no" : "56000Z404702",
+    "terminalStation" : "武昌"
+  },
+  "Z193" : {
+    "departureStation" : "太原",
+    "trainCode" : "Z193",
+    "train_no" : "270000Z19206",
+    "terminalStation" : "沈阳北"
+  },
+  "Z384" : {
+    "departureStation" : "长春",
+    "trainCode" : "Z384",
+    "train_no" : "110000Z38406",
+    "terminalStation" : "三亚"
+  },
+  "Z8311" : {
+    "departureStation" : "曲靖",
+    "trainCode" : "Z8311",
+    "train_no" : "80000Z831104",
+    "terminalStation" : "昆明"
+  },
+  "Z224" : {
+    "train_no" : "880000Z22402",
+    "trainCode" : "Z224",
+    "terminalStation" : "重庆北",
+    "departureStation" : "拉萨"
+  },
+  "Z237" : {
+    "departureStation" : "广州东",
+    "trainCode" : "Z237",
+    "train_no" : "650000Z23602",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z181" : {
+    "departureStation" : "临河",
+    "trainCode" : "Z181",
+    "train_no" : "330000Z1840D",
+    "terminalStation" : "深圳东"
+  },
+  "Z194" : {
+    "departureStation" : "沈阳北",
+    "trainCode" : "Z194",
+    "train_no" : "120000Z19406",
+    "terminalStation" : "太原"
+  },
+  "Z385" : {
+    "departureStation" : "长春",
+    "trainCode" : "Z385",
+    "train_no" : "110000Z38406",
+    "terminalStation" : "三亚"
+  },
+  "Z6512" : {
+    "departureStation" : "库尔勒",
+    "trainCode" : "Z6512",
+    "train_no" : "94000Z651210",
+    "terminalStation" : "乌鲁木齐"
+  },
+  "Z225" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z225",
+    "train_no" : "240000Z22502",
+    "terminalStation" : "合肥"
+  },
+  "Z238" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z238",
+    "train_no" : "0h0000Z23804",
+    "terminalStation" : "广州东"
+  },
+  "Z7836" : {
+    "departureStation" : "吕梁",
+    "trainCode" : "Z7836",
+    "train_no" : "27000Z783600",
+    "terminalStation" : "太原"
+  },
+  "Z4048" : {
+    "departureStation" : "武昌",
+    "trainCode" : "Z4048",
+    "train_no" : "39000Z404506",
+    "terminalStation" : "杭州"
+  },
+  "Z182" : {
+    "departureStation" : "深圳东",
+    "trainCode" : "Z182",
+    "train_no" : "650000Z18209",
+    "terminalStation" : "临河"
+  },
+  "Z195" : {
+    "departureStation" : "太原",
+    "trainCode" : "Z195",
+    "train_no" : "270000Z19805",
+    "terminalStation" : "上海"
+  },
+  "Z386" : {
+    "departureStation" : "三亚",
+    "trainCode" : "Z386",
+    "train_no" : "6b0000Z38606",
+    "terminalStation" : "长春"
+  },
+  "Z4190" : {
+    "departureStation" : "广州",
+    "trainCode" : "Z4190",
+    "train_no" : "63000Z419006",
+    "terminalStation" : "郑州"
+  },
+  "Z8312" : {
+    "departureStation" : "昆明",
+    "trainCode" : "Z8312",
+    "train_no" : "80000Z831206",
+    "terminalStation" : "曲靖"
+  },
+  "Z226" : {
+    "departureStation" : "合肥",
+    "trainCode" : "Z226",
+    "train_no" : "530000Z22702",
+    "terminalStation" : "北京"
+  },
+  "Z6205" : {
+    "departureStation" : "兰州",
+    "trainCode" : "Z6205",
+    "train_no" : "85000Z620501",
+    "terminalStation" : "嘉峪关"
+  },
+  "Z170" : {
+    "departureStation" : "青岛",
+    "trainCode" : "Z170",
+    "train_no" : "490000Z17003",
+    "terminalStation" : "广州东"
+  },
+  "Z183" : {
+    "departureStation" : "深圳东",
+    "trainCode" : "Z183",
+    "train_no" : "650000Z18209",
+    "terminalStation" : "临河"
+  },
+  "Z196" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z196",
+    "train_no" : "550000Z19604",
+    "terminalStation" : "太原"
+  },
+  "Z201" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z201",
+    "train_no" : "240000Z2010N",
+    "terminalStation" : "三亚"
+  },
+  "Z4189" : {
+    "departureStation" : "郑州",
+    "trainCode" : "Z4189",
+    "train_no" : "38000Z418910",
+    "terminalStation" : "广州"
+  },
+  "Z227" : {
+    "departureStation" : "合肥",
+    "trainCode" : "Z227",
+    "train_no" : "530000Z22702",
+    "terminalStation" : "北京"
+  },
+  "Z7837" : {
+    "departureStation" : "太原",
+    "trainCode" : "Z7837",
+    "train_no" : "27000Z783700",
+    "terminalStation" : "柳林南"
+  },
+  "Z171" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z171",
+    "train_no" : "0h0000Z17405",
+    "terminalStation" : "上海"
+  },
+  "Z184" : {
+    "departureStation" : "临河",
+    "trainCode" : "Z184",
+    "train_no" : "330000Z1840D",
+    "terminalStation" : "深圳东"
+  },
+  "Z202" : {
+    "departureStation" : "三亚",
+    "trainCode" : "Z202",
+    "train_no" : "6b0000Z20205",
+    "terminalStation" : "北京西"
+  },
+  "Z197" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z197",
+    "train_no" : "550000Z19604",
+    "terminalStation" : "太原"
+  },
+  "Z4073" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z4073",
+    "train_no" : "24000Z40730D",
+    "terminalStation" : "合肥"
+  },
+  "Z215" : {
+    "departureStation" : "兰州",
+    "trainCode" : "Z215",
+    "train_no" : "850000Z21841",
+    "terminalStation" : "上海"
+  },
+  "Z8313" : {
+    "departureStation" : "曲靖",
+    "trainCode" : "Z8313",
+    "train_no" : "80000Z831304",
+    "terminalStation" : "昆明"
+  },
+  "Z228" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z228",
+    "train_no" : "240000Z22502",
+    "terminalStation" : "合肥"
+  },
+  "Z6206" : {
+    "departureStation" : "嘉峪关",
+    "trainCode" : "Z6206",
+    "train_no" : "86000Z620601",
+    "terminalStation" : "兰州"
+  },
+  "Z4381" : {
+    "departureStation" : "上海南",
+    "trainCode" : "Z4381",
+    "train_no" : "55000Z438141",
+    "terminalStation" : "南昌"
+  },
+  "Z172" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z172",
+    "train_no" : "550000Z17250",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z185" : {
+    "departureStation" : "沈阳北",
+    "trainCode" : "Z185",
+    "train_no" : "120000Z18809",
+    "terminalStation" : "深圳"
+  },
+  "Z203" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z203",
+    "train_no" : "240000Z2030H",
+    "terminalStation" : "哈尔滨"
+  },
+  "Z198" : {
+    "departureStation" : "太原",
+    "trainCode" : "Z198",
+    "train_no" : "270000Z19805",
+    "terminalStation" : "上海"
+  },
+  "Z216" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z216",
+    "train_no" : "550000Z21605",
+    "terminalStation" : "兰州"
+  },
+  "Z229" : {
+    "departureStation" : "乌鲁木齐",
+    "trainCode" : "Z229",
+    "train_no" : "930000Z23201",
+    "terminalStation" : "深圳"
+  },
+  "Z160" : {
+    "departureStation" : "日照",
+    "trainCode" : "Z160",
+    "train_no" : "470000Z16000",
+    "terminalStation" : "北京"
+  },
+  "Z7838" : {
+    "departureStation" : "柳林南",
+    "trainCode" : "Z7838",
+    "train_no" : "27000Z783801",
+    "terminalStation" : "太原"
+  },
+  "Z80" : {
+    "departureStation" : "大连",
+    "trainCode" : "Z80",
+    "train_no" : "1300000Z8101",
+    "terminalStation" : "北京"
+  },
+  "Z173" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z173",
+    "train_no" : "550000Z17250",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z50" : {
+    "departureStation" : "成都",
+    "trainCode" : "Z50",
+    "train_no" : "7600000Z5003",
+    "terminalStation" : "北京西"
+  },
+  "Z20" : {
+    "departureStation" : "西安",
+    "trainCode" : "Z20",
+    "train_no" : "4100000Z200I",
+    "terminalStation" : "北京西"
+  },
+  "Z186" : {
+    "departureStation" : "深圳",
+    "trainCode" : "Z186",
+    "train_no" : "650000Z18606",
+    "terminalStation" : "沈阳北"
+  },
+  "Z4074" : {
+    "departureStation" : "合肥",
+    "trainCode" : "Z4074",
+    "train_no" : "53000Z407542",
+    "terminalStation" : "北京"
+  },
+  "Z204" : {
+    "departureStation" : "大庆东",
+    "trainCode" : "Z204",
+    "train_no" : "040000Z20403",
+    "terminalStation" : "北京"
+  },
+  "Z5001" : {
+    "departureStation" : "长春",
+    "trainCode" : "Z5001",
+    "train_no" : "11000Z500110",
+    "terminalStation" : "镇赉"
+  },
+  "Z81" : {
+    "departureStation" : "大连",
+    "trainCode" : "Z81",
+    "train_no" : "1300000Z8101",
+    "terminalStation" : "北京"
+  },
+  "Z217" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z217",
+    "train_no" : "550000Z21605",
+    "terminalStation" : "兰州"
+  },
+  "Z51" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z51",
+    "train_no" : "2400000Z510F",
+    "terminalStation" : "南通"
+  },
+  "Z21" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z21",
+    "train_no" : "2400000Z210C",
+    "terminalStation" : "拉萨"
+  },
+  "Z6207" : {
+    "departureStation" : "兰州",
+    "trainCode" : "Z6207",
+    "train_no" : "85000Z620712",
+    "terminalStation" : "张掖"
+  },
+  "Z161" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z161",
+    "train_no" : "240000Z16118",
+    "terminalStation" : "昆明"
+  },
+  "Z4382" : {
+    "departureStation" : "南昌",
+    "trainCode" : "Z4382",
+    "train_no" : "57000Z438207",
+    "terminalStation" : "上海南"
+  },
+  "Z174" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z174",
+    "train_no" : "0h0000Z17405",
+    "terminalStation" : "上海"
+  },
+  "Z82" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z82",
+    "train_no" : "2400000Z790B",
+    "terminalStation" : "大连"
+  },
+  "Z52" : {
+    "departureStation" : "南通",
+    "trainCode" : "Z52",
+    "train_no" : "5f00000Z5211",
+    "terminalStation" : "北京"
+  },
+  "Z187" : {
+    "departureStation" : "深圳",
+    "trainCode" : "Z187",
+    "train_no" : "650000Z18606",
+    "terminalStation" : "沈阳北"
+  },
+  "Z22" : {
+    "departureStation" : "拉萨",
+    "trainCode" : "Z22",
+    "train_no" : "8800000Z2204",
+    "terminalStation" : "北京西"
+  },
+  "Z365" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z365",
+    "train_no" : "0h0000Z36801",
+    "terminalStation" : "南京"
+  },
+  "Z205" : {
+    "departureStation" : "长沙",
+    "trainCode" : "Z205",
+    "train_no" : "620000Z20804",
+    "terminalStation" : "天津"
+  },
+  "Z83" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z83",
+    "train_no" : "2400000Z8302",
+    "terminalStation" : "齐齐哈尔"
+  },
+  "Z218" : {
+    "departureStation" : "兰州",
+    "trainCode" : "Z218",
+    "train_no" : "850000Z21841",
+    "terminalStation" : "上海"
+  },
+  "Z53" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z53",
+    "train_no" : "2400000Z530T",
+    "terminalStation" : "昆明"
+  },
+  "Z23" : {
+    "departureStation" : "武昌",
+    "trainCode" : "Z23",
+    "train_no" : "3900000Z2302",
+    "terminalStation" : "深圳"
+  },
+  "Z162" : {
+    "departureStation" : "昆明",
+    "trainCode" : "Z162",
+    "train_no" : "800000Z16206",
+    "terminalStation" : "北京西"
+  },
+  "Z175" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z175",
+    "train_no" : "0h0000Z17807",
+    "terminalStation" : "杭州"
+  },
+  "Z84" : {
+    "departureStation" : "齐齐哈尔",
+    "trainCode" : "Z84",
+    "train_no" : "0400000Z8401",
+    "terminalStation" : "北京"
+  },
+  "Z366" : {
+    "departureStation" : "南京",
+    "trainCode" : "Z366",
+    "train_no" : "540000Z36610",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z54" : {
+    "departureStation" : "昆明",
+    "trainCode" : "Z54",
+    "train_no" : "8000000Z5404",
+    "terminalStation" : "北京西"
+  },
+  "Z188" : {
+    "departureStation" : "沈阳北",
+    "trainCode" : "Z188",
+    "train_no" : "120000Z18809",
+    "terminalStation" : "深圳"
+  },
+  "Z24" : {
+    "departureStation" : "深圳",
+    "trainCode" : "Z24",
+    "train_no" : "6500000Z2409",
+    "terminalStation" : "武昌"
+  },
+  "Z206" : {
+    "departureStation" : "天津",
+    "trainCode" : "Z206",
+    "train_no" : "250000Z20605",
+    "terminalStation" : "长沙"
+  },
+  "Z4075" : {
+    "departureStation" : "合肥",
+    "trainCode" : "Z4075",
+    "train_no" : "53000Z407542",
+    "terminalStation" : "北京"
+  },
+  "Z5002" : {
+    "departureStation" : "白城",
+    "trainCode" : "Z5002",
+    "train_no" : "11000Z500210",
+    "terminalStation" : "长春"
+  },
+  "Z6801" : {
+    "departureStation" : "西宁",
+    "trainCode" : "Z6801",
+    "train_no" : "88000Z680103",
+    "terminalStation" : "拉萨"
+  },
+  "Z85" : {
+    "departureStation" : "西安",
+    "trainCode" : "Z85",
+    "train_no" : "4100000Z8809",
+    "terminalStation" : "杭州"
+  },
+  "Z150" : {
+    "departureStation" : "贵阳",
+    "trainCode" : "Z150",
+    "train_no" : "780000Z15005",
+    "terminalStation" : "北京西"
+  },
+  "Z55" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z55",
+    "train_no" : "2400000Z550M",
+    "terminalStation" : "兰州"
+  },
+  "Z6208" : {
+    "departureStation" : "张掖",
+    "trainCode" : "Z6208",
+    "train_no" : "86000Z620811",
+    "terminalStation" : "兰州"
+  },
+  "Z25" : {
+    "departureStation" : "武昌",
+    "trainCode" : "Z25",
+    "train_no" : "3900000Z2501",
+    "terminalStation" : "上海南"
+  },
+  "Z163" : {
+    "departureStation" : "拉萨",
+    "trainCode" : "Z163",
+    "train_no" : "880000Z16605",
+    "terminalStation" : "上海"
+  },
+  "Z8315" : {
+    "departureStation" : "曲靖",
+    "trainCode" : "Z8315",
+    "train_no" : "80000Z831502",
+    "terminalStation" : "昆明"
+  },
+  "Z176" : {
+    "departureStation" : "杭州",
+    "trainCode" : "Z176",
+    "train_no" : "560000Z17606",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z86" : {
+    "departureStation" : "杭州",
+    "trainCode" : "Z86",
+    "train_no" : "5600000Z8612",
+    "terminalStation" : "西安"
+  },
+  "Z189" : {
+    "departureStation" : "郑州",
+    "trainCode" : "Z189",
+    "train_no" : "380000Z18904",
+    "terminalStation" : "广州"
+  },
+  "Z56" : {
+    "departureStation" : "兰州",
+    "trainCode" : "Z56",
+    "train_no" : "8500000Z5663",
+    "terminalStation" : "北京西"
+  },
+  "Z367" : {
+    "departureStation" : "南京",
+    "trainCode" : "Z367",
+    "train_no" : "540000Z36610",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z207" : {
+    "departureStation" : "天津",
+    "trainCode" : "Z207",
+    "train_no" : "250000Z20605",
+    "terminalStation" : "长沙"
+  },
+  "Z26" : {
+    "departureStation" : "上海南",
+    "trainCode" : "Z26",
+    "train_no" : "5500000Z2703",
+    "terminalStation" : "武昌"
+  },
+  "Z151" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z151",
+    "train_no" : "240000Z1510A",
+    "terminalStation" : "西宁"
+  },
+  "Z87" : {
+    "departureStation" : "杭州",
+    "trainCode" : "Z87",
+    "train_no" : "5600000Z8612",
+    "terminalStation" : "西安"
+  },
+  "Z57" : {
+    "departureStation" : "福州",
+    "trainCode" : "Z57",
+    "train_no" : "5800000Z600E",
+    "terminalStation" : "北京西"
+  },
+  "Z164" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z164",
+    "train_no" : "550000Z16420",
+    "terminalStation" : "拉萨"
+  },
+  "Z27" : {
+    "departureStation" : "上海南",
+    "trainCode" : "Z27",
+    "train_no" : "5500000Z2703",
+    "terminalStation" : "武昌"
+  },
+  "Z177" : {
+    "departureStation" : "杭州",
+    "trainCode" : "Z177",
+    "train_no" : "560000Z17606",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z368" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z368",
+    "train_no" : "0h0000Z36801",
+    "terminalStation" : "南京"
+  },
+  "Z88" : {
+    "departureStation" : "西安",
+    "trainCode" : "Z88",
+    "train_no" : "4100000Z8809",
+    "terminalStation" : "杭州"
+  },
+  "Z4076" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z4076",
+    "train_no" : "24000Z40730D",
+    "terminalStation" : "合肥"
+  },
+  "Z58" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z58",
+    "train_no" : "2400000Z590L",
+    "terminalStation" : "福州"
+  },
+  "Z208" : {
+    "departureStation" : "长沙",
+    "trainCode" : "Z208",
+    "train_no" : "620000Z20804",
+    "terminalStation" : "天津"
+  },
+  "Z28" : {
+    "departureStation" : "武昌",
+    "trainCode" : "Z28",
+    "train_no" : "3900000Z2501",
+    "terminalStation" : "上海南"
+  },
+  "Z5003" : {
+    "departureStation" : "长春",
+    "trainCode" : "Z5003",
+    "train_no" : "11000Z500303",
+    "terminalStation" : "白城"
+  },
+  "Z8316" : {
+    "departureStation" : "昆明",
+    "trainCode" : "Z8316",
+    "train_no" : "80000Z831603",
+    "terminalStation" : "曲靖"
+  },
+  "Z6802" : {
+    "train_no" : "88000Z680204",
+    "trainCode" : "Z6802",
+    "terminalStation" : "西宁",
+    "departureStation" : "拉萨"
+  },
+  "Z152" : {
+    "departureStation" : "西宁",
+    "trainCode" : "Z152",
+    "train_no" : "880000Z15203",
+    "terminalStation" : "北京西"
+  },
+  "Z89" : {
+    "departureStation" : "石家庄",
+    "trainCode" : "Z89",
+    "train_no" : "2600000Z8907",
+    "terminalStation" : "广州"
+  },
+  "Z59" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z59",
+    "train_no" : "2400000Z590L",
+    "terminalStation" : "福州"
+  },
+  "Z165" : {
+    "departureStation" : "上海",
+    "trainCode" : "Z165",
+    "train_no" : "550000Z16420",
+    "terminalStation" : "拉萨"
+  },
+  "Z29" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z29",
+    "train_no" : "2400000Z290D",
+    "terminalStation" : "扬州"
+  },
+  "Z178" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z178",
+    "train_no" : "0h0000Z17807",
+    "terminalStation" : "杭州"
+  },
+  "Z140" : {
+    "departureStation" : "南通",
+    "trainCode" : "Z140",
+    "train_no" : "5f0000Z14041",
+    "terminalStation" : "北京"
+  },
+  "Z6541" : {
+    "departureStation" : "包头",
+    "trainCode" : "Z6541",
+    "train_no" : "33000Z654102",
+    "terminalStation" : "临河"
+  },
+  "Z166" : {
+    "departureStation" : "拉萨",
+    "trainCode" : "Z166",
+    "train_no" : "880000Z16605",
+    "terminalStation" : "上海"
+  },
+  "Z179" : {
+    "departureStation" : "北京",
+    "trainCode" : "Z179",
+    "train_no" : "240000Z1790D",
+    "terminalStation" : "乌鲁木齐"
+  },
+  "Z917" : {
+    "train_no" : "850000Z91713",
+    "trainCode" : "Z917",
     "terminalStation" : "拉萨",
+    "departureStation" : "兰州"
+  },
+  "Z5004" : {
+    "departureStation" : "镇赉",
+    "trainCode" : "Z5004",
+    "train_no" : "11000Z500410",
+    "terminalStation" : "长春"
+  },
+  "Z8317" : {
+    "departureStation" : "曲靖",
+    "trainCode" : "Z8317",
+    "train_no" : "80000Z831701",
+    "terminalStation" : "昆明"
+  },
+  "Z167" : {
+    "departureStation" : "青岛",
+    "trainCode" : "Z167",
+    "train_no" : "490000Z17003",
+    "terminalStation" : "广州东"
+  },
+  "Z9877" : {
+    "departureStation" : "西宁",
+    "trainCode" : "Z9877",
+    "train_no" : "88000Z987704",
+    "terminalStation" : "德令哈"
+  },
+  "Z918" : {
+    "departureStation" : "拉萨",
+    "trainCode" : "Z918",
+    "train_no" : "880000Z91805",
+    "terminalStation" : "兰州"
+  },
+  "Z320" : {
+    "departureStation" : "包头",
+    "trainCode" : "Z320",
+    "train_no" : "330000Z32004",
+    "terminalStation" : "大同"
+  },
+  "Z155" : {
+    "departureStation" : "哈尔滨西",
+    "trainCode" : "Z155",
+    "train_no" : "0h0000Z15801",
+    "terminalStation" : "泰州"
+  },
+  "Z168" : {
+    "departureStation" : "广州东",
+    "trainCode" : "Z168",
+    "train_no" : "650000Z16805",
+    "terminalStation" : "青岛"
+  },
+  "Z6520" : {
+    "departureStation" : "伊宁",
+    "trainCode" : "Z6520",
+    "train_no" : "95000Z652010",
+    "terminalStation" : "乌鲁木齐"
+  },
+  "Z290" : {
+    "departureStation" : "宁波",
+    "trainCode" : "Z290",
+    "train_no" : "5e0000Z29012",
+    "terminalStation" : "昆明"
+  },
+  "Z5005" : {
+    "departureStation" : "长春",
+    "trainCode" : "Z5005",
+    "train_no" : "11000Z500501",
+    "terminalStation" : "白城"
+  },
+  "Z8318" : {
+    "departureStation" : "昆明",
+    "trainCode" : "Z8318",
+    "train_no" : "80000Z831803",
+    "terminalStation" : "曲靖"
+  },
+  "Z321" : {
+    "departureStation" : "拉萨",
+    "trainCode" : "Z321",
+    "train_no" : "880000Z32402",
+    "terminalStation" : "成都"
+  },
+  "Z1" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z1",
+    "train_no" : "24000000Z10D",
+    "terminalStation" : "长沙"
+  },
+  "Z156" : {
+    "departureStation" : "泰州",
+    "trainCode" : "Z156",
+    "train_no" : "5f0000Z15730",
+    "terminalStation" : "哈尔滨西"
+  },
+  "Z2" : {
+    "departureStation" : "长沙",
+    "trainCode" : "Z2",
+    "train_no" : "62000000Z201",
+    "terminalStation" : "北京西"
+  },
+  "Z169" : {
+    "departureStation" : "广州东",
+    "trainCode" : "Z169",
+    "train_no" : "650000Z16805",
+    "terminalStation" : "青岛"
+  },
+  "Z9878" : {
+    "departureStation" : "德令哈",
+    "trainCode" : "Z9878",
+    "train_no" : "88000Z987804",
+    "terminalStation" : "西宁"
+  },
+  "Z3" : {
+    "departureStation" : "北京西",
+    "trainCode" : "Z3",
+    "train_no" : "24000000Z30L",
+    "terminalStation" : "重庆北"
+  },
+  "Z291" : {
+    "departureStation" : "乌鲁木齐",
+    "trainCode" : "Z291",
+    "train_no" : "930000Z29402",
+    "terminalStation" : "汉口"
+  },
+  "Z6519" : {
+    "departureStation" : "乌鲁木齐",
+    "trainCode" : "Z6519",
+    "train_no" : "93000Z651910",
+    "terminalStation" : "伊宁"
+  },
+  "Z8320" : {
+    "departureStation" : "昆明",
+    "trainCode" : "Z8320",
+    "train_no" : "80000Z832003",
+    "terminalStation" : "曲靖"
+  },
+  "Z4" : {
+    "departureStation" : "重庆北",
+    "trainCode" : "Z4",
+    "train_no" : "77000000Z400",
+    "terminalStation" : "北京西"
+  },
+  "Z322" : {
+    "departureStation" : "成都",
     "trainCode" : "Z322",
     "train_no" : "760000Z32203",
-    "departureStation" : "成都"
+    "terminalStation" : "拉萨"
   },
   "Z335" : {
-    "terminalStation" : "南宁",
+    "departureStation" : "包头",
     "trainCode" : "Z335",
     "train_no" : "330000Z3380C",
-    "departureStation" : "包头"
+    "terminalStation" : "南宁"
   },
   "Z5" : {
-    "terminalStation" : "南宁",
+    "departureStation" : "北京西",
     "trainCode" : "Z5",
     "train_no" : "24000000Z50B",
-    "departureStation" : "北京西"
+    "terminalStation" : "南宁"
   },
   "Z157" : {
-    "terminalStation" : "哈尔滨西",
+    "departureStation" : "泰州",
     "trainCode" : "Z157",
     "train_no" : "5f0000Z15730",
-    "departureStation" : "泰州"
+    "terminalStation" : "哈尔滨西"
   },
   "Z6521" : {
-    "terminalStation" : "奎屯",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6521",
     "train_no" : "93000Z652100",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "奎屯"
   },
   "Z6" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "南宁",
     "trainCode" : "Z6",
     "train_no" : "71000000Z603",
-    "departureStation" : "南宁"
+    "terminalStation" : "北京西"
   },
   "Z292" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "汉口",
     "trainCode" : "Z292",
     "train_no" : "390000Z29207",
-    "departureStation" : "汉口"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z5006" : {
-    "terminalStation" : "长春",
+    "departureStation" : "白城",
     "trainCode" : "Z5006",
     "train_no" : "11000Z500601",
-    "departureStation" : "白城"
+    "terminalStation" : "长春"
   },
   "Z8319" : {
-    "terminalStation" : "昆明",
+    "departureStation" : "曲靖",
     "trainCode" : "Z8319",
     "train_no" : "80000Z831903",
-    "departureStation" : "曲靖"
+    "terminalStation" : "昆明"
   },
   "Z323" : {
-    "terminalStation" : "拉萨",
+    "departureStation" : "成都",
     "trainCode" : "Z323",
     "train_no" : "760000Z32203",
-    "departureStation" : "成都"
+    "terminalStation" : "拉萨"
   },
   "Z145" : {
-    "terminalStation" : "郑州",
+    "departureStation" : "深圳东",
     "trainCode" : "Z145",
     "train_no" : "650000Z14804",
-    "departureStation" : "深圳东"
+    "terminalStation" : "郑州"
   },
   "Z336" : {
-    "terminalStation" : "包头",
+    "departureStation" : "南宁",
     "trainCode" : "Z336",
     "train_no" : "710000Z33607",
-    "departureStation" : "南宁"
+    "terminalStation" : "包头"
   },
   "Z158" : {
-    "terminalStation" : "泰州",
+    "departureStation" : "哈尔滨西",
     "trainCode" : "Z158",
     "train_no" : "0h0000Z15801",
-    "departureStation" : "哈尔滨西"
+    "terminalStation" : "泰州"
   },
   "Z4175" : {
-    "terminalStation" : "汉口",
+    "departureStation" : "北京",
     "trainCode" : "Z4175",
     "train_no" : "24000Z417501",
+    "terminalStation" : "汉口"
+  },
+  "Z9" : {
+    "terminalStation" : "杭州",
+    "trainCode" : "Z9",
+    "train_no" : "24000000Z90I",
     "departureStation" : "北京"
   },
   "Z293" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "汉口",
     "trainCode" : "Z293",
     "train_no" : "390000Z29207",
-    "departureStation" : "汉口"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z8321" : {
-    "terminalStation" : "昆明",
+    "departureStation" : "曲靖",
     "trainCode" : "Z8321",
     "train_no" : "80000Z832110",
-    "departureStation" : "曲靖"
+    "terminalStation" : "昆明"
   },
   "Z311" : {
-    "terminalStation" : "西宁",
+    "departureStation" : "呼和浩特",
     "trainCode" : "Z311",
     "train_no" : "330000Z31101",
-    "departureStation" : "呼和浩特"
+    "terminalStation" : "西宁"
   },
   "Z133" : {
-    "terminalStation" : "井冈山",
+    "departureStation" : "北京西",
     "trainCode" : "Z133",
     "train_no" : "240000Z1330M",
-    "departureStation" : "北京西"
+    "terminalStation" : "井冈山"
   },
   "Z324" : {
-    "terminalStation" : "成都",
+    "departureStation" : "拉萨",
     "trainCode" : "Z324",
     "train_no" : "880000Z32402",
-    "departureStation" : "拉萨"
+    "terminalStation" : "成都"
   },
   "Z146" : {
-    "terminalStation" : "深圳东",
+    "departureStation" : "郑州",
     "trainCode" : "Z146",
     "train_no" : "380000Z14607",
-    "departureStation" : "郑州"
+    "terminalStation" : "深圳东"
   },
   "Z337" : {
-    "terminalStation" : "包头",
+    "departureStation" : "南宁",
     "trainCode" : "Z337",
     "train_no" : "710000Z33607",
-    "departureStation" : "南宁"
+    "terminalStation" : "包头"
   },
   "Z159" : {
-    "terminalStation" : "日照",
+    "departureStation" : "北京",
     "trainCode" : "Z159",
     "train_no" : "240000Z15900",
-    "departureStation" : "北京"
+    "terminalStation" : "日照"
   },
   "Z6522" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "奎屯",
     "trainCode" : "Z6522",
     "train_no" : "95000Z652220",
-    "departureStation" : "奎屯"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z281" : {
-    "terminalStation" : "杭州",
+    "departureStation" : "包头",
     "trainCode" : "Z281",
     "train_no" : "330000Z2840E",
-    "departureStation" : "包头"
+    "terminalStation" : "杭州"
   },
   "Z294" : {
-    "terminalStation" : "汉口",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z294",
     "train_no" : "930000Z29402",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "汉口"
   },
   "Z121" : {
-    "terminalStation" : "广州",
+    "departureStation" : "成都",
     "trainCode" : "Z121",
     "train_no" : "760000Z12407",
-    "departureStation" : "成都"
+    "terminalStation" : "广州"
   },
   "Z312" : {
-    "terminalStation" : "呼和浩特",
+    "departureStation" : "西宁",
     "trainCode" : "Z312",
     "train_no" : "880000Z31201",
-    "departureStation" : "西宁"
+    "terminalStation" : "呼和浩特"
   },
   "Z134" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "井冈山",
     "trainCode" : "Z134",
     "train_no" : "570000Z1340J",
-    "departureStation" : "井冈山"
+    "terminalStation" : "北京西"
   },
   "Z70" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z70",
     "train_no" : "9300000Z7003",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "北京西"
   },
   "Z147" : {
-    "terminalStation" : "深圳东",
+    "departureStation" : "郑州",
     "trainCode" : "Z147",
     "train_no" : "380000Z14607",
-    "departureStation" : "郑州"
+    "terminalStation" : "深圳东"
   },
   "Z40" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "上海",
     "trainCode" : "Z40",
     "train_no" : "5500000Z4062",
-    "departureStation" : "上海"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z338" : {
-    "terminalStation" : "南宁",
+    "departureStation" : "包头",
     "trainCode" : "Z338",
     "train_no" : "330000Z3380C",
-    "departureStation" : "包头"
+    "terminalStation" : "南宁"
   },
   "Z4176" : {
-    "terminalStation" : "北京",
+    "departureStation" : "汉口",
     "trainCode" : "Z4176",
     "train_no" : "39000Z417600",
-    "departureStation" : "汉口"
+    "terminalStation" : "北京"
+  },
+  "Z9813" : {
+    "terminalStation" : "格尔木",
+    "trainCode" : "Z9813",
+    "train_no" : "88000Z98130A",
+    "departureStation" : "西宁"
+  },
+  "Z10" : {
+    "terminalStation" : "北京",
+    "trainCode" : "Z10",
+    "train_no" : "5600000Z1020",
+    "departureStation" : "杭州"
   },
   "Z282" : {
-    "terminalStation" : "包头",
+    "departureStation" : "杭州",
     "trainCode" : "Z282",
     "train_no" : "560000Z28230",
-    "departureStation" : "杭州"
+    "terminalStation" : "包头"
   },
   "Z71" : {
-    "terminalStation" : "三明北",
+    "departureStation" : "北京",
     "trainCode" : "Z71",
     "train_no" : "2400000Z710D",
-    "departureStation" : "北京"
+    "terminalStation" : "三明北"
   },
   "Z41" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "上海",
     "trainCode" : "Z41",
     "train_no" : "5500000Z4062",
-    "departureStation" : "上海"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z8322" : {
-    "terminalStation" : "红果",
+    "departureStation" : "昆明",
     "trainCode" : "Z8322",
     "train_no" : "80000Z832210",
-    "departureStation" : "昆明"
+    "terminalStation" : "红果"
   },
   "Z122" : {
-    "terminalStation" : "成都",
+    "departureStation" : "广州",
     "trainCode" : "Z122",
     "train_no" : "630000Z12208",
-    "departureStation" : "广州"
+    "terminalStation" : "成都"
   },
   "Z11" : {
-    "terminalStation" : "沈阳北",
+    "departureStation" : "广州东",
     "trainCode" : "Z11",
     "train_no" : "6500000Z1403",
-    "departureStation" : "广州东"
+    "terminalStation" : "沈阳北"
   },
   "Z135" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "广州",
     "trainCode" : "Z135",
     "train_no" : "630000Z13808",
-    "departureStation" : "广州"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z72" : {
-    "terminalStation" : "北京",
+    "departureStation" : "三明北",
     "trainCode" : "Z72",
     "train_no" : "5u00000Z7208",
-    "departureStation" : "三明北"
+    "terminalStation" : "北京"
   },
   "Z148" : {
-    "terminalStation" : "郑州",
+    "departureStation" : "深圳东",
     "trainCode" : "Z148",
     "train_no" : "650000Z14804",
-    "departureStation" : "深圳东"
+    "terminalStation" : "郑州"
   },
   "Z42" : {
-    "terminalStation" : "上海",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z42",
     "train_no" : "9300000Z4205",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "上海"
   },
   "Z12" : {
-    "terminalStation" : "广州东",
+    "departureStation" : "沈阳北",
     "trainCode" : "Z12",
     "train_no" : "1200000Z1208",
-    "departureStation" : "沈阳北"
+    "terminalStation" : "广州东"
   },
   "Z270" : {
-    "terminalStation" : "上海",
+    "departureStation" : "呼和浩特",
     "trainCode" : "Z270",
     "train_no" : "330000Z2670C",
-    "departureStation" : "呼和浩特"
+    "terminalStation" : "上海"
   },
   "Z6523" : {
-    "terminalStation" : "石河子",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6523",
     "train_no" : "93000Z652320",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "石河子"
   },
   "Z283" : {
-    "terminalStation" : "包头",
+    "departureStation" : "杭州",
     "trainCode" : "Z283",
     "train_no" : "560000Z28230",
-    "departureStation" : "杭州"
+    "terminalStation" : "包头"
   },
   "Z43" : {
-    "terminalStation" : "西安",
+    "departureStation" : "北京西",
     "trainCode" : "Z43",
     "train_no" : "2400000Z4304",
-    "departureStation" : "北京西"
+    "terminalStation" : "西安"
   },
   "Z123" : {
-    "terminalStation" : "成都",
+    "departureStation" : "广州",
     "trainCode" : "Z123",
     "train_no" : "630000Z12208",
-    "departureStation" : "广州"
+    "terminalStation" : "成都"
   },
   "Z13" : {
-    "terminalStation" : "广州东",
+    "departureStation" : "沈阳北",
     "trainCode" : "Z13",
     "train_no" : "1200000Z1208",
-    "departureStation" : "沈阳北"
+    "terminalStation" : "广州东"
   },
   "Z136" : {
-    "terminalStation" : "广州",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z136",
     "train_no" : "930000Z13603",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "广州"
   },
   "Z6501" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒",
     "trainCode" : "Z6501",
     "train_no" : "94000Z650410",
-    "departureStation" : "库尔勒"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z149" : {
-    "terminalStation" : "贵阳",
+    "departureStation" : "北京西",
     "trainCode" : "Z149",
     "train_no" : "240000Z14909",
-    "departureStation" : "北京西"
+    "terminalStation" : "贵阳"
   },
   "Z4177" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "北京西",
     "trainCode" : "Z4177",
     "train_no" : "24000Z41770A",
-    "departureStation" : "北京西"
+    "terminalStation" : "武昌"
   },
   "Z44" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "西安",
     "trainCode" : "Z44",
     "train_no" : "4100000Z4407",
-    "departureStation" : "西安"
+    "terminalStation" : "北京西"
+  },
+  "Z9814" : {
+    "terminalStation" : "西宁",
+    "trainCode" : "Z9814",
+    "train_no" : "88000Z981409",
+    "departureStation" : "格尔木"
   },
   "Z14" : {
-    "terminalStation" : "沈阳北",
+    "departureStation" : "广州东",
     "trainCode" : "Z14",
     "train_no" : "6500000Z1403",
-    "departureStation" : "广州东"
+    "terminalStation" : "沈阳北"
   },
   "Z271" : {
-    "terminalStation" : "青岛",
+    "departureStation" : "西宁",
     "trainCode" : "Z271",
     "train_no" : "880000Z27404",
-    "departureStation" : "西宁"
+    "terminalStation" : "青岛"
   },
   "Z284" : {
-    "terminalStation" : "杭州",
+    "departureStation" : "包头",
     "trainCode" : "Z284",
     "train_no" : "330000Z2840E",
-    "departureStation" : "包头"
+    "terminalStation" : "杭州"
   },
   "Z111" : {
-    "terminalStation" : "海口",
+    "departureStation" : "哈尔滨西",
     "trainCode" : "Z111",
     "train_no" : "0h0000Z11402",
-    "departureStation" : "哈尔滨西"
+    "terminalStation" : "海口"
   },
   "Z75" : {
-    "terminalStation" : "兰州",
+    "departureStation" : "北京西",
     "trainCode" : "Z75",
     "train_no" : "2400000Z7508",
-    "departureStation" : "北京西"
+    "terminalStation" : "兰州"
   },
   "Z124" : {
-    "terminalStation" : "广州",
+    "departureStation" : "成都",
     "trainCode" : "Z124",
     "train_no" : "760000Z12407",
-    "departureStation" : "成都"
+    "terminalStation" : "广州"
   },
   "Z45" : {
-    "terminalStation" : "杭州",
+    "departureStation" : "武昌",
     "trainCode" : "Z45",
     "train_no" : "3900000Z4502",
-    "departureStation" : "武昌"
+    "terminalStation" : "杭州"
   },
   "Z15" : {
-    "terminalStation" : "哈尔滨",
+    "departureStation" : "北京",
     "trainCode" : "Z15",
     "train_no" : "2400000Z1510",
-    "departureStation" : "北京"
+    "terminalStation" : "哈尔滨"
   },
   "Z137" : {
-    "terminalStation" : "广州",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z137",
     "train_no" : "930000Z13603",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "广州"
   },
   "Z4061" : {
-    "terminalStation" : "长春",
+    "departureStation" : "北京",
     "trainCode" : "Z4061",
     "train_no" : "24000Z40610D",
-    "departureStation" : "北京"
+    "terminalStation" : "长春"
   },
   "Z76" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "兰州",
     "trainCode" : "Z76",
     "train_no" : "8500000Z7600",
-    "departureStation" : "兰州"
+    "terminalStation" : "北京西"
   },
   "Z46" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "杭州",
     "trainCode" : "Z46",
     "train_no" : "5600000Z4701",
-    "departureStation" : "杭州"
+    "terminalStation" : "武昌"
   },
   "Z272" : {
-    "terminalStation" : "西宁",
+    "departureStation" : "青岛",
     "trainCode" : "Z272",
     "train_no" : "490000Z27203",
-    "departureStation" : "青岛"
+    "terminalStation" : "西宁"
   },
   "Z16" : {
-    "terminalStation" : "北京",
+    "departureStation" : "哈尔滨",
     "trainCode" : "Z16",
     "train_no" : "0100000Z1630",
-    "departureStation" : "哈尔滨"
+    "terminalStation" : "北京"
   },
   "Z6524" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "石河子",
     "trainCode" : "Z6524",
     "train_no" : "95000Z652420",
-    "departureStation" : "石河子"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z285" : {
-    "terminalStation" : "南宁",
+    "departureStation" : "北京西",
     "trainCode" : "Z285",
     "train_no" : "240000Z2850C",
-    "departureStation" : "北京西"
+    "terminalStation" : "南宁"
   },
   "Z112" : {
-    "terminalStation" : "哈尔滨西",
+    "departureStation" : "海口",
     "trainCode" : "Z112",
     "train_no" : "6b0000Z11207",
-    "departureStation" : "海口"
+    "terminalStation" : "哈尔滨西"
   },
   "Z77" : {
-    "terminalStation" : "贵阳",
+    "departureStation" : "北京西",
     "trainCode" : "Z77",
     "train_no" : "2400000Z770H",
-    "departureStation" : "北京西"
+    "terminalStation" : "贵阳"
   },
   "Z125" : {
-    "terminalStation" : "厦门",
+    "departureStation" : "兰州",
     "trainCode" : "Z125",
     "train_no" : "850000Z12811",
-    "departureStation" : "兰州"
+    "terminalStation" : "厦门"
   },
   "Z47" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "杭州",
     "trainCode" : "Z47",
     "train_no" : "5600000Z4701",
-    "departureStation" : "杭州"
+    "terminalStation" : "武昌"
   },
   "Z6502" : {
-    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6502",
     "train_no" : "93000Z650210",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "库尔勒"
   },
   "Z17" : {
-    "terminalStation" : "哈尔滨西",
+    "departureStation" : "北京",
     "trainCode" : "Z17",
     "train_no" : "2400000Z1730",
-    "departureStation" : "北京"
+    "terminalStation" : "哈尔滨西"
   },
   "Z138" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "广州",
     "trainCode" : "Z138",
     "train_no" : "630000Z13808",
-    "departureStation" : "广州"
+    "terminalStation" : "乌鲁木齐"
+  },
+  "Z9815" : {
+    "train_no" : "88000Z98150A",
+    "trainCode" : "Z9815",
+    "terminalStation" : "拉萨",
+    "departureStation" : "西宁"
   },
   "Z4178" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "武昌",
     "trainCode" : "Z4178",
     "train_no" : "39000Z41780A",
-    "departureStation" : "武昌"
+    "terminalStation" : "北京西"
   },
   "Z78" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "贵阳",
     "trainCode" : "Z78",
     "train_no" : "7800000Z7802",
-    "departureStation" : "贵阳"
+    "terminalStation" : "北京西"
   },
   "Z48" : {
-    "terminalStation" : "杭州",
+    "departureStation" : "武昌",
     "trainCode" : "Z48",
     "train_no" : "3900000Z4502",
-    "departureStation" : "武昌"
+    "terminalStation" : "杭州"
   },
   "Z100" : {
-    "terminalStation" : "上海",
+    "departureStation" : "广州东",
     "trainCode" : "Z100",
     "train_no" : "650000Z10004",
-    "departureStation" : "广州东"
+    "terminalStation" : "上海"
   },
   "Z18" : {
-    "terminalStation" : "北京",
+    "departureStation" : "哈尔滨西",
     "trainCode" : "Z18",
     "train_no" : "0h00000Z1801",
-    "departureStation" : "哈尔滨西"
+    "terminalStation" : "北京"
   },
   "Z286" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "南宁",
     "trainCode" : "Z286",
     "train_no" : "710000Z28604",
-    "departureStation" : "南宁"
+    "terminalStation" : "北京西"
   },
   "Z113" : {
-    "terminalStation" : "哈尔滨西",
+    "departureStation" : "海口",
     "trainCode" : "Z113",
     "train_no" : "6b0000Z11207",
-    "departureStation" : "海口"
+    "terminalStation" : "哈尔滨西"
   },
   "Z273" : {
-    "terminalStation" : "西宁",
+    "departureStation" : "青岛",
     "trainCode" : "Z273",
     "train_no" : "490000Z27203",
-    "departureStation" : "青岛"
+    "terminalStation" : "西宁"
   },
   "Z126" : {
-    "terminalStation" : "兰州",
+    "departureStation" : "厦门",
     "trainCode" : "Z126",
     "train_no" : "580000Z12608",
-    "departureStation" : "厦门"
+    "terminalStation" : "兰州"
   },
   "Z79" : {
-    "terminalStation" : "大连",
+    "departureStation" : "北京",
     "trainCode" : "Z79",
     "train_no" : "2400000Z790B",
-    "departureStation" : "北京"
+    "terminalStation" : "大连"
   },
   "Z49" : {
-    "terminalStation" : "成都",
+    "departureStation" : "北京西",
     "trainCode" : "Z49",
     "train_no" : "2400000Z490G",
-    "departureStation" : "北京西"
+    "terminalStation" : "成都"
   },
   "Z139" : {
-    "terminalStation" : "南通",
+    "departureStation" : "北京",
     "trainCode" : "Z139",
     "train_no" : "240000Z1390G",
-    "departureStation" : "北京"
+    "terminalStation" : "南通"
   },
   "Z19" : {
-    "terminalStation" : "西安",
+    "departureStation" : "北京西",
     "trainCode" : "Z19",
     "train_no" : "2400000Z190H",
-    "departureStation" : "北京西"
+    "terminalStation" : "西安"
   },
   "Z317" : {
-    "terminalStation" : "包头",
+    "departureStation" : "北京",
     "trainCode" : "Z317",
     "train_no" : "240000Z3170C",
-    "departureStation" : "北京"
+    "terminalStation" : "包头"
+  },
+  "Z4062" : {
+    "train_no" : "11000Z406209",
+    "trainCode" : "Z4062",
+    "terminalStation" : "北京",
+    "departureStation" : "长春"
   },
   "Z274" : {
-    "terminalStation" : "青岛",
+    "departureStation" : "西宁",
     "trainCode" : "Z274",
     "train_no" : "880000Z27404",
-    "departureStation" : "西宁"
+    "terminalStation" : "青岛"
   },
   "Z101" : {
-    "terminalStation" : "长春",
+    "departureStation" : "厦门",
     "trainCode" : "Z101",
     "train_no" : "580000Z1040F",
-    "departureStation" : "厦门"
+    "terminalStation" : "长春"
   },
   "Z287" : {
-    "terminalStation" : "昆明",
+    "departureStation" : "宁波",
     "trainCode" : "Z287",
     "train_no" : "5e0000Z29012",
-    "departureStation" : "宁波"
+    "terminalStation" : "昆明"
   },
   "Z114" : {
-    "terminalStation" : "海口",
+    "departureStation" : "哈尔滨西",
     "trainCode" : "Z114",
     "train_no" : "0h0000Z11402",
-    "departureStation" : "哈尔滨西"
+    "terminalStation" : "海口"
   },
   "Z127" : {
-    "terminalStation" : "兰州",
+    "departureStation" : "厦门",
     "trainCode" : "Z127",
     "train_no" : "580000Z12608",
-    "departureStation" : "厦门"
+    "terminalStation" : "兰州"
   },
   "Z6503" : {
-    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6503",
     "train_no" : "93000Z650210",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "库尔勒"
   },
   "Z318" : {
-    "terminalStation" : "北京",
+    "departureStation" : "包头",
     "trainCode" : "Z318",
     "train_no" : "330000Z3180C",
-    "departureStation" : "包头"
+    "terminalStation" : "北京"
+  },
+  "Z9816" : {
+    "train_no" : "88000Z981609",
+    "trainCode" : "Z9816",
+    "terminalStation" : "西宁",
+    "departureStation" : "拉萨"
   },
   "Z275" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "银川",
     "trainCode" : "Z275",
     "train_no" : "870000Z27513",
-    "departureStation" : "银川"
+    "terminalStation" : "北京西"
   },
   "Z102" : {
-    "terminalStation" : "厦门",
+    "departureStation" : "长春",
     "trainCode" : "Z102",
     "train_no" : "110000Z10207",
-    "departureStation" : "长春"
+    "terminalStation" : "厦门"
   },
   "Z6811" : {
-    "terminalStation" : "日喀则",
+    "departureStation" : "西宁",
     "trainCode" : "Z6811",
     "train_no" : "88000Z681107",
-    "departureStation" : "西宁"
+    "terminalStation" : "日喀则"
   },
   "Z288" : {
-    "terminalStation" : "宁波",
+    "departureStation" : "昆明",
     "trainCode" : "Z288",
     "train_no" : "800000Z28803",
-    "departureStation" : "昆明"
+    "terminalStation" : "宁波"
   },
   "Z128" : {
-    "terminalStation" : "厦门",
+    "departureStation" : "兰州",
     "trainCode" : "Z128",
     "train_no" : "850000Z12811",
-    "departureStation" : "兰州"
+    "terminalStation" : "厦门"
   },
   "Z7805" : {
-    "terminalStation" : "太原",
+    "departureStation" : "大同",
     "trainCode" : "Z7805",
     "train_no" : "28000Z780502",
-    "departureStation" : "大同"
+    "terminalStation" : "太原"
   },
   "Z319" : {
-    "terminalStation" : "包头",
+    "departureStation" : "大同",
     "trainCode" : "Z319",
     "train_no" : "280000Z31903",
-    "departureStation" : "大同"
+    "terminalStation" : "包头"
+  },
+  "Z4063" : {
+    "terminalStation" : "长春",
+    "trainCode" : "Z4063",
+    "train_no" : "24000Z406309",
+    "departureStation" : "北京"
   },
   "Z8303" : {
-    "terminalStation" : "昆明",
+    "departureStation" : "红果",
     "trainCode" : "Z8303",
     "train_no" : "80000Z830310",
-    "departureStation" : "红果"
+    "terminalStation" : "昆明"
   },
   "Z263" : {
-    "terminalStation" : "广州",
+    "departureStation" : "西宁",
     "trainCode" : "Z263",
     "train_no" : "880000Z2660B",
-    "departureStation" : "西宁"
+    "terminalStation" : "广州"
   },
   "Z276" : {
-    "terminalStation" : "银川",
+    "departureStation" : "北京西",
     "trainCode" : "Z276",
     "train_no" : "240000Z27708",
-    "departureStation" : "北京西"
+    "terminalStation" : "银川"
   },
   "Z103" : {
-    "terminalStation" : "厦门",
+    "departureStation" : "长春",
     "trainCode" : "Z103",
     "train_no" : "110000Z10207",
-    "departureStation" : "长春"
+    "terminalStation" : "厦门"
   },
   "Z289" : {
-    "terminalStation" : "宁波",
+    "departureStation" : "昆明",
     "trainCode" : "Z289",
     "train_no" : "800000Z28803",
-    "departureStation" : "昆明"
+    "terminalStation" : "宁波"
   },
   "Z307" : {
-    "terminalStation" : "厦门",
+    "departureStation" : "北京西",
     "trainCode" : "Z307",
     "train_no" : "240000Z3070C",
-    "departureStation" : "北京西"
+    "terminalStation" : "厦门"
   },
   "Z6504" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒",
     "trainCode" : "Z6504",
     "train_no" : "94000Z650410",
-    "departureStation" : "库尔勒"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z9321" : {
-    "terminalStation" : "阆中",
+    "departureStation" : "重庆北",
     "trainCode" : "Z9321",
     "train_no" : "77000Z932104",
-    "departureStation" : "重庆北"
+    "terminalStation" : "阆中"
   },
   "Z251" : {
-    "terminalStation" : "上海",
+    "departureStation" : "西安",
     "trainCode" : "Z251",
     "train_no" : "410000Z2540A",
-    "departureStation" : "西安"
+    "terminalStation" : "上海"
   },
   "Z8801" : {
-    "terminalStation" : "日喀则",
+    "departureStation" : "拉萨",
     "trainCode" : "Z8801",
     "train_no" : "88000Z88010C",
-    "departureStation" : "拉萨"
+    "terminalStation" : "日喀则"
   },
   "Z264" : {
-    "terminalStation" : "西宁",
+    "departureStation" : "广州",
     "trainCode" : "Z264",
     "train_no" : "630000Z26409",
-    "departureStation" : "广州"
+    "terminalStation" : "西宁"
   },
   "Z277" : {
-    "terminalStation" : "银川",
+    "departureStation" : "北京西",
     "trainCode" : "Z277",
     "train_no" : "240000Z27708",
-    "departureStation" : "北京西"
+    "terminalStation" : "银川"
   },
   "Z104" : {
-    "terminalStation" : "长春",
+    "departureStation" : "厦门",
     "trainCode" : "Z104",
     "train_no" : "580000Z1040F",
-    "departureStation" : "厦门"
+    "terminalStation" : "长春"
   },
   "Z6812" : {
-    "terminalStation" : "西宁",
+    "departureStation" : "日喀则",
     "trainCode" : "Z6812",
     "train_no" : "88000Z681208",
-    "departureStation" : "日喀则"
+    "terminalStation" : "西宁"
   },
   "Z117" : {
-    "terminalStation" : "吉林",
+    "departureStation" : "北京",
     "trainCode" : "Z117",
     "train_no" : "240000Z1170C",
-    "departureStation" : "北京"
+    "terminalStation" : "吉林"
   },
   "Z308" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "厦门",
     "trainCode" : "Z308",
     "train_no" : "580000Z30807",
-    "departureStation" : "厦门"
+    "terminalStation" : "北京西"
   },
   "Z7806" : {
-    "terminalStation" : "大同",
+    "departureStation" : "太原",
     "trainCode" : "Z7806",
     "train_no" : "27000Z780602",
-    "departureStation" : "太原"
+    "terminalStation" : "大同"
+  },
+  "Z4064" : {
+    "departureStation" : "长春",
+    "trainCode" : "Z4064",
+    "terminalStation" : "北京",
+    "train_no" : "11000Z406407"
   },
   "Z8304" : {
-    "terminalStation" : "曲靖",
+    "departureStation" : "昆明",
     "trainCode" : "Z8304",
     "train_no" : "80000Z830404",
-    "departureStation" : "昆明"
+    "terminalStation" : "曲靖"
   },
   "Z252" : {
-    "terminalStation" : "西安",
+    "departureStation" : "上海",
     "trainCode" : "Z252",
     "train_no" : "550000Z25202",
-    "departureStation" : "上海"
+    "terminalStation" : "西安"
   },
   "Z265" : {
-    "terminalStation" : "西宁",
+    "departureStation" : "广州",
     "trainCode" : "Z265",
     "train_no" : "630000Z26409",
-    "departureStation" : "广州"
+    "terminalStation" : "西宁"
   },
   "Z278" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "银川",
     "trainCode" : "Z278",
     "train_no" : "870000Z27513",
-    "departureStation" : "银川"
+    "terminalStation" : "北京西"
   },
   "Z105" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "济南",
     "trainCode" : "Z105",
     "train_no" : "470000Z10507",
-    "departureStation" : "济南"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z118" : {
-    "terminalStation" : "北京",
+    "departureStation" : "吉林",
     "trainCode" : "Z118",
     "train_no" : "180000Z11805",
-    "departureStation" : "吉林"
+    "terminalStation" : "北京"
   },
   "Z9322" : {
-    "terminalStation" : "重庆北",
+    "departureStation" : "阆中",
     "trainCode" : "Z9322",
     "train_no" : "76000Z932204",
-    "departureStation" : "阆中"
+    "terminalStation" : "重庆北"
   },
   "Z6505" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒",
     "trainCode" : "Z6505",
     "train_no" : "94000Z650810",
-    "departureStation" : "库尔勒"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z253" : {
-    "terminalStation" : "西安",
+    "departureStation" : "上海",
     "trainCode" : "Z253",
     "train_no" : "550000Z25202",
-    "departureStation" : "上海"
+    "terminalStation" : "西安"
   },
   "Z8802" : {
-    "terminalStation" : "拉萨",
+    "departureStation" : "日喀则",
     "trainCode" : "Z8802",
     "train_no" : "88000Z88020D",
-    "departureStation" : "日喀则"
+    "terminalStation" : "拉萨"
   },
   "Z266" : {
-    "terminalStation" : "广州",
+    "departureStation" : "西宁",
     "trainCode" : "Z266",
     "train_no" : "880000Z2660B",
-    "departureStation" : "西宁"
+    "terminalStation" : "广州"
   },
   "Z106" : {
-    "terminalStation" : "济南",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z106",
     "train_no" : "930000Z10604",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "济南"
   },
   "Z254" : {
-    "terminalStation" : "上海",
+    "departureStation" : "西安",
     "trainCode" : "Z254",
     "train_no" : "410000Z2540A",
-    "departureStation" : "西安"
+    "terminalStation" : "上海"
   },
   "Z267" : {
-    "terminalStation" : "上海",
+    "departureStation" : "呼和浩特",
     "trainCode" : "Z267",
     "train_no" : "330000Z2670C",
-    "departureStation" : "呼和浩特"
+    "terminalStation" : "上海"
   },
   "Z107" : {
-    "terminalStation" : "深圳",
+    "departureStation" : "北京西",
     "trainCode" : "Z107",
     "train_no" : "240000Z1070E",
-    "departureStation" : "北京西"
+    "terminalStation" : "深圳"
   },
   "Z6506" : {
-    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6506",
     "train_no" : "93000Z650610",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "库尔勒"
   },
   "Z8803" : {
-    "terminalStation" : "日喀则",
+    "departureStation" : "拉萨",
     "trainCode" : "Z8803",
     "train_no" : "88000Z880309",
-    "departureStation" : "拉萨"
+    "terminalStation" : "日喀则"
   },
   "Z255" : {
-    "terminalStation" : "上海南",
+    "departureStation" : "重庆北",
     "trainCode" : "Z255",
     "train_no" : "770000Z25803",
-    "departureStation" : "重庆北"
+    "terminalStation" : "上海南"
   },
   "Z268" : {
-    "terminalStation" : "呼和浩特",
+    "departureStation" : "上海",
     "trainCode" : "Z268",
     "train_no" : "550000Z26810",
-    "departureStation" : "上海"
+    "terminalStation" : "呼和浩特"
   },
   "Z90" : {
-    "terminalStation" : "石家庄",
+    "departureStation" : "广州",
     "trainCode" : "Z90",
     "train_no" : "6300000Z9001",
-    "departureStation" : "广州"
+    "terminalStation" : "石家庄"
   },
   "Z60" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "福州",
     "trainCode" : "Z60",
     "train_no" : "5800000Z600E",
-    "departureStation" : "福州"
+    "terminalStation" : "北京西"
   },
   "Z108" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "深圳",
     "trainCode" : "Z108",
     "train_no" : "650000Z10805",
-    "departureStation" : "深圳"
+    "terminalStation" : "北京西"
   },
   "Z30" : {
-    "terminalStation" : "北京",
+    "departureStation" : "扬州",
     "trainCode" : "Z30",
     "train_no" : "5f00000Z3061",
-    "departureStation" : "扬州"
+    "terminalStation" : "北京"
   },
   "Z230" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "深圳",
     "trainCode" : "Z230",
     "train_no" : "650000Z23005",
-    "departureStation" : "深圳"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z91" : {
-    "terminalStation" : "上海",
+    "departureStation" : "西安",
     "trainCode" : "Z91",
     "train_no" : "4100000Z940F",
-    "departureStation" : "西安"
+    "terminalStation" : "上海"
   },
   "Z8306" : {
-    "terminalStation" : "曲靖",
+    "departureStation" : "昆明",
     "trainCode" : "Z8306",
     "train_no" : "80000Z830604",
-    "departureStation" : "昆明"
+    "terminalStation" : "曲靖"
   },
   "Z61" : {
-    "terminalStation" : "长春",
+    "departureStation" : "北京",
     "trainCode" : "Z61",
     "train_no" : "2400000Z610G",
-    "departureStation" : "北京"
+    "terminalStation" : "长春"
   },
   "Z256" : {
-    "terminalStation" : "重庆北",
+    "departureStation" : "上海南",
     "trainCode" : "Z256",
     "train_no" : "550000Z25711",
-    "departureStation" : "上海南"
+    "terminalStation" : "重庆北"
   },
   "Z31" : {
-    "terminalStation" : "宁波",
+    "departureStation" : "武昌",
     "trainCode" : "Z31",
     "train_no" : "3900000Z3104",
-    "departureStation" : "武昌"
+    "terminalStation" : "宁波"
   },
   "Z269" : {
-    "terminalStation" : "呼和浩特",
+    "departureStation" : "上海",
     "trainCode" : "Z269",
     "train_no" : "550000Z26810",
-    "departureStation" : "上海"
+    "terminalStation" : "呼和浩特"
   },
   "Z92" : {
-    "terminalStation" : "西安",
+    "departureStation" : "上海",
     "trainCode" : "Z92",
     "train_no" : "5500000Z9231",
-    "departureStation" : "上海"
+    "terminalStation" : "西安"
   },
   "Z62" : {
-    "terminalStation" : "北京",
+    "departureStation" : "长春",
     "trainCode" : "Z62",
     "train_no" : "1100000Z6208",
-    "departureStation" : "长春"
+    "terminalStation" : "北京"
   },
   "Z32" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "宁波",
     "trainCode" : "Z32",
     "train_no" : "5e00000Z3203",
-    "departureStation" : "宁波"
+    "terminalStation" : "武昌"
   },
   "Z231" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "深圳",
     "trainCode" : "Z231",
     "train_no" : "650000Z23005",
-    "departureStation" : "深圳"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z6507" : {
-    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6507",
     "train_no" : "93000Z650610",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "库尔勒"
   },
   "Z93" : {
-    "terminalStation" : "西安",
+    "departureStation" : "上海",
     "trainCode" : "Z93",
     "train_no" : "5500000Z9231",
-    "departureStation" : "上海"
+    "terminalStation" : "西安"
   },
   "Z8804" : {
-    "terminalStation" : "拉萨",
+    "departureStation" : "日喀则",
     "trainCode" : "Z8804",
     "train_no" : "88000Z880409",
-    "departureStation" : "日喀则"
+    "terminalStation" : "拉萨"
   },
   "Z257" : {
-    "terminalStation" : "重庆北",
+    "departureStation" : "上海南",
     "trainCode" : "Z257",
     "train_no" : "550000Z25711",
-    "departureStation" : "上海南"
+    "terminalStation" : "重庆北"
   },
   "Z63" : {
-    "terminalStation" : "长春",
+    "departureStation" : "北京",
     "trainCode" : "Z63",
     "train_no" : "2400000Z630C",
-    "departureStation" : "北京"
+    "terminalStation" : "长春"
   },
   "Z33" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "宁波",
     "trainCode" : "Z33",
     "train_no" : "5e00000Z3203",
-    "departureStation" : "宁波"
+    "terminalStation" : "武昌"
   },
   "Z94" : {
-    "terminalStation" : "上海",
+    "departureStation" : "西安",
     "trainCode" : "Z94",
     "train_no" : "4100000Z940F",
-    "departureStation" : "西安"
+    "terminalStation" : "上海"
   },
   "Z64" : {
-    "terminalStation" : "北京",
+    "departureStation" : "长春",
     "trainCode" : "Z64",
     "train_no" : "1100000Z6403",
-    "departureStation" : "长春"
+    "terminalStation" : "北京"
   },
   "Z232" : {
-    "terminalStation" : "深圳",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z232",
     "train_no" : "930000Z23201",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "深圳"
   },
   "Z34" : {
-    "terminalStation" : "宁波",
+    "departureStation" : "武昌",
     "trainCode" : "Z34",
     "train_no" : "3900000Z3104",
-    "departureStation" : "武昌"
+    "terminalStation" : "宁波"
   },
   "Z601" : {
-    "terminalStation" : "菏泽",
+    "departureStation" : "北京",
     "trainCode" : "Z601",
     "train_no" : "240000Z60109",
-    "departureStation" : "北京"
+    "terminalStation" : "菏泽"
   },
   "Z245" : {
-    "terminalStation" : "上海南",
+    "departureStation" : "长沙",
     "trainCode" : "Z245",
     "train_no" : "620000Z24503",
-    "departureStation" : "长沙"
+    "terminalStation" : "上海南"
   },
   "Z8307" : {
-    "terminalStation" : "昆明",
+    "departureStation" : "曲靖",
     "trainCode" : "Z8307",
     "train_no" : "80000Z830703",
-    "departureStation" : "曲靖"
+    "terminalStation" : "昆明"
   },
   "Z95" : {
-    "terminalStation" : "重庆北",
+    "departureStation" : "北京西",
     "trainCode" : "Z95",
     "train_no" : "2400000Z9506",
-    "departureStation" : "北京西"
+    "terminalStation" : "重庆北"
   },
   "Z258" : {
-    "terminalStation" : "上海南",
+    "departureStation" : "重庆北",
     "trainCode" : "Z258",
     "train_no" : "770000Z25803",
-    "departureStation" : "重庆北"
+    "terminalStation" : "上海南"
   },
   "Z65" : {
-    "terminalStation" : "南昌",
+    "departureStation" : "北京西",
     "trainCode" : "Z65",
     "train_no" : "2400000Z650L",
-    "departureStation" : "北京西"
+    "terminalStation" : "南昌"
   },
   "Z4045" : {
-    "terminalStation" : "杭州",
+    "departureStation" : "武昌",
     "trainCode" : "Z4045",
     "train_no" : "39000Z404506",
-    "departureStation" : "武昌"
+    "terminalStation" : "杭州"
   },
   "Z35" : {
-    "terminalStation" : "广州",
+    "departureStation" : "北京西",
     "trainCode" : "Z35",
     "train_no" : "2400000Z3502",
-    "departureStation" : "北京西"
+    "terminalStation" : "广州"
   },
   "Z96" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "重庆北",
     "trainCode" : "Z96",
     "train_no" : "7700000Z9602",
-    "departureStation" : "重庆北"
+    "terminalStation" : "北京西"
   },
   "Z6508" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒",
     "trainCode" : "Z6508",
     "train_no" : "94000Z650810",
-    "departureStation" : "库尔勒"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z66" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "南昌",
     "trainCode" : "Z66",
     "train_no" : "5700000Z660F",
-    "departureStation" : "南昌"
+    "terminalStation" : "北京西"
   },
   "Z36" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "广州",
     "trainCode" : "Z36",
     "train_no" : "6300000Z3600",
-    "departureStation" : "广州"
+    "terminalStation" : "北京西"
   },
   "Z602" : {
-    "terminalStation" : "北京",
+    "departureStation" : "菏泽",
     "trainCode" : "Z602",
     "train_no" : "470000Z60203",
-    "departureStation" : "菏泽"
+    "terminalStation" : "北京"
   },
   "Z246" : {
-    "terminalStation" : "长沙",
+    "departureStation" : "上海南",
     "trainCode" : "Z246",
     "train_no" : "550000Z24711",
-    "departureStation" : "上海南"
+    "terminalStation" : "长沙"
   },
   "Z97" : {
-    "terminalStation" : "广州东",
+    "departureStation" : "北京西",
     "trainCode" : "Z97",
     "train_no" : "2400000Z9706",
-    "departureStation" : "北京西"
+    "terminalStation" : "广州东"
   },
   "Z67" : {
-    "terminalStation" : "南昌",
+    "departureStation" : "北京西",
     "trainCode" : "Z67",
     "train_no" : "2400000Z670N",
-    "departureStation" : "北京西"
+    "terminalStation" : "南昌"
   },
   "Z190" : {
-    "terminalStation" : "郑州",
+    "departureStation" : "广州",
     "trainCode" : "Z190",
     "train_no" : "630000Z19002",
-    "departureStation" : "广州"
+    "terminalStation" : "郑州"
   },
   "Z37" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "北京西",
     "trainCode" : "Z37",
     "train_no" : "2400000Z3709",
-    "departureStation" : "北京西"
+    "terminalStation" : "武昌"
   },
   "Z6510" : {
-    "terminalStation" : "库尔勒",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z6510",
     "train_no" : "93000Z651010",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "库尔勒"
   },
   "Z98" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "九龙",
     "trainCode" : "Z98",
     "train_no" : "6500000Z9805",
-    "departureStation" : "九龙"
+    "terminalStation" : "北京西"
   },
   "Z68" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "南昌",
     "trainCode" : "Z68",
     "train_no" : "5700000Z680H",
-    "departureStation" : "南昌"
+    "terminalStation" : "北京西"
   },
   "Z8308" : {
-    "terminalStation" : "曲靖",
+    "departureStation" : "昆明",
     "trainCode" : "Z8308",
     "train_no" : "80000Z830805",
-    "departureStation" : "昆明"
+    "terminalStation" : "曲靖"
   },
   "Z38" : {
-    "terminalStation" : "北京西",
+    "departureStation" : "武昌",
     "trainCode" : "Z38",
     "train_no" : "3900000Z3802",
-    "departureStation" : "武昌"
+    "terminalStation" : "北京西"
   },
   "Z247" : {
-    "terminalStation" : "长沙",
+    "departureStation" : "上海南",
     "trainCode" : "Z247",
     "train_no" : "550000Z24711",
-    "departureStation" : "上海南"
+    "terminalStation" : "长沙"
   },
   "Z4046" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "杭州",
     "trainCode" : "Z4046",
     "train_no" : "56000Z404702",
-    "departureStation" : "杭州"
+    "terminalStation" : "武昌"
   },
   "Z99" : {
-    "terminalStation" : "九龙",
+    "departureStation" : "上海",
     "trainCode" : "Z99",
     "train_no" : "5500000Z9930",
-    "departureStation" : "上海"
+    "terminalStation" : "九龙"
   },
   "Z191" : {
-    "terminalStation" : "太原",
+    "departureStation" : "沈阳北",
     "trainCode" : "Z191",
     "train_no" : "120000Z19406",
-    "departureStation" : "沈阳北"
+    "terminalStation" : "太原"
   },
   "Z69" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "北京西",
     "trainCode" : "Z69",
     "train_no" : "2400000Z690K",
-    "departureStation" : "北京西"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z39" : {
-    "terminalStation" : "上海",
+    "departureStation" : "乌鲁木齐",
     "trainCode" : "Z39",
     "train_no" : "9300000Z4205",
-    "departureStation" : "乌鲁木齐"
+    "terminalStation" : "上海"
   },
   "Z6509" : {
-    "terminalStation" : "乌鲁木齐",
+    "departureStation" : "库尔勒",
     "trainCode" : "Z6509",
     "train_no" : "94000Z651210",
-    "departureStation" : "库尔勒"
+    "terminalStation" : "乌鲁木齐"
   },
   "Z8310" : {
-    "terminalStation" : "曲靖",
+    "departureStation" : "昆明",
     "trainCode" : "Z8310",
     "train_no" : "80000Z831004",
-    "departureStation" : "昆明"
+    "terminalStation" : "曲靖"
   },
   "Z235" : {
-    "terminalStation" : "广州东",
+    "departureStation" : "哈尔滨西",
     "trainCode" : "Z235",
     "train_no" : "0h0000Z23804",
-    "departureStation" : "哈尔滨西"
+    "terminalStation" : "广州东"
   },
   "Z248" : {
-    "terminalStation" : "上海南",
+    "departureStation" : "长沙",
     "trainCode" : "Z248",
     "train_no" : "620000Z24503",
-    "departureStation" : "长沙"
+    "terminalStation" : "上海南"
   },
   "Z192" : {
-    "terminalStation" : "沈阳北",
+    "departureStation" : "太原",
     "trainCode" : "Z192",
     "train_no" : "270000Z19206",
-    "departureStation" : "太原"
+    "terminalStation" : "沈阳北"
   }
 }

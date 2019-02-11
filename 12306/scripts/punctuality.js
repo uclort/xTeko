@@ -1,8 +1,15 @@
 // 出发 = 1  到达 = 0
 var cx_lx = 0
 
+var stationList = require('scripts/stationList')
+
 module.exports = {
-    showPunctuality: showPunctuality
+    showPunctuality: showPunctuality,
+    settingStation: settingStation
+}
+
+function settingStation(stationName) {
+    $("station").text = stationName
 }
 
 function showPunctuality() {
@@ -43,6 +50,22 @@ function showPunctuality() {
                     if ($cache.get("oldPunctualityStation")) {
                         sender.text = $cache.get("oldPunctualityStation")
                     }
+                }
+            }
+        },{
+            type: "button",
+            props: {
+                id:"station-button",
+                align: $align.center,
+                bgcolor: $color("clear")
+            },
+            layout: function(make) {
+                make.edges.equalTo($("station"))
+            },
+            events: {
+                tapped: function(sender) {
+                    stationList.showStationList("station")
+                    // $console.info("string");
                 }
             }
         },{

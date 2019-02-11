@@ -298,13 +298,14 @@ function format(data, title) {
 }
 
 function objectSetting(word) {
+    $console.info(word)
     var train_Object
-    if (word == "C") train_Object = JSON.parse(train_C.string)
-    if (word == "D") train_Object = JSON.parse(train_D.string)
-    if (word == "G") train_Object = JSON.parse(train_G.string)
-    if (word == "K") train_Object = JSON.parse(train_K.string)
-    if (word == "O") train_Object = JSON.parse(train_O.string)
-    if (word == "T") train_Object = JSON.parse(train_T.string)
-    if (word == "Z") train_Object = JSON.parse(train_Z.string)
+    if (word == "C")        {train_Object = JSON.parse(train_C.string)}
+    else if (word == "D")   {train_Object = JSON.parse(train_D.string)}
+    else if (word == "G")   {train_Object = JSON.parse(train_G.string)}
+    else if (word == "K")   {train_Object = JSON.parse(train_K.string)}
+    else if (word == "T")   {train_Object = JSON.parse(train_T.string)}
+    else if (word == "Z")   {train_Object = JSON.parse(train_Z.string)}
+    else                    {train_Object = JSON.parse(train_O.string)}
     return train_Object
 }

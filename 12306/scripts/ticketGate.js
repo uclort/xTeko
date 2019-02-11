@@ -1,5 +1,6 @@
 var station = $file.read('assets/station_names.json')
 var stationObject = JSON.parse(station.string)
+var stationList = require('scripts/stationList')
 var tool = require('scripts/tool')
 
 module.exports = {
@@ -109,6 +110,22 @@ function showTicketGate() {
                     if ($cache.get("oldStation")) {
                         sender.text = $cache.get("oldStation")
                     }
+                }
+            }
+        },{
+            type: "button",
+            props: {
+                id:"station-button",
+                align: $align.center,
+                bgcolor: $color("clear")
+            },
+            layout: function(make) {
+                make.edges.equalTo($("departureStation"))
+            },
+            events: {
+                tapped: function(sender) {
+                    stationList.showStationList("departureStation")
+                    // $console.info("string");
                 }
             }
         },

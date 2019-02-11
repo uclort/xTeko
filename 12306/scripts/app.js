@@ -4,6 +4,7 @@ var station = $file.read('assets/station_names.json')
 var stationObject = JSON.parse(station.string)
 var station_anti = $file.read('assets/station_names_anti.json')
 var stationObject_anti = JSON.parse(station_anti.string)
+var stationList = require('scripts/stationList')
 
 module.exports = {
     excessTicketInquiry: excessTicketInquiry
@@ -32,6 +33,22 @@ function excessTicketInquiry() {
                         }
                     }
                 }
+            },{
+                type: "button",
+                props: {
+                    id:"station-button",
+                    align: $align.center,
+                    bgcolor: $color("clear")
+                },
+                layout: function(make) {
+                    make.edges.equalTo($("departureStation"))
+                },
+                events: {
+                    tapped: function(sender) {
+                        stationList.showStationList("departureStation")
+                        // $console.info("string");
+                    }
+                }
             },
             {
                 type: "input",
@@ -51,6 +68,22 @@ function excessTicketInquiry() {
                         if ($cache.get("oldTicketInquiryTerminalStation")) {
                             sender.text = $cache.get("oldTicketInquiryTerminalStation")
                         }
+                    }
+                }
+            },{
+                type: "button",
+                props: {
+                    id:"station-button",
+                    align: $align.center,
+                    bgcolor: $color("clear")
+                },
+                layout: function(make) {
+                    make.edges.equalTo($("terminalStation"))
+                },
+                events: {
+                    tapped: function(sender) {
+                        stationList.showStationList("terminalStation")
+                        // $console.info("string");
                     }
                 }
             },
