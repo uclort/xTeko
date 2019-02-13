@@ -1,4 +1,4 @@
-var station = $file.read('assets/station_names.json')
+var station = $file.read('assets/station_name.json')
 var stationObject = JSON.parse(station.string)
 var stationList = require('scripts/stationList')
 var tool = require('scripts/tool')
@@ -96,7 +96,7 @@ function showTicketGate() {
             type: "input",
             props: {
                 placeholder: "出发站",
-                id:"departureStation",
+                id:"departureStation_ticket",
                 align: $align.center
             },
             layout: function(make) {
@@ -120,11 +120,11 @@ function showTicketGate() {
                 bgcolor: $color("clear")
             },
             layout: function(make) {
-                make.edges.equalTo($("departureStation"))
+                make.edges.equalTo($("departureStation_ticket"))
             },
             events: {
                 tapped: function(sender) {
-                    stationList.showStationList("departureStation")
+                    stationList.showStationList("departureStation_ticket")
                     // $console.info("string");
                 }
             }
@@ -139,14 +139,14 @@ function showTicketGate() {
                     make.right.inset(10)
                     make.height.equalTo($("trainNO").height);
                     make.width.equalTo(100)
-                    make.left.equalTo($("departureStation").right).offset(5)
+                    make.left.equalTo($("departureStation_ticket").right).offset(5)
                 },
                 events: {
                     tapped: function(sender) {
                         collapseKeyboard()
                         search()
                         $cache.set("oldTicketGateCode", $("trainNO").text)
-                        $cache.set("oldStation", $("departureStation").text)
+                        $cache.set("oldStation", $("departureStation_ticket").text)
                     }
                 }
             }, 
@@ -170,7 +170,7 @@ function showTicketGate() {
 
 function collapseKeyboard() {
     $("trainNO").blur()
-    $("departureStation").blur()
+    $("departureStation_ticket").blur()
     $("year").blur()
     $("month").blur()
     $("day").blur()
@@ -180,8 +180,8 @@ function collapseKeyboard() {
 function search() {
     var train_Code = $("trainNO").text.toUpperCase()
     $console.info(train_Code)
-    var departureStation = stationObject[$("departureStation").text]
-    $console.info(departureStation)
+    var departureStation_ticket = stationObject[$("departureStation_ticket").text]
+    $console.info(departureStation_ticket)
     var year = ($("year").text.length > 1) ? $("year").text : ("0" + $("year").text)
     var month = ($("month").text.length > 1) ? $("month").text : ("0" + $("month").text)
     var day = ($("day").text.length > 1) ? $("day").text : ("0" + $("day").text)
@@ -199,7 +199,7 @@ function search() {
         body: {
             trainDate: year + "-" + month + "-" + day,
             station_train_code: train_Code,
-            from_station_telecode: departureStation
+            from_station_telecode: departureStation_ticket
         },
         handler: function(resp) {
             $ui.loading(false)

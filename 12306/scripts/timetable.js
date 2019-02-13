@@ -1,4 +1,4 @@
-var station = $file.read('assets/station_names.json')
+var station = $file.read('assets/station_name.json')
 var train_C = $file.read('assets/C.json')
 var train_D = $file.read('assets/D.json')
 var train_G = $file.read('assets/G.json')

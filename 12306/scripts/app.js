@@ -1,8 +1,8 @@
 var ticketCheck = require('scripts/ticketCheck')
 var tool = require('scripts/tool')
-var station = $file.read('assets/station_names.json')
+var station = $file.read('assets/station_name.json')
 var stationObject = JSON.parse(station.string)
-var station_anti = $file.read('assets/station_names_anti.json')
+var station_anti = $file.read('assets/station_name_anti.json')
 var stationObject_anti = JSON.parse(station_anti.string)
 var stationList = require('scripts/stationList')
 

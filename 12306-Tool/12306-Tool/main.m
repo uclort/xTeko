@@ -89,76 +89,123 @@ int main(int argc, const char * argv[]) {
             }];
             
         } else {
+            /*
+            // 所有车站名称 js 文件处理
+             
+            NSString *path_ = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name.js";
+            // 将文件数据化
+            NSData *data = [[NSData alloc] initWithContentsOfFile:path_];
+            NSString *aString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            aString = [aString stringByReplacingOccurrencesOfString:@"var station_name ='" withString:@""];
+            aString = [aString stringByReplacingOccurrencesOfString:@"';" withString:@""];
+            NSArray *array = [aString componentsSeparatedByString:@"|"];
+            NSMutableArray *array_M = [NSMutableArray array];
+            NSMutableArray *array_M_Big = [NSMutableArray array];
             
+            for (int i = 0; i< array.count; i++) {
+                [array_M addObject:array[i]];
+                if ((i + 1) % 5 == 0 && i > 0) {
+                    [array_M_Big addObject:[array_M copy]];
+                    [array_M removeAllObjects];
+                }
+            }
+            
+            [array_M_Big enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                NSString *station_name = obj[1];
+                NSString *station_name_code = obj[2];
+                NSString *station_Name_pinyin = obj[3];
+                NSString *station_Name_suoxie = obj[4];
+                NSString *station_Name_pinyin_firstLetter = [[station_Name_pinyin substringToIndex:1] uppercaseString];
+                NSDictionary *station = @{@"station_name":station_name,
+                                          @"station_name_code":station_name_code,
+                                          @"station_Name_pinyin":station_Name_pinyin,
+                                          @"station_Name_suoxie":station_Name_suoxie,
+                                          @"station_Name_pinyin_firstLetter":station_Name_pinyin_firstLetter};
+                [array_M_Big replaceObjectAtIndex:idx withObject:station];
+            }];
+            NSString *station_name_all_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_all.json";
+            
+            NSData *station_name_jsonData = [NSJSONSerialization dataWithJSONObject:array_M_Big options:NSJSONWritingPrettyPrinted error:nil];
+            
+            NSString *station_name_jsonString = [[NSString alloc] initWithData:station_name_jsonData encoding:NSUTF8StringEncoding];
+            
+            if ([station_name_jsonString writeToFile:station_name_all_writePath atomically:true encoding:NSUTF8StringEncoding error:nil]) {
+                NSLog(@"写入成功");
+            }else {
+                NSLog(@"写入失败");
+            }
+            
+            return 0;
+            */
             
             // 获取文件
-            NSString *path = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_names.json";
-            // 将文件数据化
+            NSString *path = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_all.json";
             NSData *data = [[NSData alloc] initWithContentsOfFile:path];
             // 对数据进行JSON格式化并返回字典形式
-            id dataTuple = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-            
-            NSMutableDictionary *pinyinTuple = [NSMutableDictionary dictionary];
-            NSMutableDictionary *quanpinTuple = [NSMutableDictionary dictionary];
-            
-            [dataTuple enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-                //转成了可变字符串
-                NSMutableString *str = [NSMutableString stringWithString:key];
-                //先转换为带声调的拼音
-                CFStringTransform((CFMutableStringRef)str,NULL, kCFStringTransformMandarinLatin,NO);
-                //再转换为不带声调的拼音
-                CFStringTransform((CFMutableStringRef)str,NULL, kCFStringTransformStripDiacritics,NO);
-                //转化为大写拼音
-                NSString *pinYin = [[str capitalizedString] substringToIndex:1];
-                NSString *quanPin = [[str lowercaseString] stringByReplacingOccurrencesOfString:@" " withString:@""];
+            NSArray *dataTuple = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+
+            NSMutableDictionary *station_name_tuple = [NSMutableDictionary dictionary];
+            NSMutableDictionary *station_name_anti_tuple = [NSMutableDictionary dictionary];
+            NSMutableDictionary *station_name_section_tuple = [NSMutableDictionary dictionary];
+            NSMutableDictionary *station_name_section_quanpin_tuple = [NSMutableDictionary dictionary];
+
+            [dataTuple enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                NSString *station_name = obj[@"station_name"];
+                NSString *station_name_code = obj[@"station_name_code"];
+                NSString *station_Name_pinyin = obj[@"station_Name_pinyin"];
+                NSString *station_Name_suoxie = obj[@"station_Name_suoxie"];
+                NSString *station_Name_pinyin_firstLetter = obj[@"station_Name_pinyin_firstLetter"];
+                [station_name_tuple setValue:station_name_code forKey:station_name];
+                [station_name_anti_tuple setValue:station_name forKey:station_name_code];
                 
-                NSMutableArray *pinyinGroup = [NSMutableArray arrayWithArray:[pinyinTuple objectForKey:pinYin]];
+                NSMutableArray *station_Name_pinyin_group = [NSMutableArray arrayWithArray:[station_name_section_tuple objectForKey:station_Name_pinyin_firstLetter]];
+                [station_Name_pinyin_group addObject:station_name];
+                [station_name_section_tuple setValue:station_Name_pinyin_group forKey:station_Name_pinyin_firstLetter];
                 
-                NSMutableArray *quanpinGroup = [NSMutableArray arrayWithArray:[quanpinTuple objectForKey:pinYin]];
-                
-                [pinyinGroup addObject:key];
-                [quanpinGroup addObject:@[key, quanPin]];
-                [pinyinTuple setValue:pinyinGroup forKey:pinYin];
-                [quanpinTuple setValue:quanpinGroup forKey:pinYin];
-                
-                
+                NSMutableArray *station_Name_quanpin_group = [NSMutableArray arrayWithArray:[station_name_section_quanpin_tuple objectForKey:station_Name_pinyin_firstLetter]];
+                [station_Name_quanpin_group addObject:@[station_name, station_Name_pinyin, station_Name_suoxie]];
+                [station_name_section_quanpin_tuple setValue:station_Name_quanpin_group forKey:station_Name_pinyin_firstLetter];
             }];
-            
-            NSMutableArray *sortGroup = [NSMutableArray array];
-            NSMutableArray *indexGroup = [NSMutableArray array];
-            NSMutableArray *sortGroup_quanpin = [NSMutableArray array];
-            NSMutableArray *indexGroup_quanpin = [NSMutableArray array];
-            
-            for (NSString *str in @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"]) {
-                NSArray *sortGroupI = [pinyinTuple objectForKey:str];
-                if (sortGroupI) {
-                    [sortGroup addObject:@{@"title":str,@"rows":sortGroupI}];
-                    [indexGroup addObject:str];
+
+            NSMutableArray *station_Name_pinyin_sortGroup = [NSMutableArray array];
+            NSMutableArray *station_Name_pinyin_indexGroup = [NSMutableArray array];
+            NSMutableArray *station_Name_quanpin_sortGroup = [NSMutableArray array];
+            NSMutableArray *station_Name_quanpin_indexGroup = [NSMutableArray array];
+
+            for (NSString *word in @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"]) {
+                NSArray *station_Name_pinyin_sortGroupI = station_name_section_tuple[word];
+                NSArray *station_Name_quanpin_sortGroupI = station_name_section_quanpin_tuple[word];
+                if (station_Name_pinyin_sortGroupI) {
+                    [station_Name_pinyin_sortGroup addObject:@{@"title":word,@"rows":station_Name_pinyin_sortGroupI}];
+                    [station_Name_pinyin_indexGroup addObject:word];
+                    
+                    [station_Name_quanpin_sortGroup addObject:@{@"title":word,@"rows":station_Name_quanpin_sortGroupI}];
+                    [station_Name_quanpin_indexGroup addObject:word];
                 }
             }
+
+            NSDictionary *station_name_section_dataTuple = @{@"data":station_Name_pinyin_sortGroup,@"index":station_Name_pinyin_indexGroup};
+            NSDictionary *station_name_section_quanpin_dataTuple = @{@"data":station_Name_quanpin_sortGroup,@"index":station_Name_quanpin_indexGroup};
+
+            NSString *station_name_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name.json";
+            NSString *station_name_anti_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_anti.json";
+            NSString *station_name_section_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_section.json";
+            NSString *station_name_section_quanpin_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_section_quanpin.json";
             
-            for (NSString *str in @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"]) {
-                NSArray *sortGroupI = [quanpinTuple objectForKey:str];
-                if (sortGroupI) {
-                    [sortGroup_quanpin addObject:@{@"title":str,@"rows":sortGroupI}];
-                    [indexGroup_quanpin addObject:str];
-                }
-            }
+            NSData *station_name_jsonData = [NSJSONSerialization dataWithJSONObject:station_name_tuple options:NSJSONWritingPrettyPrinted error:nil];
+            NSData *station_name_anti_jsonData = [NSJSONSerialization dataWithJSONObject:station_name_anti_tuple options:NSJSONWritingPrettyPrinted error:nil];
+            NSData *station_name_section_jsonData = [NSJSONSerialization dataWithJSONObject:station_name_section_dataTuple options:NSJSONWritingPrettyPrinted error:nil];
+            NSData *station_name_section_quanpin_jsonData = [NSJSONSerialization dataWithJSONObject:station_name_section_quanpin_dataTuple options:NSJSONWritingPrettyPrinted error:nil];
             
-            NSDictionary *datatuple = @{@"data":sortGroup,@"index":indexGroup};
-            NSDictionary *datatuple_quanpin = @{@"data":sortGroup_quanpin,@"index":indexGroup_quanpin};
-            
-            NSString *writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_names_section.json";
-            NSString *writePath_qranpin = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_names_section_quanpin.json";
-            
-            NSData *jsonData = [NSJSONSerialization dataWithJSONObject:datatuple options:NSJSONWritingPrettyPrinted error:nil];
-            NSData *jsonData_quanpin = [NSJSONSerialization dataWithJSONObject:datatuple_quanpin options:NSJSONWritingPrettyPrinted error:nil];
-            
-            NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-            NSString *jsonString_quanpin = [[NSString alloc] initWithData:jsonData_quanpin encoding:NSUTF8StringEncoding];
-            
-            if ([jsonString writeToFile:writePath atomically:true encoding:NSUTF8StringEncoding error:nil] &&
-                [jsonString_quanpin writeToFile:writePath_qranpin atomically:true encoding:NSUTF8StringEncoding error:nil] ) {
+            NSString *station_name_jsonString = [[NSString alloc] initWithData:station_name_jsonData encoding:NSUTF8StringEncoding];
+            NSString *station_name_anti_jsonString = [[NSString alloc] initWithData:station_name_anti_jsonData encoding:NSUTF8StringEncoding];
+            NSString *station_name_section_jsonString = [[NSString alloc] initWithData:station_name_section_jsonData encoding:NSUTF8StringEncoding];
+            NSString *station_name_section_quanpin_jsonString = [[NSString alloc] initWithData:station_name_section_quanpin_jsonData encoding:NSUTF8StringEncoding];
+
+            if ([station_name_jsonString writeToFile:station_name_writePath atomically:true encoding:NSUTF8StringEncoding error:nil] &&
+                [station_name_anti_jsonString writeToFile:station_name_anti_writePath atomically:true encoding:NSUTF8StringEncoding error:nil] &&
+                [station_name_section_jsonString writeToFile:station_name_section_writePath atomically:true encoding:NSUTF8StringEncoding error:nil] &&
+                [station_name_section_quanpin_jsonString writeToFile:station_name_section_quanpin_writePath atomically:true encoding:NSUTF8StringEncoding error:nil]) {
                 NSLog(@"写入成功");
             }else {
                 NSLog(@"写入失败");
