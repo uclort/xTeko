@@ -83,3 +83,4 @@ function excessTicket(resultTuple) {
     // $console.info(excessTicketString)
     return excessTicketString.replace(/^\s+|\s+$/g, "");
 }
+

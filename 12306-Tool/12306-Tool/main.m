@@ -99,6 +99,7 @@ int main(int argc, const char * argv[]) {
             id dataTuple = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
             
             NSMutableDictionary *pinyinTuple = [NSMutableDictionary dictionary];
+            NSMutableDictionary *quanpinTuple = [NSMutableDictionary dictionary];
             
             [dataTuple enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
                 //转成了可变字符串
@@ -109,17 +110,24 @@ int main(int argc, const char * argv[]) {
                 CFStringTransform((CFMutableStringRef)str,NULL, kCFStringTransformStripDiacritics,NO);
                 //转化为大写拼音
                 NSString *pinYin = [[str capitalizedString] substringToIndex:1];
+                NSString *quanPin = [[str lowercaseString] stringByReplacingOccurrencesOfString:@" " withString:@""];
                 
                 NSMutableArray *pinyinGroup = [NSMutableArray arrayWithArray:[pinyinTuple objectForKey:pinYin]];
                 
-                [pinyinGroup addObject:key];
-                [pinyinTuple setValue:pinyinGroup forKey:pinYin];
+                NSMutableArray *quanpinGroup = [NSMutableArray arrayWithArray:[quanpinTuple objectForKey:pinYin]];
                 
-               
+                [pinyinGroup addObject:key];
+                [quanpinGroup addObject:@[key, quanPin]];
+                [pinyinTuple setValue:pinyinGroup forKey:pinYin];
+                [quanpinTuple setValue:quanpinGroup forKey:pinYin];
+                
+                
             }];
             
             NSMutableArray *sortGroup = [NSMutableArray array];
             NSMutableArray *indexGroup = [NSMutableArray array];
+            NSMutableArray *sortGroup_quanpin = [NSMutableArray array];
+            NSMutableArray *indexGroup_quanpin = [NSMutableArray array];
             
             for (NSString *str in @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"]) {
                 NSArray *sortGroupI = [pinyinTuple objectForKey:str];
@@ -129,15 +137,28 @@ int main(int argc, const char * argv[]) {
                 }
             }
             
+            for (NSString *str in @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"]) {
+                NSArray *sortGroupI = [quanpinTuple objectForKey:str];
+                if (sortGroupI) {
+                    [sortGroup_quanpin addObject:@{@"title":str,@"rows":sortGroupI}];
+                    [indexGroup_quanpin addObject:str];
+                }
+            }
+            
             NSDictionary *datatuple = @{@"data":sortGroup,@"index":indexGroup};
+            NSDictionary *datatuple_quanpin = @{@"data":sortGroup_quanpin,@"index":indexGroup_quanpin};
             
             NSString *writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_names_section.json";
+            NSString *writePath_qranpin = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_names_section_quanpin.json";
             
             NSData *jsonData = [NSJSONSerialization dataWithJSONObject:datatuple options:NSJSONWritingPrettyPrinted error:nil];
+            NSData *jsonData_quanpin = [NSJSONSerialization dataWithJSONObject:datatuple_quanpin options:NSJSONWritingPrettyPrinted error:nil];
             
             NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+            NSString *jsonString_quanpin = [[NSString alloc] initWithData:jsonData_quanpin encoding:NSUTF8StringEncoding];
             
-            if ([jsonString writeToFile:writePath atomically:true encoding:NSUTF8StringEncoding error:nil]) {
+            if ([jsonString writeToFile:writePath atomically:true encoding:NSUTF8StringEncoding error:nil] &&
+                [jsonString_quanpin writeToFile:writePath_qranpin atomically:true encoding:NSUTF8StringEncoding error:nil] ) {
                 NSLog(@"写入成功");
             }else {
                 NSLog(@"写入失败");

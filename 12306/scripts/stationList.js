@@ -1,5 +1,8 @@
 var stationSection_section = $file.read('assets/station_names_section.json')
 var stationSectionObject_anti = JSON.parse(stationSection_section.string)
+var stationSection_section_quanpin = $file.read('assets/station_names_section_quanpin.json')
+var stationSectionObject_anti_quanpin = JSON.parse(stationSection_section_quanpin.string)
+var tool = require('scripts/tool')
 var idString = ""
 
 module.exports = {
@@ -127,19 +130,30 @@ function contains(arrays, obj) {
 }
 
 function screeningContent(text) {
-    // $console.info(text);
+    // $console.info($text.convertToPinYin(text));
+
+    var textString = $text.convertToPinYin(text).replace(/\s+/g,"")
+    console.info(textString)
+
     $("search_view").hidden = (text != "")
 
     var newData = []
-    for (var i = 0, len = stationSectionObject_anti.data.length; i < len; i++) {
-        var title = stationSectionObject_anti.data[i].title
-        var rows = stationSectionObject_anti.data[i].rows
+    for (var i = 0, len = stationSectionObject_anti_quanpin.data.length; i < len; i++) {
+        var title = stationSectionObject_anti_quanpin.data[i].title
+        var rows = stationSectionObject_anti_quanpin.data[i].rows
         var newTuple = {}
         var newRows = []
         for (var ii = 0, lenlen = rows.length; ii < lenlen; ii++) {
-            var titleString = rows[ii]
-            var newTitle = new RegExp(text).test(titleString)
-            if (newTitle) {
+            // 车站名
+            var titleString = rows[ii][0]
+            // 车站名拼音
+            var titleStringNoSpace = rows[ii][1]
+            // console.info(titleStringNoSpace)
+            // 车站名是否和输入内容匹配
+            var chineseBool = new RegExp(text).test(titleString)
+            // 车站名拼音是否和输入内容匹配
+            var pinyinBool = new RegExp(textString).test(titleStringNoSpace)
+            if (chineseBool || pinyinBool) {
                 newRows.push(titleString)
             }
         }
