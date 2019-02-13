@@ -128,6 +128,7 @@ function contains(arrays, obj) {
 
 function screeningContent(text) {
     // $console.info(stationSectionObject_anti.data);
+    $("search_view").hidden = (text != "")
 
     var newData = []
     for (var i = 0, len = stationSectionObject_anti.data.length; i < len; i++) {
