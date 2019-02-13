@@ -25,6 +25,14 @@ function showStationList(id) {
                 make.top.equalTo(10)
                 make.left.inset(10)
                 make.height.equalTo(32)
+            },
+            events: {
+                changed: function(sender) {
+                    screeningContent(sender.text)
+                },
+                returned: function(sender) {
+                    $("station_list").blur()
+                }
             }
           },{
             type: "button",
@@ -116,4 +124,31 @@ function contains(arrays, obj) {
         }
     }
     return false;
+}
+
+function screeningContent(text) {
+    // $console.info(stationSectionObject_anti.data);
+
+    var newData = []
+    for (var i = 0, len = stationSectionObject_anti.data.length; i < len; i++) {
+        var title = stationSectionObject_anti.data[i].title
+        var rows = stationSectionObject_anti.data[i].rows
+        var newTuple = {}
+        var newRows = []
+        for (var ii = 0, lenlen = rows.length; ii < lenlen; ii++) { 
+            var titleString = rows[ii]
+            if(titleString.indexOf(text)!=-1){
+                // alert("包含");
+                newRows.push(titleString)
+            }
+        }
+        if (newRows.length > 1) {
+            newTuple["title"] = title
+            newTuple["rows"] = newRows
+            newData.push(newTuple)
+        }
+    }
+    $console.info(newData)
+	$("list").data = newData
+    
 }
