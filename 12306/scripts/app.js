@@ -203,22 +203,22 @@ function search() {
     var departureStation = stationObject[$("departureStation").text]
     var terminalStation = stationObject[$("terminalStation").text]
     var url = "https://kyfw.12306.cn/otn/leftTicket/queryZ?leftTicketDTO.train_date=" + year + "-" + month + "-" + day + "&leftTicketDTO.from_station=" + departureStation + "&leftTicketDTO.to_station=" + terminalStation + "&purpose_codes=ADULT"
-    $console.info(departureStation)
-    $console.info(terminalStation)
-    $console.info(url)
+    // $console.info(departureStation)
+    // $console.info(terminalStation)
+    // $console.info(url)
 
     $ui.loading(true)
     $http.request({
         method: "GET",
         url: url,
         handler: function(resp) {
-            $console.info(resp)
+            // $console.info(resp)
             $ui.loading(false)
             var resultGroup = resp.data.data.result.map(function(item) {
                 var resultTuple = item.split("|")
                 return { station_code: { text: resultTuple[3] }, site_name: { text: stationObject_anti[resultTuple[6]] + "-" + stationObject_anti[resultTuple[7]] }, total_time: { text: resultTuple[8] + "-" + resultTuple[9] }, stopover_time: { text: resultTuple[10] }, excess_ticket: { text: tool.excessTicket(resultTuple) } }
             })
-            $console.info(resultGroup)
+            // $console.info(resultGroup)
             ticketCheck.showTicketCheck()
             ticketCheck.giveData(resultGroup)
         }

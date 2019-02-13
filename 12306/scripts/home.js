@@ -1,4 +1,4 @@
-scriptVersion = 3.6
+scriptVersion = 3.7
 
 // 余票
 var app = require('scripts/app')
@@ -97,7 +97,6 @@ function checkupVersion() {
             var version = resp.data.version
             var message = resp.data.message
             var updateUrl = resp.data.updateUrl
-            $console.info(updateUrl);
             if (version > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",

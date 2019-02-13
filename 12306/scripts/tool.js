@@ -37,7 +37,7 @@ function currentDate() {
 function currentYear() {
     // 获取当前日期
     var date = new Date();
-    $console.info(date.getFullYear())
+    // $console.info(date.getFullYear())
     return date.getFullYear()
 }
 
@@ -51,7 +51,7 @@ function currentMonth() {
     if (nowMonth >= 1 && nowMonth <= 9) {
         nowMonth = "0" + nowMonth;
     }
-    $console.info(nowMonth)
+    // $console.info(nowMonth)
     return nowMonth
 }
 
@@ -64,7 +64,7 @@ function currentDay() {
     if (strDate >= 0 && strDate <= 9) {
         strDate = "0" + strDate;
     }
-    $console.info(strDate)
+    // $console.info(strDate)
     return strDate
 }
 
@@ -80,6 +80,6 @@ function excessTicket(resultTuple) {
     var hardSeat = (resultTuple[29] == "") ? "" : "     硬座:"
     var noSeat = (resultTuple[26] == "") ? "" : "       无座:"
     var excessTicketString = normalSeat + resultTuple[32] + firstClassSeat + resultTuple[31] + secondClass + resultTuple[30] + advancedSoftSleeper + resultTuple[21] + softSleeper + resultTuple[23] + moving + resultTuple[33] + hardSleeper + resultTuple[28] + softSeat + resultTuple[24] + hardSeat + resultTuple[29] + noSeat + resultTuple[26]
-    $console.info(excessTicketString)
+    // $console.info(excessTicketString)
     return excessTicketString.replace(/^\s+|\s+$/g, "");
 }
