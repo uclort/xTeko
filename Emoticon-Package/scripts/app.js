@@ -1,6 +1,6 @@
 var favorites = require('scripts/favorites')
 
-scriptVersion = 2.8
+scriptVersion = 2.9
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -335,9 +335,14 @@ function search() {
 }
 
 function resizedImage(image) {
-    var proportion = image.size.height / image.size.width
-    var newImage = image.resized($size(200, 200 * proportion))
-    return newImage
+    // if (image.size.height < 200 || image.size.width < 200) {
+    //     return image
+    // }
+    // var proportion = image.size.height / image.size.width
+    // var newImage = image.resized($size(200, 200 * proportion))
+    // return newImage
+
+    return image
 }
 
 function setPicData(data) {

@@ -1,5 +1,5 @@
 {
-    "version":2.8,
-    "message":"修复了一个不存在的 bug。",
+    "version":2.9,
+    "message":"取消复制到剪贴板裁剪尺寸，防止图片过于模糊",
     "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }
