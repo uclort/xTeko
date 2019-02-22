@@ -202,7 +202,8 @@ function search() {
 
     var departureStation = stationObject[$("departureStation").text]
     var terminalStation = stationObject[$("terminalStation").text]
-    var url = "https://kyfw.12306.cn/otn/leftTicket/queryX?leftTicketDTO.train_date=" + year + "-" + month + "-" + day + "&leftTicketDTO.from_station=" + departureStation + "&leftTicketDTO.to_station=" + terminalStation + "&purpose_codes=ADULT"
+    var excessTicketInquiryUrl = $cache.get("excessTicketInquiryUrl")
+    var url = excessTicketInquiryUrl + "?leftTicketDTO.train_date=" + year + "-" + month + "-" + day + "&leftTicketDTO.from_station=" + departureStation + "&leftTicketDTO.to_station=" + terminalStation + "&purpose_codes=ADULT"
     // $console.info(departureStation)
     // $console.info(terminalStation)
     // $console.info(url)
