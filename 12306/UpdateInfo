@@ -1,5 +1,5 @@
 {
-    "version":3.9,
-    "message":"3.9 - 列表筛选现在支持输入首字筛选(北京->bj)，不区分大小写\n3.8 - 列表筛选支持拼音\n3.7 - 修复筛选列表为一个的时候不显示的 Bug\n3.6 - 车站列表页首字母筛选增加隐藏条件\n3.5 - 车站列表页增加即时输入筛选，根据输入的内容筛选车站，暂时只支持中文",
+    "version":4.0,
+    "message":"余票查询接口又换了",
     "updateUrl":"jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_085.png"
 }
