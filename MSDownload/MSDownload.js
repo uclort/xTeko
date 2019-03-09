@@ -1,3 +1,4 @@
+scriptVersion = 1.0
 api = "http://moresound.tk/music/api.php?search="
 api2 = "http://moresound.tk/music/api.php?get_song="
 var cookie = ""
@@ -427,3 +428,35 @@ function openCloseSource() {
         })
     }
 }
+
+//检查版本
+function checkupVersion() {
+    $http.get({
+        url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/MSDownload/UpdateInfo",
+        handler: function (resp) {
+            $console.info(resp.data)
+            var version = resp.data.version;
+            var updateUrl = resp.data.updateUrl;
+            if (version > scriptVersion) {
+                $ui.alert({
+                    title: "发现新版本",
+                    message: message,
+                    actions: [{
+                        title: "忽略",
+                        handler: function () { }
+                    },
+                    {
+                        title: "更新",
+                        handler: function () {
+                            $app.openURL(encodeURI(updateUrl))
+                            $app.close()
+                        }
+                    }
+                    ]
+                })
+            }
+        }
+    })
+}
+
+checkupVersion()
