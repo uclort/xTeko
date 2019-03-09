@@ -440,7 +440,7 @@ function checkupVersion() {
             if (version > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",
-                    message: message,
+                    message: "发现新版本，是否更新",
                     actions: [{
                         title: "忽略",
                         handler: function () { }
