@@ -1,10 +1,18 @@
-scriptVersion = 1.0
+scriptVersion = 1.1
 api = "http://moresound.tk/music/api.php?search="
 api2 = "http://moresound.tk/music/api.php?get_song="
 var cookie = ""
 var source_cus = "qq"
 var fileName = ""
 var sourceView
+var downloadGroup = [
+    "FLAC",
+    "320MP3",
+    "192MP3",
+    "128MP3",
+    "MV",
+    "专辑封面"
+]
 
 $ui.render({
     props: {
@@ -38,6 +46,11 @@ $ui.render({
             make.left.equalTo($("button-source").right).offset(5)
             make.height.equalTo(44)
             make.top.inset(10)
+        },
+        events: {
+            returned: function(sender) {
+                searchMusic()
+            }
         }
     }, {
         type: "button",
@@ -79,7 +92,8 @@ $ui.render({
                     type: "web",
                     props: {
                         id: "song_name", // 歌名
-                        scrollEnabled: false
+                        scrollEnabled: false,
+                        userInteractionEnabled: false
                     },
                     layout: function (make, view) {
                         make.left.inset(10)
@@ -103,7 +117,7 @@ $ui.render({
                     },
                     layout: function (make, view) {
                         make.top.equalTo(view.super.centerY).offset(2.5)
-                        make.left.inset(30)
+                        make.left.inset(20)
                     }
                 }, {
                     type: "label",
@@ -164,7 +178,7 @@ $ui.render({
             },
             layout: function (make) {
                 make.top.left.inset(0)
-                make.height.equalTo(30)
+                make.height.equalTo(44)
                 make.width.equalTo(50)
             },
             events: {
@@ -183,7 +197,7 @@ $ui.render({
             layout: function (make) {
                 make.top.equalTo($("button-qq").bottom).offset(5)
                 make.left.inset(0)
-                make.height.equalTo(30)
+                make.height.equalTo(44)
                 make.width.equalTo(50)
             },
             events: {
@@ -202,7 +216,7 @@ $ui.render({
             layout: function (make) {
                 make.top.equalTo($("button-kw").bottom).offset(5)
                 make.left.inset(0)
-                make.height.equalTo(30)
+                make.height.equalTo(44)
                 make.width.equalTo(50)
             },
             events: {
@@ -221,7 +235,7 @@ $ui.render({
             layout: function (make) {
                 make.top.equalTo($("button-kg").bottom).offset(5)
                 make.left.inset(0)
-                make.height.equalTo(30)
+                make.height.equalTo(44)
                 make.width.equalTo(50)
             },
             events: {
@@ -240,7 +254,7 @@ $ui.render({
             layout: function (make) {
                 make.top.equalTo($("button-wy").bottom).offset(5)
                 make.left.inset(0)
-                make.height.equalTo(30)
+                make.height.equalTo(44)
                 make.width.equalTo(50)
             },
             events: {
@@ -317,7 +331,8 @@ function searchMusic() {
 function settingData(data) {
     var resultGroup = data["song_list"].map(function (item) {
         var songname_cus = "<header><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'></header>" + item.songname
-        return { time_long: { text: item.interval }, mid: { text: item.songmid }, singer_name: { text: item.singer[0]["name"] }, song_name: { html: songname_cus } }
+        var group = { time_long: { text: item.interval }, mid: { text: item.songmid.toString() }, singer_name: { text: item.singer[0]["name"] }, song_name: { html: songname_cus } }
+        return group
     })
     $("list").data = resultGroup
 }
@@ -341,7 +356,7 @@ function getMusicDetailData(mid) {
             var data = resp.data
             $console.info(data.url)
             $ui.menu({
-                items: Object.keys(data.url),
+                items: settingDownload(data.url),
                 handler: function (title, idx) {
                     var url = data.url[title]
                     var newStr = url.indexOf("http");
@@ -369,6 +384,16 @@ function getMusicDetailData(mid) {
             })
         }
     })
+}
+
+function settingDownload(urlGroup) {
+    var newDownloadGroup = []
+    downloadGroup.forEach(function (item) {
+        if (urlGroup.hasOwnProperty(item) == true) {
+            newDownloadGroup.push(item)
+        }
+    })
+    return newDownloadGroup
 }
 
 function downloadUrl(url, suffix) {
@@ -406,7 +431,7 @@ function downloadUrl(url, suffix) {
 $("input").focus()
 
 function openCloseSource() {
-    if ($("source-view").frame.height == 170) {
+    if ($("source-view").frame.height == 240) {
         $("source-view").updateLayout(function (make) {
             make.height.equalTo(0)
         })
@@ -418,7 +443,7 @@ function openCloseSource() {
         })
     } else {
         $("source-view").updateLayout(function (make) {
-            make.height.equalTo(170)
+            make.height.equalTo(240)
         })
         $ui.animate({
             duration: 0.4,
