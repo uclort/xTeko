@@ -1,4 +1,4 @@
-scriptVersion = 1.1
+scriptVersion = 1.2
 api = "http://moresound.tk/music/api.php?search="
 api2 = "http://moresound.tk/music/api.php?get_song="
 var cookie = ""
