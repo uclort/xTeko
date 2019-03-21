@@ -149,8 +149,6 @@ $ui.render({
         },
         events: {
             didSelect: function (sender, indexPath, data) {
-                $console.info(data.mid.text)
-                fileName = data.song_name.text
                 getMusicDetailData(data.mid.text)
             }
         }
@@ -354,7 +352,7 @@ function getMusicDetailData(mid) {
         handler: function (resp) {
             $("spinner").stop()
             var data = resp.data
-            $console.info(data.url)
+            fileName = data.song
             $ui.menu({
                 items: settingDownload(data.url),
                 handler: function (title, idx) {
