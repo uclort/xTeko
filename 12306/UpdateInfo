@@ -2,5 +2,5 @@
     "version":4.1,
     "message":"增加了余票查询接口的更改逻辑，下次不用更新版本了。😢",
     "updateUrl":"jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_085.png",
-    "excessTicketInquiryUrl":"https://kyfw.12306.cn/otn/leftTicket/queryX",
+    "excessTicketInquiryUrl":"https://kyfw.12306.cn/otn/leftTicket/query",
 }
