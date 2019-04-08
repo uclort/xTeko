@@ -1,4 +1,4 @@
-scriptVersion = 1.2
+scriptVersion = 1.3
 api = "http://moresound.tk/music/api.php?search="
 api2 = "http://moresound.tk/music/api.php?get_song="
 var cookie = ""
@@ -48,7 +48,8 @@ $ui.render({
             make.top.inset(10)
         },
         events: {
-            returned: function(sender) {
+            returned: function (sender) {
+                closeSource()
                 searchMusic()
             }
         }
@@ -67,6 +68,7 @@ $ui.render({
         },
         events: {
             tapped: function (sender) {
+                closeSource()
                 searchMusic()
             }
         }
@@ -262,6 +264,25 @@ $ui.render({
                     openCloseSource()
                 }
             }
+        }, {
+            type: "button",
+            props: {
+                id: "button-xm",
+                title: "虾米"
+            },
+            layout: function (make) {
+                make.top.equalTo($("button-bd").bottom).offset(5)
+                make.left.inset(0)
+                make.height.equalTo(44)
+                make.width.equalTo(50)
+            },
+            events: {
+                tapped: function (sender) {
+                    $("button-source").title = "虾米"
+                    source_cus = "xm"
+                    openCloseSource()
+                }
+            }
         }],
         layout: function (make) {
             make.left.inset(10)
@@ -279,7 +300,26 @@ function getToken() { // code = 1 获取 token 后自动搜索
         url: "http://moresound.tk/music/",
         handler: function (resp) {
             var data = resp.response
-            cookie = data.headers["Set-Cookie"]
+            $console.info(data);
+            let cookieGroupString = data.headers["Set-Cookie"]
+            $console.info(cookieGroupString);
+            let group = cookieGroupString.split(";")
+            for (var key in group) {
+                var newStr = group[key].indexOf("token=")
+                if (newStr != -1) {
+                    let cookieGroupString2 = group[key].split(",")
+                    $console.info(cookieGroupString2);
+                    for (var key in cookieGroupString2) {
+                        var newStr = cookieGroupString2[key].indexOf("token=")
+                        if (newStr != -1) {
+                            cookie = cookieGroupString2[key]
+                            cookie = cookie.replace(/\ +/g, "")
+                            cookie = cookie.replace(/[\r\n]/g, "")
+                            // $console.info(cookie);
+                        }
+                    }
+                }
+            }
             searchMusic(source_cus)
         }
     });
@@ -293,6 +333,7 @@ function searchMusic() {
     }
     $("input").blur()
     if (cookie == "") {
+        $console.info("nilnilnilnil");
         getToken()
         return
     } else {
@@ -316,10 +357,17 @@ function searchMusic() {
         handler: function (resp) {
             $("spinner").stop()
             var data = resp.data
+            $console.info(data)
             if (data.code == 1) {
-                getToken()
+                var newStr = data.msg.indexOf("缺少TOKEN")
+                if (newStr != -1) {
+                    $ui.toast("TOKEN 缺失，正在重新获取");
+                    getToken()
+                } else {
+                    $ui.toast(data.msg);
+                }
+                
             } else {
-                $console.info(data)
                 settingData(data)
             }
         }
@@ -429,7 +477,7 @@ function downloadUrl(url, suffix) {
 $("input").focus()
 
 function openCloseSource() {
-    if ($("source-view").frame.height == 240) {
+    if ($("source-view").frame.height == 289) {
         $("source-view").updateLayout(function (make) {
             make.height.equalTo(0)
         })
@@ -441,7 +489,7 @@ function openCloseSource() {
         })
     } else {
         $("source-view").updateLayout(function (make) {
-            make.height.equalTo(240)
+            make.height.equalTo(289)
         })
         $ui.animate({
             duration: 0.4,
@@ -451,6 +499,20 @@ function openCloseSource() {
         })
     }
 }
+function closeSource() {
+    if ($("source-view").frame.height == 289) {
+        $("source-view").updateLayout(function (make) {
+            make.height.equalTo(0)
+        })
+        $ui.animate({
+            duration: 0.4,
+            animation: function () {
+                $("source-view").relayout()
+            }
+        })
+    }
+}
+
 
 //检查版本
 function checkupVersion() {
