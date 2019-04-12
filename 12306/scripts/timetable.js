@@ -271,6 +271,7 @@ function search(object) {
         url: url,
         handler: function(resp) {
             $ui.loading(false)
+            $console.info(resp.data);
             format(resp.data.data.data, object[train_Code].departureStation + "-" + object[train_Code].terminalStation)
         }
     })

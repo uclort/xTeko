@@ -1,4 +1,4 @@
-scriptVersion = 4.1
+scriptVersion = 4.2
 
 // 余票
 var app = require('scripts/app')

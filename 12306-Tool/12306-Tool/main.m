@@ -7,9 +7,9 @@
 //
 
 /// 车次
-//#define FunctionType true
+#define FunctionType true
 /// 站名
-#define FunctionType false
+//#define FunctionType false
 
 #import <Foundation/Foundation.h>
 
@@ -69,10 +69,7 @@ int main(int argc, const char * argv[]) {
                     NSMutableDictionary *oldDataTupleM = [[NSMutableDictionary alloc] initWithDictionary:oldDataTuple];
                     
                     [trainTupleM enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-                        NSDictionary *trainData = [oldDataTupleM objectForKey:key];
-                        if (!trainData) {
-                            [oldDataTupleM setValue:obj forKey:key];
-                        }
+                        [oldDataTupleM setValue:obj forKey:key];
                     }];
                     
                     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:oldDataTupleM options:NSJSONWritingPrettyPrinted error:nil];
