@@ -32,7 +32,19 @@ int main(int argc, const char * argv[]) {
             
             [dataTuple enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
                 [obj enumerateKeysAndObjectsUsingBlock:^(NSString *key, NSArray *obj, BOOL * _Nonnull stop) {
+                    
+                    
+                    NSString *path = [NSString stringWithFormat:@"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/%@.json",key];
+                    
+                    // 将文件数据化
+                    NSData *oldData = [[NSData alloc] initWithContentsOfFile:path];
+                    // 对数据进行JSON格式化并返回字典形式
+                    id oldDataTuple = [NSJSONSerialization JSONObjectWithData:oldData options:kNilOptions error:nil];
+                    
+                    NSMutableDictionary *oldDataTupleM = [[NSMutableDictionary alloc] initWithDictionary:oldDataTuple];
+                    
                     __block NSMutableDictionary *trainTupleM = [NSMutableDictionary dictionary];
+                    
                     [obj enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
                         NSString *station_train_code = obj[@"station_train_code"];
                         
@@ -50,23 +62,33 @@ int main(int argc, const char * argv[]) {
                         
                         NSString *terminalStation = [station_train_code substringWithRange:NSMakeRange(centerLocation + 1, rightLocation - centerLocation - 1)];
                         
+                        NSDictionary *oldTrainTuple = [oldDataTupleM valueForKey:trainCode];
+                        
+                        NSMutableArray *otherTrainNoGroup = [NSMutableArray arrayWithArray:[oldTrainTuple valueForKey:@"otherTrainNoGroup"]];
+                        
+                        __block BOOL alreadyExists = false;
+                        [otherTrainNoGroup enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                            if ([obj isEqualToString:train_no]) {
+                                alreadyExists = true;
+                                *stop = true;
+                            }
+                        }];
+                        
+                        if (!alreadyExists) {
+                            [otherTrainNoGroup addObject:train_no];
+                        }
+                        
                         NSDictionary *trainTuple = @{
                                                      @"train_no":train_no,
                                                      @"trainCode":trainCode,
                                                      @"departureStation":departureStation,
-                                                     @"terminalStation":terminalStation
+                                                     @"terminalStation":terminalStation,
+                                                     @"otherTrainNoGroup":otherTrainNoGroup
                                                      };
+                        
+                        
                         [trainTupleM setObject:trainTuple forKey:trainCode];
                     }];
-                    
-                    NSString *path = [NSString stringWithFormat:@"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/%@.json",key];
-                    
-                    // 将文件数据化
-                    NSData *oldData = [[NSData alloc] initWithContentsOfFile:path];
-                    // 对数据进行JSON格式化并返回字典形式
-                    id oldDataTuple = [NSJSONSerialization JSONObjectWithData:oldData options:kNilOptions error:nil];
-                    
-                    NSMutableDictionary *oldDataTupleM = [[NSMutableDictionary alloc] initWithDictionary:oldDataTuple];
                     
                     [trainTupleM enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
                         [oldDataTupleM setValue:obj forKey:key];
