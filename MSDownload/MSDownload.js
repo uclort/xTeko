@@ -1,4 +1,4 @@
-scriptVersion = 1.3
+scriptVersion = 1.4
 api = "http://moresound.tk/music/api.php?search="
 api2 = "http://moresound.tk/music/api.php?get_song="
 var cookie = ""
@@ -301,25 +301,10 @@ function getToken() { // code = 1 获取 token 后自动搜索
         handler: function (resp) {
             var data = resp.response
             $console.info(data);
-            let cookieGroupString = data.headers["Set-Cookie"]
-            $console.info(cookieGroupString);
-            let group = cookieGroupString.split(";")
-            for (var key in group) {
-                var newStr = group[key].indexOf("token=")
-                if (newStr != -1) {
-                    let cookieGroupString2 = group[key].split(",")
-                    $console.info(cookieGroupString2);
-                    for (var key in cookieGroupString2) {
-                        var newStr = cookieGroupString2[key].indexOf("token=")
-                        if (newStr != -1) {
-                            cookie = cookieGroupString2[key]
-                            cookie = cookie.replace(/\ +/g, "")
-                            cookie = cookie.replace(/[\r\n]/g, "")
-                            // $console.info(cookie);
-                        }
-                    }
-                }
-            }
+            let set_Cookie = data.headers["Set-Cookie"]
+            let regex = /token=(\S*);/
+            cookie = "token=" + set_Cookie.match(regex)[1]
+            $console.info(cookie);
             searchMusic(source_cus)
         }
     });
@@ -366,7 +351,7 @@ function searchMusic() {
                 } else {
                     $ui.toast(data.msg);
                 }
-                
+
             } else {
                 settingData(data)
             }
