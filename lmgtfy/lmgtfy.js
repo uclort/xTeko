@@ -109,13 +109,20 @@ $ui.render({
         events: {
             tapped: function (sender) {
                 $("textContent").blur()
+                var textString = ""
+                textString = $("textContent").text
+                if (textString.length == 0) {
+                    $ui.toast("请先粘贴或键入搜索内容");
+                    return
+                }
                 generateSearchLinks($("textContent").text)
             }
         }
     }, {
         type: "button",
         props: {
-            title: "复制结果"
+            title: "复制结果",
+            id: "button-copy"
         },
         layout: function (make, view) {
             make.top.equalTo($("textResult").top).offset(10 + 85 * 0.5)
@@ -128,6 +135,67 @@ $ui.render({
                 $("textContent").blur()
                 $clipboard.text = $("textResult").text
                 $ui.toast("url 复制成功");
+            }
+        }
+    }, {
+        type: "button",
+        props: {
+            title: "X",
+            id: "button-x",
+            hidden: true
+        },
+        layout: function (make, view) {
+            make.top.equalTo($("textResult").bottom).offset(5)
+            make.left.equalTo($("button-copy"))
+            make.right.equalTo($("button-copy").centerX).offset(-2.5)
+            make.height.equalTo(85 * 0.5)
+        },
+        events: {
+            tapped: function (sender) {
+                $keyboard.delete()
+            }
+        }
+    }, {
+        type: "button",
+        props: {
+            title: "发送",
+            id: "button-send",
+            hidden: true
+        },
+        layout: function (make, view) {
+            make.top.equalTo($("textResult").bottom).offset(5)
+            make.right.equalTo($("button-copy"))
+            make.left.equalTo($("button-copy").centerX).offset(2.5)
+            make.height.equalTo(85 * 0.5)
+        },
+        events: {
+            tapped: function (sender) {
+                $("textContent").blur()
+                $keyboard.send()
+                $delay(0.1, function () {
+                    if ($keyboard.hasText) {
+                        $keyboard.delete()
+                    }
+                })
+            }
+        }
+    }, {
+        type: "button",
+        props: {
+            title: "上屏",
+            id: "button-screen",
+            hidden: true
+        },
+        layout: function (make, view) {
+            make.top.equalTo($("textResult").bottom).offset(5)
+            make.right.equalTo($("button-x").left).offset(-2.5)
+            make.width.equalTo($("button-x"))
+            make.height.equalTo(85 * 0.5)
+        },
+        events: {
+            tapped: function (sender) {
+                $("textContent").blur()
+                $keyboard.insert($("textResult").text)
             }
         }
     }
@@ -144,7 +212,7 @@ $ui.render({
         },
         events: {
             tapped: function (sender) {
-                if($("textResult").text.indexOf("http://t.cn/") > -1){
+                if ($("textResult").text.indexOf("http://t.cn/") > -1) {
                     $ui.alert({
                         title: "",
                         message: "是否展开短链接？",
@@ -153,7 +221,7 @@ $ui.render({
                                 title: "取消",
                                 disabled: false, // Optional
                                 handler: function () {
-    
+
                                 }
                             },
                             {
@@ -178,7 +246,7 @@ $ui.render({
                                 title: "取消",
                                 disabled: false, // Optional
                                 handler: function () {
-    
+
                                 }
                             },
                             {
@@ -195,7 +263,7 @@ $ui.render({
                         ]
                     });
                 }
-                
+
             }
         }
     }
@@ -205,25 +273,28 @@ $ui.render({
 function generateSearchLinks(searchContent) {
     var urlParameter = ""
     $ui.menu({
-        items: ["Google", "bing", "YAHOO", "Aol.", "Ask", "DuckDuckGo"],
+        items: ["Google", "Baidu", "Bing", "YAHOO", "Aol.", "Ask", "DuckDuckGo"],
         handler: function (title, idx) {
             switch (idx) {
                 case 0:
                     googleSearchType(searchContent)
                     return;
                 case 1:
+                    generateShortLinks("http://lmbtfy.cn/?q=" + searchContent)
+                    return;
+                case 2:
                     urlParameter = "s=b&q=" + searchContent
                     break;
-                case 2:
+                case 3:
                     urlParameter = "s=y&q=" + searchContent
                     break;
-                case 3:
+                case 4:
                     urlParameter = "s=a&q=" + searchContent
                     break;
-                case 4:
+                case 5:
                     urlParameter = "s=k&q=" + searchContent
                     break;
-                case 5:
+                case 6:
                     urlParameter = "s=d&q=" + searchContent
                     break;
             }
@@ -283,3 +354,8 @@ function generateShortLinks(searchPath) {
     })
 }
 
+if ($app.env == $env.keyboard) {
+    $("button-x").hidden = false
+    $("button-send").hidden = false
+    $("button-screen").hidden = false
+}
