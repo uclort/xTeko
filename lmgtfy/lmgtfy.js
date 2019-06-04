@@ -1,4 +1,5 @@
 searchDomainName = "http://zh.lmgtfy.com/?"
+detailedParameter = ""
 
 $ui.render({
     props: {
@@ -47,7 +48,8 @@ $ui.render({
     }, {
         type: "button",
         props: {
-            title: "清空"
+            title: "清空",
+            font: font(40)
         },
         layout: function (make, view) {
             make.top.equalTo($("textContent").top).offset(5)
@@ -198,7 +200,34 @@ $ui.render({
                 $keyboard.insert($("textResult").text)
             }
         }
-    }
+    },{
+        type: "switch",
+        props: {
+          on: false
+        },
+        layout: function(make, view) {
+            make.top.equalTo($("textResult").bottom).offset(5)
+            make.left.inset(10)
+        },
+        events: {
+            changed: function(sender) {
+                if (sender.on) {
+                    detailedParameter = "&iie=1"
+                } else {
+                    detailedParameter = ""
+                }
+            }
+        }
+      },{
+        type: "label",
+        props: {
+          text: "详细模式"
+        },
+        layout: function(make, view) {
+            make.centerY.equalTo($("switch"))
+            make.left.equalTo($("switch").right).offset (5)
+        }
+      }
         , {
         type: "button",
         props: {
@@ -345,6 +374,7 @@ function googleSearchType(searchContent) {
 }
 
 function generateShortLinks(searchPath) {
+    searchPath = searchPath + detailedParameter
     $console.info(searchPath);
     $http.shorten({
         url: encodeURI(searchPath),
@@ -358,4 +388,8 @@ if ($app.env == $env.keyboard) {
     $("button-x").hidden = false
     $("button-send").hidden = false
     $("button-screen").hidden = false
+}
+
+function font(size) {
+    return $objc("UIFont").invoke("systemFontOfSize", size).jsValue()
 }

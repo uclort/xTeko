@@ -1,6 +1,6 @@
 var favorites = require('scripts/favorites')
 
-scriptVersion = 2.9
+scriptVersion = 3.1
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -277,8 +277,8 @@ function save(resp, tag, url) {
                         break;
                     case 2: // 收藏
                         {
-                            var db = $sqlite.open("favorites.db");
-                            db.update("CREATE TABLE Favorites(url text, image BLOB)");
+                            var db = $sqlite.open("favorites.db")
+                            db.update("CREATE TABLE Favorites(url text, image BLOB)")
 
                             /// 查询
                             var rs = db.query({

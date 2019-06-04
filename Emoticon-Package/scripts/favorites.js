@@ -4,11 +4,50 @@ module.exports = {
     setPicData: setPicData
 }
 
+sortType = $cache.get("sortType")
+
 function showFavorites() {
+
+    // 0 倒序 1 正序
+    if (sortType != 0 && sortType != 1) {
+        sortType = 0
+        $cache.set("sortType", sortType)
+    }
+
     $ui.push({
         props: {
             id: "superView",
-            title: "收藏夹"
+            title: "收藏夹",
+            navButtons: [
+                {
+                    title: "排序",
+                    handler: function (sender) {
+                        var topTitle = ""
+                        var bottomTitle = ""
+                        if (sortType == 0) {
+                            topTitle = "倒序 √"
+                            bottomTitle = "正序"
+                        } else if (sortType ==1 ) {
+                            topTitle = "倒序"
+                            bottomTitle = "正序 √"
+                        }
+                        $ui.menu({
+                            items: [topTitle, bottomTitle],
+                            handler: function (title, idx) {
+                                if (idx == 0 && sortType != 0) {
+                                    sortType = 0
+                                    $cache.set("sortType", sortType)
+                                    setPicData()
+                                } else if (idx == 1 && sortType != 1) {
+                                    sortType = 1
+                                    $cache.set("sortType", sortType)
+                                    setPicData()
+                                }
+                            }
+                        });
+                    }
+                }
+            ]
         },
         views: [{
             type: "matrix",
@@ -126,8 +165,8 @@ function showFavorites() {
 
 
 function setPicData() {
-    $console.info("12");
-    var db = $sqlite.open("favorites.db");
+    var db = $sqlite.open("favorites.db")
+    db.update("CREATE TABLE Favorites(url text, image BLOB)")
     var object = db.query("SELECT * FROM Favorites");
     var result = object.result;
     var error = object.error;
@@ -135,17 +174,19 @@ function setPicData() {
     var dataTuple = [];
 
     while (result.next()) {
-        $console.info(result);
         var values = result.values;
-        dataTuple.push(values)
+        if (sortType == 0) { // 倒序
+            dataTuple.unshift(values)
+        } else { // 正序
+            dataTuple.push(values)
+        }
     }
-
     result.close();
+
     var sdfs = dataTuple.map(function (item) {
         return { image: { data: item.image }, label: { text: item.url } }
     })
 
-    $console.info(sdfs);
 
     if (sdfs.length == 0) {
         $("label-loading2").hidden = false
