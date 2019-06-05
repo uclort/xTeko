@@ -1,6 +1,7 @@
 var favorites = require('scripts/favorites')
+var tool = require('scripts/tool')
 
-scriptVersion = 3.1
+scriptVersion = 3.2
 
 /*  问题图片 url 集合 
     部分图片会造成本脚本崩溃，需要筛选出去
@@ -277,31 +278,7 @@ function save(resp, tag, url) {
                         break;
                     case 2: // 收藏
                         {
-                            var db = $sqlite.open("favorites.db")
-                            db.update("CREATE TABLE Favorites(url text, image BLOB)")
-
-                            /// 查询
-                            var rs = db.query({
-                                sql: "SELECT * FROM Favorites where url = ?",
-                                args: [url]
-                            });
-                            var result = rs.result;
-                            var urlKey = "";
-                            if (result.next()) {
-                                urlKey = result.get("url"); // Or result.get(0);
-                            }
-                            if (urlKey.length != 0) {
-                                $ui.toast("已经在收藏夹中");
-                            } else {
-                                $ui.toast("收藏成功");
-                                /// 存储
-                                db.update({
-                                    sql: "INSERT INTO Favorites values(?, ?)",
-                                    args: [url, resp]
-                                });
-                            }
-
-                            $sqlite.close(db);
+                            tool.setFavorites(url, resp)
                         }
                         break;
                 }
@@ -332,17 +309,6 @@ function search() {
             setPicData(data)
         }
     })
-}
-
-function resizedImage(image) {
-    // if (image.size.height < 200 || image.size.width < 200) {
-    //     return image
-    // }
-    // var proportion = image.size.height / image.size.width
-    // var newImage = image.resized($size(200, 200 * proportion))
-    // return newImage
-
-    return image
 }
 
 function setPicData(data) {
@@ -423,4 +389,4 @@ function speech() {
 
 module.exports = {
     renderOpen: renderOpen
-  }
+}

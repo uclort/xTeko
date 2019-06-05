@@ -1,5 +1,5 @@
 {
-    "version":3.1,
-    "message":"收藏夹增加排序选择、默认为倒序",
+    "version":3.2,
+    "message":"因为我能力不够，所以收藏夹不再使用数据库，改成缓存存储，会丢失之前收藏的所有表情。",
     "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }

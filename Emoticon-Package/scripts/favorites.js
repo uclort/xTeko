@@ -1,3 +1,4 @@
+var tool = require('scripts/tool')
 
 module.exports = {
     showFavorites: showFavorites,
@@ -79,53 +80,22 @@ function showFavorites() {
                                     switch (idx) {
                                         case 0: // 分享
                                             {
-
-                                                var db = $sqlite.open("favorites.db");
-
-                                                /// 查询
-                                                var rs = db.query({
-                                                    sql: "SELECT * FROM Favorites where url = ?",
-                                                    args: [sender.sender.text]
-                                                });
-                                                var result = rs.result;
-                                                var urlKey;
-                                                if (result.next()) {
-                                                    urlKey = result.get("image"); // Or result.get(0);
-                                                }
-                                                $share.sheet(resizedImage(urlKey.image))
+                                                $share.sheet(tool.getFavoritesData(sender.sender.text).image)
                                             }
                                             break;
                                         case 1: // 保存到相册
                                             {
-                                                var db = $sqlite.open("favorites.db");
-
-                                                /// 查询
-                                                var rs = db.query({
-                                                    sql: "SELECT * FROM Favorites where url = ?",
-                                                    args: [sender.sender.text]
-                                                });
-                                                var result = rs.result;
-                                                var urlKey;
-                                                if (result.next()) {
-                                                    urlKey = result.get("image"); // Or result.get(0);
-                                                }
                                                 $photo.save({
-                                                    data: urlKey,
+                                                    data: tool.getFavoritesData(sender.sender.text),
                                                     handler: function (success) {
                                                         $ui.toast("已经保存到相册")
                                                     }
                                                 })
                                             }
                                             break;
-                                        case 2: // 收藏
+                                        case 2: // 取消收藏
                                             {
-                                                var db = $sqlite.open("favorites.db");
-
-                                                db.update({
-                                                    sql: "DELETE FROM Favorites where url = ?",
-                                                    args: [sender.sender.text]
-                                                });
-                                                $sqlite.close(db);
+                                                tool.removeFavorites(sender.sender.text)
                                                 setPicData()
                                             }
                                             break;
@@ -141,9 +111,8 @@ function showFavorites() {
             },
             events: {
                 didSelect: function (sender, indexPath, object) {
-                    $clipboard.image = resizedImage(object.image.data.image)
+                    $clipboard.image = object.image.data.image
                     $ui.toast("已经复制到剪贴板")
-
                 }
             }
         }, {
@@ -165,42 +134,18 @@ function showFavorites() {
 
 
 function setPicData() {
-    var db = $sqlite.open("favorites.db")
-    db.update("CREATE TABLE Favorites(url text, image BLOB)")
-    var object = db.query("SELECT * FROM Favorites");
-    var result = object.result;
-    var error = object.error;
-
-    var dataTuple = [];
-
-    while (result.next()) {
-        var values = result.values;
-        if (sortType == 0) { // 倒序
-            dataTuple.unshift(values)
-        } else { // 正序
-            dataTuple.push(values)
-        }
-    }
-    result.close();
-
-    var sdfs = dataTuple.map(function (item) {
-        return { image: { data: item.image }, label: { text: item.url } }
+    var dataTuple = tool.favoritesItems(sortType)
+    var dataGroup = dataTuple.map(function (item) {
+        return { image: { data: item.value }, label: { text: item.key } }
     })
 
-
-    if (sdfs.length == 0) {
+    if (dataGroup.length == 0) {
         $("label-loading2").hidden = false
         return
     } else {
         $("label-loading2").hidden = true
     }
 
-    $("matrix-favorites").data = sdfs
+    $("matrix-favorites").data = dataGroup
 
-}
-
-function resizedImage(image) {
-    var proportion = image.size.height / image.size.width
-    var newImage = image.resized($size(200, 200 * proportion))
-    return newImage
 }
