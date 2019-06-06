@@ -1,7 +1,7 @@
 var favorites = require('scripts/favorites')
 var tool = require('scripts/tool')
 
-scriptVersion = 3.3
+scriptVersion = 3.5
 
 /*  长按图片和点击图片  
     0 保存到剪贴板 
@@ -377,14 +377,20 @@ module.exports = {
     renderOpen: renderOpen
 }
 
-// var exists = $file.exists("erots.json")
-// if (exists == false) {
+// var erotsJson = $file.exists("erots.json")
+// var erotsTxt = $file.exists("erots.txt")
+// if (erotsJson == false && erotsTxt == false) {
 //     $ui.alert({
 //         title: "提示",
 //         message: "检测到您使用的是非 Erots 脚本商店版本，因为脚本自带的更新机制已经取消，以后的更新都会通过 Erots 脚本商店发布，是否安装 Erots 脚本商店来获取以后的更新和其他优秀的插件？（此提示只弹出一次，点击忽略将不再弹出，除非在非 Erots 商店渠道重新安装此脚本）",
 //         actions: [{
 //             title: "忽略",
-//             handler: function () { }
+//             handler: function () {
+//                 $file.write({
+//                     data: $data({ string: "" }),
+//                     path: "erots.txt"
+//                 })
+//             }
 //         },
 //         {
 //             title: "安装",

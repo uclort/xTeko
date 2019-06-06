@@ -3,7 +3,8 @@ module.exports = {
     setFavorites: setFavorites,
     removeFavorites: removeFavorites,
     favoritesItems: favoritesItems,
-    getFavoritesData: getFavoritesData
+    getFavoritesData: getFavoritesData,
+    clearFavorites: clearFavorites
 }
 initialization()
 
@@ -49,6 +50,10 @@ function removeFavorites(url) {
         }
     }
     $cache.set("favorites", items);
+}
+
+function clearFavorites() {
+    $cache.set("favorites", [])
 }
 
 function favoritesItems(sortType) {
