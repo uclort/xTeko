@@ -19,35 +19,36 @@ function showFavorites() {
         props: {
             id: "superView",
             title: "收藏夹",
-            navButtons: [{
-                title: "排序",
-                handler: function (sender) {
+            navButtons: [
+            //     {
+            //     title: "排序",
+            //     handler: function (sender) {
                     
-                    var topTitle = ""
-                    var bottomTitle = ""
-                    if (sortType == 0) {
-                        topTitle = "倒序 √"
-                        bottomTitle = "正序"
-                    } else if (sortType ==1 ) {
-                        topTitle = "倒序"
-                        bottomTitle = "正序 √"
-                    }
-                    $ui.menu({
-                        items: [topTitle, bottomTitle],
-                        handler: function (title, idx) {
-                            if (idx == 0 && sortType != 0) {
-                                sortType = 0
-                                $cache.set("sortType", sortType)
-                                setPicData()
-                            } else if (idx == 1 && sortType != 1) {
-                                sortType = 1
-                                $cache.set("sortType", sortType)
-                                setPicData()
-                            }
-                        }
-                    });
-                }
-            },
+            //         var topTitle = ""
+            //         var bottomTitle = ""
+            //         if (sortType == 0) {
+            //             topTitle = "倒序 √"
+            //             bottomTitle = "正序"
+            //         } else if (sortType ==1 ) {
+            //             topTitle = "倒序"
+            //             bottomTitle = "正序 √"
+            //         }
+            //         $ui.menu({
+            //             items: [topTitle, bottomTitle],
+            //             handler: function (title, idx) {
+            //                 if (idx == 0 && sortType != 0) {
+            //                     sortType = 0
+            //                     $cache.set("sortType", sortType)
+            //                     setPicData()
+            //                 } else if (idx == 1 && sortType != 1) {
+            //                     sortType = 1
+            //                     $cache.set("sortType", sortType)
+            //                     setPicData()
+            //                 }
+            //             }
+            //         });
+            //     }
+            // },
                 {
                     title: "导出&导入",
                     handler: function (sender) {
@@ -63,7 +64,7 @@ function showFavorites() {
                                 if (idx == 0) { // 导入
                                     $drive.open({
                                         handler: function (data) {
-
+                                            $console.info(data);
                                             var dataTuple = tool.favoritesItems(sortType)
                                             if (dataTuple.length > 0) {
                                                 $ui.alert({
@@ -85,6 +86,8 @@ function showFavorites() {
                                                         }
                                                     ]
                                                 });
+                                            } else {
+                                                importPic(data, 0)
                                             }
                                         }
                                     })

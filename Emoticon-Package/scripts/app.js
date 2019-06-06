@@ -1,7 +1,7 @@
 var favorites = require('scripts/favorites')
 var tool = require('scripts/tool')
 
-scriptVersion = 3.5
+scriptVersion = 3.6
 
 /*  长按图片和点击图片  
     0 保存到剪贴板 
