@@ -1,13 +1,7 @@
 var favorites = require('scripts/favorites')
 var tool = require('scripts/tool')
 
-scriptVersion = 3.2
-
-/*  问题图片 url 集合 
-    部分图片会造成本脚本崩溃，需要筛选出去
-    只能自己排查问题图片 url
-*/
-var errorGroup = ["https://ws3.sinaimg.cn/bmiddle/9150e4e5ly1fllhhqjon9g206o06otfv.gif"]
+scriptVersion = 3.3
 
 /*  长按图片和点击图片  
     0 保存到剪贴板 
@@ -253,7 +247,7 @@ function renderOpen() {
 
 function save(resp, tag, url) {
     if (tag == 0) {
-        $clipboard.image = resizedImage(resp.image)
+        $clipboard.image = resp.image
         $ui.toast("已经复制到剪贴板")
     } else {
 
@@ -263,7 +257,7 @@ function save(resp, tag, url) {
                 switch (idx) {
                     case 0: // 分享
                         {
-                            $share.sheet(resizedImage(resp.image))
+                            $share.sheet(resp.image)
                         }
                         break;
                     case 1: // 保存到相册
@@ -323,14 +317,6 @@ function setPicData(data) {
         return imageUrl
     })
 
-    for (var i = 0, l = errorGroup.length; i < l; i++) {
-        var errorString = errorGroup[i];
-        for (var j = 0, len = dataTuple.length; j < len; j++) {
-            if (dataTuple[j] == errorString) {
-                dataTuple.splice(j, 1)
-            }
-        }
-    }
     var sdfs = dataTuple.map(function (item) {
         return { image: { src: item }, label: { text: item } }
     })
@@ -390,3 +376,23 @@ function speech() {
 module.exports = {
     renderOpen: renderOpen
 }
+
+// var exists = $file.exists("erots.json")
+// if (exists == false) {
+//     $ui.alert({
+//         title: "提示",
+//         message: "检测到您使用的是非 Erots 脚本商店版本，因为脚本自带的更新机制已经取消，以后的更新都会通过 Erots 脚本商店发布，是否安装 Erots 脚本商店来获取以后的更新和其他优秀的插件？（此提示只弹出一次，点击忽略将不再弹出，除非在非 Erots 商店渠道重新安装此脚本）",
+//         actions: [{
+//             title: "忽略",
+//             handler: function () { }
+//         },
+//         {
+//             title: "安装",
+//             handler: function () {
+//                 $app.openURL("jsbox://import?name=Erots&url=https%3A%2F%2Fgithub.com%2FLiuGuoGY%2FJSBox-addins%2Fraw%2Fmaster%2FErots%2F.output%2FErots.box")
+//                 $app.close()
+//             }
+//         }
+//         ]
+//     });
+// }
