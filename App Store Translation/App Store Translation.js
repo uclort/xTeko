@@ -1,6 +1,10 @@
+/**erots
+id: 5cea8d75d5de2b0070730938
+build: 3
+*/
 /*
-version-1.2-version
-updateContent-更换了字体和颜色，更加美观-updateContent
+version-1.3-version
+updateContent-去除脚本自动检查更新，以后的更新依赖于 Erots 脚本商店，本次更新之后打开脚本会提示安装 Erots 脚本商店。-updateContent
 installUrl-jsbox://import?name=App Store Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
 */
 
@@ -17,7 +21,6 @@ var updateContentGroup = [], descriptionContentGroup = []
 var translationStep = 1
 
 var link = $context.link
-// var link = "https://itunes.apple.com/jp/app/%E3%83%AD%E3%83%BC%E3%83%89%E3%82%AA%E3%83%96%E3%83%8A%E3%82%A4%E3%83%84-%E6%88%A6%E7%95%A5-%E6%88%A6%E4%BA%89-%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/id477396335?l=en&mt=8"
 
 // 记录震动反馈，如果已经震动则不重复震动，除非从非满足条件到满足条件
 var VFBool = false
@@ -151,29 +154,6 @@ function googleTran(text, descriptionC) {
       }
     }
   })
-
-
-  /* 暂停使用
-  let url = encodeURI("https://translate.google.cn/translate_a/single?client=webapp&sl=auto&tl=zh-CN&hl=zh-CN&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&source=bh&pc=1&otf=1&ssel=0&tsel=0&kc=1&tk=" + tk(text, tkkNumber) + "&q=" + text)
-  $console.info(url);
-  $http.get({
-    url: url,
-    handler: function (resp) {
-      var data = resp.data
-      $console.info(resp.error);
-      var dataFirst = [];
-      dataFirst = data[0]
-      var sentences = ""
-      for (var i = 0, l = dataFirst.length; i < l; i++) {
-        let dataCurrent = dataFirst[i]
-        let firstString = dataCurrent[0]
-        sentences = sentences + firstString
-        $console.info(sentences);
-      }
-      show(sentences)
-    }
-  })
-  */
 }
 
 
@@ -388,55 +368,69 @@ function updateAddin(app) {
   })
 }
 
-// function tkk() {
-//   $ui.loading("正在获取翻译参数...");
-//   $http.get({
-//     url: "https://translate.google.cn",
-//     handler: function (resp) {
-//       $ui.loading(false);
-//       var data = resp.data;
-//       var regex = /tkk:'\d+.\d+'/;
-//       var tkkString = data.match(regex)[0];
-//       tkkNumber = tkkString.match(/\d+.\d+/)[0];
-//       $console.info("原始 TKK:" + tkkNumber);
-//       if (appid && tkkNumber) {
-//         lookup(appid)
-//       }
-//     }
-//   });
-// }
-
-// if (($app.env == $env.action) && appid) {
-// tkk()
-// } else {
-//   $ui.alert({
-//     title: "环境错误",
-//     message: "请在 App Store 应用详情页分享打开此脚本",
-//   });
-// }
-
-function b(a, b) {
-  for (var d = 0; d < b.length - 2; d += 3) {
-    var c = b.charAt(d + 2),
-      c = "a" <= c ? c.charCodeAt(0) - 87 : Number(c),
-      c = "+" == b.charAt(d + 1) ? a >>> c : a << c;
-    a = "+" == b.charAt(d) ? a + c & 4294967295 : a ^ c
-  }
-  return a
+var erotsTxt = $file.exists("erots.txt")
+if (erotsInstall() == false && erotsTxt == false) {
+    $ui.alert({
+        title: "提示",
+        message: "您尚未安装 Erots 脚本商店，此脚本已取消自动更新机制，以后的更新都在 Erots 脚本商店中发布，是否安装 Erots 脚本商店？（点击忽略则以后不再提示）",
+        actions: [{
+            title: "忽略",
+            handler: function () {
+                $file.write({
+                    data: $data({ string: "" }),
+                    path: "erots.txt"
+                })
+            }
+        },
+        {
+            title: "安装",
+            handler: function () {
+                $ui.loading(true);
+                $http.download({
+                    url: "https://github.com/LiuGuoGY/JSBox-addins/raw/master/Erots/.output/Erots.box?raw=true",
+                    showsProgress: false,
+                    timeout: 5,
+                    progress: function (bytesWritten, totalBytes) {
+                        var percentage = bytesWritten * 1.0 / totalBytes
+                        $ui.progress(percentage, "下载中...")
+                    },
+                    handler: function (resp) {
+                        var file = resp.data;
+                        $addin.save({
+                            name: "Erots",
+                            data: file,
+                            handler: function (success) {
+                                $ui.loading(false);
+                                $ui.alert({
+                                    title: "安装完成",
+                                    actions: [{
+                                        title: "确定",
+                                        handler: function () {
+                                            if ($app.env = $env.app) {
+                                                $addin.run("Erots")
+                                            }
+                                        }
+                                    }],
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+        }
+        ]
+    });
 }
 
-function tk(a, TKK) {
-  for (var e = TKK.split("."), h = Number(e[0]) || 0, g = [], d = 0, f = 0; f < a.length; f++) {
-    var c = a.charCodeAt(f);
-    128 > c ? g[d++] = c : (2048 > c ? g[d++] = c >> 6 | 192 : (55296 == (c & 64512) && f + 1 < a.length && 56320 == (a.charCodeAt(f + 1) & 64512) ? (c = 65536 + ((c & 1023) << 10) + (a.charCodeAt(++f) & 1023), g[d++] = c >> 18 | 240, g[d++] = c >> 12 & 63 | 128) : g[d++] = c >> 12 | 224, g[d++] = c >> 6 & 63 | 128), g[d++] = c & 63 | 128)
-  }
-  a = h;
-  for (d = 0; d < g.length; d++) a += g[d], a = b(a, "+-a^+6");
-  a = b(a, "+-3^+b+-f");
-  a ^= Number(e[1]) || 0;
-  0 > a && (a = (a & 2147483647) + 2147483648);
-  a %= 1E6;
-  var tkkkkkkk = a.toString() + "." + (a ^ h)
-  $console.info("最终 tk:" + tkkkkkkk);
-  return tkkkkkkk
+function erotsInstall() {
+    var addins = $addin.list
+    let i = addins.length
+    while (i--) {
+        let item = addins[i]
+        let name = item.name
+        if (name == "Erots") {
+            return true
+        }
+    }
+    return false
 }
