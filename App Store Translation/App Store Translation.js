@@ -1,11 +1,11 @@
 /*
-version-1.4-version
+version-1.5-version
 updateContent-去除脚本自动检查更新，以后的更新依赖于 Erots 脚本商店，本次更新之后打开脚本会提示安装 Erots 脚本商店。-updateContent
 installUrl-jsbox://import?name=App Store Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
 */
 /**erots
 id: 5cea8d75d5de2b0070730938
-build: 4
+build: 5
 */
 
 // var tkkNumber = ""
@@ -49,7 +49,76 @@ if (($app.env == $env.action) && link) {
     lookup(appid, region)
   }
 } else if ($app.env == $env.app) {
-  // checkupVerAsion()
+  if (erotsInstall() == false && erotsInstall2() == false) {
+    $ui.alert({
+      title: "提示",
+      message: "您尚未安装 Erots 脚本商店，此脚本已取消自动更新机制，以后的更新都在 Erots 脚本商店中发布，是否安装 Erots 脚本商店？（点击忽略则以后不再提示）",
+      actions: [{
+        title: "忽略",
+        handler: function () {
+          let data = $addin.current.data.string
+          let newData = "//install" + "Erots\n" + data
+          var newDatata = $data({
+            string: newData
+          })
+          $addin.save({
+            name: "App Store Translation",
+            data: newDatata
+          });
+        }
+      },
+      {
+        title: "安装",
+        handler: function () {
+          $ui.loading(true);
+          $http.download({
+            url: "https://github.com/LiuGuoGY/JSBox-addins/raw/master/Erots/.output/Erots.box?raw=true",
+            showsProgress: false,
+            timeout: 5,
+            progress: function (bytesWritten, totalBytes) {
+              var percentage = bytesWritten * 1.0 / totalBytes
+              $ui.progress(percentage, "下载中...")
+            },
+            handler: function (resp) {
+              var file = resp.data;
+              $addin.save({
+                name: "Erots",
+                data: file,
+                handler: function (success) {
+                  $ui.loading(false);
+                  $ui.alert({
+                    title: "安装完成",
+                    actions: [{
+                      title: "确定",
+                      handler: function () {
+                        if ($app.env = $env.app) {
+                          $addin.run("Erots")
+                        }
+                      }
+                    }],
+                  });
+                }
+              });
+            }
+          });
+        }
+      }
+      ]
+    });
+  } else {
+    $ui.alert({
+      title: "环境错误",
+      message: "请在 App Store 应用详情页分享运行此脚本",
+      actions: [
+        {
+          title: "我知道了",
+          disabled: false, // Optional
+          handler: function () {
+          }
+        }
+      ]
+    })
+  }
 } else {
   $ui.alert({
     title: "环境错误",
@@ -260,6 +329,7 @@ function show(updateSentences, descriptionSentences) {
 
 //检查版本
 function checkupVersion() {
+  return
   $ui.loading("正在检查更新...");
   $http.download({
     url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js",
@@ -367,63 +437,7 @@ function updateAddin(app) {
   })
 }
 
-if (erotsInstall() == false && erotsInstall2() == false) {
-  $ui.alert({
-    title: "提示",
-    message: "您尚未安装 Erots 脚本商店，此脚本已取消自动更新机制，以后的更新都在 Erots 脚本商店中发布，是否安装 Erots 脚本商店？（点击忽略则以后不再提示）",
-    actions: [{
-      title: "忽略",
-      handler: function () {
-        let data = $addin.current.data.string
-        let newData = "//install" + "Erots\n" + data
-        var newDatata = $data({
-          string: newData
-        })
-        $addin.save({
-          name: "App Store Translation",
-          data: newDatata
-        });
-      }
-    },
-    {
-      title: "安装",
-      handler: function () {
-        $ui.loading(true);
-        $http.download({
-          url: "https://github.com/LiuGuoGY/JSBox-addins/raw/master/Erots/.output/Erots.box?raw=true",
-          showsProgress: false,
-          timeout: 5,
-          progress: function (bytesWritten, totalBytes) {
-            var percentage = bytesWritten * 1.0 / totalBytes
-            $ui.progress(percentage, "下载中...")
-          },
-          handler: function (resp) {
-            var file = resp.data;
-            $addin.save({
-              name: "Erots",
-              data: file,
-              handler: function (success) {
-                $ui.loading(false);
-                $ui.alert({
-                  title: "安装完成",
-                  actions: [{
-                    title: "确定",
-                    handler: function () {
-                      if ($app.env = $env.app) {
-                        $addin.run("Erots")
-                      }
-                    }
-                  }],
-                });
-              }
-            });
-          }
-        });
-      }
-    }
-    ]
-  });
-}
+
 
 function erotsInstall() {
   var addins = $addin.list
