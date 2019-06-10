@@ -1,13 +1,12 @@
-/**erots
-id: 5cea8d75d5de2b0070730938
-build: 3
-*/
 /*
-version-1.3-version
+version-1.4-version
 updateContent-去除脚本自动检查更新，以后的更新依赖于 Erots 脚本商店，本次更新之后打开脚本会提示安装 Erots 脚本商店。-updateContent
 installUrl-jsbox://import?name=App Store Translation&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js&icon=icon_162.png-installUrl
 */
-
+/**erots
+id: 5cea8d75d5de2b0070730938
+build: 4
+*/
 
 // var tkkNumber = ""
 // 更新内容 软件简介
@@ -25,7 +24,7 @@ var link = $context.link
 // 记录震动反馈，如果已经震动则不重复震动，除非从非满足条件到满足条件
 var VFBool = false
 
-updateTitleFont = $font("BodoniSvtyTwoOSITCTT-Bold", 20) 
+updateTitleFont = $font("BodoniSvtyTwoOSITCTT-Bold", 20)
 updateContentFont = $font("AppleSDGothicNeo-Bold", 16)
 introductionTitleFont = updateTitleFont
 introductionContentFont = updateContentFont
@@ -50,7 +49,7 @@ if (($app.env == $env.action) && link) {
     lookup(appid, region)
   }
 } else if ($app.env == $env.app) {
-  checkupVersion()
+  // checkupVerAsion()
 } else {
   $ui.alert({
     title: "环境错误",
@@ -266,7 +265,7 @@ function checkupVersion() {
     url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/App%20Store%20Translation/App%20Store%20Translation.js",
     showsProgress: false,
     timeout: 5,
-    handler: function(resp) {
+    handler: function (resp) {
       $ui.loading(false);
       let newData = resp.data.string
       $console.info(newData);
@@ -347,90 +346,102 @@ function updateAddin(app) {
     name: currentName(),
     data: app,
     icon: $addin.current.icon,
-    handler: function(success) {
-      if(success) {
+    handler: function (success) {
+      if (success) {
         $device.taptic(2)
-        $delay(0.15, function() {
+        $delay(0.15, function () {
           $device.taptic(2)
         })
         $ui.alert({
           title: "升级完成",
           actions: [{
-              title: "OK",
-              handler: function() {
-                $app.openExtension($addin.current.name)
-              }
+            title: "OK",
+            handler: function () {
+              $app.openExtension($addin.current.name)
             }
+          }
           ]
         })
-      }   
+      }
     }
   })
 }
 
-var erotsTxt = $file.exists("erots.txt")
-if (erotsInstall() == false && erotsTxt == false) {
-    $ui.alert({
-        title: "提示",
-        message: "您尚未安装 Erots 脚本商店，此脚本已取消自动更新机制，以后的更新都在 Erots 脚本商店中发布，是否安装 Erots 脚本商店？（点击忽略则以后不再提示）",
-        actions: [{
-            title: "忽略",
-            handler: function () {
-                $file.write({
-                    data: $data({ string: "" }),
-                    path: "erots.txt"
-                })
-            }
-        },
-        {
-            title: "安装",
-            handler: function () {
-                $ui.loading(true);
-                $http.download({
-                    url: "https://github.com/LiuGuoGY/JSBox-addins/raw/master/Erots/.output/Erots.box?raw=true",
-                    showsProgress: false,
-                    timeout: 5,
-                    progress: function (bytesWritten, totalBytes) {
-                        var percentage = bytesWritten * 1.0 / totalBytes
-                        $ui.progress(percentage, "下载中...")
-                    },
-                    handler: function (resp) {
-                        var file = resp.data;
-                        $addin.save({
-                            name: "Erots",
-                            data: file,
-                            handler: function (success) {
-                                $ui.loading(false);
-                                $ui.alert({
-                                    title: "安装完成",
-                                    actions: [{
-                                        title: "确定",
-                                        handler: function () {
-                                            if ($app.env = $env.app) {
-                                                $addin.run("Erots")
-                                            }
-                                        }
-                                    }],
-                                });
-                            }
-                        });
+if (erotsInstall() == false && erotsInstall2() == false) {
+  $ui.alert({
+    title: "提示",
+    message: "您尚未安装 Erots 脚本商店，此脚本已取消自动更新机制，以后的更新都在 Erots 脚本商店中发布，是否安装 Erots 脚本商店？（点击忽略则以后不再提示）",
+    actions: [{
+      title: "忽略",
+      handler: function () {
+        let data = $addin.current.data.string
+        let newData = "//install" + "Erots\n" + data
+        var newDatata = $data({
+          string: newData
+        })
+        $addin.save({
+          name: "App Store Translation",
+          data: newDatata
+        });
+      }
+    },
+    {
+      title: "安装",
+      handler: function () {
+        $ui.loading(true);
+        $http.download({
+          url: "https://github.com/LiuGuoGY/JSBox-addins/raw/master/Erots/.output/Erots.box?raw=true",
+          showsProgress: false,
+          timeout: 5,
+          progress: function (bytesWritten, totalBytes) {
+            var percentage = bytesWritten * 1.0 / totalBytes
+            $ui.progress(percentage, "下载中...")
+          },
+          handler: function (resp) {
+            var file = resp.data;
+            $addin.save({
+              name: "Erots",
+              data: file,
+              handler: function (success) {
+                $ui.loading(false);
+                $ui.alert({
+                  title: "安装完成",
+                  actions: [{
+                    title: "确定",
+                    handler: function () {
+                      if ($app.env = $env.app) {
+                        $addin.run("Erots")
+                      }
                     }
+                  }],
                 });
-            }
-        }
-        ]
-    });
+              }
+            });
+          }
+        });
+      }
+    }
+    ]
+  });
 }
 
 function erotsInstall() {
-    var addins = $addin.list
-    let i = addins.length
-    while (i--) {
-        let item = addins[i]
-        let name = item.name
-        if (name == "Erots") {
-            return true
-        }
+  var addins = $addin.list
+  let i = addins.length
+  while (i--) {
+    let item = addins[i]
+    let name = item.name
+    if (name == "Erots") {
+      return true
     }
+  }
+  return false
+}
+function erotsInstall2() {
+  var dataString = $addin.current.data.string
+  if (dataString.indexOf("install" + "Erots") != -1) {
+    return true
+  } else {
     return false
+  }
 }
