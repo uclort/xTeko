@@ -375,7 +375,8 @@ if ($app.env == $env.keyboard) {
     checkupVersion()
 }
 
-if (erotsInstall() == false) {
+var erotsTxt = $file.exists("erots.txt")
+if (erotsInstall() == false && erotsTxt == false) {
     $ui.alert({
         title: "提示",
         message: "您尚未安装 Erots 脚本商店，此脚本已取消自动更新机制，以后的更新都在 Erots 脚本商店中发布，是否安装 Erots 脚本商店？（点击忽略则以后不再提示）",

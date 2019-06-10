@@ -48,8 +48,7 @@ $ui.render({
     }, {
         type: "button",
         props: {
-            title: "清空",
-            font: font(40)
+            title: "清空"
         },
         layout: function (make, view) {
             make.top.equalTo($("textContent").top).offset(5)
@@ -78,7 +77,11 @@ $ui.render({
         events: {
             tapped: function (sender) {
                 $("textContent").blur()
-                $("textContent").text = $clipboard.text
+                if ($clipboard.text) {
+                    $("textContent").text = $clipboard.text
+                } else {
+                    $ui.error("剪贴板没有内容")
+                }
             }
         }
     }, {
@@ -114,7 +117,7 @@ $ui.render({
                 var textString = ""
                 textString = $("textContent").text
                 if (textString.length == 0) {
-                    $ui.toast("请先粘贴或键入搜索内容");
+                    $ui.error("请先粘贴或键入搜索内容");
                     return
                 }
                 generateSearchLinks($("textContent").text)
