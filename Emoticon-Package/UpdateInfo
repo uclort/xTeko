@@ -1,5 +1,5 @@
 {
-    "version":3.6,
-    "message":"收藏夹增加导入&导出功能，导出 db 文件，导入会打开系统的“文件” app 来选择已经导出的 db 文件，所以请提前把 db 文件存放到“文件” app 可以访问到的位置。",
+    "version":4.0,
+    "message":"去除脚本自动检查更新，以后的更新依赖于 Erots 脚本商店，本次更新之后打开脚本会提示安装 Erots 脚本商店。",
     "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
 }

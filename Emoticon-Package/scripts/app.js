@@ -1,7 +1,12 @@
+
+module.exports = {
+    renderOpen: renderOpen
+}
+
 var favorites = require('scripts/favorites')
 var tool = require('scripts/tool')
 
-scriptVersion = 3.6
+scriptVersion = 4.0
 
 /*  长按图片和点击图片  
     0 保存到剪贴板 
@@ -331,6 +336,7 @@ function setPicData(data) {
 
 //检查版本
 function checkupVersion() {
+    return
     $http.get({
         url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/Emoticon-Package/UpdateInfo",
         handler: function (resp) {
@@ -369,36 +375,68 @@ if ($app.env == $env.keyboard) {
     checkupVersion()
 }
 
-function speech() {
-    $("input").text = $keyboard.selectedText
+if (erotsInstall() == false) {
+    $ui.alert({
+        title: "提示",
+        message: "您尚未安装 Erots 脚本商店，此脚本已取消自动更新机制，以后的更新都在 Erots 脚本商店中发布，是否安装 Erots 脚本商店？（点击忽略则以后不再提示）",
+        actions: [{
+            title: "忽略",
+            handler: function () {
+                $file.write({
+                    data: $data({ string: "" }),
+                    path: "erots.txt"
+                })
+            }
+        },
+        {
+            title: "安装",
+            handler: function () {
+                $ui.loading(true);
+                $http.download({
+                    url: "https://github.com/LiuGuoGY/JSBox-addins/raw/master/Erots/.output/Erots.box?raw=true",
+                    showsProgress: false,
+                    timeout: 5,
+                    progress: function (bytesWritten, totalBytes) {
+                        var percentage = bytesWritten * 1.0 / totalBytes
+                        $ui.progress(percentage, "下载中...")
+                    },
+                    handler: function (resp) {
+                        var file = resp.data;
+                        $addin.save({
+                            name: "Erots",
+                            data: file,
+                            handler: function (success) {
+                                $ui.loading(false);
+                                $ui.alert({
+                                    title: "安装完成",
+                                    actions: [{
+                                        title: "确定",
+                                        handler: function () {
+                                            if ($app.env = $env.app) {
+                                                $addin.run("Erots")
+                                            }
+                                        }
+                                    }],
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+        }
+        ]
+    });
 }
 
-module.exports = {
-    renderOpen: renderOpen
+function erotsInstall() {
+    var addins = $addin.list
+    let i = addins.length
+    while (i--) {
+        let item = addins[i]
+        let name = item.name
+        if (name == "Erots") {
+            return true
+        }
+    }
+    return false
 }
-
-// var erotsJson = $file.exists("erots.json")
-// var erotsTxt = $file.exists("erots.txt")
-// if (erotsJson == false && erotsTxt == false) {
-//     $ui.alert({
-//         title: "提示",
-//         message: "检测到您使用的是非 Erots 脚本商店版本，因为脚本自带的更新机制已经取消，以后的更新都会通过 Erots 脚本商店发布，是否安装 Erots 脚本商店来获取以后的更新和其他优秀的插件？（此提示只弹出一次，点击忽略将不再弹出，除非在非 Erots 商店渠道重新安装此脚本）",
-//         actions: [{
-//             title: "忽略",
-//             handler: function () {
-//                 $file.write({
-//                     data: $data({ string: "" }),
-//                     path: "erots.txt"
-//                 })
-//             }
-//         },
-//         {
-//             title: "安装",
-//             handler: function () {
-//                 $app.openURL("jsbox://import?name=Erots&url=https%3A%2F%2Fgithub.com%2FLiuGuoGY%2FJSBox-addins%2Fraw%2Fmaster%2FErots%2F.output%2FErots.box")
-//                 $app.close()
-//             }
-//         }
-//         ]
-//     });
-// }

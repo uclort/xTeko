@@ -21,95 +21,37 @@ function showFavorites() {
             title: "收藏夹",
             navButtons: [
                     {
-                    title: "排序",
+                    title: "",
+                    icon: "102",
                     handler: function (sender) {
 
-                        var topTitle = ""
-                        var bottomTitle = ""
-                        if (sortType == 0) {
-                            topTitle = "倒序 √"
-                            bottomTitle = "正序"
-                        } else if (sortType ==1 ) {
-                            topTitle = "倒序"
-                            bottomTitle = "正序 √"
-                        }
                         $ui.menu({
-                            items: [topTitle, bottomTitle],
-                            handler: function (title, idx) {
-                                if (idx == 0 && sortType != 0) {
-                                    sortType = 0
-                                    $cache.set("sortType", sortType)
-                                    setPicData()
-                                } else if (idx == 1 && sortType != 1) {
-                                    sortType = 1
-                                    $cache.set("sortType", sortType)
-                                    setPicData()
-                                }
-                            }
-                        });
-                    }
-                },
-                {
-                    title: "导出&导入",
-                    handler: function (sender) {
-                        $ui.menu({
-                            items: ["导入", "导出"],
-                            handler: function (title, idx) {
+                            items: ["排序", "导入&导出", "清空收藏"],
+                            handler: function(title, idx) {
+                                if (idx == 0) { // 排序
+                                    favoritesSort()
+                                } else if (idx == 1) { // 导出&导出
+                                    importAndExport()
+                                } else if (idx == 2) { // 清空收藏
+                                    $ui.alert({
+                                        title: "提示",
+                                        message: "确认清空所有收藏吗？",
+                                        actions: [{
+                                            title: "取消",
+                                            handler: function(sender) {
 
-                                var db = $file.exists("favorites.db")
-                                if (db == true) {
-                                    $file.delete("favorites.db")
-                                }
-
-                                if (idx == 0) { // 导入
-                                    $drive.open({
-                                        handler: function (data) {
-                                            $console.info(data);
-                                            var dataTuple = tool.favoritesItems(sortType)
-                                            if (dataTuple.length > 0) {
-                                                $ui.alert({
-                                                    title: "提示",
-                                                    message: "您当前收藏夹中有已收藏的表情，请选择替换已收藏还是添加到已收藏？",
-                                                    actions: [
-                                                        {
-                                                            title: "替换",
-                                                            disabled: false, // Optional
-                                                            handler: function () {
-                                                                importPic(data, 1)
-                                                            }
-                                                        },
-                                                        {
-                                                            title: "添加",
-                                                            handler: function () {
-                                                                importPic(data, 0)
-                                                            }
-                                                        }
-                                                    ]
-                                                });
-                                            } else {
-                                                importPic(data, 0)
                                             }
-                                        }
-                                    })
-                                } else { // 导出
-
-                                    var db = $sqlite.open("favorites.db")
-                                    db.update("CREATE TABLE Favorites(url text, image BLOB)")
-
-                                    var dataTuple = tool.favoritesItems(sortType)
-                                    dataTuple.forEach(element => {
-                                        db.update({
-                                            sql: "INSERT INTO Favorites values(?, ?)",
-                                            args: [element.key, element.value]
-                                        });
+                                        }, {
+                                            title: "确定",
+                                            handler: function(sender) {
+                                                tool.clearFavorites()
+                                                setPicData()
+                                            }
+                                        }]
                                     });
-                                    $sqlite.close(db);
-                                    var data = $file.read("favorites.db")
-                                    $share.sheet(["favorites.db", data])
                                 }
                             }
                         });
-
                     }
                 }
             ]
@@ -233,4 +175,90 @@ function importPic(data, type) {
         tool.setFavorites(url, image)
     }
     setPicData()
+}
+
+function favoritesSort() { // 排序
+    var topTitle = ""
+    var bottomTitle = ""
+    if (sortType == 0) {
+        topTitle = "倒序 √"
+        bottomTitle = "正序"
+    } else if (sortType ==1 ) {
+        topTitle = "倒序"
+        bottomTitle = "正序 √"
+    }
+    $ui.menu({
+        items: [topTitle, bottomTitle],
+        handler: function (title, idx) {
+            if (idx == 0 && sortType != 0) {
+                sortType = 0
+                $cache.set("sortType", sortType)
+                setPicData()
+            } else if (idx == 1 && sortType != 1) {
+                sortType = 1
+                $cache.set("sortType", sortType)
+                setPicData()
+            }
+        }
+    });
+}
+
+function importAndExport() {
+    $ui.menu({
+        items: ["导入", "导出"],
+        handler: function (title, idx) {
+
+            var db = $file.exists("favorites.db")
+            if (db == true) {
+                $file.delete("favorites.db")
+            }
+
+            if (idx == 0) { // 导入
+                $drive.open({
+                    handler: function (data) {
+                        $console.info(data);
+                        var dataTuple = tool.favoritesItems(sortType)
+                        if (dataTuple.length > 0) {
+                            $ui.alert({
+                                title: "提示",
+                                message: "您当前收藏夹中有已收藏的表情，请选择替换已收藏还是添加到已收藏？",
+                                actions: [
+                                    {
+                                        title: "替换",
+                                        disabled: false, // Optional
+                                        handler: function () {
+                                            importPic(data, 1)
+                                        }
+                                    },
+                                    {
+                                        title: "添加",
+                                        handler: function () {
+                                            importPic(data, 0)
+                                        }
+                                    }
+                                ]
+                            });
+                        } else {
+                            importPic(data, 0)
+                        }
+                    }
+                })
+            } else { // 导出
+
+                var db = $sqlite.open("favorites.db")
+                db.update("CREATE TABLE Favorites(url text, image BLOB)")
+
+                var dataTuple = tool.favoritesItems(sortType)
+                dataTuple.forEach(element => {
+                    db.update({
+                        sql: "INSERT INTO Favorites values(?, ?)",
+                        args: [element.key, element.value]
+                    });
+                });
+                $sqlite.close(db);
+                var data = $file.read("favorites.db")
+                $share.sheet(["favorites.db", data])
+            }
+        }
+    });
 }

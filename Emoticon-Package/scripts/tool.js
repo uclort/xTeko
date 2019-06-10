@@ -18,12 +18,13 @@ function initialization() {
 
 function setFavorites(url, data) {
     if (repeatedJudgment(url) == true) {
-        $ui.toast("已经在收藏夹中");
+        $ui.error("已经在收藏夹中");
     } else {
         var item = { key: url, value: data }
         var items = $cache.get("favorites")
         items.unshift(item)
         $cache.set("favorites", items);
+        $ui.toast("收藏成功");
     }
 }
 
