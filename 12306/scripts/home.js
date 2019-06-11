@@ -153,7 +153,7 @@ function erotsInstall() {
     return false
 }
 
-// checkupVersion()
+checkupVersion()
 
 //检查版本
 function checkupVersion() {
@@ -171,7 +171,7 @@ function checkupVersion() {
                 $cache.set("excessTicketInquiryUrl", excessTicketInquiryUrl)
                 $ui.toast("余票查询接口已更新");
             }
-
+            return
             if (version > scriptVersion) {
                 $ui.alert({
                     title: "发现新版本",
