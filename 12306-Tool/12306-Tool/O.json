@@ -90,10 +90,10 @@
     "departureStation" : "镜铁山"
   },
   "3310" : {
-    "terminalStation" : "南昌",
+    "departureStation" : "东莞东",
     "trainCode" : "3310",
     "train_no" : "670000331007",
-    "departureStation" : "东莞东"
+    "terminalStation" : "南昌"
   },
   "5540" : {
     "terminalStation" : "湛江",
@@ -105,15 +105,16 @@
     "departureStation" : "金城江"
   },
   "3545" : {
-    "departureStation" : "漯河",
-    "trainCode" : "3545",
     "train_no" : "390000354505",
-    "terminalStation" : "广州"
+    "trainCode" : "3545",
+    "terminalStation" : "广州",
+    "departureStation" : "漯河"
   },
   "6240" : {
     "terminalStation" : "海拉尔",
     "otherTrainNoGroup" : [
-      "05000062400H"
+      "05000062400H",
+      "05000062400J"
     ],
     "trainCode" : "6240",
     "train_no" : "05000062400H",
@@ -160,7 +161,8 @@
     "terminalStation" : "通化",
     "otherTrainNoGroup" : [
       "19000042460Q",
-      "19000042460P"
+      "19000042460P",
+      "19000042460R"
     ],
     "trainCode" : "4246",
     "train_no" : "19000042460Q",
@@ -176,10 +178,10 @@
     "departureStation" : "北京"
   },
   "3014" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "广州",
     "trainCode" : "3014",
     "train_no" : "630000301404",
-    "departureStation" : "广州"
+    "terminalStation" : "武昌"
   },
   "8820" : {
     "terminalStation" : "宁武",
@@ -193,7 +195,8 @@
   "4310" : {
     "terminalStation" : "上海",
     "otherTrainNoGroup" : [
-      "16000043100F"
+      "16000043100F",
+      "16000043100G"
     ],
     "trainCode" : "4310",
     "train_no" : "16000043100F",
@@ -218,10 +221,10 @@
     "departureStation" : "通化"
   },
   "3015" : {
-    "departureStation" : "武昌",
-    "trainCode" : "3015",
     "train_no" : "390000301500",
-    "terminalStation" : "广州"
+    "trainCode" : "3015",
+    "terminalStation" : "广州",
+    "departureStation" : "武昌"
   },
   "8821" : {
     "terminalStation" : "河边",
@@ -251,10 +254,10 @@
     "departureStation" : "南芬"
   },
   "3016" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "广州",
     "trainCode" : "3016",
     "train_no" : "630000301608",
-    "departureStation" : "广州"
+    "terminalStation" : "武昌"
   },
   "8822" : {
     "terminalStation" : "忻州",
@@ -275,22 +278,22 @@
     "departureStation" : "辽阳"
   },
   "7540" : {
-    "departureStation" : "兰州",
-    "trainCode" : "7540",
     "terminalStation" : "羊木",
-    "train_no" : "850000754001"
+    "trainCode" : "7540",
+    "train_no" : "850000754001",
+    "departureStation" : "兰州"
   },
   "3315" : {
-    "departureStation" : "苏州",
-    "trainCode" : "3315",
     "terminalStation" : "怀化",
-    "train_no" : "550000331540"
+    "trainCode" : "3315",
+    "train_no" : "550000331540",
+    "departureStation" : "苏州"
   },
   "3613" : {
-    "departureStation" : "南昌",
-    "trainCode" : "3613",
     "train_no" : "570000361305",
-    "terminalStation" : "东莞东"
+    "trainCode" : "3613",
+    "terminalStation" : "东莞东",
+    "departureStation" : "南昌"
   },
   "8823" : {
     "terminalStation" : "宁武",
@@ -313,17 +316,18 @@
   "6245" : {
     "terminalStation" : "古莲",
     "otherTrainNoGroup" : [
-      "040000624517"
+      "040000624517",
+      "040000624518"
     ],
     "trainCode" : "6245",
     "train_no" : "040000624517",
     "departureStation" : "齐齐哈尔"
   },
   "3316" : {
-    "departureStation" : "怀化",
-    "trainCode" : "3316",
     "train_no" : "640000331604",
-    "terminalStation" : "苏州"
+    "trainCode" : "3316",
+    "terminalStation" : "苏州",
+    "departureStation" : "怀化"
   },
   "8824" : {
     "terminalStation" : "大同",
@@ -346,7 +350,8 @@
   "6246" : {
     "terminalStation" : "齐齐哈尔",
     "otherTrainNoGroup" : [
-      "04000062460Z"
+      "04000062460Z",
+      "040000624610"
     ],
     "trainCode" : "6246",
     "train_no" : "04000062460Z",
@@ -370,17 +375,26 @@
     "train_no" : "770000561025",
     "departureStation" : "秀山"
   },
+  "W655" : {
+    "departureStation" : "包头",
+    "otherTrainNoGroup" : [
+      "330000K65530"
+    ],
+    "trainCode" : "W655",
+    "terminalStation" : "杭州",
+    "train_no" : "330000K65530"
+  },
   "3615" : {
-    "departureStation" : "麻城",
-    "trainCode" : "3615",
     "train_no" : "390000361503",
-    "terminalStation" : "深圳东"
+    "trainCode" : "3615",
+    "terminalStation" : "深圳东",
+    "departureStation" : "麻城"
   },
   "3317" : {
-    "departureStation" : "怀化",
-    "trainCode" : "3317",
     "train_no" : "640000331604",
-    "terminalStation" : "苏州"
+    "trainCode" : "3317",
+    "terminalStation" : "苏州",
+    "departureStation" : "怀化"
   },
   "4315" : {
     "terminalStation" : "小市",
@@ -410,16 +424,16 @@
     "departureStation" : "内江"
   },
   "3318" : {
-    "departureStation" : "苏州",
-    "trainCode" : "3318",
     "terminalStation" : "怀化",
-    "train_no" : "550000331540"
+    "trainCode" : "3318",
+    "train_no" : "550000331540",
+    "departureStation" : "苏州"
   },
   "3331" : {
-    "departureStation" : "洛阳",
-    "trainCode" : "3331",
     "train_no" : "400000333430",
-    "terminalStation" : "广州"
+    "trainCode" : "3331",
+    "terminalStation" : "广州",
+    "departureStation" : "洛阳"
   },
   "4316" : {
     "terminalStation" : "本溪",
@@ -460,17 +474,19 @@
   "4317" : {
     "terminalStation" : "通化",
     "otherTrainNoGroup" : [
-      "12000043200C"
+      "12000043200C",
+      "12000043200E",
+      "12000043200D"
     ],
     "trainCode" : "4317",
-    "train_no" : "12000043200C",
+    "train_no" : "12000043200D",
     "departureStation" : "丹东"
   },
   "3269" : {
-    "departureStation" : "潢川",
-    "trainCode" : "3269",
     "train_no" : "390000326903",
-    "terminalStation" : "东莞东"
+    "trainCode" : "3269",
+    "terminalStation" : "东莞东",
+    "departureStation" : "潢川"
   },
   "4330" : {
     "terminalStation" : "赤峰",
@@ -502,11 +518,21 @@
   "Y951" : {
     "terminalStation" : "霍尔果斯",
     "otherTrainNoGroup" : [
-      "930000Y95102"
+      "930000Y95102",
+      "930000Y95103"
     ],
     "trainCode" : "Y951",
-    "train_no" : "930000Y95102",
+    "train_no" : "930000Y95103",
     "departureStation" : "乌鲁木齐"
+  },
+  "W658" : {
+    "departureStation" : "包头",
+    "otherTrainNoGroup" : [
+      "330000K65530"
+    ],
+    "trainCode" : "W658",
+    "terminalStation" : "杭州",
+    "train_no" : "330000K65530"
   },
   "4616" : {
     "terminalStation" : "宁武",
@@ -520,10 +546,12 @@
   "4318" : {
     "terminalStation" : "丹东",
     "otherTrainNoGroup" : [
-      "19000043180E"
+      "19000043180E",
+      "19000043180G",
+      "19000043180F"
     ],
     "trainCode" : "4318",
-    "train_no" : "19000043180E",
+    "train_no" : "19000043180F",
     "departureStation" : "通化"
   },
   "6263" : {
@@ -547,10 +575,11 @@
   "Y952" : {
     "terminalStation" : "乌鲁木齐",
     "otherTrainNoGroup" : [
-      "950000Y95201"
+      "950000Y95201",
+      "950000Y95202"
     ],
     "trainCode" : "Y952",
-    "train_no" : "950000Y95201",
+    "train_no" : "950000Y95202",
     "departureStation" : "霍尔果斯"
   },
   "2051" : {
@@ -563,24 +592,26 @@
     "departureStation" : "大连"
   },
   "3334" : {
-    "departureStation" : "洛阳",
-    "trainCode" : "3334",
     "train_no" : "400000333430",
-    "terminalStation" : "广州"
+    "trainCode" : "3334",
+    "terminalStation" : "广州",
+    "departureStation" : "洛阳"
   },
   "4617" : {
-    "departureStation" : "灵丘",
-    "trainCode" : "4617",
     "terminalStation" : "临汾",
-    "train_no" : "270000461710"
+    "trainCode" : "4617",
+    "train_no" : "270000461710",
+    "departureStation" : "灵丘"
   },
   "4319" : {
     "terminalStation" : "丹东",
     "otherTrainNoGroup" : [
-      "19000043180E"
+      "19000043180E",
+      "19000043180G",
+      "19000043180F"
     ],
     "trainCode" : "4319",
-    "train_no" : "19000043180E",
+    "train_no" : "19000043180F",
     "departureStation" : "通化"
   },
   "4630" : {
@@ -605,7 +636,8 @@
   "2635" : {
     "terminalStation" : "兰州西",
     "otherTrainNoGroup" : [
-      "33000026350Q"
+      "33000026350Q",
+      "33000026350R"
     ],
     "trainCode" : "2635",
     "train_no" : "33000026350Q",
@@ -620,6 +652,15 @@
     "train_no" : "49000050180M",
     "departureStation" : "烟台"
   },
+  "Y953" : {
+    "terminalStation" : "北屯市",
+    "otherTrainNoGroup" : [
+      "930000Y95302"
+    ],
+    "trainCode" : "Y953",
+    "train_no" : "930000Y95302",
+    "departureStation" : "乌鲁木齐"
+  },
   "2052" : {
     "terminalStation" : "大连",
     "otherTrainNoGroup" : [
@@ -630,16 +671,16 @@
     "departureStation" : "牡丹江"
   },
   "3335" : {
-    "departureStation" : "成都",
-    "trainCode" : "3335",
     "train_no" : "760000333870",
-    "terminalStation" : "杭州"
+    "trainCode" : "3335",
+    "terminalStation" : "杭州",
+    "departureStation" : "成都"
   },
   "4618" : {
-    "departureStation" : "河津",
-    "trainCode" : "4618",
     "terminalStation" : "灵丘",
-    "train_no" : "270000461810"
+    "trainCode" : "4618",
+    "train_no" : "270000461810",
+    "departureStation" : "河津"
   },
   "6030" : {
     "terminalStation" : "承德",
@@ -651,10 +692,10 @@
     "departureStation" : "赤峰"
   },
   "4631" : {
-    "terminalStation" : "临汾",
+    "departureStation" : "太原",
     "trainCode" : "4631",
     "train_no" : "270000463103",
-    "departureStation" : "太原"
+    "terminalStation" : "临汾"
   },
   "6265" : {
     "terminalStation" : "富拉尔基",
@@ -674,29 +715,40 @@
     "train_no" : "8d0000263610",
     "departureStation" : "兰州西"
   },
+  "Y954" : {
+    "terminalStation" : "乌鲁木齐",
+    "otherTrainNoGroup" : [
+      "910000Y95401"
+    ],
+    "trainCode" : "Y954",
+    "train_no" : "910000Y95401",
+    "departureStation" : "北屯市"
+  },
   "7561" : {
-    "train_no" : "850000756100",
+    "terminalStation" : "兰州新区",
     "otherTrainNoGroup" : [
       "850000756100"
     ],
     "trainCode" : "7561",
-    "terminalStation" : "兰州新区",
+    "train_no" : "850000756100",
     "departureStation" : "兰州"
   },
   "6031" : {
     "terminalStation" : "太原",
     "otherTrainNoGroup" : [
-      "26000060310H"
+      "26000060310H",
+      "26000060310K",
+      "26000060310I"
     ],
     "trainCode" : "6031",
-    "train_no" : "26000060310H",
+    "train_no" : "26000060310I",
     "departureStation" : "石家庄北"
   },
   "4632" : {
-    "terminalStation" : "太原",
+    "departureStation" : "临汾",
     "trainCode" : "4632",
     "train_no" : "270000463200",
-    "departureStation" : "临汾"
+    "terminalStation" : "太原"
   },
   "6266" : {
     "terminalStation" : "齐齐哈尔",
@@ -706,6 +758,15 @@
     "trainCode" : "6266",
     "train_no" : "040000626609",
     "departureStation" : "富拉尔基"
+  },
+  "Y955" : {
+    "terminalStation" : "霍尔果斯",
+    "otherTrainNoGroup" : [
+      "910000Y95801"
+    ],
+    "trainCode" : "Y955",
+    "train_no" : "910000Y95801",
+    "departureStation" : "北屯市"
   },
   "Y670" : {
     "terminalStation" : "敦煌",
@@ -726,19 +787,19 @@
     "departureStation" : "遵义西"
   },
   "7562" : {
-    "train_no" : "8e0000756200",
+    "terminalStation" : "兰州",
     "otherTrainNoGroup" : [
       "8e0000756200"
     ],
     "trainCode" : "7562",
-    "terminalStation" : "兰州",
+    "train_no" : "8e0000756200",
     "departureStation" : "兰州新区"
   },
   "3337" : {
-    "terminalStation" : "成都",
+    "departureStation" : "杭州",
     "trainCode" : "3337",
     "train_no" : "560000333730",
-    "departureStation" : "杭州"
+    "terminalStation" : "成都"
   },
   "8845" : {
     "terminalStation" : "运城",
@@ -752,26 +813,46 @@
   "6032" : {
     "terminalStation" : "石家庄北",
     "otherTrainNoGroup" : [
-      "270000603218"
+      "270000603218",
+      "270000603219"
     ],
     "trainCode" : "6032",
-    "train_no" : "270000603218",
+    "train_no" : "270000603219",
     "departureStation" : "太原"
   },
   "2701" : {
     "terminalStation" : "银川",
     "otherTrainNoGroup" : [
-      "33000027010F"
+      "33000027010F",
+      "33000027010G"
     ],
     "trainCode" : "2701",
     "train_no" : "33000027010F",
     "departureStation" : "呼和浩特"
   },
+  "W2286" : {
+    "departureStation" : "昆明",
+    "otherTrainNoGroup" : [
+      "80000K22860P"
+    ],
+    "trainCode" : "W2286",
+    "terminalStation" : "长春",
+    "train_no" : "80000K22860P"
+  },
   "6267" : {
-    "departureStation" : "莫尔道嘎",
-    "trainCode" : "6267",
     "terminalStation" : "海拉尔",
-    "train_no" : "05000062700J"
+    "trainCode" : "6267",
+    "train_no" : "05000062700J",
+    "departureStation" : "莫尔道嘎"
+  },
+  "Y956" : {
+    "terminalStation" : "北屯市",
+    "otherTrainNoGroup" : [
+      "950000Y95602"
+    ],
+    "trainCode" : "Y956",
+    "train_no" : "950000Y95602",
+    "departureStation" : "霍尔果斯"
   },
   "6280" : {
     "terminalStation" : "三间房",
@@ -791,6 +872,15 @@
     "train_no" : "49000050380E",
     "departureStation" : "青岛"
   },
+  "Y671" : {
+    "train_no" : "850000Y67182",
+    "otherTrainNoGroup" : [
+      "850000Y67182"
+    ],
+    "trainCode" : "Y671",
+    "terminalStation" : "敦煌",
+    "departureStation" : "兰州"
+  },
   "7265" : {
     "terminalStation" : "怀化",
     "otherTrainNoGroup" : [
@@ -801,10 +891,19 @@
     "departureStation" : "张家界"
   },
   "3338" : {
-    "departureStation" : "成都",
-    "trainCode" : "3338",
     "train_no" : "760000333870",
-    "terminalStation" : "杭州"
+    "trainCode" : "3338",
+    "terminalStation" : "杭州",
+    "departureStation" : "成都"
+  },
+  "7563" : {
+    "train_no" : "850000756300",
+    "otherTrainNoGroup" : [
+      "850000756300"
+    ],
+    "trainCode" : "7563",
+    "terminalStation" : "兰州新区",
+    "departureStation" : "兰州"
   },
   "6033" : {
     "terminalStation" : "太原南",
@@ -818,17 +917,18 @@
   "2702" : {
     "terminalStation" : "呼和浩特",
     "otherTrainNoGroup" : [
-      "870000270271"
+      "870000270271",
+      "870000270272"
     ],
     "trainCode" : "2702",
     "train_no" : "870000270271",
     "departureStation" : "银川"
   },
   "6268" : {
-    "departureStation" : "海拉尔",
-    "trainCode" : "6268",
     "terminalStation" : "莫尔道嘎",
-    "train_no" : "05000062680L"
+    "trainCode" : "6268",
+    "train_no" : "05000062680L",
+    "departureStation" : "海拉尔"
   },
   "5619" : {
     "terminalStation" : "普雄",
@@ -838,6 +938,24 @@
     "trainCode" : "5619",
     "train_no" : "76000056190O",
     "departureStation" : "燕岗"
+  },
+  "Y957" : {
+    "terminalStation" : "北屯市",
+    "otherTrainNoGroup" : [
+      "950000Y95602"
+    ],
+    "trainCode" : "Y957",
+    "train_no" : "950000Y95602",
+    "departureStation" : "霍尔果斯"
+  },
+  "Y672" : {
+    "train_no" : "8b0000Y67382",
+    "otherTrainNoGroup" : [
+      "8b0000Y67382"
+    ],
+    "trainCode" : "Y672",
+    "terminalStation" : "兰州",
+    "departureStation" : "敦煌"
   },
   "5036" : {
     "terminalStation" : "烟台",
@@ -856,6 +974,15 @@
     "trainCode" : "7266",
     "train_no" : "640000726609",
     "departureStation" : "怀化"
+  },
+  "7564" : {
+    "train_no" : "8e0000756400",
+    "otherTrainNoGroup" : [
+      "8e0000756400"
+    ],
+    "trainCode" : "7564",
+    "terminalStation" : "兰州",
+    "departureStation" : "兰州新区"
   },
   "2589" : {
     "terminalStation" : "辽源",
@@ -885,10 +1012,19 @@
     "departureStation" : "忻州"
   },
   "6269" : {
-    "departureStation" : "海拉尔",
-    "trainCode" : "6269",
     "terminalStation" : "莫尔道嘎",
-    "train_no" : "05000062680L"
+    "trainCode" : "6269",
+    "train_no" : "05000062680L",
+    "departureStation" : "海拉尔"
+  },
+  "Y958" : {
+    "terminalStation" : "霍尔果斯",
+    "otherTrainNoGroup" : [
+      "910000Y95801"
+    ],
+    "trainCode" : "Y958",
+    "train_no" : "910000Y95801",
+    "departureStation" : "北屯市"
   },
   "4350" : {
     "terminalStation" : "通化",
@@ -900,10 +1036,10 @@
     "departureStation" : "临江"
   },
   "6282" : {
-    "departureStation" : "鹤北",
-    "trainCode" : "6282",
     "terminalStation" : "鹤岗",
-    "train_no" : "020000628200"
+    "trainCode" : "6282",
+    "train_no" : "020000628200",
+    "departureStation" : "鹤北"
   },
   "5633" : {
     "terminalStation" : "攀枝花",
@@ -932,6 +1068,15 @@
     "train_no" : "64000072670A",
     "departureStation" : "澧县"
   },
+  "Y673" : {
+    "train_no" : "8b0000Y67382",
+    "otherTrainNoGroup" : [
+      "8b0000Y67382"
+    ],
+    "trainCode" : "Y673",
+    "terminalStation" : "兰州",
+    "departureStation" : "敦煌"
+  },
   "4636" : {
     "terminalStation" : "忻州",
     "otherTrainNoGroup" : [
@@ -949,6 +1094,15 @@
     "trainCode" : "4351",
     "train_no" : "190000435102",
     "departureStation" : "通化"
+  },
+  "Y674" : {
+    "train_no" : "850000Y67182",
+    "otherTrainNoGroup" : [
+      "850000Y67182"
+    ],
+    "trainCode" : "Y674",
+    "terminalStation" : "敦煌",
+    "departureStation" : "兰州"
   },
   "5634" : {
     "terminalStation" : "普雄",
@@ -1032,13 +1186,13 @@
     "departureStation" : "齐齐哈尔"
   },
   "4651" : {
-    "terminalStation" : "呼和浩特",
+    "departureStation" : "二连",
     "otherTrainNoGroup" : [
       "33000046540G"
     ],
     "trainCode" : "4651",
     "train_no" : "33000046540G",
-    "departureStation" : "二连"
+    "terminalStation" : "呼和浩特"
   },
   "6285" : {
     "terminalStation" : "牡丹江",
@@ -1088,20 +1242,21 @@
   "2124" : {
     "terminalStation" : "齐齐哈尔",
     "otherTrainNoGroup" : [
-      "120000212410"
+      "120000212410",
+      "120000212411"
     ],
     "trainCode" : "2124",
     "train_no" : "120000212410",
     "departureStation" : "丹东"
   },
   "4652" : {
-    "departureStation" : "呼和浩特",
+    "train_no" : "33000046520D",
     "otherTrainNoGroup" : [
       "33000046520D"
     ],
     "trainCode" : "4652",
-    "train_no" : "33000046520D",
-    "terminalStation" : "二连"
+    "terminalStation" : "二连",
+    "departureStation" : "呼和浩特"
   },
   "6286" : {
     "terminalStation" : "长汀镇",
@@ -1131,13 +1286,13 @@
     "departureStation" : "格尔木"
   },
   "6039" : {
-    "departureStation" : "通辽",
+    "terminalStation" : "集宁南",
     "otherTrainNoGroup" : [
       "16000060390A"
     ],
     "trainCode" : "6039",
-    "terminalStation" : "集宁南",
-    "train_no" : "16000060390A"
+    "train_no" : "16000060390A",
+    "departureStation" : "通辽"
   },
   "6337" : {
     "terminalStation" : "陶赖昭",
@@ -1151,20 +1306,21 @@
   "2125" : {
     "terminalStation" : "齐齐哈尔",
     "otherTrainNoGroup" : [
-      "120000212410"
+      "120000212410",
+      "120000212411"
     ],
     "trainCode" : "2125",
     "train_no" : "120000212410",
     "departureStation" : "丹东"
   },
   "4653" : {
-    "departureStation" : "呼和浩特",
+    "train_no" : "33000046520D",
     "otherTrainNoGroup" : [
       "33000046520D"
     ],
     "trainCode" : "4653",
-    "train_no" : "33000046520D",
-    "terminalStation" : "二连"
+    "terminalStation" : "二连",
+    "departureStation" : "呼和浩特"
   },
   "4355" : {
     "terminalStation" : "通辽",
@@ -1178,7 +1334,8 @@
   "4057" : {
     "terminalStation" : "塔河",
     "otherTrainNoGroup" : [
-      "040000405705"
+      "040000405705",
+      "040000405706"
     ],
     "trainCode" : "4057",
     "train_no" : "040000405705",
@@ -1194,19 +1351,19 @@
     "departureStation" : "牡丹江"
   },
   "2671" : {
-    "terminalStation" : "西安",
+    "departureStation" : "大同",
     "trainCode" : "2671",
     "train_no" : "28000026710B",
-    "departureStation" : "大同"
+    "terminalStation" : "西安"
   },
   "7583" : {
-    "departureStation" : "西宁",
+    "terminalStation" : "马海",
     "otherTrainNoGroup" : [
       "88000075830B"
     ],
     "trainCode" : "7583",
-    "terminalStation" : "马海",
-    "train_no" : "88000075830B"
+    "train_no" : "88000075830B",
+    "departureStation" : "西宁"
   },
   "6338" : {
     "terminalStation" : "长春",
@@ -1227,13 +1384,13 @@
     "departureStation" : "齐齐哈尔"
   },
   "4654" : {
-    "terminalStation" : "呼和浩特",
+    "departureStation" : "二连",
     "otherTrainNoGroup" : [
       "33000046540G"
     ],
     "trainCode" : "4654",
     "train_no" : "33000046540G",
-    "departureStation" : "二连"
+    "terminalStation" : "呼和浩特"
   },
   "4356" : {
     "terminalStation" : "四平",
@@ -1264,19 +1421,29 @@
     "departureStation" : "玉屏"
   },
   "2672" : {
-    "terminalStation" : "大同",
+    "departureStation" : "西安",
     "trainCode" : "2672",
     "train_no" : "41000026720F",
-    "departureStation" : "西安"
+    "terminalStation" : "大同"
   },
   "4705" : {
     "terminalStation" : "邓州",
     "otherTrainNoGroup" : [
-      "40000047080B"
+      "40000047080B",
+      "400000470830"
     ],
     "trainCode" : "4705",
     "train_no" : "40000047080B",
     "departureStation" : "洛阳"
+  },
+  "7584" : {
+    "terminalStation" : "西宁",
+    "otherTrainNoGroup" : [
+      "880000758400"
+    ],
+    "trainCode" : "7584",
+    "train_no" : "880000758400",
+    "departureStation" : "马海"
   },
   "4357" : {
     "terminalStation" : "四平",
@@ -1299,7 +1466,8 @@
   "4370" : {
     "terminalStation" : "库伦",
     "otherTrainNoGroup" : [
-      "160000437005"
+      "160000437005",
+      "160000437006"
     ],
     "trainCode" : "4370",
     "train_no" : "160000437005",
@@ -1317,7 +1485,8 @@
   "4706" : {
     "terminalStation" : "洛阳",
     "otherTrainNoGroup" : [
-      "40000047060K"
+      "40000047060K",
+      "40000047060L"
     ],
     "trainCode" : "4706",
     "train_no" : "40000047060K",
@@ -1326,7 +1495,8 @@
   "6055" : {
     "terminalStation" : "包头",
     "otherTrainNoGroup" : [
-      "28000060551I"
+      "28000060551I",
+      "28000060551J"
     ],
     "trainCode" : "6055",
     "train_no" : "28000060551I",
@@ -1344,7 +1514,8 @@
   "4371" : {
     "terminalStation" : "库伦",
     "otherTrainNoGroup" : [
-      "160000437409"
+      "160000437409",
+      "16000043740A"
     ],
     "trainCode" : "4371",
     "train_no" : "160000437409",
@@ -1371,7 +1542,8 @@
   "4707" : {
     "terminalStation" : "洛阳",
     "otherTrainNoGroup" : [
-      "40000047060K"
+      "40000047060K",
+      "40000047060L"
     ],
     "trainCode" : "4707",
     "train_no" : "40000047060K",
@@ -1380,22 +1552,25 @@
   "Y510" : {
     "terminalStation" : "北京",
     "otherTrainNoGroup" : [
-      "250000Y5101Q"
+      "250000Y5101Q",
+      "250000Y5101T",
+      "250000Y5101S"
     ],
     "trainCode" : "Y510",
-    "train_no" : "250000Y5101Q",
+    "train_no" : "250000Y5101S",
     "departureStation" : "秦皇岛"
   },
   "3672" : {
-    "terminalStation" : "广安",
+    "departureStation" : "东莞东",
     "trainCode" : "3672",
     "train_no" : "670000367202",
-    "departureStation" : "东莞东"
+    "terminalStation" : "广安"
   },
   "6056" : {
     "terminalStation" : "大同",
     "otherTrainNoGroup" : [
-      "33000060560K"
+      "33000060560K",
+      "33000060560L"
     ],
     "trainCode" : "6056",
     "train_no" : "33000060560K",
@@ -1404,7 +1579,8 @@
   "4372" : {
     "terminalStation" : "通辽",
     "otherTrainNoGroup" : [
-      "1h000043720B"
+      "1h000043720B",
+      "1h000043720C"
     ],
     "trainCode" : "4372",
     "train_no" : "1h000043720B",
@@ -1422,7 +1598,8 @@
   "4708" : {
     "terminalStation" : "邓州",
     "otherTrainNoGroup" : [
-      "40000047080B"
+      "40000047080B",
+      "400000470830"
     ],
     "trainCode" : "4708",
     "train_no" : "40000047080B",
@@ -1431,43 +1608,47 @@
   "Y511" : {
     "terminalStation" : "邯郸",
     "otherTrainNoGroup" : [
-      "240000Y5140H"
+      "240000Y5140H",
+      "240000Y5140J",
+      "240000Y5140I"
     ],
     "trainCode" : "Y511",
-    "train_no" : "240000Y5140H",
+    "train_no" : "240000Y5140I",
     "departureStation" : "承德"
   },
   "3673" : {
-    "terminalStation" : "广安",
+    "departureStation" : "东莞东",
     "trainCode" : "3673",
     "train_no" : "670000367202",
-    "departureStation" : "东莞东"
+    "terminalStation" : "广安"
   },
   "3971" : {
-    "departureStation" : "萍乡",
-    "trainCode" : "3971",
     "train_no" : "570000397406",
-    "terminalStation" : "广州东"
+    "trainCode" : "3971",
+    "terminalStation" : "广州东",
+    "departureStation" : "萍乡"
   },
   "4373" : {
     "terminalStation" : "通辽",
     "otherTrainNoGroup" : [
-      "1h000043720B"
+      "1h000043720B",
+      "1h000043720C"
     ],
     "trainCode" : "4373",
     "train_no" : "1h000043720B",
     "departureStation" : "库伦"
   },
   "3141" : {
-    "departureStation" : "宜昌东",
-    "trainCode" : "3141",
     "train_no" : "420000314404",
-    "terminalStation" : "广州"
+    "trainCode" : "3141",
+    "terminalStation" : "广州",
+    "departureStation" : "宜昌东"
   },
   "Y512" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "260000Y5120F"
+      "260000Y5120F",
+      "260000Y5120G"
     ],
     "trainCode" : "Y512",
     "train_no" : "260000Y5120F",
@@ -1476,17 +1657,19 @@
   "8351" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "41000083510D"
+      "41000083510D",
+      "41000083510F",
+      "41000083510E"
     ],
     "trainCode" : "8351",
-    "train_no" : "41000083510D",
+    "train_no" : "41000083510E",
     "departureStation" : "渭南"
   },
   "3972" : {
-    "departureStation" : "广州东",
-    "trainCode" : "3972",
     "train_no" : "650000397308",
-    "terminalStation" : "南昌"
+    "trainCode" : "3972",
+    "terminalStation" : "南昌",
+    "departureStation" : "广州东"
   },
   "2727" : {
     "terminalStation" : "绥芬河",
@@ -1518,7 +1701,8 @@
   "4374" : {
     "terminalStation" : "库伦",
     "otherTrainNoGroup" : [
-      "160000437409"
+      "160000437409",
+      "16000043740A"
     ],
     "trainCode" : "4374",
     "train_no" : "160000437409",
@@ -1527,25 +1711,27 @@
   "6420" : {
     "terminalStation" : "通州西",
     "otherTrainNoGroup" : [
-      "24000064200K"
+      "24000064200K",
+      "24000064200L"
     ],
     "trainCode" : "6420",
     "train_no" : "24000064200K",
     "departureStation" : "承德"
   },
   "3142" : {
-    "terminalStation" : "宜昌东",
+    "departureStation" : "深圳",
     "trainCode" : "3142",
     "train_no" : "650000314201",
-    "departureStation" : "深圳"
+    "terminalStation" : "宜昌东"
   },
   "8352" : {
     "terminalStation" : "渭南",
     "otherTrainNoGroup" : [
-      "410000835205"
+      "410000835205",
+      "410000835206"
     ],
     "trainCode" : "8352",
-    "train_no" : "410000835205",
+    "train_no" : "410000835206",
     "departureStation" : "西安"
   },
   "1147" : {
@@ -1560,7 +1746,8 @@
   "Y513" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "260000Y5120F"
+      "260000Y5120F",
+      "260000Y5120G"
     ],
     "trainCode" : "Y513",
     "train_no" : "260000Y5120F",
@@ -1569,7 +1756,8 @@
   "2728" : {
     "terminalStation" : "大连",
     "otherTrainNoGroup" : [
-      "03000027280F"
+      "03000027280F",
+      "03000027280G"
     ],
     "trainCode" : "2728",
     "train_no" : "03000027280F",
@@ -1578,7 +1766,8 @@
   "S902" : {
     "terminalStation" : "蓟州北",
     "otherTrainNoGroup" : [
-      "250000S9020D"
+      "250000S9020D",
+      "250000S9020E"
     ],
     "trainCode" : "S902",
     "train_no" : "250000S9020D",
@@ -1603,33 +1792,38 @@
     "departureStation" : "长春"
   },
   "3143" : {
-    "terminalStation" : "宜昌东",
+    "departureStation" : "深圳",
     "trainCode" : "3143",
     "train_no" : "650000314201",
-    "departureStation" : "深圳"
+    "terminalStation" : "宜昌东"
   },
   "Y514" : {
     "terminalStation" : "邯郸",
     "otherTrainNoGroup" : [
-      "240000Y5140H"
+      "240000Y5140H",
+      "240000Y5140J",
+      "240000Y5140I"
     ],
     "trainCode" : "Y514",
-    "train_no" : "240000Y5140H",
+    "train_no" : "240000Y5140I",
     "departureStation" : "承德"
   },
   "8353" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "41000083530C"
+      "41000083530C",
+      "41000083530E",
+      "41000083530D"
     ],
     "trainCode" : "8353",
-    "train_no" : "41000083530C",
+    "train_no" : "41000083530D",
     "departureStation" : "渭南"
   },
   "1148" : {
     "terminalStation" : "连云港东",
     "otherTrainNoGroup" : [
-      "41000011480Q"
+      "41000011480Q",
+      "41000011480R"
     ],
     "trainCode" : "1148",
     "train_no" : "41000011480Q",
@@ -1645,10 +1839,10 @@
     "departureStation" : "太原"
   },
   "3974" : {
-    "departureStation" : "萍乡",
-    "trainCode" : "3974",
     "train_no" : "570000397406",
-    "terminalStation" : "广州东"
+    "trainCode" : "3974",
+    "terminalStation" : "广州东",
+    "departureStation" : "萍乡"
   },
   "S903" : {
     "terminalStation" : "天津北",
@@ -1671,31 +1865,34 @@
   "4376" : {
     "terminalStation" : "长春",
     "otherTrainNoGroup" : [
-      "110000437703"
+      "110000437703",
+      "110000437704"
     ],
     "trainCode" : "4376",
     "train_no" : "110000437703",
     "departureStation" : "榆树"
   },
   "3144" : {
-    "departureStation" : "宜昌东",
-    "trainCode" : "3144",
     "train_no" : "420000314404",
-    "terminalStation" : "广州"
+    "trainCode" : "3144",
+    "terminalStation" : "广州",
+    "departureStation" : "宜昌东"
   },
   "8354" : {
     "terminalStation" : "渭南",
     "otherTrainNoGroup" : [
-      "410000835403"
+      "410000835403",
+      "410000835404"
     ],
     "trainCode" : "8354",
-    "train_no" : "410000835403",
+    "train_no" : "410000835404",
     "departureStation" : "西安"
   },
   "1149" : {
     "terminalStation" : "连云港东",
     "otherTrainNoGroup" : [
-      "41000011480Q"
+      "41000011480Q",
+      "41000011480R"
     ],
     "trainCode" : "1149",
     "train_no" : "41000011480Q",
@@ -1741,7 +1938,8 @@
   "4377" : {
     "terminalStation" : "长春",
     "otherTrainNoGroup" : [
-      "110000437703"
+      "110000437703",
+      "110000437704"
     ],
     "trainCode" : "4377",
     "train_no" : "110000437703",
@@ -1759,16 +1957,18 @@
   "8355" : {
     "terminalStation" : "阎良",
     "otherTrainNoGroup" : [
-      "41000083550B"
+      "41000083550B",
+      "41000083550C"
     ],
     "trainCode" : "8355",
-    "train_no" : "41000083550B",
+    "train_no" : "41000083550C",
     "departureStation" : "西安"
   },
   "1461" : {
     "terminalStation" : "上海",
     "otherTrainNoGroup" : [
-      "24000014611W"
+      "24000014611W",
+      "24000014611X"
     ],
     "trainCode" : "1461",
     "train_no" : "24000014611W",
@@ -1777,7 +1977,8 @@
   "S905" : {
     "terminalStation" : "天津北",
     "otherTrainNoGroup" : [
-      "250000S90502"
+      "250000S90502",
+      "250000S90503"
     ],
     "trainCode" : "S905",
     "train_no" : "250000S90502",
@@ -1804,16 +2005,18 @@
   "8356" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "410000835709"
+      "410000835709",
+      "41000083570A"
     ],
     "trainCode" : "8356",
-    "train_no" : "410000835709",
+    "train_no" : "41000083570A",
     "departureStation" : "阎良"
   },
   "1462" : {
     "terminalStation" : "北京",
     "otherTrainNoGroup" : [
-      "550000146201"
+      "550000146201",
+      "550000146202"
     ],
     "trainCode" : "1462",
     "train_no" : "550000146201",
@@ -1838,18 +2041,19 @@
     "departureStation" : "日照"
   },
   "3147" : {
-    "departureStation" : "上海南",
-    "trainCode" : "3147",
     "terminalStation" : "重庆",
-    "train_no" : "550000314730"
+    "trainCode" : "3147",
+    "train_no" : "550000314730",
+    "departureStation" : "上海南"
   },
   "8357" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "410000835709"
+      "410000835709",
+      "41000083570A"
     ],
     "trainCode" : "8357",
-    "train_no" : "410000835709",
+    "train_no" : "41000083570A",
     "departureStation" : "阎良"
   },
   "Y531" : {
@@ -1881,15 +2085,16 @@
     "departureStation" : "蓟州北"
   },
   "3097" : {
-    "departureStation" : "北京西",
-    "trainCode" : "3097",
     "train_no" : "240000309705",
-    "terminalStation" : "洛阳"
+    "trainCode" : "3097",
+    "terminalStation" : "洛阳",
+    "departureStation" : "北京西"
   },
   "2461" : {
     "terminalStation" : "包头",
     "otherTrainNoGroup" : [
-      "270000246419"
+      "270000246419",
+      "27000024641A"
     ],
     "trainCode" : "2461",
     "train_no" : "270000246419",
@@ -1905,34 +2110,36 @@
     "departureStation" : "泰来"
   },
   "3148" : {
-    "terminalStation" : "上海南",
+    "departureStation" : "重庆",
     "trainCode" : "3148",
     "train_no" : "770000314830",
-    "departureStation" : "重庆"
+    "terminalStation" : "上海南"
   },
   "8358" : {
     "terminalStation" : "阎良",
     "otherTrainNoGroup" : [
-      "41000083550B"
+      "41000083550B",
+      "41000083550C"
     ],
     "trainCode" : "8358",
-    "train_no" : "41000083550B",
+    "train_no" : "41000083550C",
     "departureStation" : "西安"
   },
   "Y532" : {
     "terminalStation" : "张家口南",
     "otherTrainNoGroup" : [
-      "260000Y53205"
+      "260000Y53205",
+      "260000Y53206"
     ],
     "trainCode" : "Y532",
     "train_no" : "260000Y53205",
     "departureStation" : "石家庄北"
   },
   "4742" : {
-    "terminalStation" : "南阳",
+    "departureStation" : "邓州",
     "trainCode" : "4742",
     "train_no" : "40000047420C",
-    "departureStation" : "邓州"
+    "terminalStation" : "南阳"
   },
   "S908" : {
     "terminalStation" : "宝坻",
@@ -1945,10 +2152,10 @@
     "departureStation" : "天津北"
   },
   "3098" : {
-    "departureStation" : "邓州",
-    "trainCode" : "3098",
     "train_no" : "400000309840",
-    "terminalStation" : "北京西"
+    "trainCode" : "3098",
+    "terminalStation" : "北京西",
+    "departureStation" : "邓州"
   },
   "2462" : {
     "terminalStation" : "临汾",
@@ -1962,7 +2169,8 @@
   "1230" : {
     "terminalStation" : "上海",
     "otherTrainNoGroup" : [
-      "15000012300A"
+      "15000012300A",
+      "15000012300B"
     ],
     "trainCode" : "1230",
     "train_no" : "15000012300A",
@@ -1980,7 +2188,8 @@
   "Y533" : {
     "terminalStation" : "张家口南",
     "otherTrainNoGroup" : [
-      "260000Y53205"
+      "260000Y53205",
+      "260000Y53206"
     ],
     "trainCode" : "Y533",
     "train_no" : "260000Y53205",
@@ -2017,17 +2226,18 @@
   "2464" : {
     "terminalStation" : "包头",
     "otherTrainNoGroup" : [
-      "270000246419"
+      "270000246419",
+      "27000024641A"
     ],
     "trainCode" : "2464",
     "train_no" : "270000246419",
     "departureStation" : "临汾"
   },
   "3449" : {
-    "departureStation" : "十堰",
-    "trainCode" : "3449",
     "train_no" : "420000345205",
-    "terminalStation" : "广州东"
+    "trainCode" : "3449",
+    "terminalStation" : "广州东",
+    "departureStation" : "十堰"
   },
   "Y535" : {
     "terminalStation" : "张家口南",
@@ -2039,28 +2249,28 @@
     "departureStation" : "北京"
   },
   "4162" : {
-    "departureStation" : "双鸭山",
-    "trainCode" : "4162",
     "terminalStation" : "佳木斯",
-    "train_no" : "020000416205"
+    "trainCode" : "4162",
+    "train_no" : "020000416205",
+    "departureStation" : "双鸭山"
   },
   "3513" : {
-    "departureStation" : "南昌",
-    "trainCode" : "3513",
     "train_no" : "570000351305",
-    "terminalStation" : "深圳西"
+    "trainCode" : "3513",
+    "terminalStation" : "深圳西",
+    "departureStation" : "南昌"
   },
   "3215" : {
-    "terminalStation" : "上海",
+    "departureStation" : "成都",
     "trainCode" : "3215",
     "train_no" : "760000321807",
-    "departureStation" : "成都"
+    "terminalStation" : "上海"
   },
   "2167" : {
-    "departureStation" : "图们",
-    "trainCode" : "2167",
     "terminalStation" : "牡丹江",
-    "train_no" : "180000216703"
+    "trainCode" : "2167",
+    "train_no" : "180000216703",
+    "departureStation" : "图们"
   },
   "Y536" : {
     "terminalStation" : "北京",
@@ -2074,10 +2284,11 @@
   "8375" : {
     "terminalStation" : "长武",
     "otherTrainNoGroup" : [
-      "41000083750E"
+      "41000083750E",
+      "41000083750G"
     ],
     "trainCode" : "8375",
-    "train_no" : "41000083750E",
+    "train_no" : "41000083750G",
     "departureStation" : "西安"
   },
   "4746" : {
@@ -2090,66 +2301,70 @@
     "departureStation" : "邓州"
   },
   "3514" : {
-    "terminalStation" : "南昌",
+    "departureStation" : "深圳西",
     "trainCode" : "3514",
     "train_no" : "690000351409",
-    "departureStation" : "深圳西"
+    "terminalStation" : "南昌"
   },
   "3216" : {
-    "terminalStation" : "成都",
+    "departureStation" : "上海",
     "trainCode" : "3216",
     "train_no" : "550000321650",
-    "departureStation" : "上海"
+    "terminalStation" : "成都"
   },
   "2168" : {
-    "departureStation" : "牡丹江",
-    "trainCode" : "2168",
     "terminalStation" : "图们",
-    "train_no" : "030000216809"
+    "trainCode" : "2168",
+    "train_no" : "030000216809",
+    "departureStation" : "牡丹江"
   },
   "1817" : {
     "terminalStation" : "呼和浩特东",
     "otherTrainNoGroup" : [
-      "11000018200U"
+      "11000018200U",
+      "11000018200V"
     ],
     "trainCode" : "1817",
     "train_no" : "11000018200U",
     "departureStation" : "乌兰浩特"
   },
   "3166" : {
-    "departureStation" : "周口",
-    "trainCode" : "3166",
     "train_no" : "4d0000316606",
-    "terminalStation" : "广州东"
+    "trainCode" : "3166",
+    "terminalStation" : "广州东",
+    "departureStation" : "周口"
   },
   "Y537" : {
-    "terminalStation" : "张家口南",
+    "departureStation" : "北京",
     "otherTrainNoGroup" : [
       "240000Y53700"
     ],
     "trainCode" : "Y537",
     "train_no" : "240000Y53700",
-    "departureStation" : "北京"
+    "terminalStation" : "张家口南"
   },
   "8376" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "4i000083760F"
+      "4i000083760F",
+      "4i000083760I",
+      "4i000083760H"
     ],
     "trainCode" : "8376",
-    "train_no" : "4i000083760F",
+    "train_no" : "4i000083760H",
     "departureStation" : "长武"
   },
   "3217" : {
-    "terminalStation" : "成都",
+    "departureStation" : "上海",
     "trainCode" : "3217",
     "train_no" : "550000321650",
-    "departureStation" : "上海"
+    "terminalStation" : "成都"
   },
   "1818" : {
     "terminalStation" : "乌兰浩特",
     "otherTrainNoGroup" : [
-      "33000018180S"
+      "33000018180S",
+      "33000018180T"
     ],
     "trainCode" : "1818",
     "train_no" : "33000018180S",
@@ -2165,25 +2380,25 @@
     "departureStation" : "鞍山"
   },
   "3167" : {
-    "departureStation" : "周口",
-    "trainCode" : "3167",
     "train_no" : "4d0000316606",
-    "terminalStation" : "广州东"
+    "trainCode" : "3167",
+    "terminalStation" : "广州东",
+    "departureStation" : "周口"
   },
   "Y538" : {
-    "terminalStation" : "北京",
+    "departureStation" : "张家口南",
     "otherTrainNoGroup" : [
       "240000Y53802"
     ],
     "trainCode" : "Y538",
     "train_no" : "240000Y53802",
-    "departureStation" : "张家口南"
+    "terminalStation" : "北京"
   },
   "3180" : {
-    "departureStation" : "襄阳",
-    "trainCode" : "3180",
     "train_no" : "420000318003",
-    "terminalStation" : "深圳东"
+    "trainCode" : "3180",
+    "terminalStation" : "深圳东",
+    "departureStation" : "襄阳"
   },
   "5511" : {
     "terminalStation" : "凭祥",
@@ -2195,15 +2410,16 @@
     "departureStation" : "南宁"
   },
   "3218" : {
-    "terminalStation" : "上海",
+    "departureStation" : "成都",
     "trainCode" : "3218",
     "train_no" : "760000321807",
-    "departureStation" : "成都"
+    "terminalStation" : "上海"
   },
   "1819" : {
     "terminalStation" : "乌兰浩特",
     "otherTrainNoGroup" : [
-      "33000018180S"
+      "33000018180S",
+      "33000018180T"
     ],
     "trainCode" : "1819",
     "train_no" : "33000018180S",
@@ -2221,10 +2437,11 @@
   "6161" : {
     "terminalStation" : "昆明",
     "otherTrainNoGroup" : [
-      "76000061610Z"
+      "76000061610Z",
+      "760000616110"
     ],
     "trainCode" : "6161",
-    "train_no" : "76000061610Z",
+    "train_no" : "760000616110",
     "departureStation" : "攀枝花"
   },
   "5512" : {
@@ -2248,7 +2465,8 @@
   "4230" : {
     "terminalStation" : "营口",
     "otherTrainNoGroup" : [
-      "12000042300M"
+      "12000042300M",
+      "12000042300N"
     ],
     "trainCode" : "4230",
     "train_no" : "12000042300M",
@@ -2257,10 +2475,12 @@
   "6162" : {
     "terminalStation" : "攀枝花",
     "otherTrainNoGroup" : [
-      "80000061621H"
+      "80000061621H",
+      "80000061621J",
+      "80000061621I"
     ],
     "trainCode" : "6162",
-    "train_no" : "80000061621H",
+    "train_no" : "80000061621I",
     "departureStation" : "昆明"
   },
   "4167" : {
@@ -2291,10 +2511,10 @@
     "departureStation" : "海拉尔"
   },
   "3183" : {
-    "terminalStation" : "汕头",
+    "departureStation" : "南昌",
     "trainCode" : "3183",
     "train_no" : "570000318308",
-    "departureStation" : "南昌"
+    "terminalStation" : "汕头"
   },
   "4168" : {
     "terminalStation" : "满洲里",
@@ -2317,7 +2537,8 @@
   "4181" : {
     "terminalStation" : "满归",
     "otherTrainNoGroup" : [
-      "05000041840E"
+      "05000041840E",
+      "05000041840G"
     ],
     "trainCode" : "4181",
     "train_no" : "05000041840E",
@@ -2333,21 +2554,35 @@
     "departureStation" : "兰州"
   },
   "3184" : {
-    "terminalStation" : "南昌",
+    "departureStation" : "汕头",
     "trainCode" : "3184",
     "train_no" : "670000318408",
-    "departureStation" : "汕头"
+    "terminalStation" : "南昌"
+  },
+  "5813" : {
+    "terminalStation" : "泽普",
+    "otherTrainNoGroup" : [
+      "940000581302",
+      "940000581310"
+    ],
+    "trainCode" : "5813",
+    "train_no" : "940000581310",
+    "departureStation" : "喀什"
   },
   "4169" : {
     "terminalStation" : "满洲里",
+    "otherTrainNoGroup" : [
+      "050000416804"
+    ],
     "trainCode" : "4169",
-    "train_no" : "050000416803",
+    "train_no" : "050000416804",
     "departureStation" : "莫尔道嘎"
   },
   "1303" : {
     "terminalStation" : "郑州",
     "otherTrainNoGroup" : [
-      "24000013030O"
+      "24000013030O",
+      "24000013030P"
     ],
     "trainCode" : "1303",
     "train_no" : "24000013030O",
@@ -2356,7 +2591,8 @@
   "4182" : {
     "terminalStation" : "海拉尔",
     "otherTrainNoGroup" : [
-      "05000041820C"
+      "05000041820C",
+      "05000041820F"
     ],
     "trainCode" : "4182",
     "train_no" : "05000041820C",
@@ -2374,7 +2610,8 @@
   "1551" : {
     "terminalStation" : "连云港东",
     "otherTrainNoGroup" : [
-      "27000015511O"
+      "27000015511O",
+      "27000015511P"
     ],
     "trainCode" : "1551",
     "train_no" : "27000015511O",
@@ -2389,10 +2626,21 @@
     "train_no" : "870000751121",
     "departureStation" : "银川"
   },
+  "5814" : {
+    "terminalStation" : "喀什",
+    "otherTrainNoGroup" : [
+      "940000581402",
+      "940000581410"
+    ],
+    "trainCode" : "5814",
+    "train_no" : "940000581410",
+    "departureStation" : "泽普"
+  },
   "1304" : {
     "terminalStation" : "北京西",
     "otherTrainNoGroup" : [
-      "38000013040I"
+      "38000013040I",
+      "38000013040J"
     ],
     "trainCode" : "1304",
     "train_no" : "38000013040I",
@@ -2401,7 +2649,8 @@
   "4183" : {
     "terminalStation" : "海拉尔",
     "otherTrainNoGroup" : [
-      "05000041820C"
+      "05000041820C",
+      "05000041820F"
     ],
     "trainCode" : "4183",
     "train_no" : "05000041820C",
@@ -2464,7 +2713,8 @@
   "4184" : {
     "terminalStation" : "满归",
     "otherTrainNoGroup" : [
-      "05000041840E"
+      "05000041840E",
+      "05000041840G"
     ],
     "trainCode" : "4184",
     "train_no" : "05000041840E",
@@ -2473,7 +2723,8 @@
   "6217" : {
     "terminalStation" : "佳木斯",
     "otherTrainNoGroup" : [
-      "020000621710"
+      "020000621710",
+      "020000621701"
     ],
     "trainCode" : "6217",
     "train_no" : "020000621710",
@@ -2482,7 +2733,8 @@
   "2601" : {
     "terminalStation" : "秦皇岛",
     "otherTrainNoGroup" : [
-      "280000260416"
+      "280000260416",
+      "280000260417"
     ],
     "trainCode" : "2601",
     "train_no" : "280000260416",
@@ -2516,10 +2768,10 @@
     "departureStation" : "长庆桥"
   },
   "3485" : {
-    "departureStation" : "九江",
-    "trainCode" : "3485",
     "train_no" : "570000348505",
-    "terminalStation" : "东莞东"
+    "trainCode" : "3485",
+    "terminalStation" : "东莞东",
+    "departureStation" : "九江"
   },
   "5518" : {
     "terminalStation" : "南宁",
@@ -2530,10 +2782,20 @@
     "train_no" : "71000055180B",
     "departureStation" : "凭祥"
   },
+  "5531" : {
+    "departureStation" : "南宁",
+    "otherTrainNoGroup" : [
+      "71000055310V"
+    ],
+    "trainCode" : "5531",
+    "train_no" : "71000055310V",
+    "terminalStation" : "崇左"
+  },
   "4185" : {
     "terminalStation" : "满洲里",
     "otherTrainNoGroup" : [
-      "05000041850C"
+      "05000041850C",
+      "05000041850D"
     ],
     "trainCode" : "4185",
     "train_no" : "05000041850C",
@@ -2558,10 +2820,10 @@
     "departureStation" : "五常"
   },
   "3251" : {
-    "departureStation" : "漯河",
-    "trainCode" : "3251",
     "train_no" : "390000325104",
-    "terminalStation" : "广州东"
+    "trainCode" : "3251",
+    "terminalStation" : "广州东",
+    "departureStation" : "漯河"
   },
   "2602" : {
     "terminalStation" : "大同",
@@ -2575,7 +2837,8 @@
   "1554" : {
     "terminalStation" : "连云港东",
     "otherTrainNoGroup" : [
-      "27000015511O"
+      "27000015511O",
+      "27000015511P"
     ],
     "trainCode" : "1554",
     "train_no" : "27000015511O",
@@ -2599,20 +2862,30 @@
     "train_no" : "270000816300",
     "departureStation" : "轩岗"
   },
+  "5532" : {
+    "departureStation" : "崇左",
+    "otherTrainNoGroup" : [
+      "71000055320V"
+    ],
+    "trainCode" : "5532",
+    "train_no" : "71000055320V",
+    "terminalStation" : "南宁"
+  },
   "4186" : {
     "terminalStation" : "海拉尔",
     "otherTrainNoGroup" : [
-      "05000041860J"
+      "05000041860J",
+      "05000041860K"
     ],
     "trainCode" : "4186",
     "train_no" : "05000041860J",
     "departureStation" : "满洲里"
   },
   "3252" : {
-    "terminalStation" : "信阳",
+    "departureStation" : "广州东",
     "trainCode" : "3252",
     "train_no" : "650000325206",
-    "departureStation" : "广州东"
+    "terminalStation" : "信阳"
   },
   "6232" : {
     "terminalStation" : "五常",
@@ -2653,7 +2926,8 @@
   "5533" : {
     "terminalStation" : "湛江",
     "otherTrainNoGroup" : [
-      "710000553601"
+      "710000553601",
+      "710000553602"
     ],
     "trainCode" : "5533",
     "train_no" : "710000553601",
@@ -2671,7 +2945,8 @@
   "4187" : {
     "terminalStation" : "满洲里",
     "otherTrainNoGroup" : [
-      "040000418709"
+      "040000418709",
+      "04000041870A"
     ],
     "trainCode" : "4187",
     "train_no" : "040000418709",
@@ -2680,11 +2955,12 @@
   "5831" : {
     "terminalStation" : "霍尔果斯",
     "otherTrainNoGroup" : [
-      "950000583100"
+      "950000583100",
+      "950000583110"
     ],
     "trainCode" : "5831",
-    "train_no" : "950000583100",
-    "departureStation" : "伊宁东"
+    "train_no" : "950000583110",
+    "departureStation" : "伊宁"
   },
   "6233" : {
     "terminalStation" : "哈尔滨东",
@@ -2698,7 +2974,8 @@
   "2604" : {
     "terminalStation" : "秦皇岛",
     "otherTrainNoGroup" : [
-      "280000260416"
+      "280000260416",
+      "280000260417"
     ],
     "trainCode" : "2604",
     "train_no" : "280000260416",
@@ -2732,10 +3009,10 @@
     "departureStation" : "济南"
   },
   "7231" : {
-    "departureStation" : "郑州",
-    "trainCode" : "7231",
     "train_no" : "380000723100",
-    "terminalStation" : "洛阳"
+    "trainCode" : "7231",
+    "terminalStation" : "洛阳",
+    "departureStation" : "郑州"
   },
   "5534" : {
     "terminalStation" : "金城江",
@@ -2750,7 +3027,8 @@
   "2256" : {
     "terminalStation" : "丹东",
     "otherTrainNoGroup" : [
-      "24000022570D"
+      "24000022570D",
+      "24000022570E"
     ],
     "trainCode" : "2256",
     "train_no" : "24000022570D",
@@ -2759,19 +3037,21 @@
   "4188" : {
     "terminalStation" : "齐齐哈尔",
     "otherTrainNoGroup" : [
-      "05000041880S"
+      "05000041880S",
+      "05000041880T"
     ],
     "trainCode" : "4188",
     "train_no" : "05000041880S",
     "departureStation" : "满洲里"
   },
   "5832" : {
-    "terminalStation" : "伊宁东",
+    "terminalStation" : "伊宁",
     "otherTrainNoGroup" : [
-      "950000583200"
+      "950000583200",
+      "950000583210"
     ],
     "trainCode" : "5832",
-    "train_no" : "950000583200",
+    "train_no" : "950000583210",
     "departureStation" : "霍尔果斯"
   },
   "6234" : {
@@ -2811,16 +3091,16 @@
     "departureStation" : "镜铁山"
   },
   "7232" : {
-    "departureStation" : "洛阳",
-    "trainCode" : "7232",
     "train_no" : "400000723200",
-    "terminalStation" : "郑州"
+    "trainCode" : "7232",
+    "terminalStation" : "郑州",
+    "departureStation" : "洛阳"
   },
   "3603" : {
-    "terminalStation" : "重庆北",
+    "departureStation" : "北京",
     "trainCode" : "3603",
     "train_no" : "240000360304",
-    "departureStation" : "北京"
+    "terminalStation" : "重庆北"
   },
   "5535" : {
     "terminalStation" : "金城江",
@@ -2835,7 +3115,8 @@
   "2257" : {
     "terminalStation" : "丹东",
     "otherTrainNoGroup" : [
-      "24000022570D"
+      "24000022570D",
+      "24000022570E"
     ],
     "trainCode" : "2257",
     "train_no" : "24000022570D",
@@ -2844,11 +3125,12 @@
   "5833" : {
     "terminalStation" : "霍尔果斯",
     "otherTrainNoGroup" : [
-      "950000583300"
+      "950000583300",
+      "950000583310"
     ],
     "trainCode" : "5833",
-    "train_no" : "950000583300",
-    "departureStation" : "伊宁东"
+    "train_no" : "950000583310",
+    "departureStation" : "伊宁"
   },
   "4601" : {
     "terminalStation" : "风陵渡",
@@ -2860,10 +3142,10 @@
     "departureStation" : "大同"
   },
   "3255" : {
-    "departureStation" : "成都",
-    "trainCode" : "3255",
     "terminalStation" : "上海",
-    "train_no" : "760000325804"
+    "trainCode" : "3255",
+    "train_no" : "760000325804",
+    "departureStation" : "成都"
   },
   "5003" : {
     "terminalStation" : "济南",
@@ -2884,15 +3166,16 @@
     "departureStation" : "银川"
   },
   "3604" : {
-    "terminalStation" : "北京",
+    "departureStation" : "重庆北",
     "trainCode" : "3604",
     "train_no" : "770000360403",
-    "departureStation" : "重庆北"
+    "terminalStation" : "北京"
   },
   "5536" : {
     "terminalStation" : "湛江",
     "otherTrainNoGroup" : [
-      "710000553601"
+      "710000553601",
+      "710000553602"
     ],
     "trainCode" : "5536",
     "train_no" : "710000553601",
@@ -2908,12 +3191,13 @@
     "departureStation" : "丹东"
   },
   "5834" : {
-    "terminalStation" : "伊宁东",
+    "terminalStation" : "伊宁",
     "otherTrainNoGroup" : [
-      "950000583400"
+      "950000583400",
+      "950000583410"
     ],
     "trainCode" : "5834",
-    "train_no" : "950000583400",
+    "train_no" : "950000583410",
     "departureStation" : "霍尔果斯"
   },
   "4602" : {
@@ -2926,10 +3210,10 @@
     "departureStation" : "临汾"
   },
   "3256" : {
-    "terminalStation" : "成都",
+    "departureStation" : "上海",
     "trainCode" : "3256",
     "train_no" : "550000325670",
-    "departureStation" : "上海"
+    "terminalStation" : "成都"
   },
   "7519" : {
     "terminalStation" : "武威",
@@ -2959,10 +3243,10 @@
     "departureStation" : "中卫"
   },
   "3009" : {
-    "terminalStation" : "襄阳",
+    "departureStation" : "北京西",
     "trainCode" : "3009",
     "train_no" : "240000300909",
-    "departureStation" : "北京西"
+    "terminalStation" : "襄阳"
   },
   "8815" : {
     "terminalStation" : "阳泉曲",
@@ -2985,11 +3269,12 @@
   "5835" : {
     "terminalStation" : "霍尔果斯",
     "otherTrainNoGroup" : [
-      "950000583500"
+      "950000583500",
+      "950000583510"
     ],
     "trainCode" : "5835",
-    "train_no" : "950000583500",
-    "departureStation" : "伊宁东"
+    "train_no" : "950000583510",
+    "departureStation" : "伊宁"
   },
   "4305" : {
     "terminalStation" : "榆树",
@@ -3001,37 +3286,38 @@
     "departureStation" : "长春"
   },
   "4603" : {
-    "terminalStation" : "原平",
+    "departureStation" : "轩岗",
     "trainCode" : "4603",
     "train_no" : "270000460300",
-    "departureStation" : "轩岗"
+    "terminalStation" : "原平"
   },
   "3257" : {
-    "terminalStation" : "成都",
+    "departureStation" : "上海",
     "trainCode" : "3257",
     "train_no" : "550000325670",
-    "departureStation" : "上海"
+    "terminalStation" : "成都"
   },
   "6237" : {
     "terminalStation" : "海拉尔",
     "otherTrainNoGroup" : [
-      "05000062400H"
+      "05000062400H",
+      "05000062400J"
     ],
     "trainCode" : "6237",
     "train_no" : "05000062400H",
     "departureStation" : "塔尔气"
   },
   "3555" : {
-    "departureStation" : "信阳",
-    "trainCode" : "3555",
     "train_no" : "390000355809",
-    "terminalStation" : "上海"
+    "trainCode" : "3555",
+    "terminalStation" : "上海",
+    "departureStation" : "信阳"
   },
   "3270" : {
-    "terminalStation" : "麻城",
+    "departureStation" : "东莞东",
     "trainCode" : "3270",
     "train_no" : "670000327004",
-    "departureStation" : "东莞东"
+    "terminalStation" : "麻城"
   },
   "5005" : {
     "terminalStation" : "临沂",
@@ -3043,10 +3329,13 @@
     "departureStation" : "枣庄西"
   },
   "2621" : {
-    "terminalStation" : "赤峰",
+    "departureStation" : "昌平北",
+    "otherTrainNoGroup" : [
+      "24000026210Q"
+    ],
     "trainCode" : "2621",
-    "train_no" : "24000026210P",
-    "departureStation" : "昌平北"
+    "terminalStation" : "赤峰",
+    "train_no" : "24000026210Q"
   },
   "7533" : {
     "terminalStation" : "银川",
@@ -3085,19 +3374,20 @@
     "departureStation" : "湛江"
   },
   "5836" : {
-    "terminalStation" : "伊宁东",
+    "terminalStation" : "伊宁",
     "otherTrainNoGroup" : [
-      "950000583600"
+      "950000583600",
+      "950000583610"
     ],
     "trainCode" : "5836",
-    "train_no" : "950000583600",
+    "train_no" : "950000583610",
     "departureStation" : "霍尔果斯"
   },
   "4604" : {
-    "terminalStation" : "轩岗",
+    "departureStation" : "原平",
     "trainCode" : "4604",
     "train_no" : "270000460400",
-    "departureStation" : "原平"
+    "terminalStation" : "轩岗"
   },
   "4306" : {
     "terminalStation" : "长春",
@@ -3109,15 +3399,16 @@
     "departureStation" : "榆树"
   },
   "3556" : {
-    "terminalStation" : "信阳",
+    "departureStation" : "上海",
     "trainCode" : "3556",
     "train_no" : "5500003556D0",
-    "departureStation" : "上海"
+    "terminalStation" : "信阳"
   },
   "6238" : {
     "terminalStation" : "塔尔气",
     "otherTrainNoGroup" : [
-      "05000062380H"
+      "05000062380H",
+      "05000062380J"
     ],
     "trainCode" : "6238",
     "train_no" : "05000062380H",
@@ -3126,23 +3417,25 @@
   "7001" : {
     "terminalStation" : "韩城",
     "otherTrainNoGroup" : [
-      "41000070010P"
+      "41000070010P",
+      "41000070010Q"
     ],
     "trainCode" : "7001",
-    "train_no" : "41000070010P",
+    "train_no" : "41000070010Q",
     "departureStation" : "西安"
   },
   "3258" : {
-    "departureStation" : "成都",
-    "trainCode" : "3258",
     "terminalStation" : "上海",
-    "train_no" : "760000325804"
+    "trainCode" : "3258",
+    "train_no" : "760000325804",
+    "departureStation" : "成都"
   },
   "6251" : {
     "terminalStation" : "鸡西",
     "otherTrainNoGroup" : [
       "03000062510G",
-      "030000625100"
+      "030000625100",
+      "03000062510H"
     ],
     "trainCode" : "6251",
     "train_no" : "03000062510G",
@@ -3159,8 +3452,11 @@
   },
   "2622" : {
     "terminalStation" : "昌平北",
+    "otherTrainNoGroup" : [
+      "16000026220G"
+    ],
     "trainCode" : "2622",
-    "train_no" : "16000026220F",
+    "train_no" : "16000026220G",
     "departureStation" : "赤峰"
   },
   "7534" : {
@@ -3173,10 +3469,10 @@
     "departureStation" : "银川"
   },
   "3309" : {
-    "terminalStation" : "东莞东",
+    "departureStation" : "南昌",
     "trainCode" : "3309",
     "train_no" : "570000330907",
-    "departureStation" : "南昌"
+    "terminalStation" : "东莞东"
   },
   "4256" : {
     "terminalStation" : "叶柏寿",
@@ -3206,15 +3502,16 @@
     "departureStation" : "湛江"
   },
   "3557" : {
-    "terminalStation" : "信阳",
+    "departureStation" : "上海",
     "trainCode" : "3557",
     "train_no" : "5500003556D0",
-    "departureStation" : "上海"
+    "terminalStation" : "信阳"
   },
   "6239" : {
     "terminalStation" : "塔尔气",
     "otherTrainNoGroup" : [
-      "05000062380H"
+      "05000062380H",
+      "05000062380J"
     ],
     "trainCode" : "6239",
     "train_no" : "05000062380H",
@@ -3223,26 +3520,30 @@
   "4320" : {
     "terminalStation" : "通化",
     "otherTrainNoGroup" : [
-      "12000043200C"
+      "12000043200C",
+      "12000043200E",
+      "12000043200D"
     ],
     "trainCode" : "4320",
-    "train_no" : "12000043200C",
+    "train_no" : "12000043200D",
     "departureStation" : "丹东"
   },
   "7002" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "41000070030M"
+      "41000070030M",
+      "41000070030N"
     ],
     "trainCode" : "7002",
-    "train_no" : "41000070030M",
+    "train_no" : "41000070030N",
     "departureStation" : "韩城"
   },
   "6252" : {
     "terminalStation" : "牡丹江",
     "otherTrainNoGroup" : [
       "03000062520E",
-      "030000625200"
+      "030000625200",
+      "03000062520F"
     ],
     "trainCode" : "6252",
     "train_no" : "03000062520E",
@@ -3260,7 +3561,8 @@
   "2623" : {
     "terminalStation" : "满洲里",
     "otherTrainNoGroup" : [
-      "13000026230Z"
+      "13000026230Z",
+      "130000262310"
     ],
     "trainCode" : "2623",
     "train_no" : "13000026230Z",
@@ -3303,10 +3605,10 @@
     "departureStation" : "风陵渡"
   },
   "3558" : {
-    "departureStation" : "信阳",
-    "trainCode" : "3558",
     "train_no" : "390000355809",
-    "terminalStation" : "上海"
+    "trainCode" : "3558",
+    "terminalStation" : "上海",
+    "departureStation" : "信阳"
   },
   "4321" : {
     "terminalStation" : "南芬",
@@ -3320,10 +3622,11 @@
   "7003" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "41000070030M"
+      "41000070030M",
+      "41000070030N"
     ],
     "trainCode" : "7003",
-    "train_no" : "41000070030M",
+    "train_no" : "41000070030N",
     "departureStation" : "韩城"
   },
   "6253" : {
@@ -3363,10 +3666,10 @@
     "departureStation" : "敦煌"
   },
   "3273" : {
-    "departureStation" : "南昌",
-    "trainCode" : "3273",
     "train_no" : "570000327308",
-    "terminalStation" : "深圳西"
+    "trainCode" : "3273",
+    "terminalStation" : "深圳西",
+    "departureStation" : "南昌"
   },
   "5021" : {
     "terminalStation" : "青岛",
@@ -3385,6 +3688,15 @@
     "trainCode" : "8819",
     "train_no" : "280000881900",
     "departureStation" : "宁武"
+  },
+  "L8001" : {
+    "train_no" : "80000L800100",
+    "otherTrainNoGroup" : [
+      "80000L800100"
+    ],
+    "trainCode" : "L8001",
+    "terminalStation" : "昆明",
+    "departureStation" : "红果"
   },
   "4309" : {
     "terminalStation" : "通辽",
@@ -3416,22 +3728,24 @@
   "7004" : {
     "terminalStation" : "韩城",
     "otherTrainNoGroup" : [
-      "41000070010P"
+      "41000070010P",
+      "41000070010Q"
     ],
     "trainCode" : "7004",
-    "train_no" : "41000070010P",
+    "train_no" : "41000070010Q",
     "departureStation" : "西安"
   },
   "3274" : {
-    "terminalStation" : "南昌",
+    "departureStation" : "深圳西",
     "trainCode" : "3274",
     "train_no" : "690000327409",
-    "departureStation" : "深圳西"
+    "terminalStation" : "南昌"
   },
   "6254" : {
     "terminalStation" : "一面坡",
     "otherTrainNoGroup" : [
-      "01000062540K"
+      "01000062540K",
+      "01000062540L"
     ],
     "trainCode" : "6254",
     "train_no" : "01000062540K",
@@ -3447,12 +3761,13 @@
     "departureStation" : "敦煌"
   },
   "S501" : {
-    "terminalStation" : "怀柔北",
+    "terminalStation" : "古北口",
     "otherTrainNoGroup" : [
-      "240000S50100"
+      "240000S50100",
+      "240000S50110"
     ],
     "trainCode" : "S501",
-    "train_no" : "240000S50100",
+    "train_no" : "240000S50110",
     "departureStation" : "黄土店"
   },
   "5022" : {
@@ -3503,7 +3818,8 @@
   "6851" : {
     "terminalStation" : "乌海西",
     "otherTrainNoGroup" : [
-      "330000685107"
+      "330000685107",
+      "330000685108"
     ],
     "trainCode" : "6851",
     "train_no" : "330000685107",
@@ -3512,7 +3828,8 @@
   "6255" : {
     "terminalStation" : "一面坡",
     "otherTrainNoGroup" : [
-      "01000062540K"
+      "01000062540K",
+      "01000062540L"
     ],
     "trainCode" : "6255",
     "train_no" : "01000062540K",
@@ -3528,19 +3845,20 @@
     "departureStation" : "柴沟堡"
   },
   "7538" : {
-    "departureStation" : "嘉峪关",
-    "trainCode" : "7538",
     "terminalStation" : "敦煌",
-    "train_no" : "860000753500"
+    "trainCode" : "7538",
+    "train_no" : "860000753500",
+    "departureStation" : "嘉峪关"
   },
   "S502" : {
     "terminalStation" : "黄土店",
     "otherTrainNoGroup" : [
-      "240000S50200"
+      "240000S50200",
+      "240000S50210"
     ],
     "trainCode" : "S502",
-    "train_no" : "240000S50200",
-    "departureStation" : "怀柔北"
+    "train_no" : "240000S50210",
+    "departureStation" : "古北口"
   },
   "5023" : {
     "terminalStation" : "曹县",
@@ -3581,17 +3899,18 @@
   "7006" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "4a0000700705"
+      "4a0000700705",
+      "4a0000700706"
     ],
     "trainCode" : "7006",
     "train_no" : "4a0000700705",
     "departureStation" : "榆林"
   },
   "3872" : {
-    "terminalStation" : "达州",
+    "departureStation" : "福州",
     "trainCode" : "3872",
     "train_no" : "580000387208",
-    "departureStation" : "福州"
+    "terminalStation" : "达州"
   },
   "6852" : {
     "terminalStation" : "包头东",
@@ -3612,19 +3931,20 @@
     "departureStation" : "大同"
   },
   "S503" : {
-    "terminalStation" : "怀柔北",
+    "terminalStation" : "古北口",
     "otherTrainNoGroup" : [
-      "240000S50302"
+      "240000S50302",
+      "240000S50310"
     ],
     "trainCode" : "S503",
-    "train_no" : "240000S50302",
+    "train_no" : "240000S50310",
     "departureStation" : "黄土店"
   },
   "7539" : {
-    "departureStation" : "羊木",
-    "trainCode" : "7539",
     "terminalStation" : "兰州",
-    "train_no" : "850000753901"
+    "trainCode" : "7539",
+    "train_no" : "850000753901",
+    "departureStation" : "羊木"
   },
   "5024" : {
     "terminalStation" : "青岛",
@@ -3681,10 +4001,10 @@
     "departureStation" : "沈阳"
   },
   "3873" : {
-    "terminalStation" : "达州",
+    "departureStation" : "福州",
     "trainCode" : "3873",
     "train_no" : "580000387208",
-    "departureStation" : "福州"
+    "terminalStation" : "达州"
   },
   "6853" : {
     "terminalStation" : "白云鄂博",
@@ -3698,26 +4018,28 @@
   "7007" : {
     "terminalStation" : "西安",
     "otherTrainNoGroup" : [
-      "4a0000700705"
+      "4a0000700705",
+      "4a0000700706"
     ],
     "trainCode" : "7007",
     "train_no" : "4a0000700705",
     "departureStation" : "榆林"
   },
   "3277" : {
-    "train_no" : "240000327708",
+    "departureStation" : "北京",
     "trainCode" : "3277",
     "terminalStation" : "成都",
-    "departureStation" : "北京"
+    "train_no" : "240000327708"
   },
   "S504" : {
     "terminalStation" : "黄土店",
     "otherTrainNoGroup" : [
-      "240000S50402"
+      "240000S50402",
+      "240000S50410"
     ],
     "trainCode" : "S504",
-    "train_no" : "240000S50402",
-    "departureStation" : "怀柔北"
+    "train_no" : "240000S50410",
+    "departureStation" : "古北口"
   },
   "5025" : {
     "terminalStation" : "青岛",
@@ -3729,10 +4051,10 @@
     "departureStation" : "曹县"
   },
   "6270" : {
-    "departureStation" : "莫尔道嘎",
-    "trainCode" : "6270",
     "terminalStation" : "海拉尔",
-    "train_no" : "05000062700J"
+    "trainCode" : "6270",
+    "train_no" : "05000062700J",
+    "departureStation" : "莫尔道嘎"
   },
   "7553" : {
     "terminalStation" : "哈密",
@@ -3773,7 +4095,8 @@
   "6854" : {
     "terminalStation" : "包头东",
     "otherTrainNoGroup" : [
-      "330000685407"
+      "330000685407",
+      "330000685408"
     ],
     "trainCode" : "6854",
     "train_no" : "330000685407",
@@ -3798,15 +4121,16 @@
     "departureStation" : "西安"
   },
   "3278" : {
-    "departureStation" : "成都",
-    "trainCode" : "3278",
     "train_no" : "760000327805",
-    "terminalStation" : "北京"
+    "trainCode" : "3278",
+    "terminalStation" : "北京",
+    "departureStation" : "成都"
   },
   "6271" : {
     "terminalStation" : "佳木斯",
     "otherTrainNoGroup" : [
-      "02000062740M"
+      "02000062740M",
+      "02000062740N"
     ],
     "trainCode" : "6271",
     "train_no" : "02000062740M",
@@ -3821,6 +4145,15 @@
     "train_no" : "49000050260D",
     "departureStation" : "青岛"
   },
+  "S505" : {
+    "terminalStation" : "古北口",
+    "otherTrainNoGroup" : [
+      "240000S50500"
+    ],
+    "trainCode" : "S505",
+    "train_no" : "240000S50500",
+    "departureStation" : "黄土店"
+  },
   "7554" : {
     "terminalStation" : "柳园",
     "otherTrainNoGroup" : [
@@ -3833,7 +4166,8 @@
   "6905" : {
     "terminalStation" : "长治北",
     "otherTrainNoGroup" : [
-      "38000069050B"
+      "38000069050B",
+      "38000069050C"
     ],
     "trainCode" : "6905",
     "train_no" : "38000069050B",
@@ -3884,10 +4218,20 @@
     "train_no" : "04000062590B",
     "departureStation" : "齐齐哈尔"
   },
+  "S506" : {
+    "terminalStation" : "黄土店",
+    "otherTrainNoGroup" : [
+      "240000S50600"
+    ],
+    "trainCode" : "S506",
+    "train_no" : "240000S50600",
+    "departureStation" : "古北口"
+  },
   "6272" : {
     "terminalStation" : "乌伊岭",
     "otherTrainNoGroup" : [
-      "02000062720E"
+      "02000062720E",
+      "02000062720F"
     ],
     "trainCode" : "6272",
     "train_no" : "02000062720E",
@@ -3905,10 +4249,13 @@
   "Y961" : {
     "terminalStation" : "乌鲁木齐",
     "otherTrainNoGroup" : [
-      "940000Y96405"
+      "940000Y96405",
+      "940000Y96408",
+      "940000Y96407",
+      "880000Y96108"
     ],
     "trainCode" : "Y961",
-    "train_no" : "940000Y96405",
+    "train_no" : "940000Y96407",
     "departureStation" : "和田"
   },
   "7555" : {
@@ -3923,10 +4270,13 @@
   "6906" : {
     "terminalStation" : "新乡",
     "otherTrainNoGroup" : [
-      "38000069070M"
+      "38000069070M",
+      "38000069070S",
+      "38000069070Q",
+      "38000069070R"
     ],
     "trainCode" : "6906",
-    "train_no" : "38000069070M",
+    "train_no" : "38000069070Q",
     "departureStation" : "长治北"
   },
   "5040" : {
@@ -3957,10 +4307,10 @@
     "departureStation" : "麻城"
   },
   "3045" : {
-    "departureStation" : "襄阳东",
-    "trainCode" : "3045",
     "train_no" : "420000304804",
-    "terminalStation" : "深圳"
+    "trainCode" : "3045",
+    "terminalStation" : "深圳",
+    "departureStation" : "襄阳东"
   },
   "4328" : {
     "terminalStation" : "叶柏寿",
@@ -3992,7 +4342,8 @@
   "4043" : {
     "terminalStation" : "密山",
     "otherTrainNoGroup" : [
-      "030000404330"
+      "030000404330",
+      "030000404340"
     ],
     "trainCode" : "4043",
     "train_no" : "030000404330",
@@ -4001,7 +4352,8 @@
   "6273" : {
     "terminalStation" : "乌伊岭",
     "otherTrainNoGroup" : [
-      "02000062720E"
+      "02000062720E",
+      "02000062720F"
     ],
     "trainCode" : "6273",
     "train_no" : "02000062720E",
@@ -4019,26 +4371,30 @@
   "Y962" : {
     "terminalStation" : "和田",
     "otherTrainNoGroup" : [
-      "930000Y96204"
+      "930000Y96204",
+      "930000Y96207",
+      "930000Y96205",
+      "880000Y96208"
     ],
     "trainCode" : "Y962",
-    "train_no" : "930000Y96204",
+    "train_no" : "930000Y96205",
     "departureStation" : "乌鲁木齐"
   },
   "7556" : {
     "terminalStation" : "喀什",
     "otherTrainNoGroup" : [
-      "93000075560D"
+      "93000075560D",
+      "93000075560E"
     ],
     "trainCode" : "7556",
-    "train_no" : "93000075560D",
+    "train_no" : "93000075560E",
     "departureStation" : "乌鲁木齐"
   },
   "S507" : {
-    "terminalStation" : "怀柔北",
+    "departureStation" : "黄土店",
     "trainCode" : "S507",
     "train_no" : "240000S50702",
-    "departureStation" : "黄土店"
+    "terminalStation" : "怀柔北"
   },
   "5041" : {
     "terminalStation" : "威海",
@@ -4052,7 +4408,8 @@
   "2061" : {
     "terminalStation" : "加格达奇",
     "otherTrainNoGroup" : [
-      "130000206116"
+      "130000206116",
+      "130000206117"
     ],
     "trainCode" : "2061",
     "train_no" : "130000206116",
@@ -4068,10 +4425,10 @@
     "departureStation" : "梅江"
   },
   "3046" : {
-    "terminalStation" : "襄阳",
+    "departureStation" : "深圳",
     "trainCode" : "3046",
     "train_no" : "650000304605",
-    "departureStation" : "深圳"
+    "terminalStation" : "襄阳"
   },
   "6026" : {
     "terminalStation" : "麻城",
@@ -4085,10 +4442,13 @@
   "6907" : {
     "terminalStation" : "新乡",
     "otherTrainNoGroup" : [
-      "38000069070M"
+      "38000069070M",
+      "38000069070S",
+      "38000069070Q",
+      "38000069070R"
     ],
     "trainCode" : "6907",
-    "train_no" : "38000069070M",
+    "train_no" : "38000069070Q",
     "departureStation" : "长治北"
   },
   "4627" : {
@@ -4121,7 +4481,8 @@
   "4044" : {
     "terminalStation" : "东京城",
     "otherTrainNoGroup" : [
-      "030000404432"
+      "030000404432",
+      "030000404441"
     ],
     "trainCode" : "4044",
     "train_no" : "030000404432",
@@ -4130,7 +4491,8 @@
   "6274" : {
     "terminalStation" : "佳木斯",
     "otherTrainNoGroup" : [
-      "02000062740M"
+      "02000062740M",
+      "02000062740N"
     ],
     "trainCode" : "6274",
     "train_no" : "02000062740M",
@@ -4139,31 +4501,35 @@
   "Y963" : {
     "terminalStation" : "和田",
     "otherTrainNoGroup" : [
-      "930000Y96204"
+      "930000Y96204",
+      "930000Y96207",
+      "930000Y96205"
     ],
     "trainCode" : "Y963",
-    "train_no" : "930000Y96204",
+    "train_no" : "930000Y96205",
     "departureStation" : "乌鲁木齐"
   },
   "S508" : {
-    "terminalStation" : "黄土店",
+    "departureStation" : "怀柔北",
     "trainCode" : "S508",
     "train_no" : "240000S50800",
-    "departureStation" : "怀柔北"
+    "terminalStation" : "黄土店"
   },
   "7557" : {
     "terminalStation" : "喀什",
     "otherTrainNoGroup" : [
-      "93000075560D"
+      "93000075560D",
+      "93000075560E"
     ],
     "trainCode" : "7557",
-    "train_no" : "93000075560D",
+    "train_no" : "93000075560E",
     "departureStation" : "乌鲁木齐"
   },
   "6908" : {
     "terminalStation" : "长治北",
     "otherTrainNoGroup" : [
-      "38000069050B"
+      "38000069050B",
+      "38000069050C"
     ],
     "trainCode" : "6908",
     "train_no" : "38000069050B",
@@ -4181,7 +4547,8 @@
   "2062" : {
     "terminalStation" : "大连",
     "otherTrainNoGroup" : [
-      "04000020620Q"
+      "04000020620Q",
+      "04000020620R"
     ],
     "trainCode" : "2062",
     "train_no" : "04000020620Q",
@@ -4197,10 +4564,10 @@
     "departureStation" : "怀化"
   },
   "3047" : {
-    "terminalStation" : "襄阳",
+    "departureStation" : "深圳",
     "trainCode" : "3047",
     "train_no" : "650000304605",
-    "departureStation" : "深圳"
+    "terminalStation" : "襄阳"
   },
   "4628" : {
     "terminalStation" : "临汾",
@@ -4212,13 +4579,13 @@
     "departureStation" : "运城"
   },
   "6040" : {
-    "terminalStation" : "通辽",
+    "departureStation" : "集宁南",
     "otherTrainNoGroup" : [
       "330000604109"
     ],
     "trainCode" : "6040",
     "train_no" : "330000604109",
-    "departureStation" : "集宁南"
+    "terminalStation" : "通辽"
   },
   "6858" : {
     "terminalStation" : "呼和浩特",
@@ -4241,7 +4608,8 @@
   "4343" : {
     "terminalStation" : "图们",
     "otherTrainNoGroup" : [
-      "180000434302"
+      "180000434302",
+      "180000434303"
     ],
     "trainCode" : "4343",
     "train_no" : "180000434302",
@@ -4250,10 +4618,12 @@
   "Y964" : {
     "terminalStation" : "乌鲁木齐",
     "otherTrainNoGroup" : [
-      "940000Y96405"
+      "940000Y96405",
+      "940000Y96408",
+      "940000Y96407"
     ],
     "trainCode" : "Y964",
-    "train_no" : "940000Y96405",
+    "train_no" : "940000Y96407",
     "departureStation" : "和田"
   },
   "7558" : {
@@ -4275,10 +4645,10 @@
     "departureStation" : "益阳"
   },
   "3048" : {
-    "departureStation" : "襄阳东",
-    "trainCode" : "3048",
     "train_no" : "420000304804",
-    "terminalStation" : "深圳"
+    "trainCode" : "3048",
+    "terminalStation" : "深圳",
+    "departureStation" : "襄阳东"
   },
   "4629" : {
     "terminalStation" : "朔州",
@@ -4291,13 +4661,13 @@
     "departureStation" : "大同"
   },
   "6041" : {
-    "terminalStation" : "通辽",
+    "departureStation" : "集宁南",
     "otherTrainNoGroup" : [
       "330000604109"
     ],
     "trainCode" : "6041",
     "train_no" : "330000604109",
-    "departureStation" : "集宁南"
+    "terminalStation" : "通辽"
   },
   "4344" : {
     "terminalStation" : "吉林",
@@ -4348,32 +4718,33 @@
   "6029" : {
     "terminalStation" : "赤峰",
     "otherTrainNoGroup" : [
-      "24000060290I"
+      "24000060290I",
+      "24000060290J"
     ],
     "trainCode" : "6029",
     "train_no" : "24000060290I",
     "departureStation" : "承德"
   },
   "6340" : {
-    "terminalStation" : "长春",
+    "departureStation" : "陶赖昭",
     "trainCode" : "6340",
     "train_no" : "11000063400C",
-    "departureStation" : "陶赖昭"
+    "terminalStation" : "长春"
   },
   "6042" : {
-    "departureStation" : "通辽",
+    "terminalStation" : "集宁南",
     "otherTrainNoGroup" : [
       "16000060390A"
     ],
     "trainCode" : "6042",
-    "terminalStation" : "集宁南",
-    "train_no" : "16000060390A"
+    "train_no" : "16000060390A",
+    "departureStation" : "通辽"
   },
   "3062" : {
-    "departureStation" : "平顶山",
-    "trainCode" : "3062",
     "train_no" : "390000306206",
-    "terminalStation" : "佛山"
+    "trainCode" : "3062",
+    "terminalStation" : "佛山",
+    "departureStation" : "平顶山"
   },
   "4643" : {
     "terminalStation" : "柳林南",
@@ -4385,10 +4756,10 @@
     "departureStation" : "太原"
   },
   "4345" : {
-    "terminalStation" : "鹿道",
+    "departureStation" : "图们",
     "trainCode" : "4345",
     "train_no" : "180000434500",
-    "departureStation" : "图们"
+    "terminalStation" : "鹿道"
   },
   "6277" : {
     "terminalStation" : "齐齐哈尔",
@@ -4409,13 +4780,14 @@
     "departureStation" : "敦煌"
   },
   "4060" : {
-    "terminalStation" : "加格达奇",
+    "departureStation" : "塔河",
     "otherTrainNoGroup" : [
-      "040000406006"
+      "040000406006",
+      "040000406007"
     ],
     "trainCode" : "4060",
-    "train_no" : "040000406006",
-    "departureStation" : "塔河"
+    "terminalStation" : "加格达奇",
+    "train_no" : "040000406006"
   },
   "2065" : {
     "terminalStation" : "沈阳",
@@ -4463,10 +4835,10 @@
     "departureStation" : "邯郸"
   },
   "3063" : {
-    "departureStation" : "平顶山",
-    "trainCode" : "3063",
     "train_no" : "390000306206",
-    "terminalStation" : "佛山"
+    "trainCode" : "3063",
+    "terminalStation" : "佛山",
+    "departureStation" : "平顶山"
   },
   "4644" : {
     "terminalStation" : "太原",
@@ -4478,10 +4850,10 @@
     "departureStation" : "柳林南"
   },
   "4346" : {
-    "terminalStation" : "图们",
+    "departureStation" : "鹿道",
     "trainCode" : "4346",
     "train_no" : "180000434600",
-    "departureStation" : "鹿道"
+    "terminalStation" : "图们"
   },
   "6278" : {
     "terminalStation" : "泰来",
@@ -4510,10 +4882,20 @@
     "train_no" : "8b0000Y66911",
     "departureStation" : "敦煌"
   },
+  "Y682" : {
+    "departureStation" : "敦煌",
+    "otherTrainNoGroup" : [
+      "8b0000Y68330"
+    ],
+    "trainCode" : "Y682",
+    "train_no" : "8b0000Y68330",
+    "terminalStation" : "兰州"
+  },
   "2066" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "12000020660P"
+      "12000020660P",
+      "12000020660Q"
     ],
     "trainCode" : "2066",
     "train_no" : "12000020660P",
@@ -4538,15 +4920,16 @@
     "departureStation" : "信阳"
   },
   "3064" : {
-    "terminalStation" : "武昌",
+    "departureStation" : "佛山",
     "trainCode" : "3064",
     "train_no" : "660000306406",
-    "departureStation" : "佛山"
+    "terminalStation" : "武昌"
   },
   "6044" : {
     "terminalStation" : "邯郸",
     "otherTrainNoGroup" : [
-      "380000604406"
+      "380000604406",
+      "380000604408"
     ],
     "trainCode" : "6044",
     "train_no" : "380000604406",
@@ -4570,10 +4953,20 @@
     "train_no" : "04000062790K",
     "departureStation" : "三间房"
   },
+  "Y683" : {
+    "departureStation" : "敦煌",
+    "otherTrainNoGroup" : [
+      "8b0000Y68330"
+    ],
+    "trainCode" : "Y683",
+    "train_no" : "8b0000Y68330",
+    "terminalStation" : "兰州"
+  },
   "2067" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "12000020660P"
+      "12000020660P",
+      "12000020660Q"
     ],
     "trainCode" : "2067",
     "train_no" : "12000020660P",
@@ -4591,7 +4984,8 @@
   "1133" : {
     "terminalStation" : "乌海西",
     "otherTrainNoGroup" : [
-      "240000113300"
+      "240000113300",
+      "240000113301"
     ],
     "trainCode" : "1133",
     "train_no" : "240000113300",
@@ -4645,7 +5039,8 @@
   "1134" : {
     "terminalStation" : "北京西",
     "otherTrainNoGroup" : [
-      "330000113400"
+      "330000113400",
+      "33000011340N"
     ],
     "trainCode" : "1134",
     "train_no" : "330000113400",
@@ -4697,16 +5092,16 @@
     "departureStation" : "北京西"
   },
   "1135" : {
-    "departureStation" : "乌海西",
-    "trainCode" : "1135",
     "terminalStation" : "天津",
-    "train_no" : "33000011340M"
+    "trainCode" : "1135",
+    "train_no" : "33000011340M",
+    "departureStation" : "乌海西"
   },
   "3067" : {
-    "train_no" : "570000306705",
+    "departureStation" : "南昌",
     "trainCode" : "3067",
     "terminalStation" : "深圳西",
-    "departureStation" : "南昌"
+    "train_no" : "570000306705"
   },
   "4363" : {
     "terminalStation" : "集安",
@@ -4738,31 +5133,33 @@
   "2083" : {
     "terminalStation" : "海拉尔",
     "otherTrainNoGroup" : [
-      "13000020830P"
+      "13000020830P",
+      "13000020830Q"
     ],
     "trainCode" : "2083",
     "train_no" : "13000020830P",
     "departureStation" : "大连"
   },
   "1136" : {
-    "departureStation" : "天津",
-    "trainCode" : "1136",
     "terminalStation" : "乌海西",
-    "train_no" : "25000011360O"
+    "trainCode" : "1136",
+    "train_no" : "25000011360O",
+    "departureStation" : "天津"
   },
   "3068" : {
-    "terminalStation" : "南昌",
+    "departureStation" : "深圳西",
     "trainCode" : "3068",
     "train_no" : "690000306806",
-    "departureStation" : "深圳西"
+    "terminalStation" : "南昌"
   },
   "6061" : {
-    "terminalStation" : "昆明",
+    "terminalStation" : "红果",
     "otherTrainNoGroup" : [
-      "78000060610T"
+      "78000060610T",
+      "780000606100"
     ],
     "trainCode" : "6061",
-    "train_no" : "78000060610T",
+    "train_no" : "780000606100",
     "departureStation" : "六盘水"
   },
   "4364" : {
@@ -4775,18 +5172,20 @@
     "departureStation" : "集安"
   },
   "P97" : {
-    "terminalStation" : "香港红磡",
+    "departureStation" : "北京西",
     "otherTrainNoGroup" : [
-      "2400000P9703"
+      "2400000P9703",
+      "2400000P9704"
     ],
     "trainCode" : "P97",
-    "train_no" : "2400000P9703",
-    "departureStation" : "北京西"
+    "terminalStation" : "香港红磡",
+    "train_no" : "2400000P9703"
   },
   "2667" : {
     "terminalStation" : "加格达奇",
     "otherTrainNoGroup" : [
-      "12000026670N"
+      "12000026670N",
+      "12000026670O"
     ],
     "trainCode" : "2667",
     "train_no" : "12000026670N",
@@ -4802,10 +5201,10 @@
     "departureStation" : "昭通"
   },
   "Y801" : {
-    "terminalStation" : "兰州",
+    "departureStation" : "陇南",
     "trainCode" : "Y801",
     "train_no" : "8g0000Y80130",
-    "departureStation" : "陇南"
+    "terminalStation" : "兰州"
   },
   "Y503" : {
     "terminalStation" : "石家庄北",
@@ -4826,13 +5225,14 @@
     "departureStation" : "海拉尔"
   },
   "P98" : {
-    "departureStation" : "香港红磡",
+    "terminalStation" : "北京西",
     "otherTrainNoGroup" : [
-      "6500000P9803"
+      "6500000P9803",
+      "6500000P9804"
     ],
     "trainCode" : "P98",
-    "terminalStation" : "北京西",
-    "train_no" : "6500000P9803"
+    "train_no" : "6500000P9803",
+    "departureStation" : "香港红磡"
   },
   "1150" : {
     "terminalStation" : "宝鸡",
@@ -4846,7 +5246,8 @@
   "6062" : {
     "terminalStation" : "六盘水",
     "otherTrainNoGroup" : [
-      "800000606235"
+      "800000606235",
+      "800000606236"
     ],
     "trainCode" : "6062",
     "train_no" : "800000606235",
@@ -4855,7 +5256,8 @@
   "2668" : {
     "terminalStation" : "沈阳",
     "otherTrainNoGroup" : [
-      "040000266843"
+      "040000266843",
+      "040000266844"
     ],
     "trainCode" : "2668",
     "train_no" : "040000266843",
@@ -4871,10 +5273,10 @@
     "departureStation" : "贵阳"
   },
   "Y802" : {
-    "terminalStation" : "陇南",
+    "departureStation" : "兰州",
     "trainCode" : "Y802",
     "train_no" : "850000Y80230",
-    "departureStation" : "兰州"
+    "terminalStation" : "陇南"
   },
   "Y504" : {
     "terminalStation" : "衡水",
@@ -4886,13 +5288,14 @@
     "departureStation" : "石家庄北"
   },
   "P99" : {
-    "departureStation" : "上海",
+    "terminalStation" : "香港红磡",
     "otherTrainNoGroup" : [
-      "5500000P9910"
+      "5500000P9910",
+      "5500000P9920"
     ],
     "trainCode" : "P99",
-    "terminalStation" : "香港红磡",
-    "train_no" : "5500000P9910"
+    "train_no" : "5500000P9910",
+    "departureStation" : "上海"
   },
   "1151" : {
     "terminalStation" : "西安",
@@ -4906,10 +5309,12 @@
   "6063" : {
     "terminalStation" : "广元",
     "otherTrainNoGroup" : [
-      "41000060630M"
+      "41000060630M",
+      "41000060630O",
+      "41000060630N"
     ],
     "trainCode" : "6063",
-    "train_no" : "41000060630M",
+    "train_no" : "41000060630N",
     "departureStation" : "宝鸡"
   },
   "6361" : {
@@ -4960,7 +5365,8 @@
   "4367" : {
     "terminalStation" : "库伦",
     "otherTrainNoGroup" : [
-      "160000437005"
+      "160000437005",
+      "160000437006"
     ],
     "trainCode" : "4367",
     "train_no" : "160000437005",
@@ -4984,6 +5390,15 @@
     "train_no" : "010000408204",
     "departureStation" : "北安"
   },
+  "W1395" : {
+    "departureStation" : "太原",
+    "otherTrainNoGroup" : [
+      "27000K13980A"
+    ],
+    "trainCode" : "W1395",
+    "terminalStation" : "温州",
+    "train_no" : "27000K13980A"
+  },
   "1153" : {
     "terminalStation" : "杭州",
     "otherTrainNoGroup" : [
@@ -4996,19 +5411,22 @@
   "4133" : {
     "terminalStation" : "前进镇",
     "otherTrainNoGroup" : [
-      "02000041330N"
+      "02000041330N",
+      "02000041330Q",
+      "02000041330O"
     ],
     "trainCode" : "4133",
-    "train_no" : "02000041330N",
+    "train_no" : "02000041330O",
     "departureStation" : "佳木斯"
   },
   "6065" : {
     "terminalStation" : "达州",
     "otherTrainNoGroup" : [
-      "43000060650P"
+      "43000060650P",
+      "43000060650Q"
     ],
     "trainCode" : "6065",
-    "train_no" : "43000060650P",
+    "train_no" : "43000060650Q",
     "departureStation" : "安康"
   },
   "6363" : {
@@ -5023,7 +5441,8 @@
   "4368" : {
     "terminalStation" : "通辽",
     "otherTrainNoGroup" : [
-      "1h0000436806"
+      "1h0000436806",
+      "1h0000436807"
     ],
     "trainCode" : "4368",
     "train_no" : "1h0000436806",
@@ -5042,10 +5461,11 @@
     "terminalStation" : "黑河",
     "otherTrainNoGroup" : [
       "040000408342",
-      "040000408343"
+      "040000408343",
+      "040000408344"
     ],
     "trainCode" : "4083",
-    "train_no" : "040000408343",
+    "train_no" : "040000408342",
     "departureStation" : "齐齐哈尔"
   },
   "1154" : {
@@ -5060,10 +5480,11 @@
   "4134" : {
     "terminalStation" : "佳木斯",
     "otherTrainNoGroup" : [
-      "02000041340F"
+      "02000041340F",
+      "02000041340G"
     ],
     "trainCode" : "4134",
-    "train_no" : "02000041340F",
+    "train_no" : "02000041340G",
     "departureStation" : "前进镇"
   },
   "6066" : {
@@ -5087,7 +5508,8 @@
   "4369" : {
     "terminalStation" : "通辽",
     "otherTrainNoGroup" : [
-      "1h0000436806"
+      "1h0000436806",
+      "1h0000436807"
     ],
     "trainCode" : "4369",
     "train_no" : "1h0000436806",
@@ -5106,16 +5528,18 @@
     "terminalStation" : "齐齐哈尔",
     "otherTrainNoGroup" : [
       "01000040840W",
-      "01000040840X"
+      "01000040840X",
+      "01000040840Y"
     ],
     "trainCode" : "4084",
-    "train_no" : "01000040840X",
+    "train_no" : "01000040840W",
     "departureStation" : "黑河"
   },
   "4135" : {
     "terminalStation" : "前进镇",
     "otherTrainNoGroup" : [
-      "02000041350N"
+      "02000041350N",
+      "02000041350O"
     ],
     "trainCode" : "4135",
     "train_no" : "02000041350N",
@@ -5169,20 +5593,22 @@
   "Y509" : {
     "terminalStation" : "秦皇岛",
     "otherTrainNoGroup" : [
-      "240000Y5091O"
+      "240000Y5091O",
+      "240000Y5091R",
+      "240000Y5091Q"
     ],
     "trainCode" : "Y509",
-    "train_no" : "240000Y5091O",
+    "train_no" : "240000Y5091Q",
     "departureStation" : "北京"
   },
   "Y807" : {
-    "departureStation" : "银川",
+    "terminalStation" : "兰州",
     "otherTrainNoGroup" : [
       "870000Y80721"
     ],
     "trainCode" : "Y807",
-    "terminalStation" : "兰州",
-    "train_no" : "870000Y80721"
+    "train_no" : "870000Y80721",
+    "departureStation" : "银川"
   },
   "8361" : {
     "terminalStation" : "阳平关",
@@ -5196,20 +5622,22 @@
   "4136" : {
     "terminalStation" : "佳木斯",
     "otherTrainNoGroup" : [
-      "02000041360R"
+      "02000041360R",
+      "02000041360T"
     ],
     "trainCode" : "4136",
     "train_no" : "02000041360R",
     "departureStation" : "前进镇"
   },
   "P100" : {
-    "terminalStation" : "上海",
+    "departureStation" : "香港红磡",
     "otherTrainNoGroup" : [
-      "650000P10010"
+      "650000P10010",
+      "650000P10020"
     ],
     "trainCode" : "P100",
-    "train_no" : "650000P10010",
-    "departureStation" : "香港红磡"
+    "terminalStation" : "上海",
+    "train_no" : "650000P10010"
   },
   "6366" : {
     "terminalStation" : "马三家",
@@ -5232,7 +5660,8 @@
   "4732" : {
     "terminalStation" : "洛阳",
     "otherTrainNoGroup" : [
-      "400000473200"
+      "400000473200",
+      "40000047320O"
     ],
     "trainCode" : "4732",
     "train_no" : "400000473200",
@@ -5241,20 +5670,21 @@
   "S911" : {
     "terminalStation" : "天津北",
     "otherTrainNoGroup" : [
-      "250000S91104"
+      "250000S91104",
+      "250000S91107"
     ],
     "trainCode" : "S911",
     "train_no" : "250000S91104",
     "departureStation" : "蓟州北"
   },
   "6081" : {
-    "terminalStation" : "威舍",
+    "departureStation" : "贵阳",
     "otherTrainNoGroup" : [
       "78000060810I"
     ],
     "trainCode" : "6081",
     "train_no" : "78000060810I",
-    "departureStation" : "贵阳"
+    "terminalStation" : "威舍"
   },
   "4086" : {
     "terminalStation" : "泰来",
@@ -5266,13 +5696,13 @@
     "departureStation" : "齐齐哈尔"
   },
   "Y808" : {
-    "departureStation" : "兰州",
+    "terminalStation" : "银川",
     "otherTrainNoGroup" : [
       "850000Y80821"
     ],
     "trainCode" : "Y808",
-    "terminalStation" : "银川",
-    "train_no" : "850000Y80821"
+    "train_no" : "850000Y80821",
+    "departureStation" : "兰州"
   },
   "8362" : {
     "terminalStation" : "汉中",
@@ -5286,7 +5716,8 @@
   "4733" : {
     "terminalStation" : "洛阳",
     "otherTrainNoGroup" : [
-      "400000473200"
+      "400000473200",
+      "40000047320O"
     ],
     "trainCode" : "4733",
     "train_no" : "400000473200",
@@ -5302,13 +5733,13 @@
     "departureStation" : "天津北"
   },
   "6082" : {
-    "terminalStation" : "贵阳",
+    "departureStation" : "威舍",
     "otherTrainNoGroup" : [
       "80000060831A"
     ],
     "trainCode" : "6082",
     "train_no" : "80000060831A",
-    "departureStation" : "威舍"
+    "terminalStation" : "贵阳"
   },
   "4734" : {
     "terminalStation" : "南阳",
@@ -5329,28 +5760,29 @@
     "departureStation" : "宝坻"
   },
   "6083" : {
-    "terminalStation" : "贵阳",
+    "departureStation" : "威舍",
     "otherTrainNoGroup" : [
       "80000060831A"
     ],
     "trainCode" : "6083",
     "train_no" : "80000060831A",
-    "departureStation" : "威舍"
+    "terminalStation" : "贵阳"
   },
   "6419" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "24000064190Q"
+      "24000064190Q",
+      "24000064190R"
     ],
     "trainCode" : "6419",
     "train_no" : "24000064190Q",
     "departureStation" : "通州西"
   },
   "3452" : {
-    "departureStation" : "十堰",
-    "trainCode" : "3452",
     "train_no" : "420000345205",
-    "terminalStation" : "广州东"
+    "trainCode" : "3452",
+    "terminalStation" : "广州东",
+    "departureStation" : "十堰"
   },
   "S914" : {
     "terminalStation" : "蓟州北",
@@ -5363,13 +5795,13 @@
     "departureStation" : "天津北"
   },
   "6084" : {
-    "terminalStation" : "威舍",
+    "departureStation" : "贵阳",
     "otherTrainNoGroup" : [
       "78000060810I"
     ],
     "trainCode" : "6084",
     "train_no" : "78000060810I",
-    "departureStation" : "贵阳"
+    "terminalStation" : "威舍"
   },
   "6433" : {
     "terminalStation" : "承德",
@@ -5384,7 +5816,8 @@
     "terminalStation" : "天津",
     "otherTrainNoGroup" : [
       "250000S91512",
-      "250000S91514"
+      "250000S91514",
+      "250000S91516"
     ],
     "trainCode" : "S915",
     "train_no" : "250000S91512",
@@ -5393,7 +5826,8 @@
   "1820" : {
     "terminalStation" : "呼和浩特东",
     "otherTrainNoGroup" : [
-      "11000018200U"
+      "11000018200U",
+      "11000018200V"
     ],
     "trainCode" : "1820",
     "train_no" : "11000018200U",
@@ -5465,37 +5899,40 @@
   "6436" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "24000064360E"
+      "24000064360E",
+      "24000064360F"
     ],
     "trainCode" : "6436",
     "train_no" : "24000064360E",
     "departureStation" : "平泉"
   },
   "3171" : {
-    "departureStation" : "洛阳",
-    "trainCode" : "3171",
     "train_no" : "400000317450",
-    "terminalStation" : "深圳"
+    "trainCode" : "3171",
+    "terminalStation" : "深圳",
+    "departureStation" : "洛阳"
   },
   "S918" : {
     "terminalStation" : "蓟州北",
     "otherTrainNoGroup" : [
-      "250000S91805"
+      "250000S91805",
+      "250000S91806"
     ],
     "trainCode" : "S918",
     "train_no" : "250000S91805",
     "departureStation" : "天津北"
   },
   "3805" : {
-    "departureStation" : "达州",
-    "trainCode" : "3805",
     "train_no" : "770000380501",
-    "terminalStation" : "东莞东"
+    "trainCode" : "3805",
+    "terminalStation" : "东莞东",
+    "departureStation" : "达州"
   },
   "1227" : {
     "terminalStation" : "上海",
     "otherTrainNoGroup" : [
-      "15000012300A"
+      "15000012300A",
+      "15000012300B"
     ],
     "trainCode" : "1227",
     "train_no" : "15000012300A",
@@ -5520,19 +5957,20 @@
     "departureStation" : "乌鲁木齐"
   },
   "S101" : {
-    "terminalStation" : "通州",
+    "terminalStation" : "乔庄东",
     "otherTrainNoGroup" : [
-      "240000S10103"
+      "240000S10103",
+      "240000S10120"
     ],
     "trainCode" : "S101",
-    "train_no" : "240000S10103",
+    "train_no" : "240000S10120",
     "departureStation" : "北京西"
   },
   "3806" : {
-    "terminalStation" : "重庆",
+    "departureStation" : "东莞东",
     "trainCode" : "3806",
     "train_no" : "670000380703",
-    "departureStation" : "东莞东"
+    "terminalStation" : "重庆"
   },
   "4170" : {
     "terminalStation" : "莫尔道嘎",
@@ -5544,10 +5982,10 @@
     "departureStation" : "海拉尔"
   },
   "3223" : {
-    "departureStation" : "潢川",
-    "trainCode" : "3223",
     "train_no" : "390000322303",
-    "terminalStation" : "深圳东"
+    "trainCode" : "3223",
+    "terminalStation" : "深圳东",
+    "departureStation" : "潢川"
   },
   "1228" : {
     "terminalStation" : "阜新南",
@@ -5568,10 +6006,10 @@
     "departureStation" : "大涧"
   },
   "6451" : {
-    "departureStation" : "北京",
-    "trainCode" : "6451",
     "terminalStation" : "杨村",
-    "train_no" : "24000064510X"
+    "trainCode" : "6451",
+    "train_no" : "24000064510X",
+    "departureStation" : "北京"
   },
   "5802" : {
     "terminalStation" : "乌鲁木齐",
@@ -5585,32 +6023,34 @@
   "S102" : {
     "terminalStation" : "北京西",
     "otherTrainNoGroup" : [
-      "240000S10202"
+      "240000S10202",
+      "240000S10210"
     ],
     "trainCode" : "S102",
-    "train_no" : "240000S10202",
-    "departureStation" : "通州"
+    "train_no" : "240000S10210",
+    "departureStation" : "乔庄东"
   },
   "3807" : {
-    "terminalStation" : "重庆",
+    "departureStation" : "东莞东",
     "trainCode" : "3807",
     "train_no" : "670000380703",
-    "departureStation" : "东莞东"
+    "terminalStation" : "重庆"
   },
   "4171" : {
     "terminalStation" : "鹤岗",
     "otherTrainNoGroup" : [
-      "03000041710F"
+      "03000041710F",
+      "03000041710H"
     ],
     "trainCode" : "4171",
     "train_no" : "03000041710F",
     "departureStation" : "牡丹江"
   },
   "3224" : {
-    "terminalStation" : "麻城",
+    "departureStation" : "深圳东",
     "trainCode" : "3224",
     "train_no" : "650000322404",
-    "departureStation" : "深圳东"
+    "terminalStation" : "麻城"
   },
   "1229" : {
     "terminalStation" : "阜新南",
@@ -5622,42 +6062,45 @@
     "departureStation" : "上海"
   },
   "3174" : {
-    "departureStation" : "洛阳",
-    "trainCode" : "3174",
     "train_no" : "400000317450",
-    "terminalStation" : "深圳"
+    "trainCode" : "3174",
+    "terminalStation" : "深圳",
+    "departureStation" : "洛阳"
   },
   "5505" : {
-    "departureStation" : "桂林北",
-    "trainCode" : "5505",
     "terminalStation" : "茂名西",
-    "train_no" : "71000055050B"
+    "trainCode" : "5505",
+    "train_no" : "71000055050B",
+    "departureStation" : "桂林北"
   },
   "6452" : {
-    "departureStation" : "杨村",
-    "trainCode" : "6452",
     "terminalStation" : "北京",
-    "train_no" : "24000064520H"
+    "trainCode" : "6452",
+    "train_no" : "24000064520H",
+    "departureStation" : "杨村"
   },
   "S103" : {
     "terminalStation" : "通州",
     "otherTrainNoGroup" : [
-      "240000S10303"
+      "240000S10303",
+      "240000S10304",
+      "240000S10305"
     ],
     "trainCode" : "S103",
-    "train_no" : "240000S10303",
+    "train_no" : "240000S10305",
     "departureStation" : "北京西"
   },
   "3808" : {
-    "departureStation" : "达州",
-    "trainCode" : "3808",
     "train_no" : "770000380501",
-    "terminalStation" : "东莞东"
+    "trainCode" : "3808",
+    "terminalStation" : "东莞东",
+    "departureStation" : "达州"
   },
   "4172" : {
     "terminalStation" : "东京城",
     "otherTrainNoGroup" : [
-      "02000041720B"
+      "02000041720B",
+      "02000041720E"
     ],
     "trainCode" : "4172",
     "train_no" : "02000041720B",
@@ -5673,27 +6116,30 @@
     "departureStation" : "陇西"
   },
   "5506" : {
-    "departureStation" : "茂名西",
-    "trainCode" : "5506",
     "terminalStation" : "桂林北",
-    "train_no" : "71000055060E"
+    "trainCode" : "5506",
+    "train_no" : "71000055060E",
+    "departureStation" : "茂名西"
   },
   "S104" : {
     "terminalStation" : "北京西",
     "otherTrainNoGroup" : [
-      "240000S10402"
+      "240000S10402",
+      "240000S10410"
     ],
     "trainCode" : "S104",
-    "train_no" : "240000S10402",
-    "departureStation" : "通州"
+    "train_no" : "240000S10410",
+    "departureStation" : "乔庄东"
   },
   "4471" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "24000044710S"
+      "24000044710S",
+      "24000044710U",
+      "24000044710T"
     ],
     "trainCode" : "4471",
-    "train_no" : "24000044710S",
+    "train_no" : "24000044710T",
     "departureStation" : "昌平北"
   },
   "7451" : {
@@ -5724,18 +6170,20 @@
     "departureStation" : "兰州"
   },
   "S105" : {
-    "terminalStation" : "通州",
+    "terminalStation" : "乔庄东",
     "otherTrainNoGroup" : [
-      "240000S10503"
+      "240000S10503",
+      "240000S10510"
     ],
     "trainCode" : "S105",
-    "train_no" : "240000S10503",
+    "train_no" : "240000S10510",
     "departureStation" : "北京西"
   },
   "4472" : {
     "terminalStation" : "昌平北",
     "otherTrainNoGroup" : [
-      "24000044730Q"
+      "24000044730Q",
+      "24000044730R"
     ],
     "trainCode" : "4472",
     "train_no" : "24000044730Q",
@@ -5744,7 +6192,8 @@
   "4174" : {
     "terminalStation" : "牡丹江",
     "otherTrainNoGroup" : [
-      "02000041740F"
+      "02000041740F",
+      "02000041740G"
     ],
     "trainCode" : "4174",
     "train_no" : "02000041740F",
@@ -5778,24 +6227,26 @@
     "departureStation" : "承德"
   },
   "3177" : {
-    "departureStation" : "襄阳",
-    "trainCode" : "3177",
     "train_no" : "420000318003",
-    "terminalStation" : "深圳东"
+    "trainCode" : "3177",
+    "terminalStation" : "深圳东",
+    "departureStation" : "襄阳"
   },
   "S106" : {
     "terminalStation" : "北京西",
     "otherTrainNoGroup" : [
-      "240000S10610"
+      "240000S10610",
+      "240000S10620"
     ],
     "trainCode" : "S106",
-    "train_no" : "240000S10610",
-    "departureStation" : "通州"
+    "train_no" : "240000S10620",
+    "departureStation" : "乔庄东"
   },
   "4473" : {
     "terminalStation" : "昌平北",
     "otherTrainNoGroup" : [
-      "24000044730Q"
+      "24000044730Q",
+      "24000044730R"
     ],
     "trainCode" : "4473",
     "train_no" : "24000044730Q",
@@ -5820,10 +6271,10 @@
     "departureStation" : "陇西"
   },
   "3178" : {
-    "terminalStation" : "襄阳东",
+    "departureStation" : "深圳东",
     "trainCode" : "3178",
     "train_no" : "650000317804",
-    "departureStation" : "深圳东"
+    "terminalStation" : "襄阳东"
   },
   "6456" : {
     "terminalStation" : "承德",
@@ -5835,21 +6286,24 @@
     "departureStation" : "平泉"
   },
   "S107" : {
-    "terminalStation" : "通州",
+    "terminalStation" : "乔庄东",
     "otherTrainNoGroup" : [
-      "240000S10702"
+      "240000S10702",
+      "240000S10710"
     ],
     "trainCode" : "S107",
-    "train_no" : "240000S10702",
+    "train_no" : "240000S10710",
     "departureStation" : "北京西"
   },
   "4474" : {
     "terminalStation" : "承德",
     "otherTrainNoGroup" : [
-      "24000044710S"
+      "24000044710S",
+      "24000044710U",
+      "24000044710T"
     ],
     "trainCode" : "4474",
-    "train_no" : "24000044710S",
+    "train_no" : "24000044710T",
     "departureStation" : "昌平北"
   },
   "7454" : {
@@ -5871,10 +6325,10 @@
     "departureStation" : "兰州"
   },
   "3179" : {
-    "terminalStation" : "襄阳东",
+    "departureStation" : "深圳东",
     "trainCode" : "3179",
     "train_no" : "650000317804",
-    "departureStation" : "深圳东"
+    "terminalStation" : "襄阳东"
   },
   "S108" : {
     "terminalStation" : "北京西",
@@ -5888,7 +6342,8 @@
   "6223" : {
     "terminalStation" : "东方红",
     "otherTrainNoGroup" : [
-      "030000622316"
+      "030000622316",
+      "030000622317"
     ],
     "trainCode" : "6223",
     "train_no" : "030000622316",
@@ -5924,7 +6379,8 @@
   "6224" : {
     "terminalStation" : "牡丹江",
     "otherTrainNoGroup" : [
-      "030000622422"
+      "030000622422",
+      "030000622423"
     ],
     "trainCode" : "6224",
     "train_no" : "030000622422",

@@ -6,10 +6,12 @@
 //  Copyright © 2018 侯猛. All rights reserved.
 //
 
-/// 车次
+/// 列车编号
 #define FunctionType true
-/// 站名
+/// 火车站名
 //#define FunctionType false
+
+#define PathHeader(path) [NSString stringWithFormat:@"/Users/HouMeng/Documents%@", path]
 
 #import <Foundation/Foundation.h>
 
@@ -20,11 +22,11 @@ int main(int argc, const char * argv[]) {
             // 列车编号 js 文件
             // https://kyfw.12306.cn/otn/resources/js/query/train_list.js
             
-            // 火车站名称
+            // 火车站名
             // https://kyfw.12306.cn/otn/resources/js/framework/station_name.js
             
             // 获取文件
-            NSString *path = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/train_list.js";
+            NSString *path = PathHeader(@"/GitHub/xTeko/12306-Tool/12306-Tool/train_list.js");
             // 将文件数据化
             NSData *data = [[NSData alloc] initWithContentsOfFile:path];
             // 对数据进行JSON格式化并返回字典形式
@@ -34,7 +36,7 @@ int main(int argc, const char * argv[]) {
                 [obj enumerateKeysAndObjectsUsingBlock:^(NSString *key, NSArray *obj, BOOL * _Nonnull stop) {
                     
                     
-                    NSString *path = [NSString stringWithFormat:@"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/%@.json",key];
+                    NSString *path = PathHeader(([NSString stringWithFormat:@"/GitHub/xTeko/12306-Tool/12306-Tool/%@.json", key]));
                     
                     // 将文件数据化
                     NSData *oldData = [[NSData alloc] initWithContentsOfFile:path];
@@ -108,57 +110,8 @@ int main(int argc, const char * argv[]) {
             }];
             
         } else {
-            /*
-            // 所有车站名称 js 文件处理
-             
-            NSString *path_ = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name.js";
-            // 将文件数据化
-            NSData *data = [[NSData alloc] initWithContentsOfFile:path_];
-            NSString *aString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-            aString = [aString stringByReplacingOccurrencesOfString:@"var station_name ='" withString:@""];
-            aString = [aString stringByReplacingOccurrencesOfString:@"';" withString:@""];
-            NSArray *array = [aString componentsSeparatedByString:@"|"];
-            NSMutableArray *array_M = [NSMutableArray array];
-            NSMutableArray *array_M_Big = [NSMutableArray array];
-            
-            for (int i = 0; i< array.count; i++) {
-                [array_M addObject:array[i]];
-                if ((i + 1) % 5 == 0 && i > 0) {
-                    [array_M_Big addObject:[array_M copy]];
-                    [array_M removeAllObjects];
-                }
-            }
-            
-            [array_M_Big enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                NSString *station_name = obj[1];
-                NSString *station_name_code = obj[2];
-                NSString *station_Name_pinyin = obj[3];
-                NSString *station_Name_suoxie = obj[4];
-                NSString *station_Name_pinyin_firstLetter = [[station_Name_pinyin substringToIndex:1] uppercaseString];
-                NSDictionary *station = @{@"station_name":station_name,
-                                          @"station_name_code":station_name_code,
-                                          @"station_Name_pinyin":station_Name_pinyin,
-                                          @"station_Name_suoxie":station_Name_suoxie,
-                                          @"station_Name_pinyin_firstLetter":station_Name_pinyin_firstLetter};
-                [array_M_Big replaceObjectAtIndex:idx withObject:station];
-            }];
-            NSString *station_name_all_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_all.json";
-            
-            NSData *station_name_jsonData = [NSJSONSerialization dataWithJSONObject:array_M_Big options:NSJSONWritingPrettyPrinted error:nil];
-            
-            NSString *station_name_jsonString = [[NSString alloc] initWithData:station_name_jsonData encoding:NSUTF8StringEncoding];
-            
-            if ([station_name_jsonString writeToFile:station_name_all_writePath atomically:true encoding:NSUTF8StringEncoding error:nil]) {
-                NSLog(@"写入成功");
-            }else {
-                NSLog(@"写入失败");
-            }
-            
-            return 0;
-            */
-            
             // 获取文件
-            NSString *path = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_all.json";
+            NSString *path = PathHeader(@"/GitHub/xTeko/12306-Tool/12306-Tool/station_name_all.json");
             NSData *data = [[NSData alloc] initWithContentsOfFile:path];
             // 对数据进行JSON格式化并返回字典形式
             NSArray *dataTuple = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
@@ -206,10 +159,10 @@ int main(int argc, const char * argv[]) {
             NSDictionary *station_name_section_dataTuple = @{@"data":station_Name_pinyin_sortGroup,@"index":station_Name_pinyin_indexGroup};
             NSDictionary *station_name_section_quanpin_dataTuple = @{@"data":station_Name_quanpin_sortGroup,@"index":station_Name_quanpin_indexGroup};
 
-            NSString *station_name_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name.json";
-            NSString *station_name_anti_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_anti.json";
-            NSString *station_name_section_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_section.json";
-            NSString *station_name_section_quanpin_writePath = @"/Users/0x00000cc/GitHub/xTeko/12306-Tool/12306-Tool/station_name_section_quanpin.json";
+            NSString *station_name_writePath = PathHeader(@"/GitHub/xTeko/12306-Tool/12306-Tool/station_name.json");
+            NSString *station_name_anti_writePath = PathHeader(@"/GitHub/xTeko/12306-Tool/12306-Tool/station_name_anti.json");
+            NSString *station_name_section_writePath = PathHeader(@"/GitHub/xTeko/12306-Tool/12306-Tool/station_name_section.json");
+            NSString *station_name_section_quanpin_writePath = PathHeader(@"/GitHub/xTeko/12306-Tool/12306-Tool/station_name_section_quanpin.json");
             
             NSData *station_name_jsonData = [NSJSONSerialization dataWithJSONObject:station_name_tuple options:NSJSONWritingPrettyPrinted error:nil];
             NSData *station_name_anti_jsonData = [NSJSONSerialization dataWithJSONObject:station_name_anti_tuple options:NSJSONWritingPrettyPrinted error:nil];
