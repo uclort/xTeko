@@ -5,8 +5,6 @@ module.exports = {
 var favorites = require('scripts/favorites')
 var tool = require('scripts/tool')
 
-scriptVersion = 4.0
-
 apiUrl = 'https://www.doutula.com/api/newsearch?'
 
 /*  长按图片和点击图片  
@@ -37,12 +35,12 @@ function renderOpen() {
           id: 'button-Favorites',
           title: '收藏夹'
         },
-        layout: function(make) {
+        layout: function (make) {
           make.right.top.inset(10)
           make.size.equalTo($size(64, 32))
         },
         events: {
-          tapped: function(sender) {
+          tapped: function (sender) {
             favorites.showFavorites()
             favorites.setPicData()
           }
@@ -54,13 +52,13 @@ function renderOpen() {
           id: 'button-search',
           title: '搜索'
         },
-        layout: function(make) {
+        layout: function (make) {
           make.top.inset(10)
           make.right.equalTo($('button-Favorites').left).inset(5)
           make.size.equalTo($size(64, 32))
         },
         events: {
-          tapped: function(sender) {
+          tapped: function (sender) {
             mime = 0
             search()
           }
@@ -71,13 +69,13 @@ function renderOpen() {
         props: {
           placeholder: '输入关键字'
         },
-        layout: function(make) {
+        layout: function (make) {
           make.top.left.inset(10)
           make.right.equalTo($('button-search').left).offset(-10)
           make.height.equalTo($('button-search'))
         },
         events: {
-          ready: function(sender) {
+          ready: function (sender) {
             // if ($clipboard.text) {
             //     sender.text = $clipboard.text
             //     $delay(0.5, function() {
@@ -85,7 +83,7 @@ function renderOpen() {
             //     })
             // }
           },
-          returned: function(sender) {
+          returned: function (sender) {
             mime = 0
             page = 1
             search()
@@ -98,7 +96,7 @@ function renderOpen() {
           id: 'button-delete',
           title: '删除'
         },
-        layout: function(make, view) {
+        layout: function (make, view) {
           make.top.equalTo($('input').bottom).offset(10)
           make.left.inset(10)
           make.height.equalTo(32)
@@ -108,10 +106,10 @@ function renderOpen() {
             .offset(-(35 / 4))
         },
         events: {
-          tapped: function(sender) {
+          tapped: function (sender) {
             $photo.delete({
               count: 1,
-              handler: function(success) {}
+              handler: function (success) { }
             })
           }
         }
@@ -122,14 +120,14 @@ function renderOpen() {
           id: 'button-paste',
           title: '粘贴'
         },
-        layout: function(make, view) {
+        layout: function (make, view) {
           make.top.equalTo($('input').bottom).offset(10)
           make.left.equalTo($('button-delete').right).offset(5)
           make.height.equalTo(32)
           make.width.equalTo($('button-delete').width)
         },
         events: {
-          tapped: function(sender) {
+          tapped: function (sender) {
             if ($clipboard.text) {
               $('input').text = $clipboard.text
             }
@@ -142,14 +140,14 @@ function renderOpen() {
           id: 'button-before',
           title: '上一页'
         },
-        layout: function(make, view) {
+        layout: function (make, view) {
           make.top.equalTo($('input').bottom).offset(10)
           make.left.equalTo($('button-paste').right).offset(5)
           make.height.equalTo(32)
           make.width.equalTo($('button-paste').width)
         },
         events: {
-          tapped: function(sender) {
+          tapped: function (sender) {
             if (page == 1) {
               $ui.toast('已经是第一页了')
               return
@@ -165,14 +163,14 @@ function renderOpen() {
           id: 'button-after',
           title: '下一页'
         },
-        layout: function(make, view) {
+        layout: function (make, view) {
           make.top.equalTo($('input').bottom).offset(10)
           make.left.equalTo($('button-before').right).offset(5)
           make.height.equalTo(32)
           make.width.equalTo($('button-before').width)
         },
         events: {
-          tapped: function(sender) {
+          tapped: function (sender) {
             if (pageNext == false) {
               $ui.toast('已经是最后一页')
               return
@@ -206,10 +204,10 @@ function renderOpen() {
               },
               layout: $layout.fill,
               events: {
-                longPressed: function(sender) {
+                longPressed: function (sender) {
                   $http.download({
                     url: sender.sender.text,
-                    handler: function(resp) {
+                    handler: function (resp) {
                       save(resp.data, longTag, sender.sender.text)
                     }
                   })
@@ -218,15 +216,15 @@ function renderOpen() {
             }
           ]
         },
-        layout: function(make) {
+        layout: function (make) {
           make.left.bottom.right.equalTo(0)
           make.top.equalTo($('button-before').bottom).offset(10)
         },
         events: {
-          didSelect: function(sender, indexPath, object) {
+          didSelect: function (sender, indexPath, object) {
             $http.download({
               url: object.image.src,
-              handler: function(resp) {
+              handler: function (resp) {
                 save(resp.data, tapTag, object.image.src)
               }
             })
@@ -242,7 +240,7 @@ function renderOpen() {
           bgcolor: $color('#FFFFFF'),
           align: $align.center
         },
-        layout: function(make, view) {
+        layout: function (make, view) {
           make.top.equalTo(92)
           make.left.right.equalTo(0)
           make.bottom.equalTo(view.super.bottom)
@@ -259,7 +257,7 @@ function save(resp, tag, url) {
   } else {
     $ui.menu({
       items: ['分享', '保存到相册', '收藏'],
-      handler: function(title, idx) {
+      handler: function (title, idx) {
         switch (idx) {
           case 0: // 分享
             {
@@ -270,7 +268,7 @@ function save(resp, tag, url) {
             {
               $photo.save({
                 data: resp,
-                handler: function(success) {
+                handler: function (success) {
                   $ui.toast('已经保存到相册')
                 }
               })
@@ -307,7 +305,7 @@ function search() {
   $ui.loading(true)
   $http.get({
     url: url,
-    handler: function(resp) {
+    handler: function (resp) {
       if (resp.error) {
         loadingView.text = '网络错误'
         return
@@ -327,12 +325,12 @@ function setPicData(data) {
     $('label-loading').hidden = false
     return
   }
-  var dataTuple = data.map(function(item) {
+  var dataTuple = data.map(function (item) {
     var imageUrl = item.image_url
     return imageUrl
   })
 
-  var sdfs = dataTuple.map(function(item) {
+  var sdfs = dataTuple.map(function (item) {
     return { image: { src: item }, label: { text: item } }
   })
 
