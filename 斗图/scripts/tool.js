@@ -18,7 +18,7 @@ function initialization() {
 
 function setFavorites(url, data) {
     if (repeatedJudgment(url) == true) {
-        $ui.error("已经在收藏夹中");
+        $ui.error("已忽略收藏夹已存在的表情");
     } else {
         var item = { key: url, value: data }
         var items = $cache.get("favorites")

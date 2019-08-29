@@ -20,14 +20,14 @@ function showFavorites() {
             id: "superView",
             title: "收藏夹",
             navButtons: [
-                    {
+                {
                     title: "",
                     icon: "102",
                     handler: function (sender) {
 
                         $ui.menu({
                             items: ["排序", "导入&导出", "清空收藏"],
-                            handler: function(title, idx) {
+                            handler: function (title, idx) {
                                 if (idx == 0) { // 排序
                                     favoritesSort()
                                 } else if (idx == 1) { // 导出&导出
@@ -38,12 +38,12 @@ function showFavorites() {
                                         message: "确认清空所有收藏吗？",
                                         actions: [{
                                             title: "取消",
-                                            handler: function(sender) {
+                                            handler: function (sender) {
 
                                             }
                                         }, {
                                             title: "确定",
-                                            handler: function(sender) {
+                                            handler: function (sender) {
                                                 tool.clearFavorites()
                                                 setPicData()
                                             }
@@ -183,7 +183,7 @@ function favoritesSort() { // 排序
     if (sortType == 0) {
         topTitle = "倒序 √"
         bottomTitle = "正序"
-    } else if (sortType ==1 ) {
+    } else if (sortType == 1) {
         topTitle = "倒序"
         bottomTitle = "正序 √"
     }
@@ -248,7 +248,7 @@ function importAndExport() {
                 var db = $sqlite.open("favorites.db")
                 db.update("CREATE TABLE Favorites(url text, image BLOB)")
 
-                var dataTuple = tool.favoritesItems(sortType)
+                var dataTuple = tool.favoritesItems(1)
                 dataTuple.forEach(element => {
                     db.update({
                         sql: "INSERT INTO Favorites values(?, ?)",
