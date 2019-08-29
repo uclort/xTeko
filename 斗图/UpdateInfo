@@ -1,5 +1,5 @@
 {
     "version":4.0,
-    "message":"去除脚本自动检查更新，以后的更新依赖于 Erots 脚本商店，本次更新之后打开脚本会提示安装 Erots 脚本商店。",
-    "updateUrl":"jsbox://import?name=Emoticon-Package&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/Emoticon-Package/.output/Emoticon-Package.box&icon=icon_055.png",
+    "message":"",
+    "updateUrl":"jsbox://import?name=%E6%96%97%E5%9B%BE&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/%E6%96%97%E5%9B%BE/.output/%E6%96%97%E5%9B%BE.box&icon=icon_055.png",
 }
