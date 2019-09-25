@@ -30,7 +30,10 @@ int main(int argc, const char * argv[]) {
             // 将文件数据化
             NSData *data = [[NSData alloc] initWithContentsOfFile:path];
             // 对数据进行JSON格式化并返回字典形式
-            id dataTuple = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+            NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"var train_list =" withString:@""];
+            NSData *newData = [dataString dataUsingEncoding:NSUTF8StringEncoding];
+            id dataTuple = [NSJSONSerialization JSONObjectWithData:newData options:kNilOptions error:nil];
             
             [dataTuple enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
                 [obj enumerateKeysAndObjectsUsingBlock:^(NSString *key, NSArray *obj, BOOL * _Nonnull stop) {

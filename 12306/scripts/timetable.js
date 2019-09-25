@@ -118,7 +118,7 @@ function showTimeTable() {
                 tapped: function (sender) {
                     collapseKeyboard()
                     var firstWord = $("input").text.slice(0, 1).toUpperCase()
-                    search(objectSetting(firstWord))
+                    getTrain_no(objectSetting(firstWord))
                     $cache.set("oldCode", $("input").text)
                 }
             }
@@ -248,15 +248,36 @@ function collapseKeyboard() {
     $("day").blur()
 }
 
+function getTrain_no(object) {
+    $ui.loading(true)
+    var train_Code = $("input").text.toUpperCase()
+    var url = "https://search.12306.cn/search/v1/train/search?keyword=" + train_Code + "&date=20190925"
+    $console.info(url)
+    $http.get({
+        url: url,
+        handler: function (resp) {
+            $ui.loading(false)
+            var data = resp.data;
+            $console.info(data)
+            if (isEmpty(data.data) == true) {
+                getTrain_no(object)
+            } else {
+                search(object, data.data[0].train_no)
+            }
+        }
+    });
+}
 
-function search(object) {
+function search(object, train_no) {
     var train_Code = $("input").text.toUpperCase()
     $console.info(train_Code)
     var departureStation = stationObject[object[train_Code].departureStation]
     $console.info(departureStation)
     var terminalStation = stationObject[object[train_Code].terminalStation]
     $console.info(terminalStation)
-    var train_no = object[train_Code].otherTrainNoGroup[searchIndex]
+    // let otherTrainNoGroup = object[train_Code].otherTrainNoGroup
+    // searchIndex = (searchIndex > otherTrainNoGroup.length - 1 ? 0 : searchIndex)
+    // var train_no = otherTrainNoGroup[searchIndex]
     $console.info(train_no)
 
 
