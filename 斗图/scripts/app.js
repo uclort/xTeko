@@ -2,10 +2,17 @@ module.exports = {
   renderOpen: renderOpen
 }
 
+/// 表情大小限制 单位 kb
+var maximumFileSize = 100000000
+
+if ($app.env == $env.keyboard) {
+  maximumFileSize = 100
+}
+
 var favorites = require('scripts/favorites')
 var tool = require('scripts/tool')
 
-apiUrl = 'https://www.doutula.com/api/newsearch?'
+apiUrl = 'https://srv-ios.shouji.sogou.com/app/doutu/doutu_keyboard_search.php?'
 
 /*  长按图片和点击图片  
     0 保存到剪贴板 
@@ -291,21 +298,24 @@ function search() {
   loadingView.hidden = false
   var keyword = $('input').text
   $('input').blur()
-  var url =
-    apiUrl +
-    'keyword=' +
-    encodeURIComponent(keyword) +
-    '&time=' +
-    getTimeStamp() +
-    '&page=' +
-    page +
-    '&token=' +
-    getToken()
+  var url = apiUrl + 'word=' + encodeURI(keyword) + '&page=' + page
   $console.info(url)
   $ui.loading(true)
-  $http.get({
+
+  $http.request({
+    method: "POST",
     url: url,
+    timeout: 10,
+    header: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Cookie": "IPLOC=CN1100; SUV=002A2C8EDE8012235D76130CCBD08113"
+    },
+    body: {
+      "S-COOKIE": "0XN6TEpCcd+02B9ozViWHJ/JU0FlR49mQppBHtSGE7HYd0y5g6cTTvZplQ8oSnUE/r2UINpvpvnWNDU8lyhCw3AavjTTiW/avrcrewikPPJig7VckhAwZkn+AXweElThTtpYEsQQlw9AfYLvnKxY6qLU7eL7agLZqXpTO7U2HDh904EYX8KGT11r8yI0p2Uq7eAcs1rAdJ8m/E6xIj22uO6oOEQeBOwLAMeSEIHXBGRrwiNssn/Fso9uc3XGn0wO5bRDeShk7+QhFIHaRH6a1jMrFlFKpnHYq9LWhkAreifUX3GlRS26WknNiyLDN4rdfI1TjUafdcu82IqI5V1Wt1CZOgzey15+FPU13U9lskCUjUnvY2Kt1lJRH/X/GR0+fJvzCNXLg8hsEY1jMRjQbR3ydNLUGu/jkuJK3mcgeJkxiKF4dGjaHwSxHG9PmrnKxNU1N3hsnLj+pxtlymMZPA=="
+    },
+    showsProgress: false,
     handler: function (resp) {
+      $console.info(resp);
       if (resp.error) {
         loadingView.text = '网络错误'
         return
@@ -313,10 +323,11 @@ function search() {
       $ui.loading(false)
       loadingView.hidden = true
       var data = resp.data.data.list
-      pageNext = resp.data.data.more == 1
+      pageNext = resp.data.data.is_ending == 0
       setPicData(data)
     }
   })
+
 }
 
 function setPicData(data) {
@@ -325,12 +336,17 @@ function setPicData(data) {
     $('label-loading').hidden = false
     return
   }
-  var dataTuple = data.map(function (item) {
-    var imageUrl = item.image_url
+  let dataTuple = data.filter(function (item) {
+    let fileSize = item.fileSize
+    return (fileSize / 1000) < maximumFileSize
+  })
+  $console.info(dataTuple);
+  let dataTupleUrl = dataTuple.map(function (item) {
+    var imageUrl = item.imageUrl
     return imageUrl
   })
 
-  var sdfs = dataTuple.map(function (item) {
+  var sdfs = dataTupleUrl.map(function (item) {
     return { image: { src: item }, label: { text: item } }
   })
 
