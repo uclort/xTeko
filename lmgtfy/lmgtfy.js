@@ -1,4 +1,4 @@
-searchDomainName = "http://zh.lmgtfy.com/?"
+searchDomainName = "https://zh.lmgtfy.com/?"
 detailedParameter = ""
 
 $ui.render({
@@ -203,17 +203,17 @@ $ui.render({
                 $keyboard.insert($("textResult").text)
             }
         }
-    },{
+    }, {
         type: "switch",
         props: {
-          on: false
+            on: false
         },
-        layout: function(make, view) {
+        layout: function (make, view) {
             make.top.equalTo($("textResult").bottom).offset(5)
             make.left.inset(10)
         },
         events: {
-            changed: function(sender) {
+            changed: function (sender) {
                 if (sender.on) {
                     detailedParameter = "&iie=1"
                 } else {
@@ -221,16 +221,16 @@ $ui.render({
                 }
             }
         }
-      },{
+    }, {
         type: "label",
         props: {
-          text: "详细模式"
+            text: "详细模式"
         },
-        layout: function(make, view) {
+        layout: function (make, view) {
             make.centerY.equalTo($("switch"))
-            make.left.equalTo($("switch").right).offset (5)
+            make.left.equalTo($("switch").right).offset(5)
         }
-      }
+    }
         , {
         type: "button",
         props: {
@@ -370,7 +370,7 @@ function googleSearchType(searchContent) {
                     urlParameter = "t=sc&q=" + searchContent
                     break;
             }
-            urlParameter = searchDomainName + urlParameter
+            urlParameter = searchDomainName + urlParameter + "&p=1"
             generateShortLinks(urlParameter)
         }
     });
@@ -379,12 +379,13 @@ function googleSearchType(searchContent) {
 function generateShortLinks(searchPath) {
     searchPath = searchPath + detailedParameter
     $console.info(searchPath);
-    $http.shorten({
-        url: encodeURI(searchPath),
-        handler: function (url) {
-            $("textResult").text = url
-        }
-    })
+    $("textResult").text = searchPath
+    // $http.shorten({
+    //     url: encodeURI(searchPath),
+    //     handler: function (url) {
+
+    //     }
+    // })
 }
 
 if ($app.env == $env.keyboard) {
