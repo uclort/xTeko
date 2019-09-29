@@ -15,7 +15,8 @@ function beginAddCustomColor(id) {
   itemID = id
   $ui.push({
     props: {
-      id: "main"
+      id: "main",
+      title: "添加颜色"
     },
     layout: $layout.fill,
     views: [{

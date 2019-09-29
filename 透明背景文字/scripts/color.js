@@ -5,7 +5,7 @@ module.exports = {
   beginSelectedColor: beginSelectedColor
 }
 
-function beginSelectedColor(id) {
+function beginSelectedColor(id, id2) {
   $ui.push({
     props: {
       title: "选择颜色"
@@ -36,12 +36,12 @@ function beginSelectedColor(id) {
       layout: $layout.fill,
       events: {
         didSelect: function (sender, indexPath, data) {
-          $console.info(data);
           let colorHex = data["label-color"].text
           if (colorHex == "+") {
             addColor.beginAddCustomColor(settingColor)
           } else {
             $(id).textColor = $color(colorHex)
+            $(id2).bgcolor = $color(colorHex)
             $ui.pop()
           }
 
@@ -53,7 +53,6 @@ function beginSelectedColor(id) {
 }
 
 function settingColor() {
-  $console.info("更新颜色");
   let colorGroup = [
     "#000000",
     "#ffffff",
