@@ -14,10 +14,10 @@ function showStationList(id) {
     idString = id
     $ui.push({
         events: {
-            appeared: function() {
+            appeared: function () {
                 $("station_list").focus()
             }
-          },
+        },
         props: {
             id: "superView_Custom",
             title: "车站列表"
@@ -42,7 +42,7 @@ function showStationList(id) {
                     $("station_list").blur()
                 }
             }
-        }, 
+        },
         // {
         //     type: "button",
         //     props: {
@@ -139,7 +139,7 @@ function contains(arrays, obj) {
 function screeningContent(text) {
     // $console.info($text.convertToPinYin(text));
 
-    var textString = $text.convertToPinYin(text).replace(/\s+/g,"").toLowerCase()
+    var textString = $text.convertToPinYin(text).replace(/\s+/g, "").toLowerCase()
 
     $("search_view").hidden = (text != "")
 

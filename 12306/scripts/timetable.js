@@ -251,14 +251,14 @@ function collapseKeyboard() {
 function getTrain_no(object) {
     $ui.loading(true)
     var train_Code = $("input").text.toUpperCase()
-    var url = "https://search.12306.cn/search/v1/train/search?keyword=" + train_Code + "&date=20190925"
+    var url = "https://search.12306.cn/search/v1/train/search?keyword=" + train_Code + "&date=" + tool.currentYear + tool.currentMonth + tool.currentDay
     $console.info(url)
     $http.get({
         url: url,
         handler: function (resp) {
             $ui.loading(false)
             var data = resp.data;
-            $console.info(data)
+            $console.info(data.data);
             if (isEmpty(data.data) == true) {
                 getTrain_no(object)
             } else {
