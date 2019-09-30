@@ -1,7 +1,11 @@
 $photo.prompt({
   handler: function (resp) {
-    var image = resp.image
-    var data = image.png
+    let image = resp.image
+    let data = compressPictures(image.jpg(1))
+    if (data.info.size > 5242880) {
+      $ui.toast("图片太大，请选择小于 5m 的图片");
+      return
+    }
     if (data) {
       $ui.loading("图片上传中...");
       $http.upload({
@@ -42,3 +46,17 @@ $photo.prompt({
     }
   }
 })
+
+oldData = null
+function compressPictures(data) {
+  let imageData = data
+  oldData = imageData.info.size
+  if (imageData.info.size > 5242880) {
+    imageData = imageData.image.jpg(0.5)
+    if ((oldData - imageData.info.size) < (oldData * 0.5)) {
+      return imageData
+    }
+    imageData = compressPictures(imageData.image.jpg(0.5))
+  }
+  return imageData
+}
