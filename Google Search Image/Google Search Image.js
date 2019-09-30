@@ -1,4 +1,5 @@
 $photo.prompt({
+
   handler: function (resp) {
     let image = resp.image
     let data = compressPictures(image.jpg(1))
