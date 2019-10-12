@@ -2,6 +2,6 @@
     "version":5.0,
     "message":"去除脚本自动检查更新，以后的更新依赖于 Erots 脚本商店，本次更新之后打开脚本会提示安装 Erots 脚本商店。",
     "updateUrl":"jsbox://import?name=12306&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/.output/12306.box&icon=icon_085.png",
-    "excessTicketInquiryUrl":"https://kyfw.12306.cn/otn/leftTicket/queryA",
+    "excessTicketInquiryUrl":"https://kyfw.12306.cn/otn/leftTicket/query",
     "Cookie": "JSESSIONID=0AA3073D0C959E2CD3B28C38DA6B2D6A"
 }

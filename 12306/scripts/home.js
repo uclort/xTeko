@@ -96,7 +96,7 @@ function checkupVersion() {
             var message = resp.data.message
             var updateUrl = resp.data.updateUrl
             var excessTicketInquiryUrl = resp.data.excessTicketInquiryUrl
-            var cookie = resp.data.cookie
+            var cookie = resp.data.Cookie
 
             var excessTicketInquiryUrl_Old = $cache.get("excessTicketInquiryUrl")
             var cookie_Old = $cache.get("cookie")
