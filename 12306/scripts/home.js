@@ -96,11 +96,17 @@ function checkupVersion() {
             var message = resp.data.message
             var updateUrl = resp.data.updateUrl
             var excessTicketInquiryUrl = resp.data.excessTicketInquiryUrl
+            var cookie = resp.data.cookie
 
             var excessTicketInquiryUrl_Old = $cache.get("excessTicketInquiryUrl")
+            var cookie_Old = $cache.get("cookie")
             if (!excessTicketInquiryUrl_Old || excessTicketInquiryUrl != excessTicketInquiryUrl_Old) {
                 $cache.set("excessTicketInquiryUrl", excessTicketInquiryUrl)
                 $ui.toast("余票查询接口已更新");
+            }
+            if (!cookie_Old || cookie != cookie_Old) {
+                $cache.set("cookie", cookie)
+                // $ui.toast("Cookie 已更新");
             }
         }
     })

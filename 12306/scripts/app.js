@@ -204,16 +204,19 @@ function search() {
     var terminalStation = stationObject[$("terminalStation").text]
     var excessTicketInquiryUrl = $cache.get("excessTicketInquiryUrl")
     var url = excessTicketInquiryUrl + "?leftTicketDTO.train_date=" + year + "-" + month + "-" + day + "&leftTicketDTO.from_station=" + departureStation + "&leftTicketDTO.to_station=" + terminalStation + "&purpose_codes=ADULT"
+    var cookie = $cache.get("cookie")
     // $console.info(departureStation)
     // $console.info(terminalStation)
     // $console.info(url)
-
     $ui.loading(true)
     $http.request({
         method: "GET",
         url: url,
+        header: {
+            Cookie: cookie
+        },
         handler: function (resp) {
-            // $console.info(resp)
+            $console.info(resp)
             if (resp.data.httpstatus != 200) {
                 $console.info("数据出错，重新获取...")
                 search()
