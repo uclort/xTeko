@@ -9,8 +9,9 @@ if ($app.env == $env.keyboard) {
   maximumFileSize = 100
 }
 
-var favorites = require('scripts/favorites')
-var tool = require('scripts/tool')
+favorites = require('scripts/favorites')
+tool = require('scripts/tool')
+update = require('scripts/update')
 
 apiUrl = 'https://srv-ios.shouji.sogou.com/app/doutu/doutu_keyboard_search.php?'
 
@@ -358,17 +359,4 @@ function setPicData(data) {
   })
 }
 
-// 获取当前时间戳
-function getTimeStamp() {
-  var timestamp = new Date().getTime()
-  return parseInt(timestamp / 1000)
-}
-// 获取token
-function getToken() {
-  let appID = 1753520195
-  let timestamp = getTimeStamp()
-  let appID16Decimal = appID.toString(16)
-  var token =
-    appID16Decimal + $text.MD5(appID.toString() + timestamp.toString())
-  return token.slice(0, 32)
-}
+update.checkupVersion("https://raw.githubusercontent.com/nlnlnull/xTeko/master/doutu/UpdateInfo")

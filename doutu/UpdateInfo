@@ -1,5 +1,6 @@
 {
-    "version":4.0,
-    "message":"",
-    "updateUrl":"jsbox://import?name=斗图&url=https://raw.githubusercontent.com/nlnlnull/xTeko/master/%E6%96%97%E5%9B%BE/.output/%E6%96%97%E5%9B%BE.box&icon=icon_055.png",
+    "version":"6.0",
+    "message":"添加更新模块。",
+    "updateUrl":"jsbox://import?name=斗图&url=https://github.com/nlnlnull/xTeko/blob/master/doutu/.output/doutu.box?raw=true&icon=icon_055.png",
+    "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/doutu/.output/doutu.box?raw=true",
 }
