@@ -205,8 +205,8 @@ function search() {
     var excessTicketInquiryUrl = $cache.get("excessTicketInquiryUrl")
     var url = excessTicketInquiryUrl + "?leftTicketDTO.train_date=" + year + "-" + month + "-" + day + "&leftTicketDTO.from_station=" + departureStation + "&leftTicketDTO.to_station=" + terminalStation + "&purpose_codes=ADULT"
     var cookie = $cache.get("cookie")
-    $console.info("cookie -> " + cookie)
-    $console.info("url -> " + url)
+    // $console.info("cookie -> " + cookie)
+    // $console.info("url -> " + url)
     // $console.info(departureStation)
     // $console.info(terminalStation)
     // $console.info(url)
@@ -221,7 +221,7 @@ function search() {
             $console.info(resp)
             if (resp.data.httpstatus != 200) {
                 $console.info("数据出错，重新获取...")
-                // search()
+                search()
                 return
             }
             $ui.loading(false)

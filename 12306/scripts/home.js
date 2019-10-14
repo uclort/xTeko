@@ -92,14 +92,15 @@ function checkupVersion() {
         url: "https://raw.githubusercontent.com/nlnlnull/xTeko/master/12306/UpdateInfo",
         handler: function (resp) {
             $console.info(resp.data)
-            var version = resp.data.version
-            var message = resp.data.message
-            var updateUrl = resp.data.updateUrl
-            var excessTicketInquiryUrl = resp.data.excessTicketInquiryUrl
-            var cookie = resp.data.Cookie
+            let version = resp.data.version
+            let message = resp.data.message
+            let updateUrl = resp.data.updateUrl
 
-            var excessTicketInquiryUrl_Old = $cache.get("excessTicketInquiryUrl")
-            var cookie_Old = $cache.get("cookie")
+            let excessTicketInquiryUrl = resp.data.excessTicketInquiryUrl
+            let cookie = resp.data.Cookie
+
+            let excessTicketInquiryUrl_Old = $cache.get("excessTicketInquiryUrl")
+            let cookie_Old = $cache.get("cookie")
             if (!excessTicketInquiryUrl_Old || excessTicketInquiryUrl != excessTicketInquiryUrl_Old) {
                 $cache.set("excessTicketInquiryUrl", excessTicketInquiryUrl)
                 $ui.toast("余票查询接口已更新");
@@ -108,6 +109,58 @@ function checkupVersion() {
                 $cache.set("cookie", cookie)
                 // $ui.toast("Cookie 已更新");
             }
+
+            if (versionCmp(version, $addin.current.version) == 1) {
+                $ui.alert({
+                    title: "发现新版本",
+                    message: message,
+                    actions: [
+                        {
+                            title: "更新",
+                            handler: function () {
+                                $app.openURL(updateUrl);
+                                $addin.current.version = version
+                            }
+                        }
+                    ]
+                });
+            }
+
         }
     })
+}
+
+// 不考虑字母
+function s2i(s) {
+    return s.split('').reduce(function (a, c) {
+        var code = c.charCodeAt(0);
+        if (48 <= code && code < 58) {
+            a.push(code - 48);
+        }
+        return a;
+    }, []).reduce(function (a, c) {
+        return 10 * a + c;
+    }, 0);
+}
+
+function versionCmp(s1, s2) {
+    var a = s1.split('.').map(function (s) {
+        return s2i(s);
+    });
+    var b = s2.split('.').map(function (s) {
+        return s2i(s);
+    });
+    var n = a.length < b.length ? a.length : b.length;
+    for (var i = 0; i < n; i++) {
+        if (a[i] < b[i]) {
+            return -1;
+        } else if (a[i] > b[i]) {
+            return 1;
+        }
+    }
+    if (a.length < b.length) return -1;
+    if (a.length > b.length) return 1;
+    var last1 = s1.charCodeAt(s1.length - 1) | 0x20,
+        last2 = s2.charCodeAt(s2.length - 1) | 0x20;
+    return last1 > last2 ? 1 : last1 < last2 ? -1 : 0;
 }
