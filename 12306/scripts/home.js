@@ -102,6 +102,7 @@ function checkupVersion() {
             let version = resp.data.version
             let message = resp.data.message
             let updateUrl = resp.data.updateUrl
+            let updateFileUrl = resp.data.updateFileUrl
 
             let excessTicketInquiryUrl = resp.data.excessTicketInquiryUrl
             let cookie = resp.data.Cookie
@@ -127,9 +128,26 @@ function checkupVersion() {
                         {
                             title: "更新",
                             handler: function () {
-                                $addin.current.version = version
-                                $app.openURL(updateUrl);
-                                $addin.restart()
+                                $http.download({
+                                    url: updateFileUrl,
+                                    progress: function (bytesWritten, totalBytes) {
+                                        var percentage = bytesWritten * 1.0 / totalBytes
+                                    },
+                                    handler: function (resp) {
+                                        var file = resp.data;
+                                        $addin.save({
+                                            name: $addin.current.name,
+                                            icon: $addin.current.icon,
+                                            data: file,
+                                            handler: function (success) {
+                                                if (success) {
+                                                    $addin.current.version = version
+                                                    $addin.restart()
+                                                }
+                                            }
+                                        })
+                                    }
+                                });
                             }
                         }
                     ]
