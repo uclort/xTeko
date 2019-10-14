@@ -7,6 +7,13 @@ var ticketGate = require('scripts/ticketGate')
 // 正晚点查询
 var punctuality = require('scripts/punctuality')
 
+currentVersion = $addin.current.version
+
+if (currentVersion == undefined) {
+    $addin.current.version = "1.0.0"
+    currentVersion = $addin.current.version
+}
+
 module.exports.render = function render() {
     $ui.render({
         props: {
@@ -109,6 +116,8 @@ function checkupVersion() {
                 $cache.set("cookie", cookie)
                 // $ui.toast("Cookie 已更新");
             }
+            $console.info(version);
+            $console.info(currentVersion);
 
             if (versionCmp(version, $addin.current.version) == 1) {
                 $ui.alert({
@@ -118,8 +127,9 @@ function checkupVersion() {
                         {
                             title: "更新",
                             handler: function () {
-                                $app.openURL(updateUrl);
                                 $addin.current.version = version
+                                $app.openURL(updateUrl);
+                                $addin.restart()
                             }
                         }
                     ]
