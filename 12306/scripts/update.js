@@ -14,7 +14,6 @@ function checkupVersion(url) {
   $http.get({
     url: url,
     handler: function (resp) {
-      $console.info(resp.data)
       let version = resp.data.version
       let message = resp.data.message
       let updateFileUrl = resp.data.updateFileUrl
