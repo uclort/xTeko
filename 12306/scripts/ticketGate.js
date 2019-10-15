@@ -21,13 +21,13 @@ function showTicketGate() {
                 placeholder: "年",
                 type: $kbType.number
             },
-            layout: function(make) {
+            layout: function (make) {
                 make.top.inset(10)
                 make.left.inset(10)
                 make.height.equalTo(40)
             },
             events: {
-                ready: function(sender) {
+                ready: function (sender) {
                     sender.text = tool.currentYear
                 }
             }
@@ -40,14 +40,14 @@ function showTicketGate() {
                 placeholder: "月",
                 type: $kbType.number
             },
-            layout: function(make) {
+            layout: function (make) {
                 make.top.inset(10)
                 make.left.equalTo($("year").right).offset(5)
                 make.height.equalTo(40)
                 make.width.equalTo($("year").width)
             },
             events: {
-                ready: function(sender) {
+                ready: function (sender) {
                     sender.text = tool.currentMonth
                 }
             }
@@ -60,7 +60,7 @@ function showTicketGate() {
                 placeholder: "日",
                 type: $kbType.number
             },
-            layout: function(make) {
+            layout: function (make) {
                 make.top.inset(10)
                 make.left.equalTo($("month").right).offset(5)
                 make.right.inset(10)
@@ -68,102 +68,102 @@ function showTicketGate() {
                 make.width.equalTo($("month").width)
             },
             events: {
-                ready: function(sender) {
+                ready: function (sender) {
                     sender.text = tool.currentDay
                 }
             }
-        },{
+        }, {
             type: "input",
             props: {
                 placeholder: "列车编号",
                 type: $kbType.ascii,
-                id:"trainNO",
+                id: "trainNO",
                 align: $align.center
             },
-            layout: function(make) {
+            layout: function (make) {
                 make.top.equalTo($("year").bottom).offset(10)
                 make.left.inset(10)
                 make.height.equalTo(32)
             },
             events: {
-                ready: function(sender) {
+                ready: function (sender) {
                     if ($cache.get("oldTicketGateCode")) {
                         sender.text = $cache.get("oldTicketGateCode")
                     }
                 }
             }
-        },{
+        }, {
             type: "input",
             props: {
                 placeholder: "出发站",
-                id:"departureStation_ticket",
+                id: "departureStation_ticket",
                 align: $align.center
             },
-            layout: function(make) {
+            layout: function (make) {
                 make.top.equalTo($("trainNO"))
                 make.left.equalTo($("trainNO").right).offset(5)
                 make.width.equalTo($("trainNO"))
                 make.height.equalTo(32)
             },
             events: {
-                ready: function(sender) {
+                ready: function (sender) {
                     if ($cache.get("oldStation")) {
                         sender.text = $cache.get("oldStation")
                     }
                 }
             }
-        },{
+        }, {
             type: "button",
             props: {
-                id:"station-button",
+                id: "station-button",
                 align: $align.center,
                 bgcolor: $color("clear")
             },
-            layout: function(make) {
+            layout: function (make) {
                 make.edges.equalTo($("departureStation_ticket"))
             },
             events: {
-                tapped: function(sender) {
+                tapped: function (sender) {
                     stationList.showStationList("departureStation_ticket")
                     // $console.info("string");
                 }
             }
         },
-            {
-                type: "button",
-                props: {
-                    title: "查询"
-                },
-                layout: function(make) {
-                    make.top.equalTo($("trainNO"))
-                    make.right.inset(10)
-                    make.height.equalTo($("trainNO").height);
-                    make.width.equalTo(100)
-                    make.left.equalTo($("departureStation_ticket").right).offset(5)
-                },
-                events: {
-                    tapped: function(sender) {
-                        collapseKeyboard()
-                        search()
-                        $cache.set("oldTicketGateCode", $("trainNO").text)
-                        $cache.set("oldStation", $("departureStation_ticket").text)
-                    }
-                }
-            }, 
-            {
-                type: "label", 
-                props: {
-                    lines: 0,
-                    font: $font(20),
-                    align: $align.center,
-                    textColor: $color("red")
-                },
-                layout: function(make, view) {
-                    make.top.equalTo($("trainNO").bottom).offset(30)
-                    make.left.right.inset(10)
-
+        {
+            type: "button",
+            props: {
+                title: "查询"
+            },
+            layout: function (make) {
+                make.top.equalTo($("trainNO"))
+                make.right.inset(10)
+                make.height.equalTo($("trainNO").height);
+                make.width.equalTo(100)
+                make.left.equalTo($("departureStation_ticket").right).offset(5)
+            },
+            events: {
+                tapped: function (sender) {
+                    collapseKeyboard()
+                    search()
+                    $cache.set("oldTicketGateCode", $("trainNO").text)
+                    $cache.set("oldStation", $("departureStation_ticket").text)
                 }
             }
+        },
+        {
+            type: "label",
+            props: {
+                lines: 0,
+                font: $font(20),
+                align: $align.center,
+                textColor: $color("red")
+            },
+            layout: function (make, view) {
+                make.top.equalTo($("trainNO").bottom).offset(30)
+                make.left.right.inset(10)
+
+            }
+        }
         ]
     })
 }
@@ -195,13 +195,13 @@ function search() {
         url: url,
         header: {
             "Content-Type": "application/x-www-form-urlencoded"
-          },
+        },
         body: {
             trainDate: year + "-" + month + "-" + day,
             station_train_code: train_Code,
             from_station_telecode: departureStation_ticket
         },
-        handler: function(resp) {
+        handler: function (resp) {
             $ui.loading(false)
             $("label").text = resp.data.data + " (仅供参考)"
             $console.info(resp.data.data)
