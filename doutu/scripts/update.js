@@ -1,9 +1,4 @@
-currentVersion = $addin.current.version
-
-if (currentVersion == undefined) {
-  $addin.current.version = "1.0.0"
-  currentVersion = $addin.current.version
-}
+currentVersion = readLocalVersion()
 
 module.exports = {
   checkupVersion: checkupVersion
@@ -18,8 +13,8 @@ function checkupVersion(url) {
       let message = resp.data.message
       let updateFileUrl = resp.data.updateFileUrl
 
-      // $console.info(version);
-      // $console.info(currentVersion);
+      $console.info("最新版本 -> " + version);
+      $console.info("当前版本 -> " + currentVersion);
 
       if (versionCmp(version, currentVersion) == 1) {
         $ui.alert({
@@ -43,7 +38,7 @@ function checkupVersion(url) {
                       data: file,
                       handler: function (success) {
                         if (success) {
-                          $addin.current.version = version
+                          updateLocalVersion(version)
                           $addin.restart()
                         }
                       }
@@ -92,4 +87,23 @@ function s2i(s) {
   }, []).reduce(function (a, c) {
     return 10 * a + c;
   }, 0);
+}
+
+fileName = "version_nlnlnull.txt"
+
+function readLocalVersion() {
+  let versionFile = $file.read(fileName)
+  if (versionFile == undefined) {
+    updateLocalVersion("1.0.0")
+    return "1.0.0"
+  } else {
+    return versionFile.string
+  }
+}
+
+function updateLocalVersion(version) {
+  $file.write({
+    data: $data({ string: version }),
+    path: fileName
+  })
 }
