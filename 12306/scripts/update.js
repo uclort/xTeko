@@ -1,8 +1,29 @@
-currentVersion = readLocalVersion()
+
 
 module.exports = {
   checkupVersion: checkupVersion
 }
+
+fileName = "version_nlnlnull.txt"
+
+function readLocalVersion() {
+  let versionFile = $file.read(fileName)
+  if (versionFile == undefined) {
+    updateLocalVersion("1.0.0")
+    return "1.0.0"
+  } else {
+    return versionFile.string
+  }
+}
+
+function updateLocalVersion(version) {
+  $file.write({
+    data: $data({ string: version }),
+    path: fileName
+  })
+}
+
+currentVersion = readLocalVersion()
 
 //检查版本
 function checkupVersion(url) {
@@ -89,21 +110,3 @@ function s2i(s) {
   }, 0);
 }
 
-fileName = "version_nlnlnull.txt"
-
-function readLocalVersion() {
-  let versionFile = $file.read(fileName)
-  if (versionFile == undefined) {
-    updateLocalVersion("1.0.0")
-    return "1.0.0"
-  } else {
-    return versionFile.string
-  }
-}
-
-function updateLocalVersion(version) {
-  $file.write({
-    data: $data({ string: version }),
-    path: fileName
-  })
-}
