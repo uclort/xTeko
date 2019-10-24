@@ -2,15 +2,18 @@ module.exports = {
   renderOpen: renderOpen
 }
 
+keyboardSize = 100
+todaySize = 400
+
 /// 表情大小限制 单位 kb
 var maximumFileSize = 100000000
 
 if ($app.env == $env.keyboard) {
-  maximumFileSize = 100
+  maximumFileSize = keyboardSize
 }
 
 if ($app.env == $env.today) {
-  maximumFileSize = 400
+  maximumFileSize = todaySize
 }
 
 favorites = require('scripts/favorites')
