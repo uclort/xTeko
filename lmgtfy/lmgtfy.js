@@ -230,8 +230,7 @@ $ui.render({
             make.centerY.equalTo($("switch"))
             make.left.equalTo($("switch").right).offset(5)
         }
-    }
-        , {
+    }, {
         type: "button",
         props: {
             bgcolor: $color("clear")
@@ -284,12 +283,7 @@ $ui.render({
                             {
                                 title: "还原",
                                 handler: function () {
-                                    $http.shorten({
-                                        url: $("textResult").text,
-                                        handler: function (url) {
-                                            $("textResult").text = url
-                                        }
-                                    })
+                                    restoreShortLinks($("textResult").text)
                                 }
                             }
                         ]
@@ -297,6 +291,27 @@ $ui.render({
                 }
 
             }
+        }
+    }, {
+        type: "view",
+        props: {
+            id: "loadingView",
+            bgcolor: $rgba(0, 0, 0, 0.6),
+            hidden: true
+        },
+        views: [
+            {
+                type: "spinner",
+                props: {
+                    loading: true
+                },
+                layout: function (make, view) {
+                    make.center.equalTo(view.super)
+                }
+            }
+        ],
+        layout: function (make, view) {
+            make.edges.equalTo(view.super)
         }
     }
     ]
@@ -376,18 +391,6 @@ function googleSearchType(searchContent) {
     });
 }
 
-function generateShortLinks(searchPath) {
-    searchPath = searchPath + detailedParameter
-    $console.info(searchPath);
-    $("textResult").text = searchPath
-    // $http.shorten({
-    //     url: encodeURI(searchPath),
-    //     handler: function (url) {
-
-    //     }
-    // })
-}
-
 if ($app.env == $env.keyboard) {
     $("button-x").hidden = false
     $("button-send").hidden = false
@@ -396,4 +399,55 @@ if ($app.env == $env.keyboard) {
 
 function font(size) {
     return $objc("UIFont").invoke("systemFontOfSize", size).jsValue()
+}
+
+function generateShortLinks(longUrl) {
+    $("loadingView").hidden = false
+    $ui.toast("正在生成短链接...");
+    longUrl = longUrl + detailedParameter
+    $console.info(longUrl);
+    $http.post({
+        url: "https://dwz.cn/admin/v2/create",
+        header: {
+            Token: "a468902217c1672a3dcd9275155f6a8c"
+        },
+        body: {
+            Url: longUrl,
+            TermOfValidity: "1-year"
+        },
+        handler: function (resp) {
+            $("loadingView").hidden = true
+            var data = resp.data;
+            $console.info(data);
+            if (data.Code == 0) {
+                $("textResult").text = data.ShortUrl
+            } else {
+                $("textResult").text = longUrl
+            }
+        }
+    });
+}
+
+function restoreShortLinks(shortUrl) {
+    $("loadingView").hidden = false
+    $ui.toast("正在还原短链接...");
+    $http.post({
+        url: "https://dwz.cn/admin/v2/query",
+        header: {
+            "Content-Type": "application/json; charset=UTF-8",
+            Token: "a468902217c1672a3dcd9275155f6a8c"
+        },
+        body: {
+            shortUrl: shortUrl
+        },
+        handler: function (resp) {
+            $("loadingView").hidden = true
+            var data = resp.data;
+            if (data.Code == 0) {
+                $("textResult").text = data.LongUrl
+            } else {
+                $("textResult").text = shortUrl
+            }
+        }
+    });
 }

@@ -9,6 +9,10 @@ if ($app.env == $env.keyboard) {
   maximumFileSize = 100
 }
 
+if ($app.env == $env.today) {
+  maximumFileSize = 400
+}
+
 favorites = require('scripts/favorites')
 tool = require('scripts/tool')
 update = require('scripts/update')
@@ -67,6 +71,8 @@ function renderOpen() {
         },
         events: {
           tapped: function (sender) {
+
+            $ui.toast(maximumFileSize);
             mime = 0
             search()
           }
