@@ -1,6 +1,6 @@
 {
-    "version":"6.4",
-    "message":"限制小组件表情内存大小",
+    "version":"6.6",
+    "message":"更新 S-COOKIE 参数",
     "updateUrl":"jsbox://import?name=斗图&url=https://github.com/nlnlnull/xTeko/blob/master/doutu/.output/doutu.box?raw=true&icon=icon_055.png",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/doutu/.output/doutu.box?raw=true",
 }
