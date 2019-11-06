@@ -74,8 +74,6 @@ function renderOpen() {
         },
         events: {
           tapped: function (sender) {
-
-            $ui.toast(maximumFileSize);
             mime = 0
             search()
           }
