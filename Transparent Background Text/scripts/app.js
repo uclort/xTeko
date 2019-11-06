@@ -1,9 +1,13 @@
 
 var color = require('scripts/color')
 
+changefont = require('scripts/fontList')
+
 sliderValue = $cache.get("sliderValue");
 
 textColor = $cache.get("textColor");
+
+textFontName = $cache.get("textFontName");
 
 maxFontSize = 100
 
@@ -11,12 +15,32 @@ if (sliderValue == undefined) {
   sliderValue = 0.25
 }
 
+fontSize = sliderValue * maxFontSize
+
+labelFont = settingTextFont()
+
 if (textColor == undefined) {
   textColor = "#000000"
 }
 
-labelFont = sliderValue * maxFontSize
 
+function settingTextFont() {
+  fontSize = fontSize < 1 ? 1 : fontSize
+  if (textFontName == undefined) {
+    labelFont = $font(fontSize);
+  } else {
+    labelFont = $font(textFontName, fontSize);
+  }
+  return labelFont
+}
+
+function changeFont(fontName, font) {
+  $("label-textColor").font = $font(fontName, fontSize)
+  textFontName = fontName
+}
+
+
+settingTextFont(fontSize)
 
 module.exports.render = function render() {
   $ui.render({
@@ -34,6 +58,7 @@ module.exports.render = function render() {
                   $ui.toast("图片已保存到相册");
                   $cache.set("sliderValue", $("slider").value);
                   $cache.set("textColor", $("label-textColor").textColor.hexCode);
+                  $cache.set("textFontName", $("label-textColor").font.runtimeValue().$fontName().jsValue());
                 }
               }
             })
@@ -62,6 +87,24 @@ module.exports.render = function render() {
                 {
                   type: "button",
                   props: {
+                    title: "更换字体",
+                    id: "changeFont",
+                    bgcolor: $color("#d0d3d9"),
+                    titleColor: $color("black")
+                  },
+                  layout: function (make, view) {
+                    make.top.bottom.equalTo(view.super)
+                    make.left.inset(10)
+                  },
+                  events: {
+                    tapped: function (sender) {
+                      changefont.changeFont($("text").text, changeFont)
+                    }
+                  }
+                },
+                {
+                  type: "button",
+                  props: {
                     title: "清空输入内容",
                     id: "clearContent",
                     bgcolor: $color("#d0d3d9"),
@@ -69,7 +112,8 @@ module.exports.render = function render() {
                   },
                   layout: function (make, view) {
                     make.top.bottom.equalTo(view.super)
-                    make.left.inset(10)
+                    make.width.equalTo($("changeFont"))
+                    make.left.equalTo($("changeFont").right).offset(10)
                   },
                   events: {
                     tapped: function (sender) {
@@ -154,9 +198,9 @@ module.exports.render = function render() {
           }, events: {
             changed: function (sender) {
               $("text").blur()
-              let fontSize = maxFontSize * sender.value
-              fontSize = fontSize < 1 ? 1 : fontSize
-              $("label-textColor").font = $font(fontSize);
+              fontSize = maxFontSize * sender.value
+              $("label-textColor").font = settingTextFont()
+
             }
           }
         }, {
@@ -171,7 +215,7 @@ module.exports.render = function render() {
               align: $align.center,
               bgcolor: $color("clear"),
               lines: 0,
-              font: $font(labelFont),
+              font: labelFont,
               textColor: $color(textColor)
             },
             layout: function (make, view) {
