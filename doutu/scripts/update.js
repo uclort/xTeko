@@ -33,6 +33,7 @@ function checkupVersion(url) {
       let version = resp.data.version
       let message = resp.data.message
       let updateFileUrl = resp.data.updateFileUrl
+      $cache.set("updateInfo", resp.data);
 
       $console.info("最新版本 -> " + version);
       $console.info("当前版本 -> " + currentVersion);

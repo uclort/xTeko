@@ -301,6 +301,11 @@ function save(resp, tag, url) {
 }
 
 function search() {
+  let updateInfo = $cache.get("updateInfo");
+  if (updateInfo["S-COOKIE"] == undefined) {
+    $ui.toast("缺少 S-COOKIE 参数");
+    return
+  }
   var loadingView = $('label-loading')
   loadingView.text = '加载中...'
   loadingView.hidden = false
@@ -319,7 +324,7 @@ function search() {
       "Cookie": "IPLOC=CN1100; SUV=002A2C8EDE8012235D76130CCBD08113"
     },
     body: {
-      "S-COOKIE": "8mPqtUMiezdOtRL9kl930WkIgaQtxHTn6Jn1dqx7VG4LupNN5RQu2ozXghaG7r1GOsXaKB3awqx+ulDGUGKVx4XjH6F0l+C47M9O44kFUerfBRdm6Mt+YMYkPOLjHZ6epjfEy0P0Ei5Q1rHV9gxXlNdy4CMhLuklwKs0VwE87wrcmeV+sElcGhaDd40zSbpMVQeezZYyo/HPWq+Br7zsrWD9xQLRZ3L3jEvJi94YteoepxLKctei1vO/Qnr3LsbVqVgBa1SRYKZgxhWMJKdXe/eJq/uEps+AhUxj+BEZjwJeRtqy4ahQ01SkFc72VCMhVRygluezeL73wkMheDwOrO9GDyEwZvQfczQHN1OCmmcxHl15/1U/VV2MxOptBZsCbwTCUQCN7NdaDErRjJShOJLmIZqSt7+MdmEDomM4gNwTIsuWepBk+xGA7f0bSBrAc0XP/QsAeEkRe4cw7H9Gcw=="
+      "S-COOKIE": updateInfo["S-COOKIE"]
     },
     showsProgress: false,
     handler: function (resp) {

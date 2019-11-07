@@ -1,0 +1,299 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+baleTime = Time.now.strftime("%Y-%m-%d %H.%M")
+outPutPath = "~/Desktop/bale/mlw_test_ipa/" + baleTime
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+
+lane :mlw_test do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/mlw_test_ipa/" + baleTime,
+      output_name: "meiliwu_test.ipa",
+      export_options: {
+          method: "ad-hoc",
+      	  provisioningProfiles: { 
+          "com.eallcn.chowRentDev" => "dis_chow_rent_test"
+        	}
+	    }
+    )
+  end
+
+lane :mlw_formal do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/mlw_formal_ipa/" + baleTime,
+      output_name: "meiliwu_formal.ipa",
+      export_options: {
+          method: "ad-hoc",
+      	  provisioningProfiles: { 
+          "com.eallcn.chowRent" => "chow_rent_dis"
+        	}
+	    }
+    )
+  end
+
+lane :mlw_appstore do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/mlw_appstore_ipa/" + baleTime,
+      output_name: "meiliwu_appstore.ipa",
+      export_options: {
+          method: "app-store",
+      	  provisioningProfiles: { 
+          "com.eallcn.chowRent" => "chow_rent_store"
+        	}
+	    }
+    )
+  end
+
+lane :mlw_test_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/mlw_test_ipa/" + baleTime,
+      output_name: "meiliwu_test.ipa",
+      export_options: {
+          method: "ad-hoc",
+      	  provisioningProfiles: { 
+          "com.eallcn.chowRentDev" => "dis_chow_rent_test"
+        	}
+	    }
+    )
+  end
+
+lane :mlw_formal_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/mlw_formal_ipa/" + baleTime,
+      output_name: "meiliwu_formal.ipa",
+      export_options: {
+          method: "ad-hoc",
+      	  provisioningProfiles: { 
+          "com.eallcn.chowRent" => "chow_rent_dis"
+        	}
+	    }
+    )
+  end
+
+lane :mlw_appstore_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/mlw_appstore_ipa/" + baleTime,
+      output_name: "meiliwu_appstore.ipa",
+      export_options: {
+          method: "app-store",
+      	  provisioningProfiles: { 
+          "com.eallcn.chowRent" => "chow_rent_store"
+        	}
+	    }
+    )
+  end
+
+lane :ly_test do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_test_ipa/" + baleTime,
+      output_name: "lianyou_test.ipa",
+      export_options: {
+      	  provisioningProfiles: { 
+          method: "ad-hoc",
+          "com.lianyou.chowTest" => "lianyou_chow_test_dis"
+        	}
+	    }
+    )
+  end
+
+lane :ly_formal do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_formal_ipa/" + baleTime,
+      output_name: "lianyou_formal.ipa",
+      export_options: {
+          method: "ad-hoc",
+      	  provisioningProfiles: { 
+          "com.lianyou.chow" => "lianyou_chow_dis"
+        	}
+	    }
+    )
+  end
+
+lane :ly_appstore do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_appstore_ipa/" + baleTime,
+      output_name: "lianyou_appstore.ipa",
+      export_options: {
+          method: "app-store",
+      	  provisioningProfiles: { 
+          "com.lianyou.chow" => "lianyou_chow_app_store"
+        	}
+	    }
+    )
+  end
+
+lane :ly_test_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_test_ipa/" + baleTime,
+      output_name: "lianyou_test.ipa",
+      export_options: {
+          method: "ad-hoc",
+      	  provisioningProfiles: { 
+          "com.lianyou.chowTest" => "lianyou_chow_test_dis"
+        	}
+	    }
+    )
+  end
+
+lane :ly_formal_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_formal_ipa/" + baleTime,
+      output_name: "lianyou_formal.ipa",
+      export_options: {
+          method: "ad-hoc",
+      	  provisioningProfiles: { 
+          "com.lianyou.chow" => "lianyou_chow_dis"
+        	}
+	    }
+    )
+  end
+
+lane :ly_appstore_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_appstore_ipa/" + baleTime,
+      output_name: "lianyou_appstore.ipa",
+      export_options: {
+          method: "app-store",
+      	  provisioningProfiles: { 
+          "com.lianyou.chow" => "lianyou_chow_app_store"
+        	}
+	    }
+    )
+  end
+
+lane :ly_test_enterprise_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_enterprise_test_ipa/" + baleTime,
+      output_name: "lianyou_enterprise_test.ipa",
+      export_options: {
+          method: "enterprise",
+      	  provisioningProfiles: { 
+          "com.lianyou.chowRentDev" => "lianyou_chow_rent_test_dis"
+        	}
+	    }
+    )
+  end
+
+lane :ly_formal_enterprise_clean do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: true,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_enterprise_formal_ipa/" + baleTime,
+      output_name: "lianyou_enterprise_formal.ipa",
+      export_options: {
+          method: "enterprise",
+      	  provisioningProfiles: { 
+          "com.lianyou.chowRent" => "lianyou_chow_rent_dis"
+        	}
+	    }
+    )
+  end
+
+lane :ly_test_enterprise do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_enterprise_test_ipa/" + baleTime,
+      output_name: "lianyou_enterprise_test.ipa",
+      export_options: {
+          method: "enterprise",
+      	  provisioningProfiles: { 
+          "com.lianyou.chowRentDev" => "lianyou_chow_rent_test_dis"
+        	}
+	    }
+    )
+  end
+
+lane :ly_formal_enterprise do
+  gym(scheme: ENV['SCHEME_NAME'], 
+      clean: false,
+      configuration:"Release",
+      export_xcargs:"-allowProvisioningUpdates",
+      silent:true,
+      output_directory: "~/Desktop/bale/lianyou_enterprise_formal_ipa/" + baleTime,
+      output_name: "lianyou_enterprise_formal.ipa",
+      export_options: {
+          method: "enterprise",
+      	  provisioningProfiles: { 
+          "com.lianyou.chowRent" => "lianyou_chow_rent_dis"
+        	}
+	    }
+    )
+  end
+
+end
