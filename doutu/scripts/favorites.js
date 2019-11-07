@@ -1,4 +1,5 @@
 var tool = require('scripts/tool')
+preview = require('scripts/preview')
 
 module.exports = {
     showFavorites: showFavorites,
@@ -81,7 +82,7 @@ function showFavorites() {
                     events: {
                         longPressed: function (sender) {
                             $ui.menu({
-                                items: ["分享", "保存到相册", "取消收藏"],
+                                items: ["分享", "保存到相册", "取消收藏", "预览大图"],
                                 handler: function (title, idx) {
                                     switch (idx) {
                                         case 0: // 分享
@@ -103,6 +104,11 @@ function showFavorites() {
                                             {
                                                 tool.removeFavorites(sender.sender.text)
                                                 setPicData()
+                                            }
+                                            break;
+                                        case 3: // 预览
+                                            {
+                                                preview.beginPreview(tool.getFavoritesData(sender.sender.text))
                                             }
                                             break;
                                     }

@@ -19,6 +19,7 @@ if ($app.env == $env.today) {
 favorites = require('scripts/favorites')
 tool = require('scripts/tool')
 update = require('scripts/update')
+preview = require('scripts/preview')
 
 apiUrl = 'https://srv-ios.shouji.sogou.com/app/doutu/doutu_keyboard_search.php?'
 
@@ -271,7 +272,7 @@ function save(resp, tag, url) {
     $ui.toast('已经复制到剪贴板')
   } else {
     $ui.menu({
-      items: ['分享', '保存到相册', '收藏'],
+      items: ['分享', '保存到相册', '收藏', '预览大图'],
       handler: function (title, idx) {
         switch (idx) {
           case 0: // 分享
@@ -294,6 +295,11 @@ function save(resp, tag, url) {
               tool.setFavorites(url, resp)
             }
             break
+          case 3: // 预览
+            {
+              preview.beginPreview(resp)
+            }
+            break
         }
       }
     })
@@ -312,7 +318,7 @@ function search() {
   var keyword = $('input').text
   $('input').blur()
   var url = apiUrl + 'word=' + encodeURI(keyword) + '&page=' + page
-  $console.info(url)
+  // $console.info(url)
   $ui.loading(true)
 
   $http.request({
@@ -328,7 +334,7 @@ function search() {
     },
     showsProgress: false,
     handler: function (resp) {
-      $console.info(resp);
+      // $console.info(resp);
       if (resp.error) {
         loadingView.text = '网络错误'
         return
@@ -353,7 +359,7 @@ function setPicData(data) {
     let fileSize = item.fileSize
     return (fileSize / 1000) < maximumFileSize
   })
-  $console.info(dataTuple);
+  // $console.info(dataTuple);
   let dataTupleUrl = dataTuple.map(function (item) {
     var imageUrl = item.imageUrl
     return imageUrl

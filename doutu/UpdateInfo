@@ -1,6 +1,6 @@
 {
-    "version":"6.7",
-    "message":"由于最新的 Api 是抓的搜狗输入法的接口，需要 S-COOKIE 参数，这个参数有实效性（有效时间未知），为了避免每次 S-COOKIE 更新都要更新脚本，此次更新后 S-COOKIE 改为网络获取，如果 S-COOKIE 参数失效，我会及时更新，如果点击搜索提示缺少 S-COOKIE 参数，请重新打开脚本尝试，或开全局代理重新打开脚本尝试，本脚本托管在 GitHub.",
+    "version":"6.8",
+    "message":"增加预览大图功能，长按图片选择预览\n\n由于最新的 Api 是抓的搜狗输入法的接口，需要 S-COOKIE 参数，这个参数有实效性（有效时间未知），为了避免每次 S-COOKIE 更新都要更新脚本，此次更新后 S-COOKIE 改为网络获取，如果 S-COOKIE 参数失效，我会及时更新，如果点击搜索提示缺少 S-COOKIE 参数，请重新打开脚本尝试，或开全局代理重新打开脚本尝试，本脚本托管在 GitHub.",
     "updateUrl":"jsbox://import?name=斗图&url=https://github.com/nlnlnull/xTeko/blob/master/doutu/.output/doutu.box?raw=true&icon=icon_055.png",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/doutu/.output/doutu.box?raw=true",
     "S-COOKIE":"8mPqtUMiezdOtRL9kl930WkIgaQtxHTn6Jn1dqx7VG4LupNN5RQu2ozXghaG7r1GOsXaKB3awqx+ulDGUGKVx4XjH6F0l+C47M9O44kFUerfBRdm6Mt+YMYkPOLjHZ6epjfEy0P0Ei5Q1rHV9gxXlNdy4CMhLuklwKs0VwE87wrcmeV+sElcGhaDd40zSbpMVQeezZYyo/HPWq+Br7zsrWD9xQLRZ3L3jEvJi94YteoepxLKctei1vO/Qnr3LsbVqVgBa1SRYKZgxhWMJKdXe/eJq/uEps+AhUxj+BEZjwJeRtqy4ahQ01SkFc72VCMhVRygluezeL73wkMheDwOrO9GDyEwZvQfczQHN1OCmmcxHl15/1U/VV2MxOptBZsCbwTCUQCN7NdaDErRjJShOJLmIZqSt7+MdmEDomM4gNwTIsuWepBk+xGA7f0bSBrAc0XP/QsAeEkRe4cw7H9Gcw=="
