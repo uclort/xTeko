@@ -75,7 +75,9 @@ function getListData() {
       time: values.time,
       customImage: values.customImage,
       imageView: { hidden: hidden, bgcolor: $color(values.bgColor) },
-      noImageView: { hidden: !hidden, bgcolor: $color(values.bgColor) }
+      noImageView: { hidden: !hidden, bgcolor: $color(values.bgColor) },
+      type: { text: diff[2], textColor: $color(values.dateUnitColor) },
+      noType: { text: diff[2], textColor: $color(values.dateUnitColor) }
     }
     dataTuple.unshift(data)
   }
@@ -102,18 +104,31 @@ function diffTime(startDate, endDate) {
   var seconds = Math.round(leave3 / 1000);
 
   var unit = "秒"
-  var date = seconds
+  var date = Math.abs(seconds)
+  var dateType = "已过"
+  if (seconds < 0) {
+    dateType = "还有"
+  }
   if (Math.abs(minutes) > 0) {
     unit = "分钟"
-    date = minutes
+    date = Math.abs(minutes)
+    if (minutes < 0) {
+      dateType = "还有"
+    }
   }
   if (Math.abs(hours) > 0) {
     unit = "小时"
-    date = hours
+    date = Math.abs(hours)
+    if (hours < 0) {
+      dateType = "还有"
+    }
   }
   if (Math.abs(days) > 0) {
     unit = "天"
-    date = days
+    date = Math.abs(days)
+    if (days < 0) {
+      dateType = "还有"
+    }
   }
-  return [date, unit];
+  return [date, unit, dateType];
 }

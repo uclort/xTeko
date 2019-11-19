@@ -115,6 +115,16 @@ module.exports.render = function render() {
                   make.right.equalTo($("listUnit").left)
                   make.bottom.equalTo($("listUnit")).offset(5)
                 },
+              }, {
+                type: "label",
+                props: {
+                  id: "type",
+                  font: $font(12)
+                },
+                layout: function (make, view) {
+                  make.right.equalTo($("listTime").left)
+                  make.bottom.equalTo($("listUnit"))
+                },
               }],
               layout: function (make, view) {
                 make.left.right.inset(20)
@@ -183,6 +193,16 @@ module.exports.render = function render() {
                   layout: function (make, view) {
                     make.right.equalTo($("noListUnit").left)
                     make.bottom.equalTo($("noListUnit")).offset(5)
+                  },
+                }, {
+                  type: "label",
+                  props: {
+                    id: "noType",
+                    font: $font(12)
+                  },
+                  layout: function (make, view) {
+                    make.right.equalTo($("noListTime").left)
+                    make.bottom.equalTo($("noListUnit"))
                   },
                 }],
               layout: function (make, view) {

@@ -139,6 +139,16 @@ module.exports.addItem = function addItem(detailData, updateList) {
                 make.right.equalTo($("previewListUnit").left)
                 make.bottom.equalTo($("previewListUnit")).offset(5)
               },
+            }, {
+              type: "label",
+              props: {
+                id: "previewType",
+                font: $font(12)
+              },
+              layout: function (make, view) {
+                make.right.equalTo($("previewListTime").left)
+                make.bottom.equalTo($("previewListUnit"))
+              },
             }],
             layout: function (make, view) {
               make.left.right.inset(20)
@@ -209,6 +219,16 @@ module.exports.addItem = function addItem(detailData, updateList) {
                 layout: function (make, view) {
                   make.right.equalTo($("previewNoListUnit").left)
                   make.bottom.equalTo($("previewNoListUnit")).offset(5)
+                },
+              }, {
+                type: "label",
+                props: {
+                  id: "previewNoType",
+                  font: $font(12)
+                },
+                layout: function (make, view) {
+                  make.right.equalTo($("previewNoListTime").left)
+                  make.bottom.equalTo($("previewNoListUnit"))
                 },
               }],
             layout: function (make, view) {
@@ -624,6 +644,8 @@ function pickdate() {
       $("previewListUnit").text = diff[1]
       $("previewNoListTime").text = diff[0]
       $("previewNoListUnit").text = diff[1]
+      $("previewType").text = diff[2]
+      $("previewNoType").text = diff[2]
     }
   })
 }
@@ -661,6 +683,8 @@ function colorHasBeenSelected_dateUnitTextColor(colorHexCode) {
   var color = $color(colorHexCode)
   $("previewListUnit").textColor = color
   $("previewNoListUnit").textColor = color
+  $("previewType").textColor = color
+  $("previewNoType").textColor = color
   $("dateUnitTextColor").bgcolor = color
 }
 
@@ -698,6 +722,12 @@ function updateAddItemView(detailData) {
 
   $("previewNoImageView").bgcolor = detailData.noImageView.bgcolor
   $("previewNoImageView").hidden = detailData.noImageView.hidden
+
+  $("previewType").text = detailData.type.text
+  $("previewType").textColor = detailData.type.textColor
+
+  $("previewNoType").text = detailData.type.text
+  $("previewNoType").textColor = detailData.type.textColor
 
   $("previewListImage").image = detailData.listImage.data.image
 
