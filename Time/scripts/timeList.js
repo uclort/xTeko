@@ -10,7 +10,7 @@ module.exports.render = function render() {
           icon: "102",
           handler: function () {
             $ui.menu({
-              items: ["添加记录", "清空收藏"],
+              items: ["添加记录", "清空记录"],
               handler: function (title, idx) {
                 if (idx == 0) {
                   add.addItem(undefined, updateList)
