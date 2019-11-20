@@ -91,7 +91,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
               type: "image",
               props: {
                 id: "previewListImage",
-                contentMode: $contentMode.scaleAspectFit
+                contentMode: $contentMode.scaleAspectFill
               },
               layout: function (make, view) {
                 make.top.bottom.left.inset(20)
@@ -274,7 +274,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
                 type: "image",
                 props: {
                   icon: $icon("099", $color("black"), $size(100, 100)),
-                  contentMode: $contentMode.scaleAspectFit
+                  contentMode: $contentMode.scaleAspectFill
                 },
                 layout: function (make, view) {
                   make.top.inset(10)

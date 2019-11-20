@@ -65,7 +65,7 @@ module.exports.render = function render() {
                 type: "image",
                 props: {
                   id: "listImage",
-                  contentMode: $contentMode.scaleAspectFit
+                  contentMode: $contentMode.scaleAspectFill
                 },
                 layout: function (make, view) {
                   make.top.bottom.left.inset(20)
