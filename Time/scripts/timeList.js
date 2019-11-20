@@ -65,12 +65,28 @@ module.exports.render = function render() {
                 type: "image",
                 props: {
                   id: "listImage",
-                  contentMode: $contentMode.scaleAspectFill
+                  contentMode: $contentMode.scaleAspectFill,
+                  radius: 5,
+                  // borderWidth: 0.5,
+                  // borderColor: $color("lightGray")
                 },
                 layout: function (make, view) {
                   make.left.inset(15)
                   make.top.bottom.inset(10)
                   make.width.equalTo(60)
+                },
+              }, {
+                type: "view",
+                props: {
+                  radius: 5,
+                  borderWidth: 0.5,
+                  borderColor: $color("lightGray"),
+                  userInteractionEnabled: false
+                },
+                layout: function (make, view) {
+                  make.center.equalTo($("listImage"))
+                  make.width.equalTo($("listImage")).offset(3)
+                  make.height.equalTo($("listImage")).offset(3)
                 },
               },
               {

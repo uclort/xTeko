@@ -91,11 +91,28 @@ module.exports.addItem = function addItem(detailData, updateList) {
               type: "image",
               props: {
                 id: "previewListImage",
-                contentMode: $contentMode.scaleAspectFill
+                contentMode: $contentMode.scaleAspectFill,
+                radius: 5,
+                // borderWidth: 0.5,
+                // borderColor: $color("lightGray")
               },
               layout: function (make, view) {
-                make.top.bottom.left.inset(20)
-                make.width.equalTo(60)
+                make.left.inset(15)
+                make.top.bottom.inset(10)
+                make.size.equalTo($size(60, 60))
+              },
+            }, {
+              type: "view",
+              props: {
+                radius: 5,
+                borderWidth: 0.5,
+                borderColor: $color("lightGray"),
+                userInteractionEnabled: false
+              },
+              layout: function (make, view) {
+                make.center.equalTo($("previewListImage"))
+                make.width.equalTo($("previewListImage")).offset(3)
+                make.height.equalTo($("previewListImage")).offset(3)
               },
             },
             {
@@ -106,7 +123,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
               },
               layout: function (make, view) {
                 make.left.equalTo($("previewListImage").right).offset(10)
-                make.bottom.equalTo($("previewListImage").centerY)
+                make.bottom.equalTo($("previewListImage").centerY).offset(3)
               },
             },
             {
@@ -118,7 +135,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
               },
               layout: function (make, view) {
                 make.left.equalTo($("previewListImage").right).offset(10)
-                make.top.equalTo($("previewListImage").centerY)
+                make.top.equalTo($("previewListName").bottom).offset(3)
               },
             },
             {
@@ -129,7 +146,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
                 textColor: $color("#000000")
               },
               layout: function (make, view) {
-                make.right.inset(20)
+                make.right.inset(15)
                 make.centerY.equalTo(view.super)
               },
             },
@@ -186,8 +203,8 @@ module.exports.addItem = function addItem(detailData, updateList) {
                   font: $font(20)
                 },
                 layout: function (make, view) {
-                  make.left.inset(20)
-                  make.bottom.equalTo(view.super.centerY)
+                  make.left.inset(15)
+                  make.bottom.equalTo(view.super.centerY).offset(3)
                 },
               },
               {
@@ -199,7 +216,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
                 },
                 layout: function (make, view) {
                   make.left.equalTo($("previewNoListName"))
-                  make.top.equalTo($("previewNoListName").bottom)
+                  make.top.equalTo($("previewNoListName").bottom).offset(3)
                 },
               },
               {
@@ -210,7 +227,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
                   textColor: $color("#000000")
                 },
                 layout: function (make, view) {
-                  make.right.inset(20)
+                  make.right.inset(15)
                   make.centerY.equalTo(view.super)
                 },
               },
@@ -274,7 +291,10 @@ module.exports.addItem = function addItem(detailData, updateList) {
                 type: "image",
                 props: {
                   icon: $icon("099", $color("black"), $size(100, 100)),
-                  contentMode: $contentMode.scaleAspectFill
+                  contentMode: $contentMode.scaleAspectFill,
+                  radius: 5,
+                  // borderWidth: 0.5,
+                  // borderColor: $color("lightGray")
                 },
                 layout: function (make, view) {
                   make.top.inset(10)
@@ -316,6 +336,19 @@ module.exports.addItem = function addItem(detailData, updateList) {
                     })
                   }
                 }
+              }, {
+                type: "view",
+                props: {
+                  radius: 5,
+                  borderWidth: 0.5,
+                  borderColor: $color("lightGray"),
+                  userInteractionEnabled: false
+                },
+                layout: function (make, view) {
+                  make.center.equalTo($("image"))
+                  make.width.equalTo($("image")).offset(3)
+                  make.height.equalTo($("image")).offset(3)
+                },
               },
               {
                 type: "input",
