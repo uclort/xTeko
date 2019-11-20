@@ -68,7 +68,8 @@ module.exports.render = function render() {
                   contentMode: $contentMode.scaleAspectFill
                 },
                 layout: function (make, view) {
-                  make.top.bottom.left.inset(20)
+                  make.left.inset(15)
+                  make.top.bottom.inset(10)
                   make.width.equalTo(60)
                 },
               },
@@ -80,7 +81,7 @@ module.exports.render = function render() {
                 },
                 layout: function (make, view) {
                   make.left.equalTo($("listImage").right).offset(10)
-                  make.bottom.equalTo($("listImage").centerY)
+                  make.bottom.equalTo($("listImage").centerY).offset(3)
                 },
               },
               {
@@ -92,7 +93,7 @@ module.exports.render = function render() {
                 },
                 layout: function (make, view) {
                   make.left.equalTo($("listImage").right).offset(10)
-                  make.top.equalTo($("listImage").centerY)
+                  make.top.equalTo($("listName").bottom).offset(3)
                 },
               },
               {
@@ -102,7 +103,7 @@ module.exports.render = function render() {
                   font: $font(12)
                 },
                 layout: function (make, view) {
-                  make.right.inset(20)
+                  make.right.inset(15)
                   make.centerY.equalTo(view.super)
                 },
               },
@@ -158,8 +159,8 @@ module.exports.render = function render() {
                     font: $font(20)
                   },
                   layout: function (make, view) {
-                    make.left.inset(20)
-                    make.bottom.equalTo(view.super.centerY)
+                    make.left.inset(15)
+                    make.bottom.equalTo(view.super.centerY).offset(3)
                   },
                 },
                 {
@@ -171,7 +172,7 @@ module.exports.render = function render() {
                   },
                   layout: function (make, view) {
                     make.left.equalTo($("noListName"))
-                    make.top.equalTo($("noListName").bottom)
+                    make.top.equalTo($("noListName").bottom).offset(3)
                   },
                 },
                 {
@@ -181,7 +182,7 @@ module.exports.render = function render() {
                     font: $font(12)
                   },
                   layout: function (make, view) {
-                    make.right.inset(20)
+                    make.right.inset(15)
                     make.centerY.equalTo(view.super)
                   },
                 },
