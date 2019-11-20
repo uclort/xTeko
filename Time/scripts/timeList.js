@@ -244,7 +244,7 @@ module.exports.render = function render() {
       layout: $layout.fill,
       events: {
         didSelect: function (sender, indexPath, data) {
-          $console.info(data);
+          // $console.info(data);
           var items = ["编辑", "删除"]
           if (data.customImage == 1) {
             items.push("查看大图")

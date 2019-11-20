@@ -46,6 +46,13 @@ module.exports.addItem = function addItem(detailData, updateList) {
             if (isChange) {
               id = detailData.listID
             }
+            var cycleType = ""
+            if ($("leftSwitch").on == true) {
+              cycleType = "month"
+            } else if ($("rightSwitch").on == true) {
+              cycleType = "year"
+            }
+
             var data = {
               "id": `${id}`,
               "name": name,
@@ -59,7 +66,10 @@ module.exports.addItem = function addItem(detailData, updateList) {
               "nameColor": $("nameTextColor").bgcolor.hexCode,
               "dateColor": $("dataTextColor").bgcolor.hexCode,
               "dateUnitColor": $("dateUnitTextColor").bgcolor.hexCode,
+              "dayNumber": `${new Date(parseInt(time)).getDate()}`,
+              "cycleType": cycleType
             }
+
             if (isChange) {// 修改状态
               tool.changeItem(data)
             } else { // 添加状态
@@ -640,7 +650,89 @@ module.exports.addItem = function addItem(detailData, updateList) {
                   make.left.right.inset(20)
                   make.top.equalTo($("button").bottom).offset(20)
                   make.height.equalTo(100)
+                }
+              }, {
+                type: "view",
+                props: {
+                  id: "leftSwitchView"
+                },
+                views: [
+                  {
+                    type: "switch",
+                    props: {
+                      on: false,
+                      id: "leftSwitch"
+                    },
+                    layout: function (make, view) {
+                      make.centerX.equalTo(view.super)
+                      make.top.equalTo(view.super).offset(5)
+                    },
+                    events: {
+                      changed: function (sender) {
+                        if (sender.on == true) {
+                          $("rightSwitch").on = false
+                        }
+                      }
+                    }
+                  }, {
+                    type: "label",
+                    props: {
+                      text: "月循环",
+                      font: $font(12)
+                    },
+                    layout: function (make, view) {
+                      make.centerX.equalTo(view.super)
+                      make.top.equalTo($("leftSwitch").bottom).offset(5)
+                    }
+                  }
+                ],
+                layout: function (make, view) {
+                  make.top.equalTo($("colorView").bottom)
+                  make.left.equalTo($("colorView"))
+                  make.height.equalTo(100)
                   make.bottom.equalTo(view.super)
+                }
+              }, {
+                type: "view",
+                props: {
+                  id: "rightSwitchView"
+                },
+                views: [
+                  {
+                    type: "switch",
+                    props: {
+                      on: false,
+                      id: "rightSwitch"
+                    },
+                    layout: function (make, view) {
+                      make.centerX.equalTo(view.super)
+                      make.top.equalTo(view.super).offset(5)
+                    },
+                    events: {
+                      changed: function (sender) {
+                        if (sender.on == true) {
+                          $("leftSwitch").on = false
+                        }
+                      }
+                    }
+                  }, {
+                    type: "label",
+                    props: {
+                      text: "年循环",
+                      font: $font(12)
+                    },
+                    layout: function (make, view) {
+                      make.centerX.equalTo(view.super)
+                      make.top.equalTo($("rightSwitch").bottom).offset(5)
+                    }
+                  }
+                ],
+                layout: function (make, view) {
+                  make.top.equalTo($("leftSwitchView"))
+                  make.left.equalTo($("leftSwitchView").right)
+                  make.width.equalTo($("leftSwitchView"))
+                  make.height.equalTo(100)
+                  make.right.equalTo($("colorView"))
                 }
               }
             ],
@@ -677,7 +769,12 @@ function pickdate() {
       if (month == 13) {
         month = 12
       }
+      sender.setHours(0)
+      sender.setMinutes(0)
+      sender.setSeconds(0)
+      sender.setMilliseconds(0)
       time = sender.getTime()
+      $console.info(sender.getTime());
       $("button").title = `${year} 年 ${month} 月 ${day} 日`
       var diff = tool.diffTime(time, new Date().getTime())
       $("previewListTime").text = diff[0]
@@ -778,7 +875,7 @@ function updateAddItemView(detailData) {
     $("image").image = detailData.listImage.data.image
   }
 
-  var date = new Date(new Number(time))
+  var date = new Date(parseInt(time))
   var year = date.getFullYear()
   var month = date.getMonth() + 1
   var day = date.getDate()
@@ -793,4 +890,10 @@ function updateAddItemView(detailData) {
   $("dataTextColor").bgcolor = detailData.listTime.textColor
   $("dateUnitTextColor").bgcolor = detailData.listUnit.textColor
 
+  if (detailData.cycleType == "month") {
+    $("leftSwitch").on = true
+  }
+  if (detailData.cycleType == "year") {
+    $("rightSwitch").on = true
+  }
 }

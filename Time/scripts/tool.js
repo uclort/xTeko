@@ -5,7 +5,9 @@ module.exports = {
   clearList: clearList,
   getListData: getListData,
   diffTime: diffTime,
-  changeItem: changeItem
+  changeItem: changeItem,
+  getNumberDaysInMonth: getNumberDaysInMonth,
+  getFutureDates: getFutureDates
 }
 
 dbStr = "CREATE TABLE TimeList(id text, time text, name text, description text, type integer, customImage integer, image BLOB, nameColor text, descriptionColor text, bgColor text, dateColor text, dateUnitColor text)"
@@ -16,12 +18,49 @@ if (!$file.exists(pathHeder)) {
   $file.mkdir(pathHeder)
 }
 
+let newWordGroup = [
+  "dayNumber text",
+  "isCycle integer",
+  "cycleType text"
+]
+
+function addNewWord() {
+  var db = $sqlite.open(path);
+  db.update(dbStr)
+  var object = db.query("SELECT * FROM TimeList");
+  var result = object.result;
+  newWordGroup.forEach(function (item) {
+    var columnIndex = result.indexForName(item.split(" ")[0]);
+    if (columnIndex == -1) {
+      db.update(`ALTER TABLE TimeList ADD COLUMN ${item}`);
+    }
+  })
+  $sqlite.close(db);
+}
+addNewWord()
+
 function addItem(item) {
   var db = $sqlite.open(path)
   db.update(dbStr)
   db.update({
-    sql: "INSERT INTO TimeList values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-    args: [item.id, item.time, item.name, item.description, item.type, item.customImage, item.image, item.nameColor, item.descriptionColor, item.bgColor, item.dateColor, item.dateUnitColor]
+    sql: "INSERT INTO TimeList values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+    args: [
+      item.id,
+      item.time,
+      item.name,
+      item.description,
+      item.type,
+      item.customImage,
+      item.image,
+      item.nameColor,
+      item.descriptionColor,
+      item.bgColor,
+      item.dateColor,
+      item.dateUnitColor,
+      item.dayNumber,
+      item.isCycle,
+      item.cycleType
+    ]
   });
   $sqlite.close(db);
 }
@@ -30,8 +69,24 @@ function changeItem(item) {
   var db = $sqlite.open(path)
   db.update(dbStr)
   db.update({
-    sql: "UPDATE TimeList SET time = ?, name = ?, description = ?, type = ?, customImage = ?, image = ?, nameColor = ?, descriptionColor = ?, bgColor = ?, dateColor = ?, dateUnitColor = ? WHERE id = ?",
-    args: [item.time, item.name, item.description, item.type, item.customImage, item.image, item.nameColor, item.descriptionColor, item.bgColor, item.dateColor, item.dateUnitColor, item.id]
+    sql: "UPDATE TimeList SET time = ?, name = ?, description = ?, type = ?, customImage = ?, image = ?, nameColor = ?, descriptionColor = ?, bgColor = ?, dateColor = ?, dateUnitColor = ?, dayNumber = ?, isCycle = ?, cycleType = ? WHERE id = ?",
+    args: [
+      item.time,
+      item.name,
+      item.description,
+      item.type,
+      item.customImage,
+      item.image,
+      item.nameColor,
+      item.descriptionColor,
+      item.bgColor,
+      item.dateColor,
+      item.dateUnitColor,
+      item.dayNumber,
+      item.isCycle,
+      item.cycleType,
+      item.id
+    ]
   });
   $sqlite.close(db);
 }
@@ -60,8 +115,30 @@ function getListData() {
   var dataTuple = []
 
   while (result.next()) {
+    let todayDate = new Date()
+    todayDate.setHours(0)
+    todayDate.setMinutes(0)
+    todayDate.setSeconds(0)
+    todayDate.setMilliseconds(0)
     var values = result.values;
-    let diff = diffTime(values.time, new Date().getTime())
+    let diff = diffTime(values.time, todayDate.getTime())
+    // return
+    if (diff[3] > 0 && (values.cycleType == "month" || values.cycleType == "year")) {
+      var cycleJudge = 1
+      var nextMonthNumber = 0
+      var incrementNumber = 1
+      if (values.cycleType == "year") {
+        incrementNumber = 12
+      }
+      while (cycleJudge == 1) {
+        nextMonthNumber += incrementNumber
+        let newDate = getFutureDates(new Date(parseInt(values.time)), nextMonthNumber, values.dayNumber)
+        diff = diffTime(newDate.getTime(), todayDate.getTime())
+        if (diff[3] <= 0) {
+          cycleJudge = -1
+        }
+      }
+    }
     let hidden = false
     if (values.customImage == 0) {
       hidden = true
@@ -85,7 +162,9 @@ function getListData() {
       imageView: { hidden: hidden, bgcolor: $color(values.bgColor) },
       noImageView: { hidden: !hidden, bgcolor: $color(values.bgColor) },
       type: { text: diff[2], textColor: $color(values.dateUnitColor) },
-      noType: { text: diff[2], textColor: $color(values.dateUnitColor) }
+      noType: { text: diff[2], textColor: $color(values.dateUnitColor) },
+      dayNumber: { text: diff[2], textColor: $color(values.dateUnitColor) },
+      cycleType: values.cycleType
     }
     dataTuple.unshift(data)
   }
@@ -95,48 +174,99 @@ function getListData() {
 }
 
 function diffTime(startDate, endDate) {
-  var diff = endDate - startDate
 
+
+  var diff = endDate - parseInt(startDate)
   //计算出相差天数
   var days = Math.floor(diff / (24 * 3600 * 1000));
-
-  //计算出小时数
-  var leave1 = diff % (24 * 3600 * 1000);    //计算天数后剩余的毫秒数
-  var hours = Math.floor(leave1 / (3600 * 1000));
-  //计算相差分钟数
-  var leave2 = leave1 % (3600 * 1000);        //计算小时数后剩余的毫秒数
-  var minutes = Math.floor(leave2 / (60 * 1000));
-
-  //计算相差秒数
-  var leave3 = leave2 % (60 * 1000);      //计算分钟数后剩余的毫秒数
-  var seconds = Math.round(leave3 / 1000);
-
-  var unit = "秒"
-  var date = Math.abs(seconds)
   var dateType = "已过"
-  if (seconds < 0) {
-    dateType = "还有"
-  }
-  if (Math.abs(minutes) > 0) {
-    unit = "分钟"
-    date = Math.abs(minutes)
-    if (minutes < 0) {
-      dateType = "还有"
-    }
-  }
-  if (Math.abs(hours) > 0) {
-    unit = "小时"
-    date = Math.abs(hours)
-    if (hours < 0) {
-      dateType = "还有"
-    }
-  }
-  if (Math.abs(days) > 0) {
+
+  if (days == 0) {
+    unit = ""
+    dateType = ""
+    date = "今天"
+  } else {
     unit = "天"
     date = Math.abs(days)
     if (days < 0) {
       dateType = "还有"
     }
   }
-  return [date, unit, dateType];
+  return [date, unit, dateType, days];
+}
+
+// 获取当前月有几天
+function getNumberDaysInMonth(aimsDate) {
+  var date = new Date()
+  if (aimsDate != undefined) {
+    date = aimsDate
+  }
+  date.setDate(28)
+  let nextMonth = date.getMonth() + 1
+  let nextYear = date.getFullYear()
+  if (nextMonth > 11) {
+    nextMonth = 0
+    nextYear = nextYear + 1
+  }
+  date.setFullYear(nextYear)
+  date.setMonth(nextMonth)
+  let lastDay = new Date(date.setDate(0))
+  var lastMonth = lastDay.getMonth() + 1
+  lastMonth = lastMonth > 12 ? 1 : lastMonth
+}
+
+Date.prototype.Format = function (fmt) { //author: meizz 
+  var o = {
+    "M+": this.getMonth() + 1, //月份 
+    "d+": this.getDate(), //日 
+    "h+": this.getHours(), //小时 
+    "m+": this.getMinutes(), //分 
+    "s+": this.getSeconds(), //秒 
+    "q+": Math.floor((this.getMonth() + 3) / 3), //季度 
+    "S": this.getMilliseconds() //毫秒 
+  };
+  if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+  for (var k in o)
+    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+  return fmt;
+}
+
+// 获取 monthLength 月后的日期
+function getFutureDates(originalDate, monthLength, dateDay) {
+  var futureDate = originalDate
+  futureDate.setHours(0)
+  futureDate.setMinutes(0)
+  futureDate.setSeconds(0)
+  futureDate.setMilliseconds(0)
+  futureDate.setDate(1)
+  var nextMonth = futureDate.getMonth()
+  var nextYear = futureDate.getFullYear()
+
+  for (var i = 0; i < monthLength; i++) {
+    nextMonth += 1
+    if (nextMonth > 11) {
+      nextMonth = 0
+      nextYear = nextYear + 1
+    }
+  }
+  futureDate.setFullYear(nextYear)
+  futureDate.setMonth(nextMonth)
+
+  var nextFutureDate = futureDate
+  var nextFutureYear = nextFutureDate.getFullYear()
+  var nextFutureMonth = nextFutureDate.getMonth() + 1
+  if (nextFutureMonth > 11) {
+    nextFutureMonth = 0
+    nextFutureYear += 1
+  }
+  nextFutureDate.setFullYear(nextFutureYear)
+  nextFutureDate.setMonth(nextFutureMonth)
+
+  let futureDateDayNumber = new Date(nextFutureDate.setDate(0)).getDate()
+  if (dateDay > futureDateDayNumber) {
+    futureDate.setDate(futureDateDayNumber)
+  } else {
+    futureDate.setDate(dateDay)
+  }
+  return futureDate
 }
