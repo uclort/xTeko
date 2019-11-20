@@ -121,7 +121,12 @@ function getListData() {
     todayDate.setSeconds(0)
     todayDate.setMilliseconds(0)
     var values = result.values;
-    let diff = diffTime(values.time, todayDate.getTime())
+    let valueDate = new Date(parseInt(values.time))
+    valueDate.setHours(0)
+    valueDate.setMinutes(0)
+    valueDate.setSeconds(0)
+    valueDate.setMilliseconds(0)
+    let diff = diffTime(valueDate.getTime(), todayDate.getTime())
     // return
     if (diff[3] > 0 && (values.cycleType == "month" || values.cycleType == "year")) {
       var cycleJudge = 1
@@ -132,7 +137,7 @@ function getListData() {
       }
       while (cycleJudge == 1) {
         nextMonthNumber += incrementNumber
-        let newDate = getFutureDates(new Date(parseInt(values.time)), nextMonthNumber, values.dayNumber)
+        let newDate = getFutureDates(valueDate, nextMonthNumber, values.dayNumber)
         diff = diffTime(newDate.getTime(), todayDate.getTime())
         if (diff[3] <= 0) {
           cycleJudge = -1
@@ -156,7 +161,7 @@ function getListData() {
       noListUnit: { text: diff[1], textColor: $color(values.dateUnitColor) },
       listType: values.type,
       listID: values.id,
-      time: values.time,
+      time: `${valueDate.getTime()}`,
       customImage: values.customImage,
       bigImage: values.image,
       imageView: { hidden: hidden, bgcolor: $color(values.bgColor) },

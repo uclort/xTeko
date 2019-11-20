@@ -417,7 +417,11 @@ module.exports.addItem = function addItem(detailData, updateList) {
                 events: {
                   tapped: function (sender) {
                     blurAll()
-                    pickdate()
+                    var selectedDate = new Date()
+                    if (detailData != undefined) {
+                      selectedDate = new Date(parseInt(detailData.time))
+                    }
+                    pickdate(selectedDate)
                   }
                 }
               },
@@ -754,13 +758,13 @@ module.exports.addItem = function addItem(detailData, updateList) {
   }
 }
 
-function pickdate() {
+function pickdate(date) {
   $pick.date({
     props: {
       mode: 1,
       min: new Date("1700/1/1"),
       max: new Date("2199/12/31"),
-      date: new Date()
+      date: date
     },
     handler: function (sender) {
       var year = sender.getFullYear()

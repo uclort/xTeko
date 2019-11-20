@@ -1,5 +1,5 @@
 {
-    "version":"1.8",
-    "message":"增加循环事件，根据月或年循环记录时间",
+    "version":"1.9",
+    "message":"修改日期的时候自动选择已记录的日期",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
