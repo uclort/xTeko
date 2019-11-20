@@ -40,7 +40,7 @@ function checkupVersion(url) {
 
       if (versionCmp(version, currentVersion) == 1) {
         $ui.alert({
-          title: "发现新版本，请手动备份 timeList.db 文件，更新完成后再放回原位置，否则更新完成可能会丢失已添加记录❗️❗️❗️",
+          title: "发现新版本",
           message: message,
           actions: [
             {

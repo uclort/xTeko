@@ -10,8 +10,14 @@ module.exports = {
 
 dbStr = "CREATE TABLE TimeList(id text, time text, name text, description text, type integer, customImage integer, image BLOB, nameColor text, descriptionColor text, bgColor text, dateColor text, dateUnitColor text)"
 
+pathHeder = "shared://Time-mmmmmmm"
+path = `${pathHeder}/timeList.db`
+if (!$file.exists(pathHeder)) {
+  $file.mkdir(pathHeder)
+}
+
 function addItem(item) {
-  var db = $sqlite.open("timeList.db")
+  var db = $sqlite.open(path)
   db.update(dbStr)
   db.update({
     sql: "INSERT INTO TimeList values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
@@ -21,7 +27,7 @@ function addItem(item) {
 }
 
 function changeItem(item) {
-  var db = $sqlite.open("timeList.db")
+  var db = $sqlite.open(path)
   db.update(dbStr)
   db.update({
     sql: "UPDATE TimeList SET time = ?, name = ?, description = ?, type = ?, customImage = ?, image = ?, nameColor = ?, descriptionColor = ?, bgColor = ?, dateColor = ?, dateUnitColor = ? WHERE id = ?",
@@ -31,7 +37,7 @@ function changeItem(item) {
 }
 
 function deleteItem(id) {
-  var db = $sqlite.open("timeList.db");
+  var db = $sqlite.open(path);
   db.update({
     sql: "DELETE FROM TimeList where id = ?",
     args: [id]
@@ -40,13 +46,13 @@ function deleteItem(id) {
 }
 
 function clearList() {
-  var db = $sqlite.open("timeList.db");
+  var db = $sqlite.open(path);
   db.update("DELETE FROM TimeList");
   $sqlite.close(db);
 }
 
 function getListData() {
-  var db = $sqlite.open("timeList.db");
+  var db = $sqlite.open(path);
   db.update(dbStr)
   var object = db.query("SELECT * FROM TimeList");
   var result = object.result;
