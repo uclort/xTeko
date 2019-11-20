@@ -5,6 +5,8 @@ var time = ""
 
 var customImage = 0
 
+var selectedImage = undefined
+
 module.exports.addItem = function addItem(detailData, updateList) {
   var navButtonTitle = "添加"
   var isChange = false
@@ -35,7 +37,10 @@ module.exports.addItem = function addItem(detailData, updateList) {
               $ui.toast("请选择开始日期");
               return
             }
-            var imageData = $("image").image.png
+            var imageData = $("image").image.jpg(0.8)
+            if (selectedImage != undefined) {
+              imageData = selectedImage.jpg(0.8)
+            }
             var date = new Date()
             var id = date.getTime()
             if (isChange) {
@@ -282,7 +287,8 @@ module.exports.addItem = function addItem(detailData, updateList) {
                       handler: function (resp) {
                         var image = resp.image
                         if (image) {
-                          var resizedImage = image.resized($size(200, 200 * (image.size.height / image.size.width)))
+                          selectedImage = image.jpg(0.8).image
+                          var resizedImage = selectedImage.resized($size(200, 200 * (image.size.height / image.size.width)))
                           $("image").image = resizedImage
                           $("previewListImage").image = resizedImage
                           customImage = 1
@@ -299,6 +305,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
                       items: ["删除图片"],
                       handler: function (title, idx) {
                         customImage = 0
+                        selectedImage = undefined
                         $("image").icon = $icon("099", $color("black"), $size(100, 100))
                         $("previewNoImageView").hidden = false
                         $("previewImageView").hidden = true

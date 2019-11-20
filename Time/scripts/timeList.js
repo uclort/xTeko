@@ -1,5 +1,6 @@
 let add = require('./addTimeItem')
 let tool = require('./tool')
+let preview = require('./preview')
 
 module.exports.render = function render() {
   $ui.render({
@@ -226,14 +227,21 @@ module.exports.render = function render() {
       layout: $layout.fill,
       events: {
         didSelect: function (sender, indexPath, data) {
+          $console.info(data);
+          var items = ["编辑", "删除"]
+          if (data.customImage == 1) {
+            items.push("查看大图")
+          }
           $ui.menu({
-            items: ["编辑", "删除"],
+            items: items,
             handler: function (title, idx) {
               if (idx == 0) {
                 add.addItem(data, updateList)
-              } else {
+              } else if (idx == 1) {
                 tool.deleteItem(data.listID)
                 updateList()
+              } else {
+                preview.beginPreview(data.bigImage)
               }
             },
             finished: function (cancelled) {

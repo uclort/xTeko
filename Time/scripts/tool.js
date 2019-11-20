@@ -66,8 +66,9 @@ function getListData() {
     if (values.customImage == 0) {
       hidden = true
     }
+    let imageData = values.image.image.resized($size(200, 200 * (values.image.image.size.height / values.image.image.size.width))).png
     let data = {
-      listImage: { data: values.image },
+      listImage: { data: imageData },
       listName: { text: values.name, textColor: $color(values.nameColor) },
       listDescription: { text: values.description, textColor: $color(values.descriptionColor) },
       listTime: { text: diff[0], textColor: $color(values.dateColor) },
@@ -80,6 +81,7 @@ function getListData() {
       listID: values.id,
       time: values.time,
       customImage: values.customImage,
+      bigImage: values.image,
       imageView: { hidden: hidden, bgcolor: $color(values.bgColor) },
       noImageView: { hidden: !hidden, bgcolor: $color(values.bgColor) },
       type: { text: diff[2], textColor: $color(values.dateUnitColor) },

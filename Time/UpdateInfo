@@ -1,5 +1,5 @@
 {
-    "version":"1.3",
-    "message":"把 db 数据库文件放到 JSBox shared 目录下，以后更新就不会出现记录丢失的问题了.",
+    "version":"1.4",
+    "message":"添加自定义图片的条目增加查看大图的功能，图片最好裁剪压缩一下，否则会造成数据太大，占用手机空间。",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
