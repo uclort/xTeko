@@ -675,6 +675,9 @@ module.exports.addItem = function addItem(detailData, updateList) {
                       changed: function (sender) {
                         if (sender.on == true) {
                           $("rightSwitch").on = false
+                          settingPre(true, false, time)
+                        } else {
+                          settingPre(false, $("rightSwitch").on, time)
                         }
                       }
                     }
@@ -716,6 +719,9 @@ module.exports.addItem = function addItem(detailData, updateList) {
                       changed: function (sender) {
                         if (sender.on == true) {
                           $("leftSwitch").on = false
+                          settingPre($("leftSwitch").on, true, time)
+                        } else {
+                          settingPre($("leftSwitch").on, false, time)
                         }
                       }
                     }
@@ -778,15 +784,8 @@ function pickdate(date) {
       sender.setSeconds(0)
       sender.setMilliseconds(0)
       time = sender.getTime()
-      $console.info(sender.getTime());
       $("button").title = `${year} 年 ${month} 月 ${day} 日`
-      var diff = tool.diffTime(time, new Date().getTime())
-      $("previewListTime").text = diff[0]
-      $("previewListUnit").text = diff[1]
-      $("previewNoListTime").text = diff[0]
-      $("previewNoListUnit").text = diff[1]
-      $("previewType").text = diff[2]
-      $("previewNoType").text = diff[2]
+      settingPre($("leftSwitch").on, $("rightSwitch").on, time)
     }
   })
 }
@@ -858,17 +857,17 @@ function updateAddItemView(detailData) {
   $("previewNoListUnit").text = detailData.noListUnit.text
   $("previewNoListUnit").textColor = detailData.noListUnit.textColor
 
-  $("previewImageView").bgcolor = detailData.imageView.bgcolor
-  $("previewImageView").hidden = detailData.imageView.hidden
-
-  $("previewNoImageView").bgcolor = detailData.noImageView.bgcolor
-  $("previewNoImageView").hidden = detailData.noImageView.hidden
-
   $("previewType").text = detailData.type.text
   $("previewType").textColor = detailData.type.textColor
 
   $("previewNoType").text = detailData.type.text
   $("previewNoType").textColor = detailData.type.textColor
+
+  $("previewImageView").bgcolor = detailData.imageView.bgcolor
+  $("previewImageView").hidden = detailData.imageView.hidden
+
+  $("previewNoImageView").bgcolor = detailData.noImageView.bgcolor
+  $("previewNoImageView").hidden = detailData.noImageView.hidden
 
   $("previewListImage").image = detailData.listImage.data.image
 
@@ -900,4 +899,28 @@ function updateAddItemView(detailData) {
   if (detailData.cycleType == "year") {
     $("rightSwitch").on = true
   }
+}
+
+function settingPre(leftOn, rightOn, time) {
+  if (time == undefined || time == "") return
+  let diff = []
+  if (leftOn == true) {
+    diff = tool.calculateDateDifference(time, "month")
+  } else if (rightOn == true) {
+    diff = tool.calculateDateDifference(time, "year")
+  } else {
+    diff = tool.calculateDateDifference(time, "")
+  }
+
+  $("previewListTime").text = diff[0]
+
+  $("previewNoListTime").text = diff[0]
+
+  $("previewListUnit").text = diff[1]
+
+  $("previewNoListUnit").text = diff[1]
+
+  $("previewType").text = diff[2]
+
+  $("previewNoType").text = diff[2]
 }

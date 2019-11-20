@@ -7,7 +7,8 @@ module.exports = {
   diffTime: diffTime,
   changeItem: changeItem,
   getNumberDaysInMonth: getNumberDaysInMonth,
-  getFutureDates: getFutureDates
+  getFutureDates: getFutureDates,
+  calculateDateDifference: calculateDateDifference
 }
 
 dbStr = "CREATE TABLE TimeList(id text, time text, name text, description text, type integer, customImage integer, image BLOB, nameColor text, descriptionColor text, bgColor text, dateColor text, dateUnitColor text)"
@@ -274,4 +275,36 @@ function getFutureDates(originalDate, monthLength, dateDay) {
     futureDate.setDate(dateDay)
   }
   return futureDate
+}
+
+function calculateDateDifference(time, type) {
+  let todayDate = new Date()
+  todayDate.setHours(0)
+  todayDate.setMinutes(0)
+  todayDate.setSeconds(0)
+  todayDate.setMilliseconds(0)
+  let valueDate = new Date(parseInt(time))
+  valueDate.setHours(0)
+  valueDate.setMinutes(0)
+  valueDate.setSeconds(0)
+  valueDate.setMilliseconds(0)
+  let diff = diffTime(valueDate.getTime(), todayDate.getTime())
+  // return
+  if (diff[3] > 0 && (type == "month" || type == "year")) {
+    var cycleJudge = 1
+    var nextMonthNumber = 0
+    var incrementNumber = 1
+    if (type == "year") {
+      incrementNumber = 12
+    }
+    while (cycleJudge == 1) {
+      nextMonthNumber += incrementNumber
+      let newDate = getFutureDates(valueDate, nextMonthNumber, valueDate.getDate())
+      diff = diffTime(newDate.getTime(), todayDate.getTime())
+      if (diff[3] <= 0) {
+        cycleJudge = -1
+      }
+    }
+  }
+  return diff
 }
