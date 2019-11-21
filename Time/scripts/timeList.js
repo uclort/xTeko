@@ -290,7 +290,6 @@ module.exports.render = function render() {
       layout: $layout.fill,
       events: {
         didSelect: function (sender, indexPath, data) {
-          // $console.info(data);
           var items = ["编辑", "删除"]
           if (data.customImage == 1) {
             items.push("查看大图")
@@ -299,10 +298,32 @@ module.exports.render = function render() {
             items: items,
             handler: function (title, idx) {
               if (idx == 0) {
+                if ($app.env == $env.today) {
+                  $ui.toast("为了良好的体验，请在 JSBox 主程序打开本脚本进行编辑");
+                  return
+                }
                 add.addItem(data, updateList)
               } else if (idx == 1) {
-                tool.deleteItem(data.listID)
-                updateList()
+                $ui.alert({
+                  title: "确认删除❓",
+                  message: "确定删除此条记录么？删除后将无法恢复，请确认。",
+                  actions: [
+                    {
+                      title: "确认",
+                      disabled: false, // Optional
+                      handler: function () {
+                        tool.deleteItem(data.listID)
+                        updateList()
+                      }
+                    },
+                    {
+                      title: "取消❗️",
+                      handler: function () {
+
+                      }
+                    }
+                  ]
+                })
               } else {
                 preview.beginPreview(data.bigImage)
               }
