@@ -52,7 +52,7 @@ function beginSelectedColor(id) {
               type: "label",
               props: {
                 id: "label-color",
-                font: $font(30),
+                font: $font(15),
                 radius: 5,
                 align: $align.center
               },
@@ -73,32 +73,46 @@ function beginSelectedColor(id) {
           }
 
         }, didLongPress: function (sender, indexPath, data) {
+          var handlerGroup = ["复制色值", "删除色值"]
           let colorHex = data["label-color"].text
           if (colorGroup.indexOf(colorHex) > -1) {
-            $ui.toast("默认颜色不能删除");
-            return
+            $console.info("颜色已存在");
+            handlerGroup.remove("删除色值")
           }
-          $ui.alert({
-            title: "是否删除这个自定义颜色？",
-            message: "删除后不可恢复，只能自行添加。",
-            actions: [
-              {
-                title: "删除",
-                handler: function () {
-                  let customizeColor = $cache.get("customizeColor");
-                  customizeColor.remove(colorHex);
-                  $cache.set("customizeColor", customizeColor);
-                  settingColor()
-                }
-              },
-              {
-                title: "Cancel",
-                handler: function () {
+          $ui.menu({
+            items: handlerGroup,
+            handler: function (title, idx) {
+              if (idx == 0) {
+                $clipboard.text = colorHex
+              } else if (idx == 1) {
+                $ui.alert({
+                  title: "是否删除这个自定义颜色？",
+                  message: "删除后不可恢复，只能自行添加。",
+                  actions: [
+                    {
+                      title: "删除",
+                      handler: function () {
+                        let customizeColor = $cache.get("customizeColor");
+                        customizeColor.remove(colorHex);
+                        $cache.set("customizeColor", customizeColor);
+                        settingColor()
+                      }
+                    },
+                    {
+                      title: "Cancel",
+                      handler: function () {
 
-                }
+                      }
+                    }
+                  ]
+                })
               }
-            ]
-          });
+            },
+            finished: function (cancelled) {
+
+            }
+          })
+
         }
       }
     }]
@@ -120,11 +134,11 @@ function settingColor() {
   for (let i = 0, len = customizeColor.length - 1; i <= len; i++) {
     let colorHexcode = customizeColor[i]
     let colorItem = colorHexcode
-    let textColor = $color("clear")
+    let textColor = $color("lightGray")
     let borderColor = textColor
     let borderWidth = 0
     if (colorItem == "+") {
-      textColor = $color("lightGray");
+      // textColor = $color("lightGray");
       borderColor = textColor
       borderWidth = 0.5
       colorHexcode = "#ffffff"
