@@ -1,5 +1,5 @@
 {
-    "version":"2.2.8",
-    "message":"修复添加的老颜色无法删除的问题",
+    "version":"2.2.9",
+    "message":"日期选择器保留上次选择的日期",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
