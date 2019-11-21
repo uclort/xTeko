@@ -63,7 +63,6 @@ module.exports.render = function render() {
                   } else if (sortType == 2) {
                     sortTitleGroup = ["默认排序", "根据剩余天数排序✔️"]
                   }
-                  $console.info("排序");
                   $ui.menu({
                     items: sortTitleGroup, // 1 , 2
                     handler: function (title, idx) {
