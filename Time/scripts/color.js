@@ -76,7 +76,6 @@ function beginSelectedColor(id) {
           var handlerGroup = ["复制色值", "删除色值"]
           let colorHex = data["label-color"].text
           if (colorGroup.indexOf(colorHexcode) > -1) {
-            $console.info("颜色已存在");
             handlerGroup.remove("删除色值")
           }
           $ui.menu({
