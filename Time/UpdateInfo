@@ -1,5 +1,5 @@
 {
-    "version":"2.3",
+    "version":"2.3.1",
     "message":"解决新增记录日期不是当天的 Bug",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
