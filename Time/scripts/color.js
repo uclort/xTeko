@@ -82,7 +82,6 @@ function beginSelectedColor(id) {
             items: handlerGroup,
             handler: function (title, idx) {
               if (idx == 0) {
-                $console.info(colorHex);
                 $clipboard.text = colorHex
               } else if (idx == 1) {
                 $ui.alert({
@@ -93,7 +92,10 @@ function beginSelectedColor(id) {
                       title: "删除",
                       handler: function () {
                         let customizeColor = $cache.get("customizeColor");
+                        $console.info(customizeColor);
+                        $console.info(colorHex);
                         customizeColor.remove(colorHex);
+                        customizeColor.remove(colorHex.toUpperCase());
                         $cache.set("customizeColor", customizeColor);
                         settingColor()
                       }
