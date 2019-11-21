@@ -7,6 +7,22 @@ let celltopBottomSpacing = 10
 var cellHeight = $device.isIpadPro ? 130.0 : 110.0
 var contentInset = ($app.env == $env.today) ? $insets(0, 0, 0, 0) : $insets(5, 0, 0, 0)
 
+var listReorder = false
+var sortType = $cache.get("sort");
+if (sortType == undefined) {
+  sortType = 1
+  listReorder = true
+  let dataGroup = tool.getListData()
+  for (var i = 0, len = dataGroup.length; i < len; i++) {
+    let item = dataGroup[i]
+    tool.changeItemSort(i, item.listID)
+  }
+} else if (sortType == 1) {
+  listReorder = true
+} else if (sortType == 2) {
+  listReorder = false
+}
+
 module.exports.render = function render() {
   $ui.render({
     props: {
@@ -16,11 +32,11 @@ module.exports.render = function render() {
           icon: "102",
           handler: function () {
             $ui.menu({
-              items: ["添加记录", "清空记录"],
+              items: ["添加记录", "清空记录", "排序方式"],
               handler: function (title, idx) {
                 if (idx == 0) {
                   add.addItem(undefined, updateList)
-                } else {
+                } else if (idx == 1) {
                   $ui.alert({
                     title: "确定清空所有记录吗？",
                     message: "点击确定将清空所有已添加的记录，如果没有手动备份，将无法找回。",
@@ -40,6 +56,29 @@ module.exports.render = function render() {
                       }
                     ]
                   })
+                } else if (idx == 2) { // 排序
+                  var sortTitleGroup = []
+                  if (sortType == 1) {
+                    sortTitleGroup = ["默认排序✔️", "根据剩余天数排序"]
+                  } else if (sortType == 2) {
+                    sortTitleGroup = ["默认排序", "根据剩余天数排序✔️"]
+                  }
+                  $console.info("排序");
+                  $ui.menu({
+                    items: sortTitleGroup, // 1 , 2
+                    handler: function (title, idx) {
+                      if (idx == 0) {
+                        $("list").reorder = true
+                        $cache.set("sort", 1);
+                        sortType = 1
+                      } else if (idx == 1) {
+                        $("list").reorder = false
+                        $cache.set("sort", 2);
+                        sortType = 2
+                      }
+                      updateList()
+                    }
+                  });
                 }
               }
             })
@@ -55,6 +94,7 @@ module.exports.render = function render() {
         separatorHidden: true,
         rowHeight: cellHeight,
         contentInset: contentInset,
+        reorder: listReorder,
         template: {
           props: {
             bgcolor: $color("clear")
@@ -271,6 +311,12 @@ module.exports.render = function render() {
 
             }
           })
+        }, reorderFinished: function (data) {
+
+          for (var i = 0, len = data.length; i < len; i++) {
+            let item = data[i]
+            tool.changeItemSort(i, item.listID)
+          }
         }
       }
     }]

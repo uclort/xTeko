@@ -8,7 +8,8 @@ module.exports = {
   changeItem: changeItem,
   getNumberDaysInMonth: getNumberDaysInMonth,
   getFutureDates: getFutureDates,
-  calculateDateDifference: calculateDateDifference
+  calculateDateDifference: calculateDateDifference,
+  changeItemSort: changeItemSort
 }
 
 dbStr = "CREATE TABLE TimeList(id text, time text, name text, description text, type integer, customImage integer, image BLOB, nameColor text, descriptionColor text, bgColor text, dateColor text, dateUnitColor text)"
@@ -45,7 +46,7 @@ function addItem(item) {
   var db = $sqlite.open(path)
   db.update(dbStr)
   db.update({
-    sql: "INSERT INTO TimeList values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+    sql: "INSERT INTO TimeList values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
     args: [
       item.id,
       item.time,
@@ -61,7 +62,8 @@ function addItem(item) {
       item.dateUnitColor,
       item.dayNumber,
       item.isCycle,
-      item.cycleType
+      item.cycleType,
+      item.sequenceNumber
     ]
   });
   $sqlite.close(db);
@@ -88,6 +90,19 @@ function changeItem(item) {
       item.isCycle,
       item.cycleType,
       item.id
+    ]
+  });
+  $sqlite.close(db);
+}
+
+function changeItemSort(sequenceNumber, id) {
+  var db = $sqlite.open(path)
+  db.update(dbStr)
+  db.update({
+    sql: "UPDATE TimeList SET sequenceNumber = ? WHERE id = ?",
+    args: [
+      sequenceNumber,
+      id
     ]
   });
   $sqlite.close(db);
@@ -171,13 +186,78 @@ function getListData() {
       type: { text: diff[2], textColor: $color(values.dateUnitColor) },
       noType: { text: diff[2], textColor: $color(values.dateUnitColor) },
       dayNumber: { text: diff[2], textColor: $color(values.dateUnitColor) },
-      cycleType: values.cycleType
+      cycleType: values.cycleType,
+      sequenceNumber: values.sequenceNumber,
     }
     dataTuple.unshift(data)
   }
-
   result.close();
+
+  if ($cache.get("sort") == 2) { // 日期排序
+
+    var len = dataTuple.length;
+
+    var positiveTimingGroup = []
+    var countdownGroup = []
+    var todayGroup = []
+    for (var i = 0; i < len; i++) {
+      let item = dataTuple[i]
+      let number = item.listTime.text
+      let type = item.type.text
+      if (number == "今天") {
+        todayGroup.push(item)
+      } else if (type == "还有") {
+        countdownGroup.push(item)
+      } else if (type == "已过") {
+        positiveTimingGroup.push(item)
+      }
+    }
+    positiveTimingGroup = sortHandler(positiveTimingGroup)
+    countdownGroup = sortHandler(countdownGroup)
+
+    dataTuple = []
+    todayGroup.forEach(function (item) {
+      dataTuple.push(item)
+    })
+    countdownGroup.forEach(function (item) {
+      dataTuple.push(item)
+    })
+    positiveTimingGroup.forEach(function (item) {
+      dataTuple.push(item)
+    })
+  } else if ($cache.get("sort") == 1) { // 默认排序
+    dataTuple = defaultSortHandler(dataTuple)
+  }
+
   return dataTuple
+}
+
+function sortHandler(arr) {
+  var len = arr.length;
+  for (var i = 0; i < len; i++) {
+    for (var j = 0; j < len - 1 - i; j++) {
+      if (arr[j].listTime.text > arr[j + 1].listTime.text) {        //相邻元素两两对比
+        var temp = arr[j + 1];        //元素交换
+        arr[j + 1] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  return arr;
+}
+
+function defaultSortHandler(arr) {
+  var len = arr.length;
+  for (var i = 0; i < len; i++) {
+    for (var j = 0; j < len - 1 - i; j++) {
+      if (arr[j].sequenceNumber > arr[j + 1].sequenceNumber) {        //相邻元素两两对比
+        var temp = arr[j + 1];        //元素交换
+        arr[j + 1] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  return arr;
 }
 
 function diffTime(startDate, endDate) {
