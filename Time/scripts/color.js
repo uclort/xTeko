@@ -75,7 +75,7 @@ function beginSelectedColor(id) {
         }, didLongPress: function (sender, indexPath, data) {
           var handlerGroup = ["复制色值", "删除色值"]
           let colorHex = data["label-color"].text
-          if (colorGroup.indexOf(colorHexcode) > -1) {
+          if (colorGroup.indexOf(colorHex) > -1) {
             handlerGroup.remove("删除色值")
           }
           $ui.menu({

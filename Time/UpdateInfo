@@ -1,5 +1,5 @@
 {
-    "version":"2.2.5",
-    "message":"修正颜色色值大小写不一致的 Bug",
+    "version":"2.2.6",
+    "message":"唉，解决长按色值报错的 Bug，修正颜色色值大小写不一致的 Bug",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
