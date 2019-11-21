@@ -418,7 +418,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
                   tapped: function (sender) {
                     blurAll()
                     var selectedDate = new Date()
-                    if (time != undefined || time != "") {
+                    if (time != undefined && time != "") {
                       selectedDate = new Date(parseInt(time))
                     } else if (detailData != undefined) {
                       selectedDate = new Date(parseInt(detailData.time))
