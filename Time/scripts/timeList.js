@@ -1,6 +1,11 @@
 let add = require('./addTimeItem')
 let tool = require('./tool')
 let preview = require('./preview')
+let cellLeftRightSpacing = 10
+let celltopBottomSpacing = 10
+
+var cellHeight = $device.isIpadPro ? 130.0 : 110.0
+var contentInset = ($app.env == $env.today) ? $insets(0, 0, 0, 0) : $insets(5, 0, 0, 0)
 
 module.exports.render = function render() {
   $ui.render({
@@ -48,7 +53,8 @@ module.exports.render = function render() {
         id: "",
         data: tool.getListData(),
         separatorHidden: true,
-        rowHeight: 100,
+        rowHeight: cellHeight,
+        contentInset: contentInset,
         template: {
           props: {
             bgcolor: $color("clear")
@@ -145,8 +151,8 @@ module.exports.render = function render() {
                 },
               }],
               layout: function (make, view) {
-                make.left.right.inset(20)
-                make.top.bottom.inset(10)
+                make.left.right.inset(cellLeftRightSpacing)
+                make.top.bottom.inset(celltopBottomSpacing)
               },
               events: {
                 ready: function (sender) {
@@ -224,8 +230,8 @@ module.exports.render = function render() {
                   },
                 }],
               layout: function (make, view) {
-                make.left.right.inset(20)
-                make.top.bottom.inset(10)
+                make.left.right.inset(cellLeftRightSpacing)
+                make.top.bottom.inset(celltopBottomSpacing)
               },
               events: {
                 ready: function (sender) {

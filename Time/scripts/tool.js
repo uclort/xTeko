@@ -22,7 +22,8 @@ if (!$file.exists(pathHeder)) {
 let newWordGroup = [
   "dayNumber text",
   "isCycle integer",
-  "cycleType text"
+  "cycleType text",
+  "sequenceNumber integer"
 ]
 
 function addNewWord() {

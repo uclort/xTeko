@@ -54,17 +54,19 @@ function checkupVersion(url) {
                   },
                   handler: function (resp) {
                     var file = resp.data;
-                    $addin.save({
-                      name: $addin.current.name,
-                      icon: $addin.current.icon,
-                      data: file,
-                      handler: function (success) {
-                        if (success) {
-                          updateLocalVersion(version)
-                          $addin.restart()
+                    if (file) {
+                      $addin.save({
+                        name: $addin.current.name,
+                        icon: $addin.current.icon,
+                        data: file,
+                        handler: function (success) {
+                          if (success) {
+                            updateLocalVersion(version)
+                            $addin.restart()
+                          }
                         }
-                      }
-                    })
+                      })
+                    }
                   }
                 });
               }

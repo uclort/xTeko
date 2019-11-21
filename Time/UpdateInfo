@@ -1,5 +1,5 @@
 {
-    "version":"2.0",
-    "message":"新增条目是预览也跟随循环逻辑改变日期，修改日期的时候自动选择已记录的日期",
+    "version":"2.1",
+    "message":"修改尺寸，适配小组件",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
