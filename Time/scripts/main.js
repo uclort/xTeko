@@ -139,7 +139,7 @@ function beginAddCustomColor(id) {
               return
             }
           }
-          customizeColor.push($("hex_v").text)
+          customizeColor.push($("hex_v").text.toLowerCase())
           $cache.set("customizeColor", customizeColor);
           $ui.pop()
           itemID()

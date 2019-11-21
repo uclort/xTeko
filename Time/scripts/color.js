@@ -75,7 +75,7 @@ function beginSelectedColor(id) {
         }, didLongPress: function (sender, indexPath, data) {
           var handlerGroup = ["复制色值", "删除色值"]
           let colorHex = data["label-color"].text
-          if (colorGroup.indexOf(colorHex) > -1) {
+          if (colorGroup.indexOf(colorHexcode) > -1) {
             $console.info("颜色已存在");
             handlerGroup.remove("删除色值")
           }
@@ -83,6 +83,7 @@ function beginSelectedColor(id) {
             items: handlerGroup,
             handler: function (title, idx) {
               if (idx == 0) {
+                $console.info(colorHex);
                 $clipboard.text = colorHex
               } else if (idx == 1) {
                 $ui.alert({
@@ -146,7 +147,7 @@ function settingColor() {
     colorItem = {
       "label-color": {
         bgcolor: $color(colorHexcode),
-        text: colorItem,
+        text: colorItem.toLowerCase(),
         textColor: textColor,
         borderColor: borderColor,
         borderWidth: borderWidth

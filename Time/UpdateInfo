@@ -1,5 +1,5 @@
 {
-    "version":"2.2.4",
-    "message":"颜色色块上增加色值显示，自定义颜色可以长按复制、删除，删除单条时进行二次确认，防止误触删除，禁用通知中心小组件长按排序，新增排序方式，默认排序（长按手动排序），按日期排序（今天 > 倒数日正序 > 正数日正序）",
+    "version":"2.2.5",
+    "message":"修正颜色色值大小写不一致的 Bug",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
