@@ -94,7 +94,7 @@ module.exports.render = function render() {
         separatorHidden: true,
         rowHeight: cellHeight,
         contentInset: contentInset,
-        reorder: listReorder,
+        reorder: (($app.env == $env.today) ? false : listReorder),
         template: {
           props: {
             bgcolor: $color("clear")
@@ -312,7 +312,6 @@ module.exports.render = function render() {
             }
           })
         }, reorderFinished: function (data) {
-
           for (var i = 0, len = data.length; i < len; i++) {
             let item = data[i]
             tool.changeItemSort(i, item.listID)

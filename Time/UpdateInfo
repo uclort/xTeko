@@ -1,5 +1,5 @@
 {
-    "version":"2.2",
-    "message":"新增排序方式，默认排序（长按手动排序），按日期排序（今天 > 倒数日正序 > 正数日正序）",
+    "version":"2.2.1",
+    "message":"禁用通知中心小组件长按键排序，新增排序方式，默认排序（长按手动排序），按日期排序（今天 > 倒数日正序 > 正数日正序）",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
