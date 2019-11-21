@@ -1,9 +1,37 @@
 
 var addColor = require('./main')
 
+let colorGroup = [
+  "#000000",
+  "#ffffff",
+  "#fedfe1",
+  "#cb1b45",
+  "#f17c67",
+  "#b55d4c",
+  "#a0674b",
+  "#233714",
+  "#6b591d",
+  "#efcfb6",
+  "#6d0c74",
+  "#33ff00",
+  "#3333ff",
+  "#ffff00",
+  "#ffd700",
+  "#ffa500",
+  "#ff0000",
+  "#d3d3d3"
+]
+
 module.exports = {
   beginSelectedColor: beginSelectedColor
 }
+
+Array.prototype.remove = function (val) {
+  var index = this.indexOf(val);
+  if (index > -1) {
+    this.splice(index, 1);
+  }
+};
 
 function beginSelectedColor(id) {
   $ui.push({
@@ -44,6 +72,33 @@ function beginSelectedColor(id) {
             $ui.pop()
           }
 
+        }, didLongPress: function (sender, indexPath, data) {
+          let colorHex = data["label-color"].text
+          if (colorGroup.indexOf(colorHex) > -1) {
+            $ui.toast("默认颜色不能删除");
+            return
+          }
+          $ui.alert({
+            title: "是否删除这个自定义颜色？",
+            message: "删除后不可恢复，只能自行添加。",
+            actions: [
+              {
+                title: "删除",
+                handler: function () {
+                  let customizeColor = $cache.get("customizeColor");
+                  customizeColor.remove(colorHex);
+                  $cache.set("customizeColor", customizeColor);
+                  settingColor()
+                }
+              },
+              {
+                title: "Cancel",
+                handler: function () {
+
+                }
+              }
+            ]
+          });
         }
       }
     }]
@@ -52,26 +107,6 @@ function beginSelectedColor(id) {
 }
 
 function settingColor() {
-  let colorGroup = [
-    "#000000",
-    "#ffffff",
-    "#fedfe1",
-    "#cb1b45",
-    "#f17c67",
-    "#b55d4c",
-    "#a0674b",
-    "#233714",
-    "#6b591d",
-    "#efcfb6",
-    "#6d0c74",
-    "#33ff00",
-    "#3333ff",
-    "#ffff00",
-    "#ffd700",
-    "#ffa500",
-    "#ff0000",
-    "#d3d3d3"
-  ]
 
   let customizeColor = $cache.get("customizeColor");
   if (!customizeColor) {
