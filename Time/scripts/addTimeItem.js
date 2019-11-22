@@ -7,6 +7,8 @@ var customImage = 0
 
 var selectedImage = undefined
 
+var compressionFactor = 0.5
+
 module.exports.addItem = function addItem(detailData, updateList) {
   var navButtonTitle = "添加"
   var isChange = false
@@ -37,9 +39,9 @@ module.exports.addItem = function addItem(detailData, updateList) {
               $ui.toast("请选择开始日期");
               return
             }
-            var imageData = $("image").image.jpg(0.8)
+            var imageData = $("image").image.jpg(compressionFactor)
             if (selectedImage != undefined) {
-              imageData = selectedImage.jpg(0.8)
+              imageData = selectedImage.jpg(compressionFactor)
             }
             var date = new Date()
             var id = date.getTime()
@@ -317,7 +319,7 @@ module.exports.addItem = function addItem(detailData, updateList) {
                       handler: function (resp) {
                         var image = resp.image
                         if (image) {
-                          selectedImage = image.jpg(0.8).image
+                          selectedImage = image.jpg(compressionFactor).image
                           var resizedImage = selectedImage.resized($size(200, 200 * (image.size.height / image.size.width)))
                           $("image").image = resizedImage
                           $("previewListImage").image = resizedImage

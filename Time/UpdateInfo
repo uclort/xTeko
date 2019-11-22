@@ -1,5 +1,5 @@
 {
-    "version":"2.3.1",
-    "message":"解决新增记录日期不是当天的 Bug",
+    "version":"2.3.2",
+    "message":"改变图片压缩系数，避免查看大图的时候过于模糊",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
