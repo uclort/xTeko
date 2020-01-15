@@ -1,7 +1,6 @@
 let add = require('./addTimeItem')
 let tool = require('./tool')
 let preview = require('./preview')
-let back = require('./backTimeList')
 let cellLeftRightSpacing = 10
 let celltopBottomSpacing = 10
 
@@ -25,74 +24,15 @@ if (sortType == undefined) {
 }
 
 module.exports.render = function render() {
-  $ui.render({
+  $ui.push({
     props: {
-      title: "记录",
-      navButtons: [
-        {
-          icon: "102",
-          handler: function () {
-            $ui.menu({
-              items: ["添加记录", "清空记录", "排序方式"],
-              handler: function (title, idx) {
-                if (idx == 0) {
-                  add.addItem(undefined, updateList)
-                } else if (idx == 1) {
-                  $ui.alert({
-                    title: "确定清空所有记录吗？",
-                    message: "点击确定将清空所有已添加的记录，如果没有手动备份，将无法找回。",
-                    actions: [
-                      {
-                        title: "清空",
-                        handler: function () {
-                          tool.clearList()
-                          updateList()
-                        }
-                      },
-                      {
-                        title: "取消",
-                        handler: function () {
-
-                        }
-                      }
-                    ]
-                  })
-                } else if (idx == 2) { // 排序
-                  var sortTitleGroup = []
-                  if (sortType == 1) {
-                    sortTitleGroup = ["默认排序✔️", "根据剩余天数排序"]
-                  } else if (sortType == 2) {
-                    sortTitleGroup = ["默认排序", "根据剩余天数排序✔️"]
-                  }
-                  $ui.menu({
-                    items: sortTitleGroup, // 1 , 2
-                    handler: function (title, idx) {
-                      if (idx == 0) {
-                        $("list").reorder = true
-                        $cache.set("sort", 1);
-                        sortType = 1
-                      } else if (idx == 1) {
-                        $("list").reorder = false
-                        $cache.set("sort", 2);
-                        sortType = 2
-                      }
-                      updateList()
-                    }
-                  });
-                } else if (idx == 3) { // 查看备份
-                  back.render()
-                }
-              }
-            })
-          }
-        }
-      ]
+      title: "备份"
     },
     views: [{
-      type: "list",
+      type: "backlist",
       props: {
         id: "",
-        data: tool.getListData(),
+        data: tool.getBackListData(),
         separatorHidden: true,
         rowHeight: cellHeight,
         contentInset: contentInset,
@@ -105,14 +45,14 @@ module.exports.render = function render() {
             {
               type: "view",
               props: {
-                id: "imageView",
+                id: "backimageView",
                 bgcolor: $color("white"),
                 radius: 5,
               },
               views: [{
                 type: "image",
                 props: {
-                  id: "listImage",
+                  id: "backlistImage",
                   contentMode: $contentMode.scaleAspectFill,
                   radius: 5,
                   // borderWidth: 0.5,
@@ -132,38 +72,38 @@ module.exports.render = function render() {
                   userInteractionEnabled: false
                 },
                 layout: function (make, view) {
-                  make.center.equalTo($("listImage"))
-                  make.width.equalTo($("listImage")).offset(3)
-                  make.height.equalTo($("listImage")).offset(3)
+                  make.center.equalTo($("backlistImage"))
+                  make.width.equalTo($("backlistImage")).offset(3)
+                  make.height.equalTo($("backlistImage")).offset(3)
                 },
               },
               {
                 type: "label",
                 props: {
-                  id: "listName",
+                  id: "backlistName",
                   font: $font(20)
                 },
                 layout: function (make, view) {
-                  make.left.equalTo($("listImage").right).offset(10)
-                  make.bottom.equalTo($("listImage").centerY).offset(3)
+                  make.left.equalTo($("backlistImage").right).offset(10)
+                  make.bottom.equalTo($("backlistImage").centerY).offset(3)
                 },
               },
               {
                 type: "label",
                 props: {
-                  id: "listDescription",
+                  id: "backlistDescription",
                   textColor: $color("lightGray"),
                   font: $font(12)
                 },
                 layout: function (make, view) {
-                  make.left.equalTo($("listImage").right).offset(10)
-                  make.top.equalTo($("listName").bottom).offset(3)
+                  make.left.equalTo($("backlistImage").right).offset(10)
+                  make.top.equalTo($("backlistName").bottom).offset(3)
                 },
               },
               {
                 type: "label",
                 props: {
-                  id: "listUnit",
+                  id: "backlistUnit",
                   font: $font(12)
                 },
                 layout: function (make, view) {
@@ -174,7 +114,7 @@ module.exports.render = function render() {
               {
                 type: "label",
                 props: {
-                  id: "listTime",
+                  id: "backlistTime",
                   font: $font(30)
                 },
                 layout: function (make, view) {
@@ -184,12 +124,12 @@ module.exports.render = function render() {
               }, {
                 type: "label",
                 props: {
-                  id: "type",
+                  id: "backtype",
                   font: $font(12)
                 },
                 layout: function (make, view) {
-                  make.right.equalTo($("listTime").left)
-                  make.bottom.equalTo($("listUnit"))
+                  make.right.equalTo($("backlistTime").left)
+                  make.bottom.equalTo($("backlistUnit"))
                 },
               }],
               layout: function (make, view) {
@@ -210,7 +150,7 @@ module.exports.render = function render() {
             {
               type: "view",
               props: {
-                id: "noImageView",
+                id: "backnoImageView",
                 bgcolor: $color("white"),
                 radius: 5,
               },
@@ -218,7 +158,7 @@ module.exports.render = function render() {
                 {
                   type: "label",
                   props: {
-                    id: "noListName",
+                    id: "backnoListName",
                     textColor: $color("balck"),
                     font: $font(20)
                   },
@@ -230,19 +170,19 @@ module.exports.render = function render() {
                 {
                   type: "label",
                   props: {
-                    id: "noListDescription",
+                    id: "backnoListDescription",
                     textColor: $color("lightGray"),
                     font: $font(12)
                   },
                   layout: function (make, view) {
-                    make.left.equalTo($("noListName"))
-                    make.top.equalTo($("noListName").bottom).offset(3)
+                    make.left.equalTo($("backnoListName"))
+                    make.top.equalTo($("backnoListName").bottom).offset(3)
                   },
                 },
                 {
                   type: "label",
                   props: {
-                    id: "noListUnit",
+                    id: "backnoListUnit",
                     font: $font(12)
                   },
                   layout: function (make, view) {
@@ -253,22 +193,22 @@ module.exports.render = function render() {
                 {
                   type: "label",
                   props: {
-                    id: "noListTime",
+                    id: "backnoListTime",
                     font: $font(30)
                   },
                   layout: function (make, view) {
-                    make.right.equalTo($("noListUnit").left)
-                    make.bottom.equalTo($("noListUnit")).offset(5)
+                    make.right.equalTo($("backnoListUnit").left)
+                    make.bottom.equalTo($("backnoListUnit")).offset(5)
                   },
                 }, {
                   type: "label",
                   props: {
-                    id: "noType",
+                    id: "backnoType",
                     font: $font(12)
                   },
                   layout: function (make, view) {
-                    make.right.equalTo($("noListTime").left)
-                    make.bottom.equalTo($("noListUnit"))
+                    make.right.equalTo($("backnoListTime").left)
+                    make.bottom.equalTo($("backnoListUnit"))
                   },
                 }],
               layout: function (make, view) {
@@ -292,53 +232,21 @@ module.exports.render = function render() {
       layout: $layout.fill,
       events: {
         didSelect: function (sender, indexPath, data) {
-          var items = ["编辑", "删除"]
           if (data.customImage == 1) {
             items.push("查看大图")
+          }
+          if (items.length == 0) {
+            return
           }
           $ui.menu({
             items: items,
             handler: function (title, idx) {
-              if (idx == 0) {
-                if ($app.env == $env.today) {
-                  $ui.toast("为了良好的体验，请在 JSBox 主程序打开本脚本进行编辑");
-                  return
-                }
-                add.addItem(data, updateList)
-              } else if (idx == 1) {
-                $ui.alert({
-                  title: "确认删除❓",
-                  message: "确定删除此条记录么？删除后将无法恢复，请确认。",
-                  actions: [
-                    {
-                      title: "确认",
-                      disabled: false, // Optional
-                      handler: function () {
-                        tool.deleteItem(data.listID)
-                        updateList()
-                      }
-                    },
-                    {
-                      title: "取消❗️",
-                      handler: function () {
-
-                      }
-                    }
-                  ]
-                })
-              } else {
-                preview.beginPreview(data.bigImage)
-              }
+              preview.beginPreview(data.bigImage)
             },
             finished: function (cancelled) {
 
             }
           })
-        }, reorderFinished: function (data) {
-          for (var i = 0, len = data.length; i < len; i++) {
-            let item = data[i]
-            tool.changeItemSort(i, item.listID)
-          }
         }
       }
     }]

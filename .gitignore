@@ -1,2 +1,3 @@
 *.xcuserstate
 Emoticon-Package/.vscode
+.DS_Store

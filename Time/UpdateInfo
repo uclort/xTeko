@@ -1,5 +1,5 @@
 {
-    "version":"2.3.3",
-    "message":"解决循环计算日期出错的问题",
+    "version":"2.3.4",
+    "message":"增加 iCloud 备份功能（自动），暂时不能可视化和自动恢复备份文件，备份文件以 timeList.db + 时间戳命名放在 iCloud/JSBox/Time-mmmmmmm 文件夹中，如果需要恢复请自行选择备份文件复制到 JSBox 的 Shared/Time-mmmmmmm 目录下，删掉已存在的 timeList.db 文件，删除备份文件名后的时间戳，添加和修改会备份完成后的数据，删除操作会备份删除之前的数据",
     "updateFileUrl":"https://github.com/nlnlnull/xTeko/blob/master/Time/.output/Time.box?raw=true",
 }
