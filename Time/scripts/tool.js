@@ -137,12 +137,14 @@ function getListData() {
     todayDate.setMinutes(0)
     todayDate.setSeconds(0)
     todayDate.setMilliseconds(0)
+
     var values = result.values;
-    let valueDate = new Date(parseInt(values.time))
+    var valueDate = new Date(parseInt(values.time))
     valueDate.setHours(0)
     valueDate.setMinutes(0)
     valueDate.setSeconds(0)
     valueDate.setMilliseconds(0)
+
     let diff = diffTime(valueDate.getTime(), todayDate.getTime())
     // return
     if (diff[3] > 0 && (values.cycleType == "month" || values.cycleType == "year")) {
@@ -154,7 +156,7 @@ function getListData() {
       }
       while (cycleJudge == 1) {
         nextMonthNumber += incrementNumber
-        let newDate = getFutureDates(valueDate, nextMonthNumber, values.dayNumber)
+        let newDate = getFutureDates(new Date(valueDate.getTime()), nextMonthNumber, values.dayNumber)
         diff = diffTime(newDate.getTime(), todayDate.getTime())
         if (diff[3] <= 0) {
           cycleJudge = -1
@@ -262,8 +264,7 @@ function defaultSortHandler(arr) {
 
 function diffTime(startDate, endDate) {
 
-
-  var diff = endDate - parseInt(startDate)
+  var diff = endDate - startDate
   //计算出相差天数
   var days = Math.floor(diff / (24 * 3600 * 1000));
   var dateType = "已过"
@@ -328,7 +329,6 @@ function getFutureDates(originalDate, monthLength, dateDay) {
   futureDate.setDate(1)
   var nextMonth = futureDate.getMonth()
   var nextYear = futureDate.getFullYear()
-
   for (var i = 0; i < monthLength; i++) {
     nextMonth += 1
     if (nextMonth > 11) {
@@ -380,7 +380,7 @@ function calculateDateDifference(time, type) {
     }
     while (cycleJudge == 1) {
       nextMonthNumber += incrementNumber
-      let newDate = getFutureDates(valueDate, nextMonthNumber, valueDate.getDate())
+      let newDate = getFutureDates(new Date(valueDate.getTime()), nextMonthNumber, valueDate.getDate())
       diff = diffTime(newDate.getTime(), todayDate.getTime())
       if (diff[3] <= 0) {
         cycleJudge = -1
